@@ -1,0 +1,377 @@
+{
+  "version": 1,
+  "lastUpdated": "2026-01-19",
+  "frameBrands": [
+    {
+      "name": "Santa Cruz",
+      "aliases": ["santacruz", "sc"],
+      "country": "USA",
+      "popular": true
+    },
+    {
+      "name": "Specialized",
+      "aliases": ["spec", "spesh"],
+      "country": "USA",
+      "popular": true
+    },
+    {
+      "name": "Trek",
+      "aliases": [],
+      "country": "USA",
+      "popular": true
+    },
+    {
+      "name": "Giant",
+      "aliases": [],
+      "country": "Taiwan",
+      "popular": true
+    },
+    {
+      "name": "Canyon",
+      "aliases": [],
+      "country": "Germany",
+      "popular": true
+    },
+    {
+      "name": "YT Industries",
+      "aliases": ["YT", "yt"],
+      "country": "Germany",
+      "popular": true
+    },
+    {
+      "name": "Yeti Cycles",
+      "aliases": ["yeti"],
+      "country": "USA",
+      "popular": false
+    },
+    {
+      "name": "Pivot Cycles",
+      "aliases": ["pivot"],
+      "country": "USA",
+      "popular": false
+    },
+    {
+      "name": "Evil Bikes",
+      "aliases": ["evil"],
+      "country": "USA",
+      "popular": false
+    },
+    {
+      "name": "Ibis Cycles",
+      "aliases": ["ibis"],
+      "country": "USA",
+      "popular": false
+    },
+    {
+      "name": "Transition Bikes",
+      "aliases": ["transition"],
+      "country": "USA",
+      "popular": false
+    },
+    {
+      "name": "Norco",
+      "aliases": [],
+      "country": "Canada",
+      "popular": false
+    },
+    {
+      "name": "Rocky Mountain",
+      "aliases": ["rocky", "rmb"],
+      "country": "Canada",
+      "popular": false
+    },
+    {
+      "name": "Commencal",
+      "aliases": [],
+      "country": "France",
+      "popular": false
+    },
+    {
+      "name": "Orbea",
+      "aliases": [],
+      "country": "Spain",
+      "popular": false
+    },
+    {
+      "name": "Mondraker",
+      "aliases": [],
+      "country": "Spain",
+      "popular": false
+    },
+    {
+      "name": "Scott",
+      "aliases": [],
+      "country": "Switzerland",
+      "popular": false
+    },
+    {
+      "name": "Cannondale",
+      "aliases": ["cdale"],
+      "country": "USA",
+      "popular": false
+    },
+    {
+      "name": "Kona",
+      "aliases": [],
+      "country": "Canada",
+      "popular": false
+    },
+    {
+      "name": "Nukeproof",
+      "aliases": [],
+      "country": "UK",
+      "popular": false
+    },
+    {
+      "name": "Propain",
+      "aliases": [],
+      "country": "Germany",
+      "popular": false
+    },
+    {
+      "name": "Radon",
+      "aliases": [],
+      "country": "Germany",
+      "popular": false
+    },
+    {
+      "name": "Cube",
+      "aliases": [],
+      "country": "Germany",
+      "popular": false
+    },
+    {
+      "name": "Ghost",
+      "aliases": [],
+      "country": "Germany",
+      "popular": false
+    },
+    {
+      "name": "Intense",
+      "aliases": [],
+      "country": "USA",
+      "popular": false
+    },
+    {
+      "name": "Devinci",
+      "aliases": [],
+      "country": "Canada",
+      "popular": false
+    },
+    {
+      "name": "Merida",
+      "aliases": [],
+      "country": "Taiwan",
+      "popular": false
+    },
+    {
+      "name": "Liv",
+      "aliases": [],
+      "country": "Taiwan",
+      "popular": false
+    },
+    {
+      "name": "Juliana",
+      "aliases": [],
+      "country": "USA",
+      "popular": false
+    },
+    {
+      "name": "NS Bikes",
+      "aliases": ["ns"],
+      "country": "Poland",
+      "popular": false
+    },
+    {
+      "name": "Marin",
+      "aliases": [],
+      "country": "USA",
+      "popular": false
+    },
+    {
+      "name": "GT",
+      "aliases": [],
+      "country": "USA",
+      "popular": false
+    },
+    {
+      "name": "Polygon",
+      "aliases": [],
+      "country": "Indonesia",
+      "popular": false
+    },
+    {
+      "name": "Vitus",
+      "aliases": [],
+      "country": "UK",
+      "popular": false
+    },
+    {
+      "name": "Banshee",
+      "aliases": [],
+      "country": "Canada",
+      "popular": false
+    },
+    {
+      "name": "Guerrilla Gravity",
+      "aliases": ["gg"],
+      "country": "USA",
+      "popular": false
+    },
+    {
+      "name": "Revel Bikes",
+      "aliases": ["revel"],
+      "country": "USA",
+      "popular": false
+    },
+    {
+      "name": "Forbidden",
+      "aliases": [],
+      "country": "Canada",
+      "popular": false
+    },
+    {
+      "name": "We Are One",
+      "aliases": ["wao", "wa1"],
+      "country": "Canada",
+      "popular": false
+    },
+    {
+      "name": "Knolly",
+      "aliases": [],
+      "country": "Canada",
+      "popular": false
+    }
+  ],
+  "suspensionBrands": [
+    {
+      "name": "Fox",
+      "aliases": ["fox racing shox"],
+      "type": ["fork", "shock"]
+    },
+    {
+      "name": "RockShox",
+      "aliases": ["rockshox", "rs", "sram"],
+      "type": ["fork", "shock"]
+    },
+    {
+      "name": "Öhlins",
+      "aliases": ["ohlins"],
+      "type": ["fork", "shock"]
+    },
+    {
+      "name": "DVO",
+      "aliases": [],
+      "type": ["fork", "shock"]
+    },
+    {
+      "name": "MRP",
+      "aliases": [],
+      "type": ["fork"]
+    },
+    {
+      "name": "Cane Creek",
+      "aliases": ["canecreek", "cc"],
+      "type": ["shock"]
+    },
+    {
+      "name": "EXT",
+      "aliases": ["extreme shox"],
+      "type": ["shock"]
+    },
+    {
+      "name": "Push Industries",
+      "aliases": ["push"],
+      "type": ["shock"]
+    },
+    {
+      "name": "Manitou",
+      "aliases": [],
+      "type": ["fork", "shock"]
+    },
+    {
+      "name": "Marzocchi",
+      "aliases": [],
+      "type": ["fork"]
+    },
+    {
+      "name": "X-Fusion",
+      "aliases": ["xfusion"],
+      "type": ["fork", "shock"]
+    },
+    {
+      "name": "SR Suntour",
+      "aliases": ["suntour"],
+      "type": ["fork", "shock"]
+    },
+    {
+      "name": "Formula",
+      "aliases": [],
+      "type": ["fork"]
+    },
+    {
+      "name": "BOS",
+      "aliases": [],
+      "type": ["fork", "shock"]
+    },
+    {
+      "name": "Intend",
+      "aliases": [],
+      "type": ["fork"]
+    }
+  ],
+  "tireBrands": [
+    {
+      "name": "Maxxis",
+      "aliases": []
+    },
+    {
+      "name": "Schwalbe",
+      "aliases": []
+    },
+    {
+      "name": "Continental",
+      "aliases": ["conti"]
+    },
+    {
+      "name": "Michelin",
+      "aliases": []
+    },
+    {
+      "name": "Vittoria",
+      "aliases": []
+    },
+    {
+      "name": "Pirelli",
+      "aliases": []
+    },
+    {
+      "name": "Specialized",
+      "aliases": ["spec"]
+    },
+    {
+      "name": "WTB",
+      "aliases": ["wilderness trail bikes"]
+    },
+    {
+      "name": "Bontrager",
+      "aliases": []
+    },
+    {
+      "name": "Teravail",
+      "aliases": []
+    },
+    {
+      "name": "Onza",
+      "aliases": []
+    },
+    {
+      "name": "e*thirteen",
+      "aliases": ["e13", "ethirteen"]
+    },
+    {
+      "name": "Goodyear",
+      "aliases": []
+    }
+  ]
+}
