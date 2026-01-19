@@ -1,0 +1,257 @@
+{
+  "version": 1,
+  "forks": [
+    {
+      "brand": "Fox",
+      "model": "38 Factory",
+      "modelPattern": "38.*Factory|Fox 38",
+      "travel": [160, 170, 180],
+      "springType": "AIR",
+      "pressureChart": {
+        "unit": "psi",
+        "description": "라이더 몸무게 기준 권장 공기압 (장비 제외)",
+        "data": [
+          { "weightKg": 50, "pressure": 52 },
+          { "weightKg": 55, "pressure": 55 },
+          { "weightKg": 60, "pressure": 58 },
+          { "weightKg": 65, "pressure": 62 },
+          { "weightKg": 70, "pressure": 66 },
+          { "weightKg": 75, "pressure": 70 },
+          { "weightKg": 80, "pressure": 74 },
+          { "weightKg": 85, "pressure": 78 },
+          { "weightKg": 90, "pressure": 82 },
+          { "weightKg": 95, "pressure": 86 },
+          { "weightKg": 100, "pressure": 90 }
+        ]
+      },
+      "defaultSettings": {
+        "sagPercent": 25,
+        "rebound": {
+          "type": "SINGLE",
+          "default": 12,
+          "range": [0, 22]
+        },
+        "compression": {
+          "type": "HSC_LSC",
+          "hscDefault": 8,
+          "hscRange": [0, 14],
+          "lscDefault": 10,
+          "lscRange": [0, 22]
+        },
+        "tokens": {
+          "default": 2
+        }
+      },
+      "source": "Fox 공식 튜닝 가이드 2024"
+    },
+    {
+      "brand": "Fox",
+      "model": "36 Factory",
+      "modelPattern": "36.*Factory|Fox 36",
+      "travel": [140, 150, 160],
+      "springType": "AIR",
+      "pressureChart": {
+        "unit": "psi",
+        "data": [
+          { "weightKg": 50, "pressure": 55 },
+          { "weightKg": 55, "pressure": 58 },
+          { "weightKg": 60, "pressure": 62 },
+          { "weightKg": 65, "pressure": 66 },
+          { "weightKg": 70, "pressure": 70 },
+          { "weightKg": 75, "pressure": 75 },
+          { "weightKg": 80, "pressure": 80 },
+          { "weightKg": 85, "pressure": 85 },
+          { "weightKg": 90, "pressure": 90 },
+          { "weightKg": 95, "pressure": 95 },
+          { "weightKg": 100, "pressure": 100 }
+        ]
+      },
+      "defaultSettings": {
+        "sagPercent": 25,
+        "rebound": {
+          "type": "SINGLE",
+          "default": 10,
+          "range": [0, 18]
+        },
+        "compression": {
+          "type": "HSC_LSC",
+          "hscDefault": 6,
+          "hscRange": [0, 12],
+          "lscDefault": 8,
+          "lscRange": [0, 18]
+        }
+      },
+      "source": "Fox 공식 튜닝 가이드 2024"
+    },
+    {
+      "brand": "Fox",
+      "model": "34 Factory",
+      "modelPattern": "34.*Factory|Fox 34",
+      "travel": [120, 130, 140],
+      "springType": "AIR",
+      "pressureChart": {
+        "unit": "psi",
+        "data": [
+          { "weightKg": 50, "pressure": 58 },
+          { "weightKg": 60, "pressure": 65 },
+          { "weightKg": 70, "pressure": 73 },
+          { "weightKg": 80, "pressure": 82 },
+          { "weightKg": 90, "pressure": 92 },
+          { "weightKg": 100, "pressure": 102 }
+        ]
+      },
+      "defaultSettings": {
+        "sagPercent": 25,
+        "rebound": {
+          "type": "SINGLE",
+          "default": 8,
+          "range": [0, 16]
+        },
+        "compression": {
+          "type": "HSC_LSC",
+          "hscDefault": 5,
+          "hscRange": [0, 10],
+          "lscDefault": 6,
+          "lscRange": [0, 16]
+        }
+      },
+      "source": "Fox 공식 튜닝 가이드 2024"
+    },
+    {
+      "brand": "RockShox",
+      "model": "ZEB Ultimate",
+      "modelPattern": "ZEB.*Ultimate|ZEB Ultimate",
+      "travel": [160, 170, 180, 190],
+      "springType": "AIR",
+      "pressureChart": {
+        "unit": "psi",
+        "description": "DebonAir+ 기준",
+        "data": [
+          { "weightKg": 50, "pressure": 50 },
+          { "weightKg": 55, "pressure": 54 },
+          { "weightKg": 60, "pressure": 58 },
+          { "weightKg": 65, "pressure": 62 },
+          { "weightKg": 70, "pressure": 66 },
+          { "weightKg": 75, "pressure": 70 },
+          { "weightKg": 80, "pressure": 74 },
+          { "weightKg": 85, "pressure": 78 },
+          { "weightKg": 90, "pressure": 82 },
+          { "weightKg": 95, "pressure": 86 },
+          { "weightKg": 100, "pressure": 90 }
+        ]
+      },
+      "defaultSettings": {
+        "sagPercent": 25,
+        "rebound": {
+          "type": "HSR_LSR",
+          "hsrDefault": 3,
+          "hsrRange": [0, 5],
+          "lsrDefault": 8,
+          "lsrRange": [0, 15]
+        },
+        "compression": {
+          "type": "HSC_LSC",
+          "hscDefault": 3,
+          "hscRange": [0, 5],
+          "lscDefault": 10,
+          "lscRange": [0, 20]
+        },
+        "tokens": {
+          "default": 1
+        }
+      },
+      "source": "RockShox Trailhead"
+    },
+    {
+      "brand": "RockShox",
+      "model": "Lyrik Ultimate",
+      "modelPattern": "Lyrik.*Ultimate",
+      "travel": [140, 150, 160],
+      "springType": "AIR",
+      "pressureChart": {
+        "unit": "psi",
+        "data": [
+          { "weightKg": 50, "pressure": 55 },
+          { "weightKg": 60, "pressure": 62 },
+          { "weightKg": 70, "pressure": 70 },
+          { "weightKg": 80, "pressure": 78 },
+          { "weightKg": 90, "pressure": 86 },
+          { "weightKg": 100, "pressure": 95 }
+        ]
+      },
+      "defaultSettings": {
+        "sagPercent": 25,
+        "rebound": {
+          "type": "HSR_LSR",
+          "hsrDefault": 3,
+          "hsrRange": [0, 5],
+          "lsrDefault": 8,
+          "lsrRange": [0, 15]
+        },
+        "compression": {
+          "type": "HSC_LSC",
+          "hscDefault": 3,
+          "hscRange": [0, 5],
+          "lscDefault": 8,
+          "lscRange": [0, 18]
+        }
+      },
+      "source": "RockShox Trailhead"
+    },
+    {
+      "brand": "RockShox",
+      "model": "Pike Ultimate",
+      "modelPattern": "Pike.*Ultimate",
+      "travel": [120, 130, 140, 150],
+      "springType": "AIR",
+      "pressureChart": {
+        "unit": "psi",
+        "data": [
+          { "weightKg": 50, "pressure": 58 },
+          { "weightKg": 60, "pressure": 66 },
+          { "weightKg": 70, "pressure": 74 },
+          { "weightKg": 80, "pressure": 82 },
+          { "weightKg": 90, "pressure": 90 },
+          { "weightKg": 100, "pressure": 100 }
+        ]
+      },
+      "defaultSettings": {
+        "sagPercent": 25,
+        "rebound": {
+          "type": "HSR_LSR",
+          "hsrDefault": 3,
+          "hsrRange": [0, 5],
+          "lsrDefault": 7,
+          "lsrRange": [0, 14]
+        },
+        "compression": {
+          "type": "HSC_LSC",
+          "hscDefault": 2,
+          "hscRange": [0, 5],
+          "lscDefault": 7,
+          "lscRange": [0, 15]
+        }
+      },
+      "source": "RockShox Trailhead"
+    }
+  ],
+  "genericFork": {
+    "description": "모델 매칭 실패 시 사용하는 기본값",
+    "pressureFormula": {
+      "description": "weight(kg) * 0.9 + 3 = 대략적인 PSI",
+      "coefficient": 0.9,
+      "constant": 3
+    },
+    "defaultSettings": {
+      "sagPercent": 25,
+      "rebound": {
+        "default": 10,
+        "range": [0, 20]
+      },
+      "compression": {
+        "default": 8,
+        "range": [0, 20]
+      }
+    }
+  }
+}

@@ -1,0 +1,269 @@
+{
+  "version": 1,
+  "shocks": [
+    {
+      "brand": "Fox",
+      "model": "Float X2 Factory",
+      "modelPattern": "Float X2|X2 Factory",
+      "strokeLengths": [55, 57.5, 62.5, 65, 67.5, 70, 75],
+      "springType": "AIR",
+      "pressureChart": {
+        "unit": "psi",
+        "description": "라이더 몸무게 기준 (레버레이지 비율 2.5:1 기준)",
+        "data": [
+          { "weightKg": 50, "pressure": 120 },
+          { "weightKg": 55, "pressure": 130 },
+          { "weightKg": 60, "pressure": 140 },
+          { "weightKg": 65, "pressure": 150 },
+          { "weightKg": 70, "pressure": 160 },
+          { "weightKg": 75, "pressure": 170 },
+          { "weightKg": 80, "pressure": 180 },
+          { "weightKg": 85, "pressure": 190 },
+          { "weightKg": 90, "pressure": 200 },
+          { "weightKg": 95, "pressure": 210 },
+          { "weightKg": 100, "pressure": 220 }
+        ]
+      },
+      "defaultSettings": {
+        "sagPercent": 30,
+        "rebound": {
+          "type": "HSR_LSR",
+          "hsrDefault": 8,
+          "hsrRange": [0, 16],
+          "lsrDefault": 10,
+          "lsrRange": [0, 18]
+        },
+        "compression": {
+          "type": "HSC_LSC",
+          "hscDefault": 6,
+          "hscRange": [0, 12],
+          "lscDefault": 12,
+          "lscRange": [0, 22]
+        },
+        "tokens": {
+          "default": 1
+        }
+      },
+      "source": "Fox 공식 튜닝 가이드 2024"
+    },
+    {
+      "brand": "Fox",
+      "model": "Float X Factory",
+      "modelPattern": "Float X(?! 2)|Float X Factory",
+      "strokeLengths": [50, 52.5, 55, 57.5, 60],
+      "springType": "AIR",
+      "pressureChart": {
+        "unit": "psi",
+        "data": [
+          { "weightKg": 50, "pressure": 125 },
+          { "weightKg": 60, "pressure": 145 },
+          { "weightKg": 70, "pressure": 165 },
+          { "weightKg": 80, "pressure": 185 },
+          { "weightKg": 90, "pressure": 205 },
+          { "weightKg": 100, "pressure": 225 }
+        ]
+      },
+      "defaultSettings": {
+        "sagPercent": 30,
+        "rebound": {
+          "type": "SINGLE",
+          "default": 8,
+          "range": [0, 16]
+        },
+        "compression": {
+          "type": "HSC_LSC",
+          "hscDefault": 4,
+          "hscRange": [0, 10],
+          "lscDefault": 8,
+          "lscRange": [0, 16]
+        }
+      },
+      "source": "Fox 공식 튜닝 가이드 2024"
+    },
+    {
+      "brand": "Fox",
+      "model": "DHX2 Factory",
+      "modelPattern": "DHX2|DHX 2",
+      "strokeLengths": [55, 57.5, 62.5, 65, 67.5, 70, 75],
+      "springType": "COIL",
+      "springRateChart": {
+        "unit": "lbs/in",
+        "description": "라이더 몸무게 기준 권장 스프링 레이트",
+        "data": [
+          { "weightKg": 50, "springRate": 350 },
+          { "weightKg": 55, "springRate": 375 },
+          { "weightKg": 60, "springRate": 400 },
+          { "weightKg": 65, "springRate": 425 },
+          { "weightKg": 70, "springRate": 450 },
+          { "weightKg": 75, "springRate": 475 },
+          { "weightKg": 80, "springRate": 500 },
+          { "weightKg": 85, "springRate": 525 },
+          { "weightKg": 90, "springRate": 550 },
+          { "weightKg": 95, "springRate": 575 },
+          { "weightKg": 100, "springRate": 600 }
+        ]
+      },
+      "defaultSettings": {
+        "sagPercent": 30,
+        "rebound": {
+          "type": "HSR_LSR",
+          "hsrDefault": 8,
+          "hsrRange": [0, 16],
+          "lsrDefault": 10,
+          "lsrRange": [0, 18]
+        },
+        "compression": {
+          "type": "HSC_LSC",
+          "hscDefault": 6,
+          "hscRange": [0, 12],
+          "lscDefault": 10,
+          "lscRange": [0, 20]
+        }
+      },
+      "source": "Fox 공식 튜닝 가이드 2024"
+    },
+    {
+      "brand": "RockShox",
+      "model": "Super Deluxe Ultimate",
+      "modelPattern": "Super Deluxe.*Ultimate|SD Ultimate",
+      "strokeLengths": [50, 52.5, 55, 57.5, 60, 62.5, 65, 67.5, 70],
+      "springType": "AIR",
+      "pressureChart": {
+        "unit": "psi",
+        "description": "MegNeg 에어캔 기준",
+        "data": [
+          { "weightKg": 50, "pressure": 115 },
+          { "weightKg": 55, "pressure": 125 },
+          { "weightKg": 60, "pressure": 135 },
+          { "weightKg": 65, "pressure": 145 },
+          { "weightKg": 70, "pressure": 155 },
+          { "weightKg": 75, "pressure": 165 },
+          { "weightKg": 80, "pressure": 175 },
+          { "weightKg": 85, "pressure": 185 },
+          { "weightKg": 90, "pressure": 195 },
+          { "weightKg": 95, "pressure": 205 },
+          { "weightKg": 100, "pressure": 215 }
+        ]
+      },
+      "defaultSettings": {
+        "sagPercent": 30,
+        "rebound": {
+          "type": "HSR_LSR",
+          "hsrDefault": 3,
+          "hsrRange": [0, 5],
+          "lsrDefault": 10,
+          "lsrRange": [0, 18]
+        },
+        "compression": {
+          "type": "HSC_LSC",
+          "hscDefault": 3,
+          "hscRange": [0, 5],
+          "lscDefault": 12,
+          "lscRange": [0, 22]
+        },
+        "tokens": {
+          "default": 0
+        }
+      },
+      "source": "RockShox Trailhead"
+    },
+    {
+      "brand": "RockShox",
+      "model": "Super Deluxe Coil Ultimate",
+      "modelPattern": "Super Deluxe.*Coil|SD Coil",
+      "strokeLengths": [50, 52.5, 55, 57.5, 60, 62.5, 65, 67.5, 70],
+      "springType": "COIL",
+      "springRateChart": {
+        "unit": "lbs/in",
+        "description": "라이더 몸무게 기준 권장 스프링 레이트",
+        "data": [
+          { "weightKg": 50, "springRate": 350 },
+          { "weightKg": 55, "springRate": 375 },
+          { "weightKg": 60, "springRate": 400 },
+          { "weightKg": 65, "springRate": 425 },
+          { "weightKg": 70, "springRate": 450 },
+          { "weightKg": 75, "springRate": 475 },
+          { "weightKg": 80, "springRate": 500 },
+          { "weightKg": 85, "springRate": 525 },
+          { "weightKg": 90, "springRate": 550 },
+          { "weightKg": 95, "springRate": 575 },
+          { "weightKg": 100, "springRate": 600 }
+        ]
+      },
+      "defaultSettings": {
+        "sagPercent": 30,
+        "rebound": {
+          "type": "HSR_LSR",
+          "hsrDefault": 3,
+          "hsrRange": [0, 5],
+          "lsrDefault": 10,
+          "lsrRange": [0, 18]
+        },
+        "compression": {
+          "type": "HSC_LSC",
+          "hscDefault": 3,
+          "hscRange": [0, 5],
+          "lscDefault": 12,
+          "lscRange": [0, 22]
+        }
+      },
+      "source": "RockShox Trailhead"
+    },
+    {
+      "brand": "RockShox",
+      "model": "Deluxe Ultimate",
+      "modelPattern": "Deluxe Ultimate|Deluxe.*Ultimate",
+      "strokeLengths": [47.5, 50, 52.5, 55, 57.5],
+      "springType": "AIR",
+      "pressureChart": {
+        "unit": "psi",
+        "data": [
+          { "weightKg": 50, "pressure": 120 },
+          { "weightKg": 60, "pressure": 140 },
+          { "weightKg": 70, "pressure": 160 },
+          { "weightKg": 80, "pressure": 180 },
+          { "weightKg": 90, "pressure": 200 },
+          { "weightKg": 100, "pressure": 220 }
+        ]
+      },
+      "defaultSettings": {
+        "sagPercent": 30,
+        "rebound": {
+          "type": "SINGLE",
+          "default": 8,
+          "range": [0, 16]
+        },
+        "compression": {
+          "type": "SINGLE",
+          "default": 5,
+          "range": [0, 12]
+        }
+      },
+      "source": "RockShox Trailhead"
+    }
+  ],
+  "genericShock": {
+    "description": "모델 매칭 실패 시 사용하는 기본값",
+    "pressureFormula": {
+      "description": "weight(kg) * 2.3 + 5 = 대략적인 PSI",
+      "coefficient": 2.3,
+      "constant": 5
+    },
+    "springRateFormula": {
+      "description": "weight(kg) * 6.5 = 대략적인 lbs/in",
+      "coefficient": 6.5,
+      "constant": 0
+    },
+    "defaultSettings": {
+      "sagPercent": 30,
+      "rebound": {
+        "default": 10,
+        "range": [0, 20]
+      },
+      "compression": {
+        "default": 10,
+        "range": [0, 20]
+      }
+    }
+  }
+}
