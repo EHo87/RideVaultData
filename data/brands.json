@@ -36,7 +36,7 @@
       "name": "YT Industries",
       "aliases": ["YT", "yt"],
       "country": "Germany",
-      "popular": true
+      "popular": false
     },
     {
       "name": "Yeti Cycles",
@@ -120,13 +120,13 @@
       "name": "Nukeproof",
       "aliases": [],
       "country": "UK",
-      "popular": false
+      "popular": true
     },
     {
       "name": "Propain",
       "aliases": [],
       "country": "Germany",
-      "popular": false
+      "popular": true
     },
     {
       "name": "Radon",
@@ -162,7 +162,7 @@
       "name": "Merida",
       "aliases": [],
       "country": "Taiwan",
-      "popular": false
+      "popular": true
     },
     {
       "name": "Liv",
@@ -198,7 +198,7 @@
       "name": "Polygon",
       "aliases": [],
       "country": "Indonesia",
-      "popular": false
+      "popular": true
     },
     {
       "name": "Vitus",
@@ -228,7 +228,7 @@
       "name": "Forbidden",
       "aliases": [],
       "country": "Canada",
-      "popular": false
+      "popular": true
     },
     {
       "name": "We Are One",
@@ -294,7 +294,7 @@
       "name": "Velduro",
       "aliases": ["velduro", "벨듀로"],
       "country": "New Zealand",
-      "popular": false
+      "popular": true
     },
     {
       "name": "Amflow",
