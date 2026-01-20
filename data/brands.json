@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "lastUpdated": "2026-01-19",
+  "lastUpdated": "2026-01-20",
   "frameBrands": [
     {
       "name": "Santa Cruz",
@@ -241,6 +241,72 @@
       "aliases": [],
       "country": "Canada",
       "popular": false
+    },
+    {
+      "name": "Orange Bikes",
+      "aliases": ["orange"],
+      "country": "UK",
+      "popular": false
+    },
+    {
+      "name": "Pole Bicycles",
+      "aliases": ["pole"],
+      "country": "Finland",
+      "popular": false
+    },
+    {
+      "name": "Raaw Mountain Bikes",
+      "aliases": ["raaw"],
+      "country": "Germany",
+      "popular": false
+    },
+    {
+      "name": "Atherton Bikes",
+      "aliases": ["atherton"],
+      "country": "UK",
+      "popular": false
+    },
+    {
+      "name": "Privateer Bikes",
+      "aliases": ["privateer"],
+      "country": "UK",
+      "popular": false
+    },
+    {
+      "name": "Scor",
+      "aliases": ["scor"],
+      "country": "Switzerland",
+      "popular": false
+    },
+    {
+      "name": "Lapierre",
+      "aliases": [],
+      "country": "France",
+      "popular": false
+    },
+    {
+      "name": "Antidote Bikes",
+      "aliases": ["antidote"],
+      "country": "Poland",
+      "popular": false
+    },
+    {
+      "name": "Velduro",
+      "aliases": ["velduro", "벨듀로"],
+      "country": "New Zealand",
+      "popular": false
+    },
+    {
+      "name": "Amflow",
+      "aliases": ["amflow"],
+      "country": "China",
+      "popular": false
+    },
+    {
+      "name": "Teewing",
+      "aliases": ["teewing"],
+      "country": "China",
+      "popular": false
     }
   ],
   "suspensionBrands": [
@@ -318,6 +384,11 @@
       "name": "Intend",
       "aliases": [],
       "type": ["fork"]
+    },
+    {
+      "name": "DT Swiss",
+      "aliases": ["dtswiss"],
+      "type": ["fork", "shock"]
     }
   ],
   "tireBrands": [
@@ -371,6 +442,22 @@
     },
     {
       "name": "Goodyear",
+      "aliases": []
+    },
+    {
+      "name": "Kenda",
+      "aliases": []
+    },
+    {
+      "name": "Hutchinson",
+      "aliases": []
+    },
+    {
+      "name": "IRC",
+      "aliases": []
+    },
+    {
+      "name": "Wolfpack",
       "aliases": []
     }
   ]
