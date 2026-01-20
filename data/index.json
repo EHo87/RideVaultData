@@ -1,0 +1,98 @@
+{
+  "version": "1.0.0",
+  "lastUpdated": "2026-01-20",
+  "totalBikes": 8,
+  "brands": [
+    {
+      "name": "Santa Cruz",
+      "slug": "santa-cruz",
+      "country": "USA",
+      "models": [
+        {
+          "name": "Nomad 6",
+          "slug": "nomad-6",
+          "type": "enduro",
+          "years": [2024, 2023],
+          "file": "nomad-6"
+        },
+        {
+          "name": "Megatower",
+          "slug": "megatower",
+          "type": "enduro",
+          "years": [2024],
+          "file": "megatower"
+        }
+      ]
+    },
+    {
+      "name": "Specialized",
+      "slug": "specialized",
+      "country": "USA",
+      "models": [
+        {
+          "name": "Enduro",
+          "slug": "enduro",
+          "type": "enduro",
+          "years": [2024],
+          "file": "enduro"
+        },
+        {
+          "name": "Stumpjumper EVO",
+          "slug": "stumpjumper-evo",
+          "type": "trail",
+          "years": [2024, 2023],
+          "file": "stumpjumper-evo"
+        }
+      ]
+    },
+    {
+      "name": "Trek",
+      "slug": "trek",
+      "country": "USA",
+      "models": [
+        {
+          "name": "Slash",
+          "slug": "slash",
+          "type": "enduro",
+          "years": [2024],
+          "file": "slash"
+        }
+      ]
+    },
+    {
+      "name": "Canyon",
+      "slug": "canyon",
+      "country": "Germany",
+      "models": [
+        {
+          "name": "Spectral",
+          "slug": "spectral",
+          "type": "trail",
+          "years": [2024],
+          "file": "spectral"
+        },
+        {
+          "name": "Torque",
+          "slug": "torque",
+          "type": "enduro",
+          "years": [2024],
+          "file": "torque"
+        }
+      ]
+    },
+    {
+      "name": "YT Industries",
+      "slug": "yt-industries",
+      "country": "Germany",
+      "models": [
+        {
+          "name": "Capra",
+          "slug": "capra",
+          "type": "enduro",
+          "years": [2024],
+          "file": "capra"
+        }
+      ]
+    }
+  ]
+}
