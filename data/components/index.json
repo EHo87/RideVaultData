@@ -31,6 +31,11 @@
       "id": "wolf-tooth",
       "name": "Wolf Tooth",
       "categories": ["dropper_remote"]
+    },
+    {
+      "id": "magura",
+      "name": "Magura",
+      "categories": ["brake_lever"]
     }
   ]
 }
