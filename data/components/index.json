@@ -1,5 +1,5 @@
 {
-  "version": "1.0.0",
+  "version": "1.0.1",
   "lastUpdated": "2026-01-23",
   "brands": [
     {
@@ -31,6 +31,11 @@
       "id": "wolf-tooth",
       "name": "Wolf Tooth",
       "categories": ["dropper_remote"]
+    },
+    {
+      "id": "magura",
+      "name": "Magura",
+      "categories": ["brake_lever"]
     }
   ]
 }

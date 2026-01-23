@@ -1,0 +1,106 @@
+{
+  "brand": "Magura",
+  "lastUpdated": "2026-01-23",
+  "components": {
+    "brake_lever": {
+      "MT7": {
+        "variants": ["MT7", "MT7 Pro", "MT7 HC3", "Magura MT7"],
+        "bolts": [
+          {
+            "name": "Clamp Bolt",
+            "torqueNm": 2,
+            "torqueNmMax": 4,
+            "count": 2,
+            "size": "T25",
+            "note": "상단 볼트 먼저 조임, 낮은 토크 권장 (충돌 시 레버 회전 보호)",
+            "warningIcon": "info"
+          },
+          {
+            "name": "EBT Screw (Bleed Port)",
+            "torqueNm": 0.5,
+            "size": "T25",
+            "note": "매우 낮은 토크 - 과조임 주의",
+            "warningIcon": "warning"
+          },
+          {
+            "name": "Reach Adjust",
+            "torqueNm": 0.4,
+            "size": "T10"
+          }
+        ],
+        "source": "Magura MT Official Manual"
+      },
+      "MT5": {
+        "variants": ["MT5", "MT5 Pro", "Magura MT5"],
+        "bolts": [
+          {
+            "name": "Clamp Bolt",
+            "torqueNm": 2,
+            "torqueNmMax": 4,
+            "count": 2,
+            "size": "T25",
+            "note": "상단 볼트 먼저 조임, 낮은 토크 권장 (충돌 시 레버 회전 보호)",
+            "warningIcon": "info"
+          },
+          {
+            "name": "EBT Screw (Bleed Port)",
+            "torqueNm": 0.5,
+            "size": "T25",
+            "note": "매우 낮은 토크 - 과조임 주의",
+            "warningIcon": "warning"
+          },
+          {
+            "name": "Reach Adjust",
+            "torqueNm": 0.4,
+            "size": "T10"
+          }
+        ],
+        "source": "Magura MT Official Manual"
+      },
+      "MT Trail Sport": {
+        "variants": ["MT Trail Sport", "MT Trail", "Trail Sport"],
+        "bolts": [
+          {
+            "name": "Clamp Bolt",
+            "torqueNm": 2,
+            "torqueNmMax": 4,
+            "count": 2,
+            "size": "T25",
+            "note": "상단 볼트 먼저 조임, 낮은 토크 권장 (충돌 시 레버 회전 보호)",
+            "warningIcon": "info"
+          },
+          {
+            "name": "EBT Screw (Bleed Port)",
+            "torqueNm": 0.5,
+            "size": "T25",
+            "note": "매우 낮은 토크 - 과조임 주의",
+            "warningIcon": "warning"
+          }
+        ],
+        "source": "Magura MT Official Manual"
+      },
+      "MT4": {
+        "variants": ["MT4", "Magura MT4"],
+        "bolts": [
+          {
+            "name": "Clamp Bolt",
+            "torqueNm": 2,
+            "torqueNmMax": 4,
+            "count": 2,
+            "size": "T25",
+            "note": "상단 볼트 먼저 조임, 낮은 토크 권장 (충돌 시 레버 회전 보호)",
+            "warningIcon": "info"
+          },
+          {
+            "name": "EBT Screw (Bleed Port)",
+            "torqueNm": 0.5,
+            "size": "T25",
+            "note": "매우 낮은 토크 - 과조임 주의",
+            "warningIcon": "warning"
+          }
+        ],
+        "source": "Magura MT Official Manual"
+      }
+    }
+  }
+}
