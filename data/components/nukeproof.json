@@ -1,0 +1,50 @@
+{
+  "brand": "Nukeproof",
+  "lastUpdated": "2026-01-23",
+  "components": {
+    "handlebar": {
+      "Horizon V2": {
+        "variants": ["Horizon V2", "Horizon V2 Carbon", "Horizon"],
+        "bolts": [
+          {
+            "name": "Clamp Bolt",
+            "torqueNm": 5,
+            "count": 4,
+            "size": "M5",
+            "note": "대각선 순서로 조임",
+            "warningIcon": "warning"
+          }
+        ],
+        "source": "Nukeproof 공식 매뉴얼"
+      }
+    },
+    "stem": {
+      "Horizon": {
+        "variants": ["Horizon", "Horizon V2", "Horizon Stem"],
+        "bolts": [
+          {
+            "name": "Steerer Clamp",
+            "torqueNm": 8,
+            "count": 2,
+            "size": "M5"
+          },
+          {
+            "name": "Faceplate Bolt",
+            "torqueNm": 5,
+            "count": 4,
+            "size": "M5",
+            "note": "X패턴 조임",
+            "warningIcon": "warning"
+          },
+          {
+            "name": "Top Cap",
+            "torqueNm": 1.5,
+            "torqueNmMax": 2,
+            "size": "M6"
+          }
+        ],
+        "source": "Nukeproof 공식 매뉴얼"
+      }
+    }
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "brand": "Wolf Tooth",
+  "lastUpdated": "2026-01-23",
+  "components": {
+    "dropper_remote": {
+      "ReMote": {
+        "variants": ["ReMote", "Wolf Tooth ReMote", "ReMote Light Action"],
+        "bolts": [{"name": "Clamp Bolt", "torqueNm": 1.5, "size": "T10"}],
+        "source": "Wolf Tooth Components"
+      }
+    }
+  }
+}

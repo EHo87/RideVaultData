@@ -1,0 +1,59 @@
+{
+  "brand": "Renthal",
+  "lastUpdated": "2026-01-23",
+  "components": {
+    "handlebar": {
+      "Fatbar 35": {
+        "variants": ["Fatbar 35", "Fatbar35", "Fatbar 35mm"],
+        "bolts": [
+          {
+            "name": "Clamp Bolt",
+            "torqueNm": 5,
+            "count": 4,
+            "size": "M5",
+            "note": "대각선 순서로 조임 (1-3-2-4)",
+            "warningIcon": "warning"
+          }
+        ],
+        "source": "Renthal 공식 매뉴얼 (2024)"
+      },
+      "Fatbar Lite 35": {
+        "variants": ["Fatbar Lite 35", "Fatbar Lite", "Fatbar Lite 35mm"],
+        "bolts": [
+          {
+            "name": "Clamp Bolt",
+            "torqueNm": 4,
+            "torqueNmMax": 5,
+            "count": 4,
+            "size": "M5",
+            "note": "카본 바 - 낮은 토크 권장",
+            "warningIcon": "warning"
+          }
+        ],
+        "source": "Renthal 공식 매뉴얼 (2024)"
+      }
+    },
+    "stem": {
+      "Apex 35": {
+        "variants": ["Apex 35", "Apex35", "Apex 35mm"],
+        "bolts": [
+          {
+            "name": "Steerer Clamp",
+            "torqueNm": 8,
+            "count": 2,
+            "size": "M5"
+          },
+          {
+            "name": "Faceplate Bolt",
+            "torqueNm": 5,
+            "count": 4,
+            "size": "M5",
+            "note": "X패턴 조임",
+            "warningIcon": "warning"
+          }
+        ],
+        "source": "Renthal 공식 매뉴얼 (2024)"
+      }
+    }
+  }
+}

@@ -1,0 +1,46 @@
+{
+  "brand": "OneUp Components",
+  "lastUpdated": "2026-01-23",
+  "components": {
+    "dropper_remote": {
+      "V3 Remote": {
+        "variants": ["V3", "V3 Remote", "OneUp Remote", "Dropper Remote V3"],
+        "bolts": [{"name": "Clamp Bolt", "torqueNm": 1.2, "size": "T10"}],
+        "source": "OneUp Components"
+      }
+    },
+    "chain_guide": {
+      "Top Guide": {
+        "variants": ["Top Guide", "ISCG05 Top Guide"],
+        "bolts": [{"name": "ISCG Mount Bolt", "torqueNm": 6, "torqueNmMax": 8, "count": 3, "size": "M6"}],
+        "source": "OneUp Components"
+      }
+    },
+    "handlebar": {
+      "Carbon Bar": {
+        "variants": ["Carbon Bar", "OneUp Carbon Bar", "Carbon Handlebar"],
+        "bolts": [
+          {"name": "Clamp Bolt", "torqueNm": 4, "torqueNmMax": 5, "count": 4, "size": "M5", "note": "카본 - 대각선 순서로 조임", "warningIcon": "warning"}
+        ],
+        "source": "OneUp Components"
+      }
+    },
+    "stem": {
+      "EDC Stem": {
+        "variants": ["EDC Stem", "EDC", "OneUp EDC Stem"],
+        "bolts": [
+          {"name": "Steerer Clamp", "torqueNm": 5, "torqueNmMax": 6, "count": 2, "size": "M5"},
+          {"name": "Faceplate Bolt", "torqueNm": 5, "torqueNmMax": 6, "count": 4, "size": "M5", "note": "X패턴 조임", "warningIcon": "warning"}
+        ],
+        "source": "OneUp Components"
+      }
+    },
+    "pedals": {
+      "Aluminum Pedals": {
+        "variants": ["Aluminum Pedals", "Alu Pedals", "OneUp Aluminum"],
+        "bolts": [{"name": "Pedal Spindle", "torqueNm": 35, "count": 2, "size": "8mm Hex", "note": "좌측 페달: 역나사", "warningIcon": "warning"}],
+        "source": "OneUp Components"
+      }
+    }
+  }
+}

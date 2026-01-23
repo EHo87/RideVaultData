@@ -1,0 +1,83 @@
+{
+  "brand": "SRAM",
+  "lastUpdated": "2026-01-23",
+  "components": {
+    "brake_lever": {
+      "Code RSC": {
+        "variants": ["Code RSC", "Code RSC Lever", "Code"],
+        "bolts": [
+          {"name": "Clamp Bolt", "torqueNm": 4, "torqueNmMax": 5, "size": "T25"},
+          {"name": "Reach Adjust", "torqueNm": 0.5, "size": "T10"},
+          {"name": "Contact Adjust", "torqueNm": 0.5, "size": "2.5mm Hex"}
+        ],
+        "source": "SRAM Code 매뉴얼"
+      },
+      "Guide RSC": {
+        "variants": ["Guide RSC", "Guide RSC Lever", "Guide"],
+        "bolts": [
+          {"name": "Clamp Bolt", "torqueNm": 4, "torqueNmMax": 5, "size": "T25"},
+          {"name": "Reach Adjust", "torqueNm": 0.5, "size": "T10"}
+        ],
+        "source": "SRAM Guide 매뉴얼"
+      }
+    },
+    "shifter": {
+      "GX Eagle": {
+        "variants": ["GX Eagle", "GX Eagle Trigger", "GX Eagle Shifter"],
+        "bolts": [{"name": "Clamp Bolt", "torqueNm": 1.5, "torqueNmMax": 2, "size": "T10"}],
+        "source": "SRAM Eagle 매뉴얼"
+      },
+      "X0 Eagle": {
+        "variants": ["X0 Eagle", "X0 Eagle Trigger", "XO Eagle"],
+        "bolts": [{"name": "Clamp Bolt", "torqueNm": 1.5, "torqueNmMax": 2, "size": "T10"}],
+        "source": "SRAM Eagle 매뉴얼"
+      }
+    },
+    "crankset": {
+      "X0 Eagle DUB": {
+        "variants": ["X0 Eagle DUB", "X0 Eagle", "X0 DUB"],
+        "bolts": [
+          {"name": "Crank Arm Bolt", "torqueNm": 54, "size": "8mm Hex"},
+          {"name": "Chainring Bolt", "torqueNm": 9, "count": 4, "size": "T25", "note": "별모양 패턴 조임", "warningIcon": "warning"},
+          {"name": "Preload Cap", "torqueNm": 0.7, "size": "DUB Tool", "note": "손으로 조이고 살짝 추가", "warningIcon": "info"}
+        ],
+        "source": "SRAM Eagle Crankset 매뉴얼"
+      },
+      "GX Eagle DUB": {
+        "variants": ["GX Eagle DUB", "GX Eagle", "GX DUB"],
+        "bolts": [
+          {"name": "Crank Arm Bolt", "torqueNm": 54, "size": "8mm Hex"},
+          {"name": "Chainring Bolt", "torqueNm": 9, "count": 4, "size": "T25", "note": "별모양 패턴 조임", "warningIcon": "warning"}
+        ],
+        "source": "SRAM Eagle Crankset 매뉴얼"
+      }
+    },
+    "rear_derailleur": {
+      "GX Eagle AXS": {
+        "variants": ["GX Eagle AXS", "GX AXS"],
+        "bolts": [
+          {"name": "B-Bolt (Mount)", "torqueNm": 8, "torqueNmMax": 10, "size": "T25"},
+          {"name": "Pulley Bolt", "torqueNm": 2, "torqueNmMax": 3, "count": 2, "size": "T25"}
+        ],
+        "source": "SRAM AXS 매뉴얼"
+      },
+      "GX Eagle": {
+        "variants": ["GX Eagle", "GX Eagle Derailleur"],
+        "bolts": [
+          {"name": "B-Bolt (Mount)", "torqueNm": 8, "torqueNmMax": 10, "size": "T25"},
+          {"name": "Pulley Bolt", "torqueNm": 2, "torqueNmMax": 3, "count": 2, "size": "T25"}
+        ],
+        "source": "SRAM Eagle 매뉴얼"
+      }
+    },
+    "bottom_bracket": {
+      "DUB BSA": {
+        "variants": ["DUB BSA", "DUB BB BSA", "SRAM DUB BSA"],
+        "bolts": [
+          {"name": "BB Cup", "torqueNm": 40, "torqueNmMax": 50, "count": 2, "size": "BB Tool", "note": "드라이브 사이드: 역나사", "warningIcon": "warning"}
+        ],
+        "source": "SRAM DUB 매뉴얼"
+      }
+    }
+  }
+}

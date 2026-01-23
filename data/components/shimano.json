@@ -1,0 +1,73 @@
+{
+  "brand": "Shimano",
+  "lastUpdated": "2026-01-23",
+  "components": {
+    "brake_lever": {
+      "XT M8100": {
+        "variants": ["XT M8100", "XT", "Deore XT M8100", "BL-M8100"],
+        "bolts": [{"name": "Clamp Bolt", "torqueNm": 4, "torqueNmMax": 5, "size": "M4"}],
+        "source": "Shimano Dealers Manual"
+      },
+      "SLX M7100": {
+        "variants": ["SLX M7100", "SLX", "BL-M7100"],
+        "bolts": [{"name": "Clamp Bolt", "torqueNm": 4, "torqueNmMax": 5, "size": "M4"}],
+        "source": "Shimano Dealers Manual"
+      },
+      "Deore M6100": {
+        "variants": ["Deore M6100", "Deore", "BL-M6100"],
+        "bolts": [{"name": "Clamp Bolt", "torqueNm": 4, "torqueNmMax": 5, "size": "M4"}],
+        "source": "Shimano Dealers Manual"
+      }
+    },
+    "shifter": {
+      "XT M8100": {
+        "variants": ["XT M8100", "XT Shifter", "SL-M8100"],
+        "bolts": [{"name": "Clamp Bolt", "torqueNm": 3, "size": "M4"}],
+        "source": "Shimano Dealers Manual"
+      },
+      "SLX M7100": {
+        "variants": ["SLX M7100", "SLX Shifter", "SL-M7100"],
+        "bolts": [{"name": "Clamp Bolt", "torqueNm": 3, "size": "M4"}],
+        "source": "Shimano Dealers Manual"
+      }
+    },
+    "crankset": {
+      "XT M8100": {
+        "variants": ["XT M8100", "FC-M8100", "XT Crankset"],
+        "bolts": [
+          {"name": "Crank Arm Bolt", "torqueNm": 12, "torqueNmMax": 14, "size": "Hex Key"},
+          {"name": "Chainring Bolt", "torqueNm": 12, "torqueNmMax": 14, "count": 4, "size": "T30", "note": "대각선 순서로 조임", "warningIcon": "warning"}
+        ],
+        "source": "Shimano Dealers Manual"
+      }
+    },
+    "rear_derailleur": {
+      "XT M8100": {
+        "variants": ["XT M8100", "RD-M8100", "XT Derailleur"],
+        "bolts": [
+          {"name": "B-Bolt (Mount)", "torqueNm": 8, "torqueNmMax": 10, "size": "Hex Key"},
+          {"name": "Pulley Bolt", "torqueNm": 2.5, "torqueNmMax": 5, "count": 2, "size": "Hex Key"}
+        ],
+        "source": "Shimano Dealers Manual"
+      }
+    },
+    "bottom_bracket": {
+      "BB-MT800": {
+        "variants": ["BB-MT800", "MT800", "XT BB"],
+        "bolts": [
+          {"name": "BB Cup", "torqueNm": 35, "torqueNmMax": 50, "count": 2, "size": "BB Tool", "note": "드라이브 사이드: 역나사", "warningIcon": "warning"}
+        ],
+        "source": "Shimano Dealers Manual"
+      }
+    },
+    "pedals": {
+      "Saint PD-M828": {
+        "variants": ["Saint PD-M828", "Saint Pedals", "PD-M828"],
+        "bolts": [
+          {"name": "Pedal Spindle", "torqueNm": 35, "torqueNmMax": 55, "count": 2, "size": "15mm / 8mm Hex", "note": "좌측 페달: 역나사", "warningIcon": "warning"}
+        ],
+        "source": "Shimano Dealers Manual"
+      }
+    }
+  }
+}

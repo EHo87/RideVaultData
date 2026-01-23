@@ -1,0 +1,36 @@
+{
+  "version": "1.0.0",
+  "lastUpdated": "2026-01-23",
+  "brands": [
+    {
+      "id": "renthal",
+      "name": "Renthal",
+      "categories": ["handlebar", "stem"]
+    },
+    {
+      "id": "nukeproof",
+      "name": "Nukeproof",
+      "categories": ["handlebar", "stem"]
+    },
+    {
+      "id": "sram",
+      "name": "SRAM",
+      "categories": ["brake_lever", "shifter", "crankset", "rear_derailleur", "bottom_bracket"]
+    },
+    {
+      "id": "shimano",
+      "name": "Shimano",
+      "categories": ["brake_lever", "shifter", "crankset", "rear_derailleur", "bottom_bracket", "pedals"]
+    },
+    {
+      "id": "oneup",
+      "name": "OneUp Components",
+      "categories": ["dropper_remote", "chain_guide", "handlebar", "stem", "pedals"]
+    },
+    {
+      "id": "wolf-tooth",
+      "name": "Wolf Tooth",
+      "categories": ["dropper_remote"]
+    }
+  ]
+}
