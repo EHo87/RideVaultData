@@ -36,6 +36,11 @@
       "id": "magura",
       "name": "Magura",
       "categories": ["brake_lever"]
+    },
+    {
+      "id": "sensus",
+      "name": "Sensus",
+      "categories": ["grip"]
     }
   ]
 }

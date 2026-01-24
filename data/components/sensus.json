@@ -1,0 +1,22 @@
+{
+  "brand": "Sensus",
+  "lastUpdated": "2026-01-24",
+  "components": {
+    "grip": {
+      "Sensus Lite": {
+        "variants": ["Sensus Lite", "Lite", "Sensus Lite Grips"],
+        "bolts": [
+          {
+            "name": "Lock Ring Bolt",
+            "torqueNm": 2,
+            "torqueNmMax": 3,
+            "count": 1,
+            "size": "M4",
+            "note": "Single lock (내측만) - 과도한 토크 시 그립 손상 주의"
+          }
+        ],
+        "source": "일반 그립 토크 기준 (제조사 확인 권장)"
+      }
+    }
+  }
+}
