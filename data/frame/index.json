@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "lastUpdated": "2026-01-27",
+  "brands": [
+    {
+      "id": "santa-cruz",
+      "name": "Santa Cruz",
+      "models": 2
+    },
+    {
+      "id": "specialized",
+      "name": "Specialized",
+      "models": 2
+    }
+  ]
+}

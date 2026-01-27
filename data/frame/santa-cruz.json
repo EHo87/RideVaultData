@@ -1,0 +1,204 @@
+{
+  "brand": "Santa Cruz",
+  "lastUpdated": "2026-01-27",
+  "models": {
+    "Nomad V6": {
+      "variants": ["Nomad 6", "Nomad MX"],
+      "year": "2024-",
+      "sections": [
+        {
+          "name": "피벗 & 링키지",
+          "bolts": [
+            {
+              "name": "Main Pivot (Lower)",
+              "torqueNm": 15,
+              "size": "M10",
+              "count": 2,
+              "note": "Loctite 243 권장"
+            },
+            {
+              "name": "Main Pivot (Upper)",
+              "torqueNm": 12,
+              "size": "M8",
+              "count": 2
+            },
+            {
+              "name": "Seatstay Pivot",
+              "torqueNm": 12,
+              "size": "M8",
+              "count": 4,
+              "note": "토크 후 1/8회전 백오프",
+              "warningIcon": "warning"
+            },
+            {
+              "name": "Upper Link Pivot",
+              "torqueNm": 10,
+              "size": "M6",
+              "count": 4
+            },
+            {
+              "name": "Lower Link Pivot",
+              "torqueNm": 12,
+              "size": "M8",
+              "count": 2
+            }
+          ]
+        },
+        {
+          "name": "샥 마운트",
+          "bolts": [
+            {
+              "name": "Shock Mount (Upper)",
+              "torqueNm": 14,
+              "size": "M8",
+              "note": "그리스 도포 권장",
+              "warningIcon": "info"
+            },
+            {
+              "name": "Shock Mount (Lower)",
+              "torqueNm": 14,
+              "size": "M8"
+            }
+          ]
+        },
+        {
+          "name": "스루액슬",
+          "bolts": [
+            {
+              "name": "Rear Thru Axle",
+              "torqueNm": 12,
+              "torqueNmMax": 14
+            }
+          ]
+        },
+        {
+          "name": "시트포스트",
+          "bolts": [
+            {
+              "name": "Seatpost Clamp",
+              "torqueNm": 5,
+              "torqueNmMax": 6,
+              "size": "M5",
+              "note": "카본 포스트는 4-5Nm 권장",
+              "warningIcon": "warning"
+            }
+          ]
+        },
+        {
+          "name": "기타",
+          "bolts": [
+            {
+              "name": "Bottle Cage",
+              "torqueNm": 3,
+              "torqueNmMax": 5,
+              "size": "M5",
+              "count": 2
+            },
+            {
+              "name": "Cable Guide",
+              "torqueNm": 2,
+              "torqueNmMax": 3
+            },
+            {
+              "name": "ISCG Mount",
+              "torqueNm": 6,
+              "size": "M6",
+              "count": 3
+            }
+          ]
+        }
+      ],
+      "source": "Santa Cruz Owner's Manual"
+    },
+    "Megatower V2": {
+      "variants": ["Megatower 2", "Megatower CC"],
+      "year": "2023-",
+      "sections": [
+        {
+          "name": "피벗 & 링키지",
+          "bolts": [
+            {
+              "name": "Main Pivot (Lower)",
+              "torqueNm": 15,
+              "size": "M10",
+              "count": 2,
+              "note": "Loctite 243 권장"
+            },
+            {
+              "name": "Main Pivot (Upper)",
+              "torqueNm": 12,
+              "size": "M8",
+              "count": 2
+            },
+            {
+              "name": "Rocker Link Pivot",
+              "torqueNm": 10,
+              "size": "M6",
+              "count": 4
+            },
+            {
+              "name": "Lower Link Pivot",
+              "torqueNm": 12,
+              "size": "M8",
+              "count": 2
+            }
+          ]
+        },
+        {
+          "name": "샥 마운트",
+          "bolts": [
+            {
+              "name": "Shock Mount (Upper)",
+              "torqueNm": 14,
+              "size": "M8"
+            },
+            {
+              "name": "Shock Mount (Lower)",
+              "torqueNm": 14,
+              "size": "M8"
+            }
+          ]
+        },
+        {
+          "name": "스루액슬",
+          "bolts": [
+            {
+              "name": "Rear Thru Axle",
+              "torqueNm": 12,
+              "torqueNmMax": 14
+            }
+          ]
+        },
+        {
+          "name": "시트포스트",
+          "bolts": [
+            {
+              "name": "Seatpost Clamp",
+              "torqueNm": 5,
+              "torqueNmMax": 6,
+              "size": "M5"
+            }
+          ]
+        },
+        {
+          "name": "기타",
+          "bolts": [
+            {
+              "name": "Bottle Cage",
+              "torqueNm": 3,
+              "torqueNmMax": 5,
+              "size": "M5",
+              "count": 2
+            },
+            {
+              "name": "Cable Guide",
+              "torqueNm": 2,
+              "torqueNmMax": 3
+            }
+          ]
+        }
+      ],
+      "source": "Santa Cruz Owner's Manual"
+    }
+  }
+}

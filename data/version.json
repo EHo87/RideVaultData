@@ -1,9 +1,13 @@
 {
-  "version": 2,
-  "lastUpdated": "2026-01-23",
+  "version": 3,
+  "lastUpdated": "2026-01-27",
   "minAppVersion": "0.1.0",
   "components": {
     "version": "1.0.0",
     "lastUpdated": "2026-01-23"
+  },
+  "frame": {
+    "version": "1.0.0",
+    "lastUpdated": "2026-01-27"
   }
 }

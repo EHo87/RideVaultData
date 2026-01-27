@@ -1,0 +1,195 @@
+{
+  "brand": "Specialized",
+  "lastUpdated": "2026-01-27",
+  "models": {
+    "Stumpjumper EVO": {
+      "variants": ["Stumpjumper EVO Comp", "Stumpjumper EVO Pro", "Stumpjumper EVO Expert", "S-Works Stumpjumper EVO"],
+      "year": "2022-",
+      "sections": [
+        {
+          "name": "피벗 & 링키지",
+          "bolts": [
+            {
+              "name": "Main Pivot",
+              "torqueNm": 16,
+              "size": "M10",
+              "count": 2,
+              "note": "그리스 도포 필수",
+              "warningIcon": "warning"
+            },
+            {
+              "name": "Sidearm Pivot (Upper)",
+              "torqueNm": 12,
+              "size": "M8",
+              "count": 2
+            },
+            {
+              "name": "Sidearm Pivot (Lower)",
+              "torqueNm": 12,
+              "size": "M8",
+              "count": 2
+            },
+            {
+              "name": "Horst Link Pivot",
+              "torqueNm": 10,
+              "size": "M6",
+              "count": 4
+            }
+          ]
+        },
+        {
+          "name": "샥 마운트",
+          "bolts": [
+            {
+              "name": "Shock Mount (Upper)",
+              "torqueNm": 10,
+              "size": "M8"
+            },
+            {
+              "name": "Shock Mount (Lower)",
+              "torqueNm": 16,
+              "size": "M8",
+              "note": "Trunnion 마운트 - 토크 확인 필수",
+              "warningIcon": "warning"
+            }
+          ]
+        },
+        {
+          "name": "스루액슬",
+          "bolts": [
+            {
+              "name": "Rear Thru Axle",
+              "torqueNm": 12,
+              "note": "SWATBox 볼트 포함"
+            }
+          ]
+        },
+        {
+          "name": "시트포스트",
+          "bolts": [
+            {
+              "name": "Seatpost Clamp",
+              "torqueNm": 4,
+              "torqueNmMax": 5,
+              "size": "M5",
+              "note": "카본 전용 그리스 사용"
+            }
+          ]
+        },
+        {
+          "name": "기타",
+          "bolts": [
+            {
+              "name": "SWATBox Door",
+              "torqueNm": 0.5,
+              "torqueNmMax": 1,
+              "note": "손으로 가볍게 조임"
+            },
+            {
+              "name": "Bottle Cage",
+              "torqueNm": 3,
+              "torqueNmMax": 5,
+              "size": "M5",
+              "count": 2
+            },
+            {
+              "name": "Headset Geometry Adjust",
+              "torqueNm": 6,
+              "size": "M5",
+              "count": 2,
+              "note": "지오메트리 칩 교체 시",
+              "warningIcon": "info"
+            }
+          ]
+        }
+      ],
+      "source": "Specialized Owner's Manual"
+    },
+    "Enduro": {
+      "variants": ["Enduro Comp", "Enduro Pro", "Enduro Expert", "S-Works Enduro"],
+      "year": "2023-",
+      "sections": [
+        {
+          "name": "피벗 & 링키지",
+          "bolts": [
+            {
+              "name": "Main Pivot",
+              "torqueNm": 16,
+              "size": "M10",
+              "count": 2,
+              "note": "그리스 도포 필수"
+            },
+            {
+              "name": "Sidearm Pivot",
+              "torqueNm": 12,
+              "size": "M8",
+              "count": 4
+            },
+            {
+              "name": "Horst Link Pivot",
+              "torqueNm": 10,
+              "size": "M6",
+              "count": 4
+            }
+          ]
+        },
+        {
+          "name": "샥 마운트",
+          "bolts": [
+            {
+              "name": "Shock Mount (Upper)",
+              "torqueNm": 10,
+              "size": "M8"
+            },
+            {
+              "name": "Shock Mount (Lower - Trunnion)",
+              "torqueNm": 16,
+              "size": "M8",
+              "note": "Trunnion 마운트",
+              "warningIcon": "info"
+            }
+          ]
+        },
+        {
+          "name": "스루액슬",
+          "bolts": [
+            {
+              "name": "Rear Thru Axle",
+              "torqueNm": 12
+            }
+          ]
+        },
+        {
+          "name": "시트포스트",
+          "bolts": [
+            {
+              "name": "Seatpost Clamp",
+              "torqueNm": 4,
+              "torqueNmMax": 5,
+              "size": "M5"
+            }
+          ]
+        },
+        {
+          "name": "기타",
+          "bolts": [
+            {
+              "name": "SWATBox Door",
+              "torqueNm": 0.5,
+              "torqueNmMax": 1,
+              "note": "손으로 가볍게 조임"
+            },
+            {
+              "name": "Bottle Cage",
+              "torqueNm": 3,
+              "torqueNmMax": 5,
+              "size": "M5",
+              "count": 2
+            }
+          ]
+        }
+      ],
+      "source": "Specialized Owner's Manual"
+    }
+  }
+}
