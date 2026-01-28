@@ -1,7 +1,7 @@
 {
-  "version": "1.0.0",
-  "lastUpdated": "2026-01-20",
-  "totalBikes": 8,
+  "version": "2.0.0",
+  "lastUpdated": "2026-01-28",
+  "totalBikes": 72,
   "brands": [
     {
       "name": "Santa Cruz",
@@ -12,15 +12,99 @@
           "name": "Nomad 6",
           "slug": "nomad-6",
           "type": "enduro",
-          "years": [2024, 2023],
+          "years": [2024, 2023, 2022],
           "file": "nomad-6"
+        },
+        {
+          "name": "Nomad 5",
+          "slug": "nomad-5",
+          "type": "enduro",
+          "years": [2020, 2021],
+          "file": "nomad-5"
+        },
+        {
+          "name": "Nomad 4",
+          "slug": "nomad-4",
+          "type": "enduro",
+          "years": [2018, 2019],
+          "file": "nomad-4"
         },
         {
           "name": "Megatower",
           "slug": "megatower",
           "type": "enduro",
-          "years": [2024],
+          "years": [2024, 2023, 2022],
           "file": "megatower"
+        },
+        {
+          "name": "Megatower 1",
+          "slug": "megatower-1",
+          "type": "enduro",
+          "years": [2019, 2020, 2021],
+          "file": "megatower-1"
+        },
+        {
+          "name": "Hightower",
+          "slug": "hightower",
+          "type": "trail",
+          "years": [2024, 2025],
+          "file": "hightower"
+        },
+        {
+          "name": "Hightower 3",
+          "slug": "hightower-3",
+          "type": "trail",
+          "years": [2022, 2023],
+          "file": "hightower-3"
+        },
+        {
+          "name": "Hightower 2",
+          "slug": "hightower-2",
+          "type": "trail",
+          "years": [2019, 2020, 2021],
+          "file": "hightower-2"
+        },
+        {
+          "name": "Bronson",
+          "slug": "bronson",
+          "type": "all-mountain",
+          "years": [2024, 2023, 2022],
+          "file": "bronson"
+        },
+        {
+          "name": "Bronson 4",
+          "slug": "bronson-4",
+          "type": "all-mountain",
+          "years": [2019, 2020, 2021],
+          "file": "bronson-4"
+        },
+        {
+          "name": "5010",
+          "slug": "5010",
+          "type": "trail",
+          "years": [2024, 2023, 2022],
+          "file": "5010"
+        },
+        {
+          "name": "5010 4",
+          "slug": "5010-4",
+          "type": "trail",
+          "years": [2020, 2021],
+          "file": "5010-4"
+        },
+        {
+          "name": "5010 3",
+          "slug": "5010-3",
+          "type": "trail",
+          "years": [2018, 2019],
+          "file": "5010-3"
+        },
+        {
+          "name": "Tallboy",
+          "slug": "tallboy",
+          "type": "downcountry",
+          "years": [2024, 2025],
+          "file": "tallboy"
         }
       ]
     },
@@ -33,15 +117,64 @@
           "name": "Enduro",
           "slug": "enduro",
           "type": "enduro",
-          "years": [2024],
+          "years": [2024, 2023, 2022, 2021],
           "file": "enduro"
+        },
+        {
+          "name": "Enduro 2020",
+          "slug": "enduro-2020",
+          "type": "enduro",
+          "years": [2020],
+          "file": "enduro-2020"
+        },
+        {
+          "name": "Enduro 2018",
+          "slug": "enduro-2018",
+          "type": "enduro",
+          "years": [2018, 2019],
+          "file": "enduro-2018"
         },
         {
           "name": "Stumpjumper EVO",
           "slug": "stumpjumper-evo",
           "type": "trail",
-          "years": [2024, 2023],
+          "years": [2024, 2023, 2022],
           "file": "stumpjumper-evo"
+        },
+        {
+          "name": "Stumpjumper EVO 2021",
+          "slug": "stumpjumper-evo-2021",
+          "type": "trail",
+          "years": [2021],
+          "file": "stumpjumper-evo-2021"
+        },
+        {
+          "name": "Stumpjumper EVO Gen1",
+          "slug": "stumpjumper-evo-2019",
+          "type": "trail",
+          "years": [2019, 2020],
+          "file": "stumpjumper-evo-2019"
+        },
+        {
+          "name": "Stumpjumper",
+          "slug": "stumpjumper",
+          "type": "trail",
+          "years": [2024, 2023, 2022],
+          "file": "stumpjumper"
+        },
+        {
+          "name": "Stumpjumper Gen4",
+          "slug": "stumpjumper-2021",
+          "type": "trail",
+          "years": [2021],
+          "file": "stumpjumper-2021"
+        },
+        {
+          "name": "Stumpjumper Gen3",
+          "slug": "stumpjumper-2019",
+          "type": "trail",
+          "years": [2019, 2020],
+          "file": "stumpjumper-2019"
         }
       ]
     },
@@ -54,8 +187,50 @@
           "name": "Slash",
           "slug": "slash",
           "type": "enduro",
-          "years": [2024],
+          "years": [2024, 2025],
           "file": "slash"
+        },
+        {
+          "name": "Slash Gen5",
+          "slug": "slash-2021",
+          "type": "enduro",
+          "years": [2021, 2022, 2023],
+          "file": "slash-2021"
+        },
+        {
+          "name": "Slash Gen4",
+          "slug": "slash-2018",
+          "type": "enduro",
+          "years": [2018, 2019, 2020],
+          "file": "slash-2018"
+        },
+        {
+          "name": "Fuel EX",
+          "slug": "fuel-ex",
+          "type": "trail",
+          "years": [2024, 2025],
+          "file": "fuel-ex"
+        },
+        {
+          "name": "Fuel EX Gen6",
+          "slug": "fuel-ex-2023",
+          "type": "trail",
+          "years": [2023],
+          "file": "fuel-ex-2023"
+        },
+        {
+          "name": "Fuel EX Gen5",
+          "slug": "fuel-ex-2018",
+          "type": "trail",
+          "years": [2018, 2019, 2020, 2021, 2022],
+          "file": "fuel-ex-2018"
+        },
+        {
+          "name": "Top Fuel",
+          "slug": "top-fuel",
+          "type": "xc",
+          "years": [2024, 2023, 2025],
+          "file": "top-fuel"
         }
       ]
     },
@@ -68,8 +243,22 @@
           "name": "Spectral",
           "slug": "spectral",
           "type": "trail",
-          "years": [2024],
+          "years": [2024, 2025],
           "file": "spectral"
+        },
+        {
+          "name": "Spectral 2021",
+          "slug": "spectral-2021",
+          "type": "trail",
+          "years": [2021, 2022, 2023],
+          "file": "spectral-2021"
+        },
+        {
+          "name": "Spectral 2018",
+          "slug": "spectral-2018",
+          "type": "trail",
+          "years": [2018, 2019, 2020],
+          "file": "spectral-2018"
         },
         {
           "name": "Torque",
@@ -77,6 +266,27 @@
           "type": "enduro",
           "years": [2024],
           "file": "torque"
+        },
+        {
+          "name": "Strive CFR",
+          "slug": "strive",
+          "type": "enduro",
+          "years": [2024, 2023, 2022],
+          "file": "strive"
+        },
+        {
+          "name": "Strive Gen2",
+          "slug": "strive-2019",
+          "type": "enduro",
+          "years": [2019, 2020, 2021],
+          "file": "strive-2019"
+        },
+        {
+          "name": "Neuron",
+          "slug": "neuron",
+          "type": "trail",
+          "years": [2024, 2025],
+          "file": "neuron"
         }
       ]
     },
@@ -89,8 +299,302 @@
           "name": "Capra",
           "slug": "capra",
           "type": "enduro",
-          "years": [2024],
+          "years": [2024, 2023, 2022],
           "file": "capra"
+        },
+        {
+          "name": "Capra MK2",
+          "slug": "capra-mk2",
+          "type": "enduro",
+          "years": [2021],
+          "file": "capra-mk2-2021"
+        },
+        {
+          "name": "Capra MK1",
+          "slug": "capra-mk1",
+          "type": "enduro",
+          "years": [2018, 2019, 2020],
+          "file": "capra-mk1-2018"
+        },
+        {
+          "name": "Jeffsy",
+          "slug": "jeffsy",
+          "type": "trail",
+          "years": [2024, 2023],
+          "file": "jeffsy"
+        },
+        {
+          "name": "Jeffsy MK2",
+          "slug": "jeffsy-mk2",
+          "type": "trail",
+          "years": [2019, 2020, 2021, 2022],
+          "file": "jeffsy-mk2-2019"
+        },
+        {
+          "name": "Jeffsy MK1",
+          "slug": "jeffsy-mk1",
+          "type": "trail",
+          "years": [2018],
+          "file": "jeffsy-mk1-2018"
+        }
+      ]
+    },
+    {
+      "name": "Giant",
+      "slug": "giant",
+      "country": "Taiwan",
+      "models": [
+        {
+          "name": "Trance X",
+          "slug": "trance-x",
+          "type": "trail",
+          "years": [2024, 2023],
+          "file": "trance-x"
+        },
+        {
+          "name": "Trance X 2022",
+          "slug": "trance-x-2022",
+          "type": "trail",
+          "years": [2022],
+          "file": "trance-x-2022"
+        },
+        {
+          "name": "Trance 29",
+          "slug": "trance-29",
+          "type": "trail",
+          "years": [2018, 2019, 2020, 2021],
+          "file": "trance-29-2018"
+        },
+        {
+          "name": "Reign",
+          "slug": "reign",
+          "type": "enduro",
+          "years": [2024],
+          "file": "reign"
+        },
+        {
+          "name": "Reign Gen8",
+          "slug": "reign-2023",
+          "type": "enduro",
+          "years": [2023],
+          "file": "reign-2023"
+        },
+        {
+          "name": "Reign 2018",
+          "slug": "reign-2018",
+          "type": "enduro",
+          "years": [2018, 2019, 2020, 2021, 2022],
+          "file": "reign-2018"
+        }
+      ]
+    },
+    {
+      "name": "Commencal",
+      "slug": "commencal",
+      "country": "France",
+      "models": [
+        {
+          "name": "Meta SX",
+          "slug": "meta-sx",
+          "type": "enduro",
+          "years": [2024, 2025],
+          "file": "meta-sx"
+        },
+        {
+          "name": "Meta SX V4",
+          "slug": "meta-sx-v4",
+          "type": "enduro",
+          "years": [2020, 2021, 2022, 2023],
+          "file": "meta-sx-v4-2020"
+        },
+        {
+          "name": "Meta SX V3",
+          "slug": "meta-sx-v3",
+          "type": "enduro",
+          "years": [2018, 2019],
+          "file": "meta-sx-v3-2018"
+        }
+      ]
+    },
+    {
+      "name": "Scott",
+      "slug": "scott",
+      "country": "Switzerland",
+      "models": [
+        {
+          "name": "Ransom",
+          "slug": "ransom",
+          "type": "enduro",
+          "years": [2024, 2025],
+          "file": "ransom"
+        },
+        {
+          "name": "Ransom 2019",
+          "slug": "ransom-2019",
+          "type": "enduro",
+          "years": [2019, 2020, 2021, 2022, 2023],
+          "file": "ransom-2019"
+        }
+      ]
+    },
+    {
+      "name": "Merida",
+      "slug": "merida",
+      "country": "Taiwan",
+      "models": [
+        {
+          "name": "One-Sixty",
+          "slug": "one-sixty",
+          "type": "enduro",
+          "years": [2024, 2023, 2025],
+          "file": "one-sixty"
+        },
+        {
+          "name": "One-Sixty 2020",
+          "slug": "one-sixty-2020",
+          "type": "enduro",
+          "years": [2020, 2021, 2022],
+          "file": "one-sixty-2020"
+        },
+        {
+          "name": "One-Forty",
+          "slug": "one-forty",
+          "type": "trail",
+          "years": [2024, 2023, 2025],
+          "file": "one-forty"
+        },
+        {
+          "name": "One-Forty 2020",
+          "slug": "one-forty-2020",
+          "type": "trail",
+          "years": [2020, 2021, 2022],
+          "file": "one-forty-2020"
+        }
+      ]
+    },
+    {
+      "name": "Nukeproof",
+      "slug": "nukeproof",
+      "country": "UK",
+      "models": [
+        {
+          "name": "Mega 290",
+          "slug": "mega-290",
+          "type": "enduro",
+          "years": [2024, 2023, 2022],
+          "file": "mega-290"
+        },
+        {
+          "name": "Mega 290 V4",
+          "slug": "mega-290-2021",
+          "type": "enduro",
+          "years": [2021],
+          "file": "mega-290-2021"
+        },
+        {
+          "name": "Mega 297",
+          "slug": "mega-297",
+          "type": "enduro",
+          "years": [2024, 2023, 2022],
+          "file": "mega-297"
+        },
+        {
+          "name": "Mega 297 V4",
+          "slug": "mega-297-2021",
+          "type": "enduro",
+          "years": [2021],
+          "file": "mega-297-2021"
+        },
+        {
+          "name": "Mega V3",
+          "slug": "mega-2019",
+          "type": "enduro",
+          "years": [2019, 2020],
+          "file": "mega-2019"
+        },
+        {
+          "name": "Giga",
+          "slug": "giga",
+          "type": "enduro",
+          "years": [2024, 2023, 2022, 2021],
+          "file": "giga"
+        }
+      ]
+    },
+    {
+      "name": "Yeti",
+      "slug": "yeti",
+      "country": "USA",
+      "models": [
+        {
+          "name": "SB140",
+          "slug": "sb140",
+          "type": "trail",
+          "years": [2024, 2025],
+          "file": "sb140"
+        },
+        {
+          "name": "SB160",
+          "slug": "sb160",
+          "type": "enduro",
+          "years": [2024, 2025],
+          "file": "sb160"
+        }
+      ]
+    },
+    {
+      "name": "Pivot",
+      "slug": "pivot",
+      "country": "USA",
+      "models": [
+        {
+          "name": "Trail 429",
+          "slug": "trail-429",
+          "type": "trail",
+          "years": [2024],
+          "file": "trail-429"
+        }
+      ]
+    },
+    {
+      "name": "Norco",
+      "slug": "norco",
+      "country": "Canada",
+      "models": [
+        {
+          "name": "Sight",
+          "slug": "sight",
+          "type": "trail",
+          "years": [2024],
+          "file": "sight"
+        }
+      ]
+    },
+    {
+      "name": "Evil",
+      "slug": "evil",
+      "country": "USA",
+      "models": [
+        {
+          "name": "Offering",
+          "slug": "offering",
+          "type": "trail",
+          "years": [2024],
+          "file": "offering"
+        }
+      ]
+    },
+    {
+      "name": "Velduro",
+      "slug": "velduro",
+      "country": "Korea",
+      "models": [
+        {
+          "name": "Rogue X",
+          "slug": "rogue-x",
+          "type": "enduro",
+          "years": [2025],
+          "file": "rogue-x"
         }
       ]
     }

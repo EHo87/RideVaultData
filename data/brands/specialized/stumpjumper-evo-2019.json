@@ -1,0 +1,57 @@
+{
+  "brand": "Specialized",
+  "model": "Stumpjumper EVO",
+  "year": 2019,
+  "type": "trail",
+  "wheelSize": "29",
+  "travel": {
+    "front": 150,
+    "rear": 150
+  },
+  "source": "Specialized Official",
+  "sourceUrl": "https://www.specialized.com",
+  "lastUpdated": "2026-01-28",
+  "notes": "Gen 1, aluminum only, 2 sizes",
+  "sizes": [
+    {
+      "size": "M",
+      "reach": 425,
+      "stack": 615,
+      "headAngle": 65.0,
+      "seatAngle": 75.5,
+      "seatAngleEffective": 75.5,
+      "chainstay": 435,
+      "wheelbase": 1205,
+      "bbDrop": 30,
+      "bbHeight": 345,
+      "seatTube": 430,
+      "topTubeActual": null,
+      "topTubeEffective": 575,
+      "standover": null,
+      "forkOffset": 44,
+      "forkLength": 560,
+      "headTube": 110,
+      "trail": 108
+    },
+    {
+      "size": "L",
+      "reach": 450,
+      "stack": 625,
+      "headAngle": 65.0,
+      "seatAngle": 75.5,
+      "seatAngleEffective": 75.5,
+      "chainstay": 437,
+      "wheelbase": 1235,
+      "bbDrop": 30,
+      "bbHeight": 345,
+      "seatTube": 460,
+      "topTubeActual": null,
+      "topTubeEffective": 605,
+      "standover": null,
+      "forkOffset": 44,
+      "forkLength": 560,
+      "headTube": 120,
+      "trail": 108
+    }
+  ]
+}

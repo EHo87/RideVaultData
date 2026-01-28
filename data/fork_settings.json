@@ -27,9 +27,11 @@
       "defaultSettings": {
         "sagPercent": 25,
         "rebound": {
-          "type": "SINGLE",
-          "default": 12,
-          "range": [0, 22]
+          "type": "HSR_LSR",
+          "hsrDefault": 3,
+          "hsrRange": [0, 5],
+          "lsrDefault": 8,
+          "lsrRange": [0, 15]
         },
         "compression": {
           "type": "HSC_LSC",
