@@ -10,7 +10,39 @@
   },
   "source": "Geometry Geeks",
   "sourceUrl": "https://geometrygeeks.bike/bike/trek-slash-2024/",
-  "lastUpdated": "2026-01-20",
+  "lastUpdated": "2026-01-28",
+  "flipchips": [
+    {
+      "id": "mino-link",
+      "name": "Mino Link",
+      "description": "헤드앵글과 BB 높이를 조정하는 Trek의 지오메트리 조정 시스템",
+      "positions": [
+        {
+          "id": "low",
+          "name": "Low",
+          "description": "슬랙한 헤드앵글, 낮은 BB - 하강 중심"
+        },
+        {
+          "id": "high",
+          "name": "High",
+          "description": "스팁한 헤드앵글, 높은 BB - 클라이밍/민첩성 향상"
+        }
+      ],
+      "default": "low",
+      "adjustments": {
+        "low": {
+          "bbHeight": 0,
+          "headAngle": 0,
+          "seatAngle": 0
+        },
+        "high": {
+          "bbHeight": 10,
+          "headAngle": 0.5,
+          "seatAngle": 0.5
+        }
+      }
+    }
+  ],
   "sizes": [
     {
       "size": "S",

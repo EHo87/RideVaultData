@@ -10,7 +10,39 @@
   },
   "source": "Geometry Geeks",
   "sourceUrl": "https://geometrygeeks.bike/bike/santa-cruz-nomad-6-2024/",
-  "lastUpdated": "2026-01-20",
+  "lastUpdated": "2026-01-28",
+  "flipchips": [
+    {
+      "id": "geometry",
+      "name": "Geometry Flip Chip",
+      "description": "헤드앵글과 BB 높이 조정",
+      "positions": [
+        {
+          "id": "low",
+          "name": "Low",
+          "description": "낮은 BB, 슬랙한 헤드앵글 - 하강 성능 향상"
+        },
+        {
+          "id": "high",
+          "name": "High",
+          "description": "높은 BB, 스팁한 헤드앵글 - 민첩성 향상"
+        }
+      ],
+      "default": "high",
+      "adjustments": {
+        "low": {
+          "bbHeight": -6,
+          "headAngle": -0.5,
+          "seatAngle": -0.5
+        },
+        "high": {
+          "bbHeight": 0,
+          "headAngle": 0,
+          "seatAngle": 0
+        }
+      }
+    }
+  ],
   "sizes": [
     {
       "size": "S",
