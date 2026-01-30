@@ -10,7 +10,7 @@
   },
   "source": "Canyon Official",
   "sourceUrl": "https://www.canyon.com",
-  "lastUpdated": "2026-01-28",
+  "lastUpdated": "2026-01-30",
   "notes": "2024 refresh, versatile trail bike",
   "sizes": [
     {
@@ -55,13 +55,13 @@
     },
     {
       "size": "M",
-      "reach": 450,
+      "reach": 455,
       "stack": 610,
       "headAngle": 66.0,
-      "seatAngle": 76.5,
-      "seatAngleEffective": 76.5,
+      "seatAngle": 76.0,
+      "seatAngleEffective": 76.0,
       "chainstay": 435,
-      "wheelbase": 1200,
+      "wheelbase": 1205,
       "bbDrop": 35,
       "bbHeight": 340,
       "seatTube": 420,

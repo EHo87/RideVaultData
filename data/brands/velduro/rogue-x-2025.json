@@ -1,97 +1,129 @@
 {
   "brand": "Velduro",
-  "model": "Rogue X",
+  "model": "Rogue",
   "year": 2025,
   "type": "enduro",
-  "wheelSize": "29",
+  "wheelSize": "29/27.5 MX",
   "travel": {
     "front": 170,
-    "rear": 160
+    "rear": 165
   },
-  "source": "Velduro Official",
-  "sourceUrl": "https://www.velduro.com",
-  "lastUpdated": "2026-01-28",
-  "notes": "Korean brand, aggressive enduro geometry",
+  "source": "Velduro Official / Bike Insights",
+  "sourceUrl": "https://www.velduro.com/pages/velduro-rogue-geometry-chart",
+  "lastUpdated": "2026-01-30",
+  "notes": "Korean brand eMTB with Avinox M1 drive unit. Features rear wheel flip chip and shock position flip chip for geometry adjustment.",
+  "flipchips": [
+    {
+      "id": "shock-position",
+      "name": "Shock Position Flip Chip",
+      "description": "샥 위치 조정으로 5mm 추가 트래블 (최대 172mm)",
+      "positions": [
+        {
+          "id": "standard",
+          "name": "Standard",
+          "description": "165mm 리어 트래블"
+        },
+        {
+          "id": "extended",
+          "name": "Extended",
+          "description": "172mm 리어 트래블"
+        }
+      ],
+      "default": "standard",
+      "adjustments": {
+        "standard": {
+          "bbHeight": 0,
+          "headAngle": 0,
+          "seatAngle": 0
+        },
+        "extended": {
+          "bbHeight": 3,
+          "headAngle": 0,
+          "seatAngle": 0
+        }
+      }
+    }
+  ],
   "sizes": [
     {
       "size": "S",
       "reach": 440,
-      "stack": 610,
-      "headAngle": 64.0,
-      "seatAngle": 77.5,
-      "seatAngleEffective": 77.5,
+      "stack": 633,
+      "headAngle": 63.5,
+      "seatAngle": 75.5,
+      "seatAngleEffective": 78.1,
       "chainstay": 440,
-      "wheelbase": 1218,
-      "bbDrop": 30,
-      "bbHeight": 345,
-      "seatTube": 395,
+      "wheelbase": 1230,
+      "bbDrop": 31,
+      "bbHeight": 341,
+      "seatTube": 390,
       "topTubeActual": null,
-      "topTubeEffective": 570,
+      "topTubeEffective": 582,
       "standover": null,
       "forkOffset": 44,
       "forkLength": 580,
-      "headTube": 95,
-      "trail": 118
+      "headTube": null,
+      "trail": null
     },
     {
       "size": "M",
-      "reach": 465,
-      "stack": 622,
-      "headAngle": 64.0,
-      "seatAngle": 77.0,
-      "seatAngleEffective": 77.0,
-      "chainstay": 442,
-      "wheelbase": 1250,
-      "bbDrop": 30,
-      "bbHeight": 345,
-      "seatTube": 420,
+      "reach": 466,
+      "stack": 633,
+      "headAngle": 63.5,
+      "seatAngle": 75.5,
+      "seatAngleEffective": 78.1,
+      "chainstay": 440,
+      "wheelbase": 1265,
+      "bbDrop": 31,
+      "bbHeight": 341,
+      "seatTube": 410,
       "topTubeActual": null,
-      "topTubeEffective": 600,
+      "topTubeEffective": 604,
       "standover": null,
       "forkOffset": 44,
       "forkLength": 580,
-      "headTube": 108,
-      "trail": 118
+      "headTube": null,
+      "trail": null
     },
     {
       "size": "L",
-      "reach": 490,
-      "stack": 635,
-      "headAngle": 64.0,
-      "seatAngle": 76.5,
-      "seatAngleEffective": 76.5,
-      "chainstay": 445,
-      "wheelbase": 1285,
-      "bbDrop": 30,
-      "bbHeight": 345,
-      "seatTube": 450,
+      "reach": 485,
+      "stack": 641,
+      "headAngle": 63.5,
+      "seatAngle": 75.5,
+      "seatAngleEffective": 78.0,
+      "chainstay": 440,
+      "wheelbase": 1300,
+      "bbDrop": 31,
+      "bbHeight": 341,
+      "seatTube": 430,
       "topTubeActual": null,
-      "topTubeEffective": 635,
+      "topTubeEffective": 623,
       "standover": null,
       "forkOffset": 44,
       "forkLength": 580,
-      "headTube": 120,
-      "trail": 118
+      "headTube": null,
+      "trail": null
     },
     {
       "size": "XL",
-      "reach": 520,
-      "stack": 650,
-      "headAngle": 64.0,
-      "seatAngle": 76.0,
-      "seatAngleEffective": 76.0,
-      "chainstay": 448,
-      "wheelbase": 1322,
-      "bbDrop": 30,
-      "bbHeight": 345,
-      "seatTube": 485,
+      "reach": 515,
+      "stack": 646,
+      "headAngle": 63.5,
+      "seatAngle": 75.5,
+      "seatAngleEffective": 77.9,
+      "chainstay": 440,
+      "wheelbase": 1335,
+      "bbDrop": 31,
+      "bbHeight": 341,
+      "seatTube": 465,
       "topTubeActual": null,
-      "topTubeEffective": 672,
+      "topTubeEffective": 648,
       "standover": null,
       "forkOffset": 44,
       "forkLength": 580,
-      "headTube": 135,
-      "trail": 118
+      "headTube": null,
+      "trail": null
     }
   ]
 }

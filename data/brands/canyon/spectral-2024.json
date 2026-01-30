@@ -1,6 +1,6 @@
 {
   "brand": "Canyon",
-  "model": "Spectral",
+  "model": "Spectral CF",
   "year": 2024,
   "type": "trail",
   "wheelSize": "29",
@@ -8,89 +8,167 @@
     "front": 150,
     "rear": 140
   },
-  "source": "Geometry Geeks",
-  "sourceUrl": "https://geometrygeeks.bike/bike/canyon-spectral-2024/",
-  "lastUpdated": "2026-01-20",
+  "source": "Canyon Official / Pinkbike",
+  "sourceUrl": "https://www.pinkbike.com/news/first-ride-2024-canyon-spectral-cf-evolution-not-revolution.html",
+  "lastUpdated": "2026-01-30",
+  "flipchips": [
+    {
+      "id": "geometry",
+      "name": "Geometry Flip Chip",
+      "description": "헤드앵글과 BB 높이 조정",
+      "positions": [
+        {
+          "id": "low",
+          "name": "Low",
+          "description": "슬랙한 헤드앵글, 낮은 BB"
+        },
+        {
+          "id": "high",
+          "name": "High",
+          "description": "스팁한 헤드앵글, 높은 BB"
+        }
+      ],
+      "default": "low",
+      "adjustments": {
+        "low": {
+          "bbHeight": 0,
+          "headAngle": 0,
+          "seatAngle": 0
+        },
+        "high": {
+          "bbHeight": 8,
+          "headAngle": 0.5,
+          "seatAngle": 0.5
+        }
+      }
+    },
+    {
+      "id": "wheelsize",
+      "name": "Wheel Size Flip Chip",
+      "description": "휠 사이즈에 따른 체인스테이 조정",
+      "positions": [
+        {
+          "id": "29",
+          "name": "29\"",
+          "description": "29인치 리어 휠"
+        },
+        {
+          "id": "275",
+          "name": "27.5\"",
+          "description": "27.5인치 리어 휠 (MX)"
+        }
+      ],
+      "default": "29",
+      "adjustments": {
+        "29": {
+          "chainstay": 0
+        },
+        "275": {
+          "chainstay": -8
+        }
+      }
+    }
+  ],
   "sizes": [
     {
-      "size": "S",
-      "reach": 430,
-      "stack": 605,
-      "headAngle": 65.0,
-      "seatAngle": 77.0,
-      "seatAngleEffective": 77.0,
-      "chainstay": 432,
-      "wheelbase": 1195,
-      "bbDrop": 35,
-      "bbHeight": 340,
-      "seatTube": 400,
+      "size": "XS",
+      "reach": 425,
+      "stack": 612,
+      "headAngle": 64.0,
+      "seatAngle": 76.5,
+      "seatAngleEffective": 76.5,
+      "chainstay": 437,
+      "wheelbase": null,
+      "bbDrop": 36,
+      "bbHeight": null,
+      "seatTube": null,
       "topTubeActual": null,
-      "topTubeEffective": 565,
-      "standover": 715,
+      "topTubeEffective": null,
+      "standover": null,
       "forkOffset": 44,
       "forkLength": 560,
-      "headTube": 95,
-      "trail": 108
+      "headTube": null,
+      "trail": null
+    },
+    {
+      "size": "S",
+      "reach": 450,
+      "stack": 621,
+      "headAngle": 64.0,
+      "seatAngle": 76.5,
+      "seatAngleEffective": 76.5,
+      "chainstay": 437,
+      "wheelbase": null,
+      "bbDrop": 36,
+      "bbHeight": null,
+      "seatTube": null,
+      "topTubeActual": null,
+      "topTubeEffective": null,
+      "standover": null,
+      "forkOffset": 44,
+      "forkLength": 560,
+      "headTube": null,
+      "trail": null
     },
     {
       "size": "M",
-      "reach": 450,
-      "stack": 615,
-      "headAngle": 65.0,
+      "reach": 475,
+      "stack": 630,
+      "headAngle": 64.0,
       "seatAngle": 76.5,
       "seatAngleEffective": 76.5,
-      "chainstay": 432,
-      "wheelbase": 1218,
-      "bbDrop": 35,
-      "bbHeight": 340,
-      "seatTube": 420,
+      "chainstay": 437,
+      "wheelbase": null,
+      "bbDrop": 36,
+      "bbHeight": null,
+      "seatTube": null,
       "topTubeActual": null,
-      "topTubeEffective": 590,
-      "standover": 740,
+      "topTubeEffective": null,
+      "standover": null,
       "forkOffset": 44,
       "forkLength": 560,
-      "headTube": 105,
-      "trail": 108
+      "headTube": null,
+      "trail": null
     },
     {
       "size": "L",
-      "reach": 475,
-      "stack": 625,
-      "headAngle": 65.0,
-      "seatAngle": 76.0,
-      "seatAngleEffective": 76.0,
+      "reach": 500,
+      "stack": 639,
+      "headAngle": 64.0,
+      "seatAngle": 76.5,
+      "seatAngleEffective": 76.5,
       "chainstay": 437,
-      "wheelbase": 1248,
-      "bbDrop": 35,
-      "bbHeight": 340,
-      "seatTube": 450,
+      "wheelbase": null,
+      "bbDrop": 36,
+      "bbHeight": null,
+      "seatTube": null,
       "topTubeActual": null,
-      "topTubeEffective": 620,
-      "standover": 770,
+      "topTubeEffective": null,
+      "standover": null,
       "forkOffset": 44,
       "forkLength": 560,
-      "headTube": 115,
-      "trail": 108
+      "headTube": null,
+      "trail": null
     },
     {
       "size": "XL",
-      "reach": 505,
-      "stack": 635,
-      "headAngle": 65.0,
-      "seatAngle": 75.5,
-      "seatAngleEffective": 75.5,
+      "reach": 525,
+      "stack": 648,
+      "headAngle": 64.0,
+      "seatAngle": 76.5,
+      "seatAngleEffective": 76.5,
       "chainstay": 437,
-      "wheelbase": 1282,
-      "bbDrop": 35,
-      "bbHeight": 340,
-      "seatTube": 490,
+      "wheelbase": null,
+      "bbDrop": 36,
+      "bbHeight": null,
+      "seatTube": null,
       "topTubeActual": null,
-      "topTubeEffective": 658,
-      "standover": 805,
+      "topTubeEffective": null,
+      "standover": null,
       "forkOffset": 44,
       "forkLength": 560,
-      "headTube": 125,
-      "trail": 108
+      "headTube": null,
+      "trail": null
     }
   ]
 }
