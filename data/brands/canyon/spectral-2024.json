@@ -8,9 +8,9 @@
     "front": 150,
     "rear": 140
   },
-  "source": "Canyon Official / Pinkbike",
+  "source": "Canyon Official / Vital MTB / Pinkbike",
   "sourceUrl": "https://www.pinkbike.com/news/first-ride-2024-canyon-spectral-cf-evolution-not-revolution.html",
-  "lastUpdated": "2026-01-30",
+  "lastUpdated": "2026-03-30",
   "flipchips": [
     {
       "id": "geometry",
@@ -69,6 +69,7 @@
       }
     }
   ],
+  "notes": "Geometry shown is Low position with 29\" rear wheel. XS only available in mullet (MX) configuration.",
   "sizes": [
     {
       "size": "XS",
@@ -98,16 +99,16 @@
       "seatAngle": 76.5,
       "seatAngleEffective": 76.5,
       "chainstay": 437,
-      "wheelbase": null,
+      "wheelbase": 1221,
       "bbDrop": 36,
       "bbHeight": null,
-      "seatTube": null,
+      "seatTube": 400,
       "topTubeActual": null,
-      "topTubeEffective": null,
-      "standover": null,
+      "topTubeEffective": 599,
+      "standover": 752,
       "forkOffset": 44,
       "forkLength": 560,
-      "headTube": null,
+      "headTube": 110,
       "trail": null
     },
     {
@@ -118,16 +119,16 @@
       "seatAngle": 76.5,
       "seatAngleEffective": 76.5,
       "chainstay": 437,
-      "wheelbase": null,
+      "wheelbase": 1251,
       "bbDrop": 36,
       "bbHeight": null,
-      "seatTube": null,
+      "seatTube": 415,
       "topTubeActual": null,
-      "topTubeEffective": null,
-      "standover": null,
+      "topTubeEffective": 626,
+      "standover": 747,
       "forkOffset": 44,
       "forkLength": 560,
-      "headTube": null,
+      "headTube": 120,
       "trail": null
     },
     {
@@ -138,16 +139,16 @@
       "seatAngle": 76.5,
       "seatAngleEffective": 76.5,
       "chainstay": 437,
-      "wheelbase": null,
+      "wheelbase": 1280,
       "bbDrop": 36,
       "bbHeight": null,
-      "seatTube": null,
+      "seatTube": 445,
       "topTubeActual": null,
-      "topTubeEffective": null,
-      "standover": null,
+      "topTubeEffective": 653,
+      "standover": 756,
       "forkOffset": 44,
       "forkLength": 560,
-      "headTube": null,
+      "headTube": 130,
       "trail": null
     },
     {
@@ -158,16 +159,16 @@
       "seatAngle": 76.5,
       "seatAngleEffective": 76.5,
       "chainstay": 437,
-      "wheelbase": null,
+      "wheelbase": 1309,
       "bbDrop": 36,
       "bbHeight": null,
-      "seatTube": null,
+      "seatTube": 465,
       "topTubeActual": null,
-      "topTubeEffective": null,
-      "standover": null,
+      "topTubeEffective": 680,
+      "standover": 762,
       "forkOffset": 44,
       "forkLength": 560,
-      "headTube": null,
+      "headTube": 140,
       "trail": null
     }
   ]

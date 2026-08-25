@@ -1,259 +1,335 @@
 {
-  "version": 1,
+  "version": 3,
+  "lastUpdated": "2026-04-20",
+  "weightNote": "Rider + gear weight (fully geared riding weight)",
   "forks": [
     {
       "brand": "Fox",
-      "model": "38 Factory",
-      "modelPattern": "38.*Factory|Fox 38",
+      "model": "38",
+      "variants": ["Factory", "Performance Elite", "Performance"],
+      "modelPattern": "38.*Factory|38.*Performance|Fox 38",
+      "years": [2021, 2022, 2023, 2024, 2025],
+      "generation": "FLOAT EVOL",
       "travel": [160, 170, 180],
       "springType": "AIR",
-      "pressureChart": {
-        "unit": "psi",
-        "description": "라이더 몸무게 기준 권장 공기압 (장비 제외)",
-        "data": [
-          { "weightKg": 50, "pressure": 52 },
-          { "weightKg": 55, "pressure": 55 },
-          { "weightKg": 60, "pressure": 58 },
-          { "weightKg": 65, "pressure": 62 },
-          { "weightKg": 70, "pressure": 66 },
-          { "weightKg": 75, "pressure": 70 },
-          { "weightKg": 80, "pressure": 74 },
-          { "weightKg": 85, "pressure": 78 },
-          { "weightKg": 90, "pressure": 82 },
-          { "weightKg": 95, "pressure": 86 },
-          { "weightKg": 100, "pressure": 90 }
-        ]
-      },
-      "defaultSettings": {
-        "sagPercent": 25,
-        "rebound": {
-          "type": "HSR_LSR",
-          "hsrDefault": 3,
-          "hsrRange": [0, 5],
-          "lsrDefault": 8,
-          "lsrRange": [0, 15]
-        },
-        "compression": {
-          "type": "HSC_LSC",
-          "hscDefault": 8,
-          "hscRange": [0, 14],
-          "lscDefault": 10,
-          "lscRange": [0, 22]
-        },
-        "tokens": {
-          "default": 2
+      "maxPressure": 140,
+      "pressureChart": [
+        { "weightLbs": 120, "weightKg": 54, "psi": 58 },
+        { "weightLbs": 130, "weightKg": 59, "psi": 63 },
+        { "weightLbs": 140, "weightKg": 64, "psi": 68 },
+        { "weightLbs": 150, "weightKg": 68, "psi": 72 },
+        { "weightLbs": 160, "weightKg": 73, "psi": 77 },
+        { "weightLbs": 170, "weightKg": 77, "psi": 82 },
+        { "weightLbs": 180, "weightKg": 82, "psi": 86 },
+        { "weightLbs": 190, "weightKg": 86, "psi": 91 },
+        { "weightLbs": 200, "weightKg": 91, "psi": 96 }
+      ],
+      "reboundChart": {
+        "note": "Clicks from closed",
+        "damperVariants": {
+          "GRIP2": [
+            { "weightLbs": 120, "weightKg": 54, "lsr": 9, "hsr": 4 },
+            { "weightLbs": 130, "weightKg": 59, "lsr": 8, "hsr": 4 },
+            { "weightLbs": 140, "weightKg": 64, "lsr": 8, "hsr": 3 },
+            { "weightLbs": 150, "weightKg": 68, "lsr": 7, "hsr": 3 },
+            { "weightLbs": 160, "weightKg": 73, "lsr": 7, "hsr": 3 },
+            { "weightLbs": 170, "weightKg": 77, "lsr": 6, "hsr": 2 },
+            { "weightLbs": 180, "weightKg": 82, "lsr": 6, "hsr": 2 },
+            { "weightLbs": 190, "weightKg": 86, "lsr": 5, "hsr": 2 },
+            { "weightLbs": 200, "weightKg": 91, "lsr": 5, "hsr": 1 }
+          ],
+          "FIT4": [
+            { "weightLbs": 120, "weightKg": 54, "rebound": 12 },
+            { "weightLbs": 130, "weightKg": 59, "rebound": 11 },
+            { "weightLbs": 140, "weightKg": 64, "rebound": 10 },
+            { "weightLbs": 150, "weightKg": 68, "rebound": 10 },
+            { "weightLbs": 160, "weightKg": 73, "rebound": 9 },
+            { "weightLbs": 170, "weightKg": 77, "rebound": 8 },
+            { "weightLbs": 180, "weightKg": 82, "rebound": 7 },
+            { "weightLbs": 190, "weightKg": 86, "rebound": 7 },
+            { "weightLbs": 200, "weightKg": 91, "rebound": 6 }
+          ]
         }
       },
-      "source": "Fox 공식 튜닝 가이드 2024"
+      "compressionDefaults": {
+        "GRIP2": { "hsc": 5, "lsc": 10, "note": "Clicks from closed, weight-independent starting point" },
+        "FIT4": { "compression": 8, "note": "Open mode, 3 clicks from fully closed" }
+      },
+      "tokens": { "default": 2, "note": "Adjust based on bottom-out frequency" },
+      "sagPercent": 25,
+      "source": "Fox 2025 36mm/38mm Owner's Manual",
+      "sourceUrl": "https://tech.ridefox.com/bike/owners-manuals/2979/fork--2025-36mm-or-38mm"
     },
     {
       "brand": "Fox",
-      "model": "36 Factory",
-      "modelPattern": "36.*Factory|Fox 36",
+      "model": "36",
+      "variants": ["Factory", "Performance Elite", "Performance"],
+      "modelPattern": "36.*Factory|36.*Performance|Fox 36",
+      "years": [2021, 2022, 2023, 2024, 2025],
+      "generation": "FLOAT EVOL",
       "travel": [140, 150, 160],
       "springType": "AIR",
-      "pressureChart": {
-        "unit": "psi",
-        "data": [
-          { "weightKg": 50, "pressure": 55 },
-          { "weightKg": 55, "pressure": 58 },
-          { "weightKg": 60, "pressure": 62 },
-          { "weightKg": 65, "pressure": 66 },
-          { "weightKg": 70, "pressure": 70 },
-          { "weightKg": 75, "pressure": 75 },
-          { "weightKg": 80, "pressure": 80 },
-          { "weightKg": 85, "pressure": 85 },
-          { "weightKg": 90, "pressure": 90 },
-          { "weightKg": 95, "pressure": 95 },
-          { "weightKg": 100, "pressure": 100 }
-        ]
-      },
-      "defaultSettings": {
-        "sagPercent": 25,
-        "rebound": {
-          "type": "SINGLE",
-          "default": 10,
-          "range": [0, 18]
-        },
-        "compression": {
-          "type": "HSC_LSC",
-          "hscDefault": 6,
-          "hscRange": [0, 12],
-          "lscDefault": 8,
-          "lscRange": [0, 18]
+      "maxPressure": 120,
+      "pressureChart": [
+        { "weightLbs": 120, "weightKg": 54, "psi": 55 },
+        { "weightLbs": 130, "weightKg": 59, "psi": 59 },
+        { "weightLbs": 140, "weightKg": 64, "psi": 63 },
+        { "weightLbs": 150, "weightKg": 68, "psi": 67 },
+        { "weightLbs": 160, "weightKg": 73, "psi": 72 },
+        { "weightLbs": 170, "weightKg": 77, "psi": 76 },
+        { "weightLbs": 180, "weightKg": 82, "psi": 80 },
+        { "weightLbs": 190, "weightKg": 86, "psi": 85 },
+        { "weightLbs": 200, "weightKg": 91, "psi": 89 },
+        { "weightLbs": 210, "weightKg": 95, "psi": 93 },
+        { "weightLbs": 220, "weightKg": 100, "psi": 97 },
+        { "weightLbs": 230, "weightKg": 104, "psi": 102 },
+        { "weightLbs": 240, "weightKg": 109, "psi": 106 }
+      ],
+      "reboundChart": {
+        "note": "Clicks from closed",
+        "damperVariants": {
+          "GRIP2": [
+            { "weightLbs": 120, "weightKg": 54, "lsr": 9, "hsr": 4 },
+            { "weightLbs": 130, "weightKg": 59, "lsr": 9, "hsr": 4 },
+            { "weightLbs": 140, "weightKg": 64, "lsr": 8, "hsr": 3 },
+            { "weightLbs": 150, "weightKg": 68, "lsr": 8, "hsr": 3 },
+            { "weightLbs": 160, "weightKg": 73, "lsr": 7, "hsr": 3 },
+            { "weightLbs": 170, "weightKg": 77, "lsr": 7, "hsr": 2 },
+            { "weightLbs": 180, "weightKg": 82, "lsr": 6, "hsr": 2 },
+            { "weightLbs": 190, "weightKg": 86, "lsr": 6, "hsr": 2 },
+            { "weightLbs": 200, "weightKg": 91, "lsr": 5, "hsr": 1 }
+          ],
+          "GRIP": [
+            { "weightLbs": 120, "weightKg": 54, "rebound": 10 },
+            { "weightLbs": 140, "weightKg": 64, "rebound": 9 },
+            { "weightLbs": 160, "weightKg": 73, "rebound": 8 },
+            { "weightLbs": 180, "weightKg": 82, "rebound": 7 },
+            { "weightLbs": 200, "weightKg": 91, "rebound": 6 }
+          ]
         }
       },
-      "source": "Fox 공식 튜닝 가이드 2024"
+      "compressionDefaults": {
+        "GRIP2": { "hsc": 5, "lsc": 10, "note": "Clicks from closed" },
+        "GRIP": { "compression": 6, "note": "Clicks from open" }
+      },
+      "tokens": { "default": 1, "note": "Adjust based on bottom-out frequency" },
+      "sagPercent": 25,
+      "source": "Fox 2025 36mm/38mm Owner's Manual",
+      "sourceUrl": "https://tech.ridefox.com/bike/owners-manuals/2979/fork--2025-36mm-or-38mm"
     },
     {
       "brand": "Fox",
-      "model": "34 Factory",
-      "modelPattern": "34.*Factory|Fox 34",
+      "model": "34",
+      "variants": ["Factory", "Performance Elite", "Performance"],
+      "modelPattern": "34.*Factory|34.*Performance|Fox 34",
+      "years": [2021, 2022, 2023, 2024, 2025],
+      "generation": "FLOAT EVOL",
       "travel": [120, 130, 140],
       "springType": "AIR",
-      "pressureChart": {
-        "unit": "psi",
-        "data": [
-          { "weightKg": 50, "pressure": 58 },
-          { "weightKg": 60, "pressure": 65 },
-          { "weightKg": 70, "pressure": 73 },
-          { "weightKg": 80, "pressure": 82 },
-          { "weightKg": 90, "pressure": 92 },
-          { "weightKg": 100, "pressure": 102 }
-        ]
-      },
-      "defaultSettings": {
-        "sagPercent": 25,
-        "rebound": {
-          "type": "SINGLE",
-          "default": 8,
-          "range": [0, 16]
-        },
-        "compression": {
-          "type": "HSC_LSC",
-          "hscDefault": 5,
-          "hscRange": [0, 10],
-          "lscDefault": 6,
-          "lscRange": [0, 16]
+      "maxPressure": 120,
+      "pressureChart": [
+        { "weightLbs": 120, "weightKg": 54, "psi": 60 },
+        { "weightLbs": 130, "weightKg": 59, "psi": 65 },
+        { "weightLbs": 140, "weightKg": 64, "psi": 70 },
+        { "weightLbs": 150, "weightKg": 68, "psi": 75 },
+        { "weightLbs": 160, "weightKg": 73, "psi": 80 },
+        { "weightLbs": 170, "weightKg": 77, "psi": 85 },
+        { "weightLbs": 180, "weightKg": 82, "psi": 90 },
+        { "weightLbs": 190, "weightKg": 86, "psi": 95 },
+        { "weightLbs": 200, "weightKg": 91, "psi": 100 }
+      ],
+      "reboundChart": {
+        "note": "Clicks from closed",
+        "damperVariants": {
+          "GRIP2": [
+            { "weightLbs": 120, "weightKg": 54, "lsr": 8, "hsr": 3 },
+            { "weightLbs": 140, "weightKg": 64, "lsr": 7, "hsr": 3 },
+            { "weightLbs": 160, "weightKg": 73, "lsr": 6, "hsr": 2 },
+            { "weightLbs": 180, "weightKg": 82, "lsr": 5, "hsr": 2 },
+            { "weightLbs": 200, "weightKg": 91, "lsr": 4, "hsr": 1 }
+          ],
+          "FIT4": [
+            { "weightLbs": 120, "weightKg": 54, "rebound": 10 },
+            { "weightLbs": 140, "weightKg": 64, "rebound": 9 },
+            { "weightLbs": 160, "weightKg": 73, "rebound": 8 },
+            { "weightLbs": 180, "weightKg": 82, "rebound": 6 },
+            { "weightLbs": 200, "weightKg": 91, "rebound": 5 }
+          ]
         }
       },
-      "source": "Fox 공식 튜닝 가이드 2024"
+      "compressionDefaults": {
+        "GRIP2": { "hsc": 4, "lsc": 8, "note": "Clicks from closed" },
+        "FIT4": { "compression": 6, "note": "Open mode" }
+      },
+      "sagPercent": 25,
+      "source": "Fox 공식 튜닝 가이드 2024",
+      "sourceUrl": "https://tech.ridefox.com/bike/owners-manuals/2979/fork--2025-36mm-or-38mm"
     },
     {
       "brand": "RockShox",
       "model": "ZEB Ultimate",
+      "variants": [],
       "modelPattern": "ZEB.*Ultimate|ZEB Ultimate",
+      "years": [2021, 2022, 2023, 2024, 2025],
+      "generation": "DebonAir+",
       "travel": [160, 170, 180, 190],
       "springType": "AIR",
-      "pressureChart": {
-        "unit": "psi",
-        "description": "DebonAir+ 기준",
-        "data": [
-          { "weightKg": 50, "pressure": 50 },
-          { "weightKg": 55, "pressure": 54 },
-          { "weightKg": 60, "pressure": 58 },
-          { "weightKg": 65, "pressure": 62 },
-          { "weightKg": 70, "pressure": 66 },
-          { "weightKg": 75, "pressure": 70 },
-          { "weightKg": 80, "pressure": 74 },
-          { "weightKg": 85, "pressure": 78 },
-          { "weightKg": 90, "pressure": 82 },
-          { "weightKg": 95, "pressure": 86 },
-          { "weightKg": 100, "pressure": 90 }
-        ]
-      },
-      "defaultSettings": {
-        "sagPercent": 25,
-        "rebound": {
-          "type": "HSR_LSR",
-          "hsrDefault": 3,
-          "hsrRange": [0, 5],
-          "lsrDefault": 8,
-          "lsrRange": [0, 15]
-        },
-        "compression": {
-          "type": "HSC_LSC",
-          "hscDefault": 3,
-          "hscRange": [0, 5],
-          "lscDefault": 10,
-          "lscRange": [0, 20]
-        },
-        "tokens": {
-          "default": 1
+      "maxPressure": 140,
+      "pressureChart": [
+        { "weightLbs": 110, "weightKg": 50, "psi": 50 },
+        { "weightLbs": 121, "weightKg": 55, "psi": 54 },
+        { "weightLbs": 132, "weightKg": 60, "psi": 58 },
+        { "weightLbs": 143, "weightKg": 65, "psi": 62 },
+        { "weightLbs": 154, "weightKg": 70, "psi": 66 },
+        { "weightLbs": 165, "weightKg": 75, "psi": 70 },
+        { "weightLbs": 176, "weightKg": 80, "psi": 74 },
+        { "weightLbs": 187, "weightKg": 85, "psi": 78 },
+        { "weightLbs": 198, "weightKg": 90, "psi": 82 },
+        { "weightLbs": 209, "weightKg": 95, "psi": 86 },
+        { "weightLbs": 220, "weightKg": 100, "psi": 90 }
+      ],
+      "reboundChart": {
+        "note": "Clicks from closed",
+        "damperVariants": {
+          "Charger 3": [
+            { "weightLbs": 110, "weightKg": 50, "lsr": 10, "hsr": 4 },
+            { "weightLbs": 132, "weightKg": 60, "lsr": 9, "hsr": 4 },
+            { "weightLbs": 154, "weightKg": 70, "lsr": 8, "hsr": 3 },
+            { "weightLbs": 176, "weightKg": 80, "lsr": 7, "hsr": 3 },
+            { "weightLbs": 198, "weightKg": 90, "lsr": 6, "hsr": 2 },
+            { "weightLbs": 220, "weightKg": 100, "lsr": 5, "hsr": 2 }
+          ]
         }
       },
-      "source": "RockShox Trailhead"
+      "compressionDefaults": {
+        "Charger 3": { "hsc": 3, "lsc": 10, "note": "Clicks from closed" }
+      },
+      "tokens": { "default": 1, "note": "Bottomless Token" },
+      "sagPercent": 25,
+      "source": "RockShox Trailhead / RockShox Service Manual",
+      "sourceUrl": "https://www.sram.com/en/rockshox/campaigns/trailhead"
     },
     {
       "brand": "RockShox",
       "model": "Lyrik Ultimate",
-      "modelPattern": "Lyrik.*Ultimate",
+      "variants": [],
+      "modelPattern": "Lyrik.*Ultimate|Lyrik Ultimate",
+      "years": [2021, 2022, 2023, 2024, 2025],
+      "generation": "DebonAir+",
       "travel": [140, 150, 160],
       "springType": "AIR",
-      "pressureChart": {
-        "unit": "psi",
-        "data": [
-          { "weightKg": 50, "pressure": 55 },
-          { "weightKg": 60, "pressure": 62 },
-          { "weightKg": 70, "pressure": 70 },
-          { "weightKg": 80, "pressure": 78 },
-          { "weightKg": 90, "pressure": 86 },
-          { "weightKg": 100, "pressure": 95 }
-        ]
-      },
-      "defaultSettings": {
-        "sagPercent": 25,
-        "rebound": {
-          "type": "HSR_LSR",
-          "hsrDefault": 3,
-          "hsrRange": [0, 5],
-          "lsrDefault": 8,
-          "lsrRange": [0, 15]
-        },
-        "compression": {
-          "type": "HSC_LSC",
-          "hscDefault": 3,
-          "hscRange": [0, 5],
-          "lscDefault": 8,
-          "lscRange": [0, 18]
+      "maxPressure": 140,
+      "pressureChart": [
+        { "weightLbs": 110, "weightKg": 50, "psi": 55 },
+        { "weightLbs": 132, "weightKg": 60, "psi": 62 },
+        { "weightLbs": 154, "weightKg": 70, "psi": 70 },
+        { "weightLbs": 176, "weightKg": 80, "psi": 78 },
+        { "weightLbs": 198, "weightKg": 90, "psi": 86 },
+        { "weightLbs": 220, "weightKg": 100, "psi": 95 }
+      ],
+      "reboundChart": {
+        "note": "Clicks from closed",
+        "damperVariants": {
+          "Charger 3": [
+            { "weightLbs": 110, "weightKg": 50, "lsr": 10, "hsr": 4 },
+            { "weightLbs": 132, "weightKg": 60, "lsr": 9, "hsr": 3 },
+            { "weightLbs": 154, "weightKg": 70, "lsr": 8, "hsr": 3 },
+            { "weightLbs": 176, "weightKg": 80, "lsr": 7, "hsr": 2 },
+            { "weightLbs": 198, "weightKg": 90, "lsr": 6, "hsr": 2 },
+            { "weightLbs": 220, "weightKg": 100, "lsr": 5, "hsr": 1 }
+          ]
         }
       },
-      "source": "RockShox Trailhead"
+      "compressionDefaults": {
+        "Charger 3": { "hsc": 3, "lsc": 8, "note": "Clicks from closed" }
+      },
+      "sagPercent": 25,
+      "source": "RockShox Trailhead",
+      "sourceUrl": "https://www.sram.com/en/rockshox/campaigns/trailhead"
     },
     {
       "brand": "RockShox",
       "model": "Pike Ultimate",
-      "modelPattern": "Pike.*Ultimate",
+      "variants": [],
+      "modelPattern": "Pike.*Ultimate|Pike Ultimate",
+      "years": [2021, 2022, 2023, 2024, 2025],
+      "generation": "DebonAir+",
       "travel": [120, 130, 140, 150],
       "springType": "AIR",
-      "pressureChart": {
-        "unit": "psi",
-        "data": [
-          { "weightKg": 50, "pressure": 58 },
-          { "weightKg": 60, "pressure": 66 },
-          { "weightKg": 70, "pressure": 74 },
-          { "weightKg": 80, "pressure": 82 },
-          { "weightKg": 90, "pressure": 90 },
-          { "weightKg": 100, "pressure": 100 }
-        ]
-      },
-      "defaultSettings": {
-        "sagPercent": 25,
-        "rebound": {
-          "type": "HSR_LSR",
-          "hsrDefault": 3,
-          "hsrRange": [0, 5],
-          "lsrDefault": 7,
-          "lsrRange": [0, 14]
-        },
-        "compression": {
-          "type": "HSC_LSC",
-          "hscDefault": 2,
-          "hscRange": [0, 5],
-          "lscDefault": 7,
-          "lscRange": [0, 15]
+      "maxPressure": 140,
+      "pressureChart": [
+        { "weightLbs": 110, "weightKg": 50, "psi": 58 },
+        { "weightLbs": 132, "weightKg": 60, "psi": 66 },
+        { "weightLbs": 154, "weightKg": 70, "psi": 74 },
+        { "weightLbs": 176, "weightKg": 80, "psi": 82 },
+        { "weightLbs": 198, "weightKg": 90, "psi": 90 },
+        { "weightLbs": 220, "weightKg": 100, "psi": 100 }
+      ],
+      "reboundChart": {
+        "note": "Clicks from closed",
+        "damperVariants": {
+          "Charger 3": [
+            { "weightLbs": 110, "weightKg": 50, "lsr": 9, "hsr": 3 },
+            { "weightLbs": 132, "weightKg": 60, "lsr": 8, "hsr": 3 },
+            { "weightLbs": 154, "weightKg": 70, "lsr": 7, "hsr": 2 },
+            { "weightLbs": 176, "weightKg": 80, "lsr": 6, "hsr": 2 },
+            { "weightLbs": 198, "weightKg": 90, "lsr": 5, "hsr": 1 },
+            { "weightLbs": 220, "weightKg": 100, "lsr": 4, "hsr": 1 }
+          ]
         }
       },
-      "source": "RockShox Trailhead"
-    }
-  ],
-  "genericFork": {
-    "description": "모델 매칭 실패 시 사용하는 기본값",
-    "pressureFormula": {
-      "description": "weight(kg) * 0.9 + 3 = 대략적인 PSI",
-      "coefficient": 0.9,
-      "constant": 3
-    },
-    "defaultSettings": {
-      "sagPercent": 25,
-      "rebound": {
-        "default": 10,
-        "range": [0, 20]
+      "compressionDefaults": {
+        "Charger 3": { "hsc": 2, "lsc": 7, "note": "Clicks from closed" }
       },
-      "compression": {
-        "default": 8,
-        "range": [0, 20]
-      }
+      "sagPercent": 25,
+      "source": "RockShox Trailhead",
+      "sourceUrl": "https://www.sram.com/en/rockshox/campaigns/trailhead"
+    },
+    {
+      "brand": "Marzocchi",
+      "model": "Bomber Z1",
+      "variants": [],
+      "modelPattern": "Bomber Z1|Z1|Marzocchi Z1|Bomber Z1 GRIP",
+      "years": [2019, 2020, 2021, 2022, 2023, 2024, 2025],
+      "generation": "FLOAT EVOL / GRIP Damper",
+      "travel": [150, 160, 170, 180],
+      "springType": "AIR",
+      "maxPressure": 120,
+      "pressureChart": [
+        { "weightLbs": 120, "weightKg": 54, "psi": 55 },
+        { "weightLbs": 130, "weightKg": 59, "psi": 59 },
+        { "weightLbs": 140, "weightKg": 64, "psi": 63 },
+        { "weightLbs": 150, "weightKg": 68, "psi": 67 },
+        { "weightLbs": 160, "weightKg": 73, "psi": 72 },
+        { "weightLbs": 170, "weightKg": 77, "psi": 76 },
+        { "weightLbs": 180, "weightKg": 82, "psi": 80 },
+        { "weightLbs": 190, "weightKg": 86, "psi": 85 },
+        { "weightLbs": 200, "weightKg": 91, "psi": 89 },
+        { "weightLbs": 210, "weightKg": 95, "psi": 93 },
+        { "weightLbs": 220, "weightKg": 100, "psi": 97 },
+        { "weightLbs": 230, "weightKg": 104, "psi": 102 },
+        { "weightLbs": 240, "weightKg": 109, "psi": 106 }
+      ],
+      "reboundChart": {
+        "note": "Clicks from closed",
+        "damperVariants": {
+          "GRIP": [
+            { "weightLbs": 120, "weightKg": 54, "rebound": 10 },
+            { "weightLbs": 140, "weightKg": 64, "rebound": 9 },
+            { "weightLbs": 160, "weightKg": 73, "rebound": 8 },
+            { "weightLbs": 180, "weightKg": 82, "rebound": 7 },
+            { "weightLbs": 200, "weightKg": 91, "rebound": 6 },
+            { "weightLbs": 220, "weightKg": 100, "rebound": 5 }
+          ]
+        }
+      },
+      "compressionDefaults": {
+        "GRIP": { "compression": 6, "note": "Clicks from open" }
+      },
+      "tokens": { "default": 1, "note": "Adjust based on bottom-out frequency" },
+      "sagPercent": 25,
+      "source": "Fox/Marzocchi 36mm Tuning Guide (shared Fox 36 EVOL air spring platform)",
+      "sourceUrl": "https://www.marzocchi.com/pages/product-service-manuals"
     }
-  }
+  ]
 }

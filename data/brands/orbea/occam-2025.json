@@ -1,0 +1,128 @@
+{
+  "brand": "Orbea",
+  "model": "Occam",
+  "year": 2025,
+  "type": "trail",
+  "wheelSize": "29",
+  "travel": {
+    "front": 150,
+    "rear": 140
+  },
+  "source": "Orbea Official",
+  "sourceUrl": "https://www.orbea.com/occam",
+  "lastUpdated": "2026-03-31",
+  "flipchips": [
+    {
+      "id": "flip-chip",
+      "name": "Flip Chip",
+      "description": "BB 높이와 헤드앵글 조정",
+      "positions": [
+        {
+          "id": "low",
+          "name": "Low",
+          "description": "낮은 BB, 슬랙한 헤드앵글"
+        },
+        {
+          "id": "high",
+          "name": "High",
+          "description": "높은 BB, 스팁한 헤드앵글"
+        }
+      ],
+      "default": "low",
+      "adjustments": {
+        "low": {
+          "bbHeight": 0,
+          "headAngle": 0,
+          "seatAngle": 0
+        },
+        "high": {
+          "bbHeight": 8,
+          "headAngle": 0.5,
+          "seatAngle": 0.3
+        }
+      }
+    }
+  ],
+  "sizes": [
+    {
+      "size": "S",
+      "reach": 435,
+      "stack": 606,
+      "headAngle": 65.0,
+      "seatAngle": 77.5,
+      "seatAngleEffective": 77.5,
+      "chainstay": 435,
+      "wheelbase": 1212,
+      "bbDrop": 30,
+      "bbHeight": 338,
+      "seatTube": 400,
+      "topTubeActual": null,
+      "topTubeEffective": 572,
+      "standover": null,
+      "forkOffset": 44,
+      "forkLength": null,
+      "headTube": 100,
+      "trail": null
+    },
+    {
+      "size": "M",
+      "reach": 460,
+      "stack": 614,
+      "headAngle": 65.0,
+      "seatAngle": 77.5,
+      "seatAngleEffective": 77.5,
+      "chainstay": 435,
+      "wheelbase": 1238,
+      "bbDrop": 30,
+      "bbHeight": 338,
+      "seatTube": 430,
+      "topTubeActual": null,
+      "topTubeEffective": 598,
+      "standover": null,
+      "forkOffset": 44,
+      "forkLength": null,
+      "headTube": 110,
+      "trail": null
+    },
+    {
+      "size": "L",
+      "reach": 485,
+      "stack": 624,
+      "headAngle": 65.0,
+      "seatAngle": 77.5,
+      "seatAngleEffective": 77.5,
+      "chainstay": 440,
+      "wheelbase": 1266,
+      "bbDrop": 30,
+      "bbHeight": 338,
+      "seatTube": 460,
+      "topTubeActual": null,
+      "topTubeEffective": 624,
+      "standover": null,
+      "forkOffset": 44,
+      "forkLength": null,
+      "headTube": 120,
+      "trail": null
+    },
+    {
+      "size": "XL",
+      "reach": 515,
+      "stack": 639,
+      "headAngle": 65.0,
+      "seatAngle": 77.5,
+      "seatAngleEffective": 77.5,
+      "chainstay": 440,
+      "wheelbase": 1298,
+      "bbDrop": 30,
+      "bbHeight": 338,
+      "seatTube": 500,
+      "topTubeActual": null,
+      "topTubeEffective": 657,
+      "standover": null,
+      "forkOffset": 44,
+      "forkLength": null,
+      "headTube": 140,
+      "trail": null
+    }
+  ]
+}

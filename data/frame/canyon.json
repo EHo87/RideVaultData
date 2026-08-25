@@ -1,0 +1,213 @@
+{
+  "brand": "Canyon",
+  "lastUpdated": "2026-04-03",
+  "models": {
+    "Spectral CF": {
+      "variants": ["Spectral CF 7", "Spectral CF 8", "Spectral CF 9"],
+      "year": "2024-",
+      "sections": [
+        {
+          "name": "피벗 & 링키지",
+          "bolts": [
+            {
+              "name": "Main Pivot",
+              "torqueNm": 20,
+              "size": "M10",
+              "count": 2,
+              "note": "Loctite 243 권장",
+              "warningIcon": "warning"
+            },
+            {
+              "name": "Rocker Link Pivot (Upper)",
+              "torqueNm": 17,
+              "size": "M8",
+              "count": 2
+            },
+            {
+              "name": "Rocker Link Pivot (Lower)",
+              "torqueNm": 17,
+              "size": "M8",
+              "count": 2
+            },
+            {
+              "name": "Seatstay Pivot",
+              "torqueNm": 12,
+              "size": "M6",
+              "count": 4
+            }
+          ]
+        },
+        {
+          "name": "샥 마운트",
+          "bolts": [
+            {
+              "name": "Shock Mount (Upper)",
+              "torqueNm": 15,
+              "torqueNmMax": 20,
+              "size": "M8",
+              "note": "그리스 도포 권장",
+              "warningIcon": "info"
+            },
+            {
+              "name": "Shock Mount (Lower)",
+              "torqueNm": 15,
+              "torqueNmMax": 20,
+              "size": "M8"
+            }
+          ]
+        },
+        {
+          "name": "스루액슬",
+          "bolts": [
+            {
+              "name": "Rear Thru Axle",
+              "torqueNm": 12,
+              "note": "Canyon 전용 스루액슬"
+            }
+          ]
+        },
+        {
+          "name": "시트포스트",
+          "bolts": [
+            {
+              "name": "Seatpost Clamp",
+              "torqueNm": 5,
+              "torqueNmMax": 6,
+              "size": "M5",
+              "note": "카본 포스트는 4-5Nm 권장",
+              "warningIcon": "warning"
+            }
+          ]
+        },
+        {
+          "name": "기타",
+          "bolts": [
+            {
+              "name": "Bottle Cage",
+              "torqueNm": 3,
+              "torqueNmMax": 5,
+              "size": "M5",
+              "count": 2
+            },
+            {
+              "name": "Cable Guide",
+              "torqueNm": 2,
+              "torqueNmMax": 3
+            },
+            {
+              "name": "ISCG Mount",
+              "torqueNm": 6,
+              "size": "M6",
+              "count": 3
+            }
+          ]
+        }
+      ],
+      "source": "Canyon MTB Owner's Manual / Canyon Support"
+    },
+    "Strive CFR": {
+      "variants": ["Strive CFR", "Strive CF"],
+      "year": "2022-",
+      "sections": [
+        {
+          "name": "피벗 & 링키지",
+          "bolts": [
+            {
+              "name": "Main Pivot",
+              "torqueNm": 20,
+              "size": "M10",
+              "count": 2,
+              "note": "Loctite 243 권장",
+              "warningIcon": "warning"
+            },
+            {
+              "name": "Rocker Link Pivot (Upper)",
+              "torqueNm": 17,
+              "size": "M8",
+              "count": 2
+            },
+            {
+              "name": "Rocker Link Pivot (Lower)",
+              "torqueNm": 17,
+              "size": "M8",
+              "count": 2
+            },
+            {
+              "name": "Seatstay Pivot",
+              "torqueNm": 12,
+              "size": "M6",
+              "count": 4
+            },
+            {
+              "name": "Shapeshifter Mount",
+              "torqueNm": 8,
+              "size": "M6",
+              "count": 2,
+              "note": "Shapeshifter 장착 모델만 해당",
+              "warningIcon": "info"
+            }
+          ]
+        },
+        {
+          "name": "샥 마운트",
+          "bolts": [
+            {
+              "name": "Shock Mount (Upper)",
+              "torqueNm": 15,
+              "torqueNmMax": 20,
+              "size": "M8",
+              "note": "그리스 도포 권장"
+            },
+            {
+              "name": "Shock Mount (Lower)",
+              "torqueNm": 15,
+              "torqueNmMax": 20,
+              "size": "M8"
+            }
+          ]
+        },
+        {
+          "name": "스루액슬",
+          "bolts": [
+            {
+              "name": "Rear Thru Axle",
+              "torqueNm": 12,
+              "note": "Canyon 전용 스루액슬"
+            }
+          ]
+        },
+        {
+          "name": "시트포스트",
+          "bolts": [
+            {
+              "name": "Seatpost Clamp",
+              "torqueNm": 5,
+              "torqueNmMax": 6,
+              "size": "M5",
+              "note": "카본 포스트는 4-5Nm 권장",
+              "warningIcon": "warning"
+            }
+          ]
+        },
+        {
+          "name": "기타",
+          "bolts": [
+            {
+              "name": "Bottle Cage",
+              "torqueNm": 3,
+              "torqueNmMax": 5,
+              "size": "M5",
+              "count": 2
+            },
+            {
+              "name": "Cable Guide",
+              "torqueNm": 2,
+              "torqueNmMax": 3
+            }
+          ]
+        }
+      ],
+      "source": "Canyon MTB Owner's Manual / Canyon Support"
+    }
+  }
+}

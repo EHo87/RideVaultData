@@ -1,0 +1,149 @@
+{
+  "brand": "Nukeproof",
+  "model": "Reactor V2",
+  "year": 2026,
+  "type": "trail",
+  "wheelSize": "29",
+  "travel": {
+    "front": 150,
+    "rear": 140
+  },
+  "source": "Nukeproof Official",
+  "sourceUrl": "https://www.nukeproof.com/en_PL/bikes/SBIREANKP004",
+  "lastUpdated": "2026-08-25",
+  "notes": "재출범(Belgian Cycling Factory) 첫 모델 (2025-11 발표, MY2026). Trail 포지션 기준 수치. 휠사이즈 칩으로 MX(멀릿) 전환 가능. Reactor 290 알로이 기준.",
+  "flipchips": [
+    {
+      "id": "trail-rail",
+      "name": "Trail/Rail Flip Chip",
+      "description": "지오메트리 칩 - BB 높이와 헤드/시트앵글 조정",
+      "positions": [
+        {
+          "id": "trail",
+          "name": "Trail",
+          "description": "낮은 BB, 슬랙한 헤드앵글 - 험지 하강 지향"
+        },
+        {
+          "id": "rail",
+          "name": "Rail",
+          "description": "높은 BB(+6mm), 스팁한 헤드앵글 - 페달링 지향"
+        }
+      ],
+      "default": "trail",
+      "adjustments": {
+        "trail": {
+          "bbHeight": 0,
+          "headAngle": 0,
+          "seatAngle": 0
+        },
+        "rail": {
+          "bbHeight": 6,
+          "headAngle": 0.5,
+          "seatAngle": 0.5
+        }
+      }
+    }
+  ],
+  "sizes": [
+    {
+      "size": "S",
+      "reach": 435,
+      "stack": 620,
+      "headAngle": 64.5,
+      "seatAngle": 77.0,
+      "seatAngleEffective": 77.0,
+      "chainstay": 440,
+      "wheelbase": 1199,
+      "bbDrop": 39,
+      "bbHeight": 330,
+      "seatTube": 380,
+      "topTubeActual": null,
+      "topTubeEffective": 578,
+      "standover": 745,
+      "forkOffset": 42,
+      "forkLength": null,
+      "headTube": 100,
+      "trail": 132
+    },
+    {
+      "size": "M",
+      "reach": 460,
+      "stack": 629,
+      "headAngle": 64.5,
+      "seatAngle": 77.0,
+      "seatAngleEffective": 77.0,
+      "chainstay": 440,
+      "wheelbase": 1228,
+      "bbDrop": 39,
+      "bbHeight": 330,
+      "seatTube": 410,
+      "topTubeActual": null,
+      "topTubeEffective": 605,
+      "standover": 750,
+      "forkOffset": 42,
+      "forkLength": null,
+      "headTube": 110,
+      "trail": 132
+    },
+    {
+      "size": "L",
+      "reach": 480,
+      "stack": 638,
+      "headAngle": 64.5,
+      "seatAngle": 77.0,
+      "seatAngleEffective": 77.0,
+      "chainstay": 445,
+      "wheelbase": 1257,
+      "bbDrop": 39,
+      "bbHeight": 330,
+      "seatTube": 440,
+      "topTubeActual": null,
+      "topTubeEffective": 622,
+      "standover": 755,
+      "forkOffset": 42,
+      "forkLength": null,
+      "headTube": 120,
+      "trail": 132
+    },
+    {
+      "size": "XL",
+      "reach": 500,
+      "stack": 647,
+      "headAngle": 64.5,
+      "seatAngle": 77.0,
+      "seatAngleEffective": 77.0,
+      "chainstay": 445,
+      "wheelbase": 1282,
+      "bbDrop": 39,
+      "bbHeight": 330,
+      "seatTube": 470,
+      "topTubeActual": null,
+      "topTubeEffective": 644,
+      "standover": 760,
+      "forkOffset": 42,
+      "forkLength": null,
+      "headTube": 130,
+      "trail": 132
+    },
+    {
+      "size": "XXL",
+      "reach": 520,
+      "stack": 656,
+      "headAngle": 64.5,
+      "seatAngle": 77.0,
+      "seatAngleEffective": 77.0,
+      "chainstay": 445,
+      "wheelbase": 1306,
+      "bbDrop": 39,
+      "bbHeight": 330,
+      "seatTube": 500,
+      "topTubeActual": null,
+      "topTubeEffective": 666,
+      "standover": 765,
+      "forkOffset": 42,
+      "forkLength": null,
+      "headTube": 140,
+      "trail": 132
+    }
+  ]
+}

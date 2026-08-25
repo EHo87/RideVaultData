@@ -1,0 +1,128 @@
+{
+  "brand": "Transition",
+  "model": "Patrol",
+  "year": 2025,
+  "type": "enduro",
+  "wheelSize": "27.5",
+  "travel": {
+    "front": 170,
+    "rear": 160
+  },
+  "source": "Transition Bikes Official",
+  "sourceUrl": "https://www.transitionbikes.com/bikes/patrol",
+  "lastUpdated": "2026-03-31",
+  "flipchips": [
+    {
+      "id": "giddy-up",
+      "name": "GiddyUp Chip",
+      "description": "Transition의 지오메트리 조정 칩",
+      "positions": [
+        {
+          "id": "low",
+          "name": "Low",
+          "description": "낮은 BB, 슬랙한 헤드앵글"
+        },
+        {
+          "id": "high",
+          "name": "High",
+          "description": "높은 BB, 스팁한 헤드앵글"
+        }
+      ],
+      "default": "low",
+      "adjustments": {
+        "low": {
+          "bbHeight": 0,
+          "headAngle": 0,
+          "seatAngle": 0
+        },
+        "high": {
+          "bbHeight": 8,
+          "headAngle": 0.5,
+          "seatAngle": 0.3
+        }
+      }
+    }
+  ],
+  "sizes": [
+    {
+      "size": "S",
+      "reach": 430,
+      "stack": 598,
+      "headAngle": 63.5,
+      "seatAngle": 77.5,
+      "seatAngleEffective": 77.5,
+      "chainstay": 425,
+      "wheelbase": 1196,
+      "bbDrop": 28,
+      "bbHeight": 339,
+      "seatTube": 390,
+      "topTubeActual": null,
+      "topTubeEffective": 560,
+      "standover": null,
+      "forkOffset": 44,
+      "forkLength": null,
+      "headTube": 100,
+      "trail": null
+    },
+    {
+      "size": "M",
+      "reach": 455,
+      "stack": 606,
+      "headAngle": 63.5,
+      "seatAngle": 77.5,
+      "seatAngleEffective": 77.5,
+      "chainstay": 425,
+      "wheelbase": 1222,
+      "bbDrop": 28,
+      "bbHeight": 339,
+      "seatTube": 410,
+      "topTubeActual": null,
+      "topTubeEffective": 586,
+      "standover": null,
+      "forkOffset": 44,
+      "forkLength": null,
+      "headTube": 110,
+      "trail": null
+    },
+    {
+      "size": "L",
+      "reach": 480,
+      "stack": 616,
+      "headAngle": 63.5,
+      "seatAngle": 77.5,
+      "seatAngleEffective": 77.5,
+      "chainstay": 430,
+      "wheelbase": 1250,
+      "bbDrop": 28,
+      "bbHeight": 339,
+      "seatTube": 435,
+      "topTubeActual": null,
+      "topTubeEffective": 612,
+      "standover": null,
+      "forkOffset": 44,
+      "forkLength": null,
+      "headTube": 120,
+      "trail": null
+    },
+    {
+      "size": "XL",
+      "reach": 510,
+      "stack": 626,
+      "headAngle": 63.5,
+      "seatAngle": 77.5,
+      "seatAngleEffective": 77.5,
+      "chainstay": 430,
+      "wheelbase": 1283,
+      "bbDrop": 28,
+      "bbHeight": 339,
+      "seatTube": 470,
+      "topTubeActual": null,
+      "topTubeEffective": 643,
+      "standover": null,
+      "forkOffset": 44,
+      "forkLength": null,
+      "headTube": 135,
+      "trail": null
+    }
+  ]
+}

@@ -1,0 +1,129 @@
+{
+  "brand": "Evil",
+  "model": "Offering V4",
+  "year": 2026,
+  "type": "trail",
+  "wheelSize": "29",
+  "travel": {
+    "front": 170,
+    "rear": 151
+  },
+  "source": "Vital MTB (Evil 공식 지오메트리 차트)",
+  "sourceUrl": "https://www.vitalmtb.com/product/guide/bikes/evil/offering-70791",
+  "lastUpdated": "2026-08-25",
+  "notes": "신세대 Offering (2025-11 발표, MY2026). Boost 148 복귀. 기준 수치: 170mm 포크 + Low 포지션. 150/160/170mm 포크 호환. 2포지션 Rip Chip으로 High 전환 가능.",
+  "flipchips": [
+    {
+      "id": "rip-chip",
+      "name": "Rip Chip",
+      "description": "링키지 2포지션 칩 - 헤드앵글과 BB 높이 조정",
+      "positions": [
+        {
+          "id": "low",
+          "name": "Low",
+          "description": "낮은 BB, 슬랙한 헤드앵글"
+        },
+        {
+          "id": "high",
+          "name": "High",
+          "description": "높은 BB(+9mm), 스팁한 헤드앵글"
+        }
+      ],
+      "default": "low",
+      "adjustments": {
+        "low": {
+          "bbHeight": 0,
+          "headAngle": 0,
+          "seatAngle": 0
+        },
+        "high": {
+          "bbHeight": 9,
+          "headAngle": 0.5,
+          "seatAngle": 0.6
+        }
+      }
+    }
+  ],
+  "sizes": [
+    {
+      "size": "S",
+      "reach": 431,
+      "stack": 621,
+      "headAngle": 63.6,
+      "seatAngle": 77.9,
+      "seatAngleEffective": 77.9,
+      "chainstay": 437,
+      "wheelbase": 1213,
+      "bbDrop": null,
+      "bbHeight": 347,
+      "seatTube": 400,
+      "topTubeActual": null,
+      "topTubeEffective": 563,
+      "standover": 684,
+      "forkOffset": 44,
+      "forkLength": null,
+      "headTube": 95,
+      "trail": null
+    },
+    {
+      "size": "M",
+      "reach": 453,
+      "stack": 630,
+      "headAngle": 63.6,
+      "seatAngle": 77.8,
+      "seatAngleEffective": 77.8,
+      "chainstay": 437,
+      "wheelbase": 1238,
+      "bbDrop": null,
+      "bbHeight": 347,
+      "seatTube": 415,
+      "topTubeActual": null,
+      "topTubeEffective": 586,
+      "standover": 690,
+      "forkOffset": 44,
+      "forkLength": null,
+      "headTube": 105,
+      "trail": null
+    },
+    {
+      "size": "L",
+      "reach": 475,
+      "stack": 638,
+      "headAngle": 63.6,
+      "seatAngle": 77.7,
+      "seatAngleEffective": 77.7,
+      "chainstay": 437,
+      "wheelbase": 1264,
+      "bbDrop": null,
+      "bbHeight": 347,
+      "seatTube": 435,
+      "topTubeActual": null,
+      "topTubeEffective": 610,
+      "standover": 700,
+      "forkOffset": 44,
+      "forkLength": null,
+      "headTube": 114,
+      "trail": null
+    },
+    {
+      "size": "XL",
+      "reach": 494,
+      "stack": 653,
+      "headAngle": 63.6,
+      "seatAngle": 78.1,
+      "seatAngleEffective": 78.1,
+      "chainstay": 437,
+      "wheelbase": 1290,
+      "bbDrop": null,
+      "bbHeight": 347,
+      "seatTube": 470,
+      "topTubeActual": null,
+      "topTubeEffective": 626,
+      "standover": 724,
+      "forkOffset": 44,
+      "forkLength": null,
+      "headTube": 130,
+      "trail": null
+    }
+  ]
+}

@@ -1,0 +1,129 @@
+{
+  "brand": "Transition",
+  "model": "Spur",
+  "year": 2026,
+  "type": "downcountry",
+  "wheelSize": "29",
+  "travel": {
+    "front": 130,
+    "rear": 120
+  },
+  "source": "Transition Bikes Official",
+  "sourceUrl": "https://www.transitionbikes.com/Bikes_Spur.cfm",
+  "lastUpdated": "2026-08-25",
+  "notes": "신세대 Spur (2026-03 발표). High 포지션 기준 수치. 44mm 포크 오프셋 기준.",
+  "flipchips": [
+    {
+      "id": "geometry",
+      "name": "Geometry Flip Chip",
+      "description": "BB 높이와 헤드앵글 조정",
+      "positions": [
+        {
+          "id": "low",
+          "name": "Low",
+          "description": "낮은 BB(-7mm), 슬랙한 헤드앵글"
+        },
+        {
+          "id": "high",
+          "name": "High",
+          "description": "높은 BB, 스팁한 헤드앵글"
+        }
+      ],
+      "default": "high",
+      "adjustments": {
+        "low": {
+          "bbHeight": -7,
+          "headAngle": -0.5,
+          "seatAngle": -0.5
+        },
+        "high": {
+          "bbHeight": 0,
+          "headAngle": 0,
+          "seatAngle": 0
+        }
+      }
+    }
+  ],
+  "sizes": [
+    {
+      "size": "S",
+      "reach": 430,
+      "stack": 608,
+      "headAngle": 66.0,
+      "seatAngle": 77.3,
+      "seatAngleEffective": 77.3,
+      "chainstay": 434,
+      "wheelbase": 1163,
+      "bbDrop": 40,
+      "bbHeight": 335,
+      "seatTube": 360,
+      "topTubeActual": null,
+      "topTubeEffective": 570,
+      "standover": 660,
+      "forkOffset": 44,
+      "forkLength": null,
+      "headTube": 100,
+      "trail": null
+    },
+    {
+      "size": "M",
+      "reach": 460,
+      "stack": 617,
+      "headAngle": 66.0,
+      "seatAngle": 76.8,
+      "seatAngleEffective": 76.8,
+      "chainstay": 434,
+      "wheelbase": 1197,
+      "bbDrop": 40,
+      "bbHeight": 335,
+      "seatTube": 390,
+      "topTubeActual": null,
+      "topTubeEffective": 603,
+      "standover": 660,
+      "forkOffset": 44,
+      "forkLength": null,
+      "headTube": 110,
+      "trail": null
+    },
+    {
+      "size": "L",
+      "reach": 485,
+      "stack": 626,
+      "headAngle": 66.0,
+      "seatAngle": 76.4,
+      "seatAngleEffective": 76.4,
+      "chainstay": 439,
+      "wheelbase": 1231,
+      "bbDrop": 40,
+      "bbHeight": 335,
+      "seatTube": 430,
+      "topTubeActual": null,
+      "topTubeEffective": 631,
+      "standover": 660,
+      "forkOffset": 44,
+      "forkLength": null,
+      "headTube": 120,
+      "trail": null
+    },
+    {
+      "size": "XL",
+      "reach": 510,
+      "stack": 640,
+      "headAngle": 66.0,
+      "seatAngle": 76.0,
+      "seatAngleEffective": 76.0,
+      "chainstay": 439,
+      "wheelbase": 1262,
+      "bbDrop": 40,
+      "bbHeight": 335,
+      "seatTube": 460,
+      "topTubeActual": null,
+      "topTubeEffective": 660,
+      "standover": 660,
+      "forkOffset": 44,
+      "forkLength": null,
+      "headTube": 135,
+      "trail": null
+    }
+  ]
+}

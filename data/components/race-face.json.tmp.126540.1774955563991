@@ -1,0 +1,193 @@
+{
+  "brand": "Race Face",
+  "lastUpdated": "2026-03-31",
+  "components": {
+    "handlebar": {
+      "Turbine R 35": {
+        "variants": ["Turbine R 35", "Turbine R 35mm", "Turbine R"],
+        "bolts": [
+          {
+            "name": "Clamp Bolt",
+            "torqueNm": 5,
+            "count": 4,
+            "size": "M5",
+            "note": "대각선 순서로 조임",
+            "warningIcon": "warning"
+          }
+        ],
+        "source": "Race Face Installation Guide"
+      },
+      "Next R 35": {
+        "variants": ["Next R 35", "Next R 35mm", "Next R"],
+        "bolts": [
+          {
+            "name": "Clamp Bolt",
+            "torqueNm": 4,
+            "torqueNmMax": 5,
+            "count": 4,
+            "size": "M5",
+            "note": "카본 바 - 낮은 토크 권장, 대각선 순서로 조임",
+            "warningIcon": "warning"
+          }
+        ],
+        "source": "Race Face Installation Guide"
+      },
+      "Chester 35": {
+        "variants": ["Chester 35", "Chester 35mm"],
+        "bolts": [
+          {
+            "name": "Clamp Bolt",
+            "torqueNm": 5,
+            "count": 4,
+            "size": "M5",
+            "note": "대각선 순서로 조임",
+            "warningIcon": "warning"
+          }
+        ],
+        "source": "Race Face Installation Guide"
+      }
+    },
+    "stem": {
+      "Turbine R 35": {
+        "variants": ["Turbine R 35", "Turbine R Stem 35mm"],
+        "bolts": [
+          {
+            "name": "Steerer Clamp",
+            "torqueNm": 8,
+            "count": 2,
+            "size": "M5"
+          },
+          {
+            "name": "Faceplate Bolt",
+            "torqueNm": 5,
+            "count": 4,
+            "size": "M5",
+            "note": "X패턴 조임",
+            "warningIcon": "warning"
+          }
+        ],
+        "source": "Race Face Installation Guide"
+      },
+      "Atlas 35": {
+        "variants": ["Atlas 35", "Atlas Stem 35mm"],
+        "bolts": [
+          {
+            "name": "Steerer Clamp",
+            "torqueNm": 8,
+            "count": 2,
+            "size": "M5"
+          },
+          {
+            "name": "Faceplate Bolt",
+            "torqueNm": 6,
+            "count": 4,
+            "size": "M5",
+            "note": "X패턴 조임",
+            "warningIcon": "warning"
+          }
+        ],
+        "source": "Race Face Installation Guide"
+      }
+    },
+    "crankset": {
+      "Next SL": {
+        "variants": ["Next SL", "Next SL G5", "Next SL Cinch"],
+        "bolts": [
+          {
+            "name": "Crank Arm Bolt",
+            "torqueNm": 54,
+            "size": "Self-Extracting",
+            "note": "Cinch 시스템 - 전용 툴 사용",
+            "warningIcon": "warning"
+          },
+          {
+            "name": "Chainring Bolt",
+            "torqueNm": 12,
+            "count": 1,
+            "size": "Cinch Lockring",
+            "note": "Cinch lockring 전용 툴 필요"
+          }
+        ],
+        "source": "Race Face Installation Guide"
+      },
+      "Turbine": {
+        "variants": ["Turbine", "Turbine Cinch"],
+        "bolts": [
+          {
+            "name": "Crank Arm Bolt",
+            "torqueNm": 54,
+            "size": "Self-Extracting",
+            "note": "Cinch 시스템",
+            "warningIcon": "warning"
+          },
+          {
+            "name": "Chainring Bolt",
+            "torqueNm": 12,
+            "count": 1,
+            "size": "Cinch Lockring"
+          }
+        ],
+        "source": "Race Face Installation Guide"
+      },
+      "Aeffect R": {
+        "variants": ["Aeffect R", "Aeffect R Cinch"],
+        "bolts": [
+          {
+            "name": "Crank Arm Bolt",
+            "torqueNm": 54,
+            "size": "Self-Extracting",
+            "note": "Cinch 시스템",
+            "warningIcon": "warning"
+          },
+          {
+            "name": "Chainring Bolt",
+            "torqueNm": 12,
+            "count": 1,
+            "size": "Cinch Lockring"
+          }
+        ],
+        "source": "Race Face Installation Guide"
+      }
+    },
+    "pedals": {
+      "Chester": {
+        "variants": ["Chester", "Chester Composite"],
+        "bolts": [
+          {
+            "name": "Pedal Spindle",
+            "torqueNm": 35,
+            "note": "그리스 도포 후 설치, 좌측 페달 역나사",
+            "warningIcon": "warning"
+          },
+          {
+            "name": "Pin",
+            "torqueNm": 1.5,
+            "count": 8,
+            "size": "M4",
+            "note": "핀당 토크값"
+          }
+        ],
+        "source": "Race Face Installation Guide"
+      },
+      "Atlas": {
+        "variants": ["Atlas", "Atlas Platform"],
+        "bolts": [
+          {
+            "name": "Pedal Spindle",
+            "torqueNm": 35,
+            "note": "그리스 도포 후 설치, 좌측 페달 역나사",
+            "warningIcon": "warning"
+          },
+          {
+            "name": "Pin",
+            "torqueNm": 1.5,
+            "count": 10,
+            "size": "M4",
+            "note": "핀당 토크값"
+          }
+        ],
+        "source": "Race Face Installation Guide"
+      }
+    }
+  }
+}

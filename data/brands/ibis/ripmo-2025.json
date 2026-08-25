@@ -1,0 +1,128 @@
+{
+  "brand": "Ibis",
+  "model": "Ripmo",
+  "year": 2025,
+  "type": "enduro",
+  "wheelSize": "29",
+  "travel": {
+    "front": 170,
+    "rear": 152
+  },
+  "source": "Ibis Cycles Official",
+  "sourceUrl": "https://www.ibiscycles.com/bikes/ripmo",
+  "lastUpdated": "2026-03-31",
+  "flipchips": [
+    {
+      "id": "geometry-flip",
+      "name": "Geometry Flip Chip",
+      "description": "헤드앵글과 BB 높이를 조정",
+      "positions": [
+        {
+          "id": "low",
+          "name": "Low",
+          "description": "낮은 BB, 슬랙한 헤드앵글"
+        },
+        {
+          "id": "high",
+          "name": "High",
+          "description": "높은 BB, 스팁한 헤드앵글"
+        }
+      ],
+      "default": "low",
+      "adjustments": {
+        "low": {
+          "bbHeight": 0,
+          "headAngle": 0,
+          "seatAngle": 0
+        },
+        "high": {
+          "bbHeight": 7,
+          "headAngle": 0.5,
+          "seatAngle": 0.3
+        }
+      }
+    }
+  ],
+  "sizes": [
+    {
+      "size": "S",
+      "reach": 440,
+      "stack": 616,
+      "headAngle": 63.8,
+      "seatAngle": 77.8,
+      "seatAngleEffective": 77.8,
+      "chainstay": 435,
+      "wheelbase": 1228,
+      "bbDrop": 34,
+      "bbHeight": 344,
+      "seatTube": 400,
+      "topTubeActual": null,
+      "topTubeEffective": 575,
+      "standover": null,
+      "forkOffset": 44,
+      "forkLength": null,
+      "headTube": 100,
+      "trail": null
+    },
+    {
+      "size": "M",
+      "reach": 465,
+      "stack": 623,
+      "headAngle": 63.8,
+      "seatAngle": 77.8,
+      "seatAngleEffective": 77.8,
+      "chainstay": 435,
+      "wheelbase": 1254,
+      "bbDrop": 34,
+      "bbHeight": 344,
+      "seatTube": 425,
+      "topTubeActual": null,
+      "topTubeEffective": 600,
+      "standover": null,
+      "forkOffset": 44,
+      "forkLength": null,
+      "headTube": 108,
+      "trail": null
+    },
+    {
+      "size": "L",
+      "reach": 490,
+      "stack": 633,
+      "headAngle": 63.8,
+      "seatAngle": 77.8,
+      "seatAngleEffective": 77.8,
+      "chainstay": 440,
+      "wheelbase": 1282,
+      "bbDrop": 34,
+      "bbHeight": 344,
+      "seatTube": 455,
+      "topTubeActual": null,
+      "topTubeEffective": 627,
+      "standover": null,
+      "forkOffset": 44,
+      "forkLength": null,
+      "headTube": 118,
+      "trail": null
+    },
+    {
+      "size": "XL",
+      "reach": 520,
+      "stack": 648,
+      "headAngle": 63.8,
+      "seatAngle": 77.8,
+      "seatAngleEffective": 77.8,
+      "chainstay": 440,
+      "wheelbase": 1315,
+      "bbDrop": 34,
+      "bbHeight": 344,
+      "seatTube": 490,
+      "topTubeActual": null,
+      "topTubeEffective": 660,
+      "standover": null,
+      "forkOffset": 44,
+      "forkLength": null,
+      "headTube": 133,
+      "trail": null
+    }
+  ]
+}

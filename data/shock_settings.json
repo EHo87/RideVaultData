@@ -1,269 +1,301 @@
 {
-  "version": 1,
+  "version": 3,
+  "lastUpdated": "2026-04-20",
+  "weightNote": "Rider + gear weight (fully geared riding weight)",
+  "shockNote": "Shock air pressure depends heavily on frame leverage ratio. PSI charts are starting points only - always verify with sag measurement.",
   "shocks": [
     {
       "brand": "Fox",
-      "model": "Float X2 Factory",
-      "modelPattern": "Float X2|X2 Factory",
-      "strokeLengths": [55, 57.5, 62.5, 65, 67.5, 70, 75],
+      "model": "Float X2",
+      "variants": ["Factory", "Performance Elite"],
+      "modelPattern": "Float X2|X2 Factory|X2 Performance",
+      "years": [2022, 2023, 2024, 2025],
+      "generation": "Factory / Performance Elite",
       "springType": "AIR",
-      "pressureChart": {
-        "unit": "psi",
-        "description": "라이더 몸무게 기준 (레버레이지 비율 2.5:1 기준)",
+      "maxPressure": 350,
+      "pressureGuide": {
+        "method": "weight_ratio",
+        "description": "Start with PSI = rider weight in lbs, then adjust for target sag",
+        "ratio": 1.0,
+        "unit": "lbs_to_psi",
+        "note": "160 lbs rider → start at 160 psi → measure sag → adjust"
+      },
+      "targetSagPercent": 30,
+      "reboundChart": {
+        "note": "Clicks from closed, indexed by air pressure range",
         "data": [
-          { "weightKg": 50, "pressure": 120 },
-          { "weightKg": 55, "pressure": 130 },
-          { "weightKg": 60, "pressure": 140 },
-          { "weightKg": 65, "pressure": 150 },
-          { "weightKg": 70, "pressure": 160 },
-          { "weightKg": 75, "pressure": 170 },
-          { "weightKg": 80, "pressure": 180 },
-          { "weightKg": 85, "pressure": 190 },
-          { "weightKg": 90, "pressure": 200 },
-          { "weightKg": 95, "pressure": 210 },
-          { "weightKg": 100, "pressure": 220 }
+          { "psiMin": 120, "psiMax": 140, "lsr": 14, "hsr": 5 },
+          { "psiMin": 140, "psiMax": 160, "lsr": 12, "hsr": 5 },
+          { "psiMin": 160, "psiMax": 180, "lsr": 11, "hsr": 4 },
+          { "psiMin": 180, "psiMax": 200, "lsr": 10, "hsr": 4 },
+          { "psiMin": 200, "psiMax": 220, "lsr": 8, "hsr": 3 },
+          { "psiMin": 220, "psiMax": 240, "lsr": 7, "hsr": 3 },
+          { "psiMin": 240, "psiMax": 260, "lsr": 5, "hsr": 2 },
+          { "psiMin": 260, "psiMax": 280, "lsr": 3, "hsr": 2 },
+          { "psiMin": 280, "psiMax": 300, "lsr": 2, "hsr": 1 }
         ]
       },
-      "defaultSettings": {
-        "sagPercent": 30,
-        "rebound": {
-          "type": "HSR_LSR",
-          "hsrDefault": 8,
-          "hsrRange": [0, 16],
-          "lsrDefault": 10,
-          "lsrRange": [0, 18]
-        },
-        "compression": {
-          "type": "HSC_LSC",
-          "hscDefault": 6,
-          "hscRange": [0, 12],
-          "lscDefault": 12,
-          "lscRange": [0, 22]
-        },
-        "tokens": {
-          "default": 1
-        }
+      "compressionDefaults": {
+        "hsc": 6, "lsc": 12,
+        "note": "Clicks from closed, weight-independent starting point"
       },
-      "source": "Fox 공식 튜닝 가이드 2024"
+      "tokens": { "default": 1, "note": "Volume spacer" },
+      "source": "Fox 2024 Float X2 Owner's Manual",
+      "sourceUrl": "https://tech.ridefox.com/bike/owners-manuals/2926/shock--2024-float-x2"
     },
     {
       "brand": "Fox",
-      "model": "Float X Factory",
-      "modelPattern": "Float X(?! 2)|Float X Factory",
-      "strokeLengths": [50, 52.5, 55, 57.5, 60],
+      "model": "Float X",
+      "variants": ["Factory", "Performance"],
+      "modelPattern": "Float X(?! 2)|Float X Factory(?! 2)|Float X Performance(?! 2)",
+      "years": [2022, 2023, 2024, 2025],
+      "generation": "Factory / Performance",
       "springType": "AIR",
-      "pressureChart": {
-        "unit": "psi",
+      "maxPressure": 350,
+      "pressureGuide": {
+        "method": "weight_ratio",
+        "ratio": 1.0,
+        "unit": "lbs_to_psi"
+      },
+      "targetSagPercent": 30,
+      "reboundChart": {
+        "note": "Clicks from closed, indexed by air pressure range (single rebound)",
         "data": [
-          { "weightKg": 50, "pressure": 125 },
-          { "weightKg": 60, "pressure": 145 },
-          { "weightKg": 70, "pressure": 165 },
-          { "weightKg": 80, "pressure": 185 },
-          { "weightKg": 90, "pressure": 205 },
-          { "weightKg": 100, "pressure": 225 }
+          { "psiMin": 120, "psiMax": 150, "rebound": 12 },
+          { "psiMin": 150, "psiMax": 180, "rebound": 10 },
+          { "psiMin": 180, "psiMax": 210, "rebound": 8 },
+          { "psiMin": 210, "psiMax": 240, "rebound": 6 },
+          { "psiMin": 240, "psiMax": 280, "rebound": 4 }
         ]
       },
-      "defaultSettings": {
-        "sagPercent": 30,
-        "rebound": {
-          "type": "SINGLE",
-          "default": 8,
-          "range": [0, 16]
-        },
-        "compression": {
-          "type": "HSC_LSC",
-          "hscDefault": 4,
-          "hscRange": [0, 10],
-          "lscDefault": 8,
-          "lscRange": [0, 16]
-        }
+      "compressionDefaults": {
+        "hsc": 4, "lsc": 8,
+        "note": "Clicks from closed"
       },
-      "source": "Fox 공식 튜닝 가이드 2024"
+      "source": "Fox 공식 튜닝 가이드 2024",
+      "sourceUrl": "https://tech.ridefox.com"
     },
     {
       "brand": "Fox",
-      "model": "DHX2 Factory",
+      "model": "DPX2",
+      "variants": ["Factory", "Performance"],
+      "modelPattern": "DPX2|DPX 2",
+      "years": [2021, 2022, 2023, 2024],
+      "generation": "Factory / Performance",
+      "springType": "AIR",
+      "maxPressure": 350,
+      "pressureGuide": {
+        "method": "weight_ratio",
+        "ratio": 1.0,
+        "unit": "lbs_to_psi"
+      },
+      "targetSagPercent": 28,
+      "reboundChart": {
+        "note": "Clicks from closed, single rebound dial, indexed by PSI/weight",
+        "data": [
+          { "psiMin": 120, "psiMax": 140, "rebound": 13 },
+          { "psiMin": 140, "psiMax": 160, "rebound": 12 },
+          { "psiMin": 160, "psiMax": 180, "rebound": 11 },
+          { "psiMin": 180, "psiMax": 200, "rebound": 10 },
+          { "psiMin": 200, "psiMax": 220, "rebound": 8 },
+          { "psiMin": 220, "psiMax": 240, "rebound": 7 },
+          { "psiMin": 240, "psiMax": 260, "rebound": 5 },
+          { "psiMin": 260, "psiMax": 280, "rebound": 3 },
+          { "psiMin": 280, "psiMax": 300, "rebound": 2 }
+        ]
+      },
+      "compressionDefaults": {
+        "compression": 5,
+        "note": "Single compression lever, 3-position (open/medium/firm) + low-speed adjust"
+      },
+      "source": "Fox DPX2 Tuning Guide",
+      "sourceUrl": "https://tech.ridefox.com"
+    },
+    {
+      "brand": "Fox",
+      "model": "DHX2",
+      "variants": ["Factory"],
       "modelPattern": "DHX2|DHX 2",
-      "strokeLengths": [55, 57.5, 62.5, 65, 67.5, 70, 75],
+      "years": [2021, 2022, 2023, 2024, 2025],
+      "generation": "Factory",
       "springType": "COIL",
       "springRateChart": {
         "unit": "lbs/in",
-        "description": "라이더 몸무게 기준 권장 스프링 레이트",
+        "note": "Starting point - actual rate depends on frame leverage ratio. Verify with sag measurement.",
         "data": [
-          { "weightKg": 50, "springRate": 350 },
-          { "weightKg": 55, "springRate": 375 },
-          { "weightKg": 60, "springRate": 400 },
-          { "weightKg": 65, "springRate": 425 },
-          { "weightKg": 70, "springRate": 450 },
-          { "weightKg": 75, "springRate": 475 },
-          { "weightKg": 80, "springRate": 500 },
-          { "weightKg": 85, "springRate": 525 },
-          { "weightKg": 90, "springRate": 550 },
-          { "weightKg": 95, "springRate": 575 },
-          { "weightKg": 100, "springRate": 600 }
+          { "weightLbs": 120, "weightKg": 54, "springRate": 350 },
+          { "weightLbs": 130, "weightKg": 59, "springRate": 375 },
+          { "weightLbs": 140, "weightKg": 64, "springRate": 400 },
+          { "weightLbs": 150, "weightKg": 68, "springRate": 425 },
+          { "weightLbs": 160, "weightKg": 73, "springRate": 450 },
+          { "weightLbs": 170, "weightKg": 77, "springRate": 475 },
+          { "weightLbs": 180, "weightKg": 82, "springRate": 500 },
+          { "weightLbs": 190, "weightKg": 86, "springRate": 525 },
+          { "weightLbs": 200, "weightKg": 91, "springRate": 550 },
+          { "weightLbs": 210, "weightKg": 95, "springRate": 575 },
+          { "weightLbs": 220, "weightKg": 100, "springRate": 600 }
         ]
       },
-      "defaultSettings": {
-        "sagPercent": 30,
-        "rebound": {
-          "type": "HSR_LSR",
-          "hsrDefault": 8,
-          "hsrRange": [0, 16],
-          "lsrDefault": 10,
-          "lsrRange": [0, 18]
-        },
-        "compression": {
-          "type": "HSC_LSC",
-          "hscDefault": 6,
-          "hscRange": [0, 12],
-          "lscDefault": 10,
-          "lscRange": [0, 20]
-        }
+      "targetSagPercent": 30,
+      "reboundChart": {
+        "note": "Clicks from closed",
+        "data": [
+          { "springRateMin": 350, "springRateMax": 400, "lsr": 12, "hsr": 5 },
+          { "springRateMin": 400, "springRateMax": 450, "lsr": 10, "hsr": 4 },
+          { "springRateMin": 450, "springRateMax": 500, "lsr": 9, "hsr": 4 },
+          { "springRateMin": 500, "springRateMax": 550, "lsr": 8, "hsr": 3 },
+          { "springRateMin": 550, "springRateMax": 600, "lsr": 7, "hsr": 3 }
+        ]
       },
-      "source": "Fox 공식 튜닝 가이드 2024"
+      "compressionDefaults": {
+        "hsc": 6, "lsc": 10,
+        "note": "Clicks from closed"
+      },
+      "source": "Fox 공식 튜닝 가이드 2024",
+      "sourceUrl": "https://tech.ridefox.com"
     },
     {
       "brand": "RockShox",
       "model": "Super Deluxe Ultimate",
+      "variants": [],
       "modelPattern": "Super Deluxe.*Ultimate|SD Ultimate",
-      "strokeLengths": [50, 52.5, 55, 57.5, 60, 62.5, 65, 67.5, 70],
+      "years": [2021, 2022, 2023, 2024, 2025],
+      "generation": "MegNeg / DebonAir+",
       "springType": "AIR",
-      "pressureChart": {
-        "unit": "psi",
-        "description": "MegNeg 에어캔 기준",
+      "maxPressure": 350,
+      "pressureGuide": {
+        "method": "weight_ratio",
+        "ratio": 1.0,
+        "unit": "lbs_to_psi",
+        "note": "MegNeg air can - may require 10-15% more pressure than standard DebonAir"
+      },
+      "targetSagPercent": 30,
+      "reboundChart": {
+        "note": "Clicks from closed",
         "data": [
-          { "weightKg": 50, "pressure": 115 },
-          { "weightKg": 55, "pressure": 125 },
-          { "weightKg": 60, "pressure": 135 },
-          { "weightKg": 65, "pressure": 145 },
-          { "weightKg": 70, "pressure": 155 },
-          { "weightKg": 75, "pressure": 165 },
-          { "weightKg": 80, "pressure": 175 },
-          { "weightKg": 85, "pressure": 185 },
-          { "weightKg": 90, "pressure": 195 },
-          { "weightKg": 95, "pressure": 205 },
-          { "weightKg": 100, "pressure": 215 }
+          { "psiMin": 110, "psiMax": 140, "lsr": 12, "hsr": 4 },
+          { "psiMin": 140, "psiMax": 170, "lsr": 10, "hsr": 3 },
+          { "psiMin": 170, "psiMax": 200, "lsr": 9, "hsr": 3 },
+          { "psiMin": 200, "psiMax": 230, "lsr": 7, "hsr": 2 },
+          { "psiMin": 230, "psiMax": 260, "lsr": 5, "hsr": 2 }
         ]
       },
-      "defaultSettings": {
-        "sagPercent": 30,
-        "rebound": {
-          "type": "HSR_LSR",
-          "hsrDefault": 3,
-          "hsrRange": [0, 5],
-          "lsrDefault": 10,
-          "lsrRange": [0, 18]
-        },
-        "compression": {
-          "type": "HSC_LSC",
-          "hscDefault": 3,
-          "hscRange": [0, 5],
-          "lscDefault": 12,
-          "lscRange": [0, 22]
-        },
-        "tokens": {
-          "default": 0
-        }
+      "compressionDefaults": {
+        "hsc": 3, "lsc": 12,
+        "note": "Clicks from closed"
       },
-      "source": "RockShox Trailhead"
+      "tokens": { "default": 0, "note": "MegNeg air can - spacers reduce volume" },
+      "source": "RockShox Trailhead",
+      "sourceUrl": "https://www.sram.com/en/rockshox/campaigns/trailhead"
     },
     {
       "brand": "RockShox",
       "model": "Super Deluxe Coil Ultimate",
+      "variants": [],
       "modelPattern": "Super Deluxe.*Coil|SD Coil",
-      "strokeLengths": [50, 52.5, 55, 57.5, 60, 62.5, 65, 67.5, 70],
+      "years": [2021, 2022, 2023, 2024, 2025],
+      "generation": "Ultimate",
       "springType": "COIL",
       "springRateChart": {
         "unit": "lbs/in",
-        "description": "라이더 몸무게 기준 권장 스프링 레이트",
+        "note": "Starting point - heavily frame-dependent",
         "data": [
-          { "weightKg": 50, "springRate": 350 },
-          { "weightKg": 55, "springRate": 375 },
-          { "weightKg": 60, "springRate": 400 },
-          { "weightKg": 65, "springRate": 425 },
-          { "weightKg": 70, "springRate": 450 },
-          { "weightKg": 75, "springRate": 475 },
-          { "weightKg": 80, "springRate": 500 },
-          { "weightKg": 85, "springRate": 525 },
-          { "weightKg": 90, "springRate": 550 },
-          { "weightKg": 95, "springRate": 575 },
-          { "weightKg": 100, "springRate": 600 }
+          { "weightLbs": 120, "weightKg": 54, "springRate": 350 },
+          { "weightLbs": 140, "weightKg": 64, "springRate": 400 },
+          { "weightLbs": 160, "weightKg": 73, "springRate": 450 },
+          { "weightLbs": 180, "weightKg": 82, "springRate": 500 },
+          { "weightLbs": 200, "weightKg": 91, "springRate": 550 },
+          { "weightLbs": 220, "weightKg": 100, "springRate": 600 }
         ]
       },
-      "defaultSettings": {
-        "sagPercent": 30,
-        "rebound": {
-          "type": "HSR_LSR",
-          "hsrDefault": 3,
-          "hsrRange": [0, 5],
-          "lsrDefault": 10,
-          "lsrRange": [0, 18]
-        },
-        "compression": {
-          "type": "HSC_LSC",
-          "hscDefault": 3,
-          "hscRange": [0, 5],
-          "lscDefault": 12,
-          "lscRange": [0, 22]
-        }
+      "targetSagPercent": 30,
+      "reboundChart": {
+        "note": "Clicks from closed",
+        "data": [
+          { "springRateMin": 350, "springRateMax": 400, "lsr": 12, "hsr": 4 },
+          { "springRateMin": 400, "springRateMax": 450, "lsr": 10, "hsr": 3 },
+          { "springRateMin": 450, "springRateMax": 500, "lsr": 9, "hsr": 3 },
+          { "springRateMin": 500, "springRateMax": 550, "lsr": 7, "hsr": 2 },
+          { "springRateMin": 550, "springRateMax": 600, "lsr": 5, "hsr": 2 }
+        ]
       },
-      "source": "RockShox Trailhead"
+      "compressionDefaults": {
+        "hsc": 3, "lsc": 12,
+        "note": "Clicks from closed"
+      },
+      "source": "RockShox Trailhead",
+      "sourceUrl": "https://www.sram.com/en/rockshox/campaigns/trailhead"
     },
     {
       "brand": "RockShox",
       "model": "Deluxe Ultimate",
+      "variants": [],
       "modelPattern": "Deluxe Ultimate|Deluxe.*Ultimate",
-      "strokeLengths": [47.5, 50, 52.5, 55, 57.5],
+      "years": [2021, 2022, 2023, 2024, 2025],
+      "generation": "DebonAir+",
       "springType": "AIR",
-      "pressureChart": {
-        "unit": "psi",
+      "maxPressure": 350,
+      "pressureGuide": {
+        "method": "weight_ratio",
+        "ratio": 1.0,
+        "unit": "lbs_to_psi"
+      },
+      "targetSagPercent": 28,
+      "reboundChart": {
+        "note": "Clicks from closed, single rebound",
         "data": [
-          { "weightKg": 50, "pressure": 120 },
-          { "weightKg": 60, "pressure": 140 },
-          { "weightKg": 70, "pressure": 160 },
-          { "weightKg": 80, "pressure": 180 },
-          { "weightKg": 90, "pressure": 200 },
-          { "weightKg": 100, "pressure": 220 }
+          { "psiMin": 120, "psiMax": 150, "rebound": 12 },
+          { "psiMin": 150, "psiMax": 180, "rebound": 10 },
+          { "psiMin": 180, "psiMax": 210, "rebound": 8 },
+          { "psiMin": 210, "psiMax": 240, "rebound": 6 },
+          { "psiMin": 240, "psiMax": 270, "rebound": 4 }
         ]
       },
-      "defaultSettings": {
-        "sagPercent": 30,
-        "rebound": {
-          "type": "SINGLE",
-          "default": 8,
-          "range": [0, 16]
-        },
-        "compression": {
-          "type": "SINGLE",
-          "default": 5,
-          "range": [0, 12]
-        }
+      "compressionDefaults": {
+        "compression": 5,
+        "note": "Single dial, clicks from closed"
       },
-      "source": "RockShox Trailhead"
-    }
-  ],
-  "genericShock": {
-    "description": "모델 매칭 실패 시 사용하는 기본값",
-    "pressureFormula": {
-      "description": "weight(kg) * 2.3 + 5 = 대략적인 PSI",
-      "coefficient": 2.3,
-      "constant": 5
+      "source": "RockShox Trailhead",
+      "sourceUrl": "https://www.sram.com/en/rockshox/campaigns/trailhead"
     },
-    "springRateFormula": {
-      "description": "weight(kg) * 6.5 = 대략적인 lbs/in",
-      "coefficient": 6.5,
-      "constant": 0
-    },
-    "defaultSettings": {
-      "sagPercent": 30,
-      "rebound": {
-        "default": 10,
-        "range": [0, 20]
+    {
+      "brand": "Fox",
+      "model": "Float DPS",
+      "variants": ["Factory", "Performance"],
+      "modelPattern": "DPS|Float DPS|Float DPS EVOL",
+      "years": [2019, 2020, 2021, 2022, 2023, 2024],
+      "generation": "Factory / Performance / EVOL",
+      "springType": "AIR",
+      "maxPressure": 350,
+      "pressureGuide": {
+        "method": "weight_ratio",
+        "description": "Start with PSI = rider weight in lbs, then adjust for target sag",
+        "ratio": 1.0,
+        "unit": "lbs_to_psi",
+        "note": "EVOL equipped models max 350 psi. Non-EVOL max 300 psi."
       },
-      "compression": {
-        "default": 10,
-        "range": [0, 20]
-      }
+      "targetSagPercent": 28,
+      "reboundChart": {
+        "note": "Clicks from closed, single rebound dial, indexed by PSI",
+        "data": [
+          { "psiMin": 100, "psiMax": 120, "rebound": 11 },
+          { "psiMin": 120, "psiMax": 140, "rebound": 10 },
+          { "psiMin": 140, "psiMax": 160, "rebound": 9 },
+          { "psiMin": 160, "psiMax": 180, "rebound": 8 },
+          { "psiMin": 180, "psiMax": 200, "rebound": 7 },
+          { "psiMin": 200, "psiMax": 220, "rebound": 6 },
+          { "psiMin": 220, "psiMax": 240, "rebound": 5 },
+          { "psiMin": 240, "psiMax": 260, "rebound": 4 },
+          { "psiMin": 260, "psiMax": 280, "rebound": 3 },
+          { "psiMin": 280, "psiMax": 300, "rebound": 2 }
+        ]
+      },
+      "compressionDefaults": {
+        "compression": 0,
+        "note": "3-position lever (Open/Medium/Firm). Set to Open for sag measurement. Some models have additional LSC dial."
+      },
+      "source": "Fox Float DPS Owner's Manual 2022-2024",
+      "sourceUrl": "https://tech.ridefox.com/bike/owners-manuals/1147/shock--2022-float-dps-and-float-x"
     }
-  }
+  ]
 }

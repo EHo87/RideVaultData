@@ -1,0 +1,149 @@
+{
+  "brand": "Pivot",
+  "model": "Trailcat SL",
+  "year": 2025,
+  "type": "trail",
+  "wheelSize": "29",
+  "travel": {
+    "front": 140,
+    "rear": 120
+  },
+  "source": "Vital MTB (Pivot 공식 지오메트리 차트)",
+  "sourceUrl": "https://www.vitalmtb.com/product/guide/bikes/pivot/trailcat-62281",
+  "lastUpdated": "2026-08-25",
+  "notes": "2025-02 발표 신규 트레일 라인. Low 포지션 기준 수치 (140mm 포크, 44mm 오프셋 기준). LT 로커링크 장착 시 135mm 리어트래블(별도 모델). MX(멀릿) 호환.",
+  "flipchips": [
+    {
+      "id": "geometry",
+      "name": "Geometry Flip Chip",
+      "description": "업퍼 링크 2포지션 플립칩 - 헤드앵글과 BB 높이 조정",
+      "positions": [
+        {
+          "id": "low",
+          "name": "Low",
+          "description": "낮은 BB, 슬랙한 헤드앵글"
+        },
+        {
+          "id": "high",
+          "name": "High",
+          "description": "높은 BB(+6mm), 스팁한 헤드앵글"
+        }
+      ],
+      "default": "low",
+      "adjustments": {
+        "low": {
+          "bbHeight": 0,
+          "headAngle": 0,
+          "seatAngle": 0
+        },
+        "high": {
+          "bbHeight": 6,
+          "headAngle": 0.5,
+          "seatAngle": 0.4
+        }
+      }
+    }
+  ],
+  "sizes": [
+    {
+      "size": "XS",
+      "reach": 410,
+      "stack": 604,
+      "headAngle": 65.8,
+      "seatAngle": 76.0,
+      "seatAngleEffective": 76.0,
+      "chainstay": 431,
+      "wheelbase": 1143,
+      "bbDrop": null,
+      "bbHeight": 338,
+      "seatTube": 343,
+      "topTubeActual": null,
+      "topTubeEffective": 569,
+      "standover": 653,
+      "forkOffset": 44,
+      "forkLength": null,
+      "headTube": 85,
+      "trail": null
+    },
+    {
+      "size": "S",
+      "reach": 435,
+      "stack": 614,
+      "headAngle": 65.8,
+      "seatAngle": 76.0,
+      "seatAngleEffective": 76.0,
+      "chainstay": 431,
+      "wheelbase": 1172,
+      "bbDrop": null,
+      "bbHeight": 338,
+      "seatTube": 368,
+      "topTubeActual": null,
+      "topTubeEffective": 596,
+      "standover": 674,
+      "forkOffset": 44,
+      "forkLength": null,
+      "headTube": 95,
+      "trail": null
+    },
+    {
+      "size": "M",
+      "reach": 465,
+      "stack": 625,
+      "headAngle": 65.8,
+      "seatAngle": 76.0,
+      "seatAngleEffective": 76.0,
+      "chainstay": 431,
+      "wheelbase": 1207,
+      "bbDrop": null,
+      "bbHeight": 338,
+      "seatTube": 394,
+      "topTubeActual": null,
+      "topTubeEffective": 629,
+      "standover": 678,
+      "forkOffset": 44,
+      "forkLength": null,
+      "headTube": 107,
+      "trail": null
+    },
+    {
+      "size": "L",
+      "reach": 480,
+      "stack": 629,
+      "headAngle": 65.8,
+      "seatAngle": 76.0,
+      "seatAngleEffective": 76.0,
+      "chainstay": 432,
+      "wheelbase": 1226,
+      "bbDrop": null,
+      "bbHeight": 338,
+      "seatTube": 432,
+      "topTubeActual": null,
+      "topTubeEffective": 646,
+      "standover": 692,
+      "forkOffset": 44,
+      "forkLength": null,
+      "headTube": 112,
+      "trail": null
+    },
+    {
+      "size": "XL",
+      "reach": 500,
+      "stack": 641,
+      "headAngle": 65.8,
+      "seatAngle": 76.5,
+      "seatAngleEffective": 76.5,
+      "chainstay": 434,
+      "wheelbase": 1253,
+      "bbDrop": null,
+      "bbHeight": 338,
+      "seatTube": 470,
+      "topTubeActual": null,
+      "topTubeEffective": 660,
+      "standover": 707,
+      "forkOffset": 44,
+      "forkLength": null,
+      "headTube": 125,
+      "trail": null
+    }
+  ]
+}

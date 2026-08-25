@@ -1,0 +1,149 @@
+{
+  "brand": "Santa Cruz",
+  "model": "Nomad 7",
+  "year": 2027,
+  "type": "enduro",
+  "wheelSize": "29/27.5 MX",
+  "travel": {
+    "front": 170,
+    "rear": 170
+  },
+  "source": "Santa Cruz Official",
+  "sourceUrl": "https://www.santacruzbicycles.com/pages/product-support/nomad-7-my27",
+  "lastUpdated": "2026-08-25",
+  "notes": "MY27 (2026-04 발표). Hi 포지션 기준 수치. seatAngle은 새들 기준 유효각(77.4°, 전 사이즈 동일). bbDrop은 프론트 기준.",
+  "flipchips": [
+    {
+      "id": "geometry",
+      "name": "Geometry Flip Chip",
+      "description": "헤드앵글과 BB 높이 조정",
+      "positions": [
+        {
+          "id": "low",
+          "name": "Low",
+          "description": "낮은 BB, 슬랙한 헤드앵글 - 하강 성능 향상"
+        },
+        {
+          "id": "high",
+          "name": "High",
+          "description": "높은 BB, 스팁한 헤드앵글 - 민첩성 향상"
+        }
+      ],
+      "default": "high",
+      "adjustments": {
+        "low": {
+          "bbHeight": -3.5,
+          "headAngle": -0.3,
+          "seatAngle": -0.3
+        },
+        "high": {
+          "bbHeight": 0,
+          "headAngle": 0,
+          "seatAngle": 0
+        }
+      }
+    }
+  ],
+  "sizes": [
+    {
+      "size": "S",
+      "reach": 435,
+      "stack": 624,
+      "headAngle": 63.6,
+      "seatAngle": 77.4,
+      "seatAngleEffective": 77.4,
+      "chainstay": 438,
+      "wheelbase": 1219,
+      "bbDrop": 26.5,
+      "bbHeight": 346,
+      "seatTube": 380,
+      "topTubeActual": null,
+      "topTubeEffective": 569,
+      "standover": 711,
+      "forkOffset": 44,
+      "forkLength": null,
+      "headTube": 100,
+      "trail": null
+    },
+    {
+      "size": "M",
+      "reach": 455,
+      "stack": 633,
+      "headAngle": 63.6,
+      "seatAngle": 77.4,
+      "seatAngleEffective": 77.4,
+      "chainstay": 441,
+      "wheelbase": 1246,
+      "bbDrop": 26.5,
+      "bbHeight": 346,
+      "seatTube": 400,
+      "topTubeActual": null,
+      "topTubeEffective": 587,
+      "standover": 719,
+      "forkOffset": 44,
+      "forkLength": null,
+      "headTube": 110,
+      "trail": null
+    },
+    {
+      "size": "L",
+      "reach": 475,
+      "stack": 643,
+      "headAngle": 63.6,
+      "seatAngle": 77.4,
+      "seatAngleEffective": 77.4,
+      "chainstay": 444,
+      "wheelbase": 1276,
+      "bbDrop": 26.5,
+      "bbHeight": 346,
+      "seatTube": 420,
+      "topTubeActual": null,
+      "topTubeEffective": 604,
+      "standover": 722,
+      "forkOffset": 44,
+      "forkLength": null,
+      "headTube": 120,
+      "trail": null
+    },
+    {
+      "size": "XL",
+      "reach": 495,
+      "stack": 660,
+      "headAngle": 63.6,
+      "seatAngle": 77.4,
+      "seatAngleEffective": 77.4,
+      "chainstay": 447,
+      "wheelbase": 1305,
+      "bbDrop": 26.5,
+      "bbHeight": 346,
+      "seatTube": 450,
+      "topTubeActual": null,
+      "topTubeEffective": 627,
+      "standover": 726,
+      "forkOffset": 44,
+      "forkLength": null,
+      "headTube": 140,
+      "trail": null
+    },
+    {
+      "size": "XXL",
+      "reach": 520,
+      "stack": 669,
+      "headAngle": 63.6,
+      "seatAngle": 77.4,
+      "seatAngleEffective": 77.4,
+      "chainstay": 451,
+      "wheelbase": 1339,
+      "bbDrop": 26.5,
+      "bbHeight": 346,
+      "seatTube": 500,
+      "topTubeActual": null,
+      "topTubeEffective": 651,
+      "standover": 732,
+      "forkOffset": 44,
+      "forkLength": null,
+      "headTube": 150,
+      "trail": null
+    }
+  ]
+}

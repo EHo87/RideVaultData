@@ -1,0 +1,97 @@
+{
+  "brand": "Deity",
+  "lastUpdated": "2026-03-30",
+  "components": {
+    "handlebar": {
+      "Blacklabel 800": {
+        "variants": ["Blacklabel 800", "Blacklabel 760", "Blacklabel"],
+        "bolts": [
+          {
+            "name": "Clamp Bolt",
+            "torqueNm": 4.5,
+            "torqueNmMax": 5,
+            "count": 4,
+            "size": "M5",
+            "note": "대각선 순서로 조임. 알루미늄 바 기준 MAX 5Nm",
+            "warningIcon": "warning"
+          }
+        ],
+        "source": "Deity 공식 사이트 / Vital MTB"
+      },
+      "Skywire Carbon 35": {
+        "variants": ["Skywire Carbon 35", "Skywire Carbon", "Skywire 35"],
+        "bolts": [
+          {
+            "name": "Clamp Bolt",
+            "torqueNm": 4,
+            "torqueNmMax": 4.5,
+            "count": 4,
+            "size": "M5",
+            "note": "카본 바 - 낮은 토크 필수. MAX 4.5Nm 초과 금지",
+            "warningIcon": "critical"
+          }
+        ],
+        "source": "Deity 공식 사이트"
+      },
+      "Speedway Carbon 35": {
+        "variants": ["Speedway Carbon 35", "Speedway Carbon", "Speedway 35"],
+        "bolts": [
+          {
+            "name": "Clamp Bolt",
+            "torqueNm": 4,
+            "torqueNmMax": 4.5,
+            "count": 4,
+            "size": "M5",
+            "note": "카본 바 - 낮은 토크 필수. MAX 4.5Nm 초과 금지",
+            "warningIcon": "critical"
+          }
+        ],
+        "source": "Deity 공식 사이트"
+      }
+    },
+    "stem": {
+      "Copperhead 35": {
+        "variants": ["Copperhead 35", "Copperhead", "Copperhead 35mm"],
+        "bolts": [
+          {
+            "name": "Steerer Clamp",
+            "torqueNm": 5.5,
+            "count": 2,
+            "size": "M5",
+            "note": null
+          },
+          {
+            "name": "Faceplate Bolt",
+            "torqueNm": 4.5,
+            "count": 4,
+            "size": "M5",
+            "note": "X패턴 조임. 카본 바 사용 시 4Nm 권장",
+            "warningIcon": "warning"
+          }
+        ],
+        "source": "Deity 공식 사이트 / Pinkbike Forum"
+      },
+      "Intake Direct Mount": {
+        "variants": ["Intake", "Intake Direct Mount", "Intake DM"],
+        "bolts": [
+          {
+            "name": "Steerer Clamp",
+            "torqueNm": 5.5,
+            "count": 2,
+            "size": "M5",
+            "note": null
+          },
+          {
+            "name": "Faceplate Bolt",
+            "torqueNm": 4.5,
+            "count": 4,
+            "size": "M5",
+            "note": "X패턴 조임",
+            "warningIcon": "warning"
+          }
+        ],
+        "source": "Deity 공식 사이트"
+      }
+    }
+  }
+}

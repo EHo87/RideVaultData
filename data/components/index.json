@@ -1,7 +1,12 @@
 {
-  "version": "1.0.1",
-  "lastUpdated": "2026-01-23",
+  "version": "1.2.0",
+  "lastUpdated": "2026-03-30",
   "brands": [
+    {
+      "id": "deity",
+      "name": "Deity",
+      "categories": ["handlebar", "stem"]
+    },
     {
       "id": "renthal",
       "name": "Renthal",
@@ -36,6 +41,11 @@
       "id": "magura",
       "name": "Magura",
       "categories": ["brake_lever"]
+    },
+    {
+      "id": "race-face",
+      "name": "Race Face",
+      "categories": ["handlebar", "stem", "crankset", "pedals"]
     }
   ]
 }

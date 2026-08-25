@@ -1,0 +1,22 @@
+{
+  "version": 1,
+  "lastUpdated": "2026-07-09",
+  "note": "자동완성 전용 — Recommended Setup(fork_settings.json)과는 별개 소스. 압력차트/리바운드 기본값 없음. 리테일러 상품 목록/제조사 페이지 기준으로 폭넓게 수집한 브랜드+모델명 목록이며, 정밀도가 아니라 커버리지를 위한 파일이다.",
+  "forks": [
+    { "brand": "Öhlins", "model": "RXF36", "springType": "AIR", "travel": [140, 150, 160, 170] },
+    { "brand": "Öhlins", "model": "RXF38", "springType": "AIR", "travel": [160, 170, 180] },
+    { "brand": "DVO", "model": "Onyx", "springType": "AIR", "travel": [160, 170, 180] },
+    { "brand": "DVO", "model": "Diamond", "springType": "AIR", "travel": [140, 150, 160] },
+    { "brand": "Marzocchi", "model": "Bomber Z2", "springType": "AIR", "travel": [120, 130, 140, 150] },
+    { "brand": "Manitou", "model": "Mezzer Pro", "springType": "AIR", "travel": [140, 150, 160, 170] },
+    { "brand": "Manitou", "model": "Mezzer LT Pro", "springType": "AIR", "travel": [170, 180, 190] },
+    { "brand": "Manitou", "model": "Mattoc Pro", "springType": "AIR", "travel": [110, 120, 130, 140, 150] },
+    { "brand": "EXT", "model": "Era", "springType": "AIR", "travel": [] },
+    { "brand": "SR Suntour", "model": "Auron", "springType": "AIR", "travel": [150, 160] },
+    { "brand": "SR Suntour", "model": "Zeron", "springType": "COIL", "travel": [130, 140, 150] },
+    { "brand": "X-Fusion", "model": "Trace 36", "springType": "AIR", "travel": [140, 150, 160, 170] },
+    { "brand": "Formula", "model": "Selva V", "springType": "AIR", "travel": [160, 170, 180] },
+    { "brand": "Formula", "model": "Selva C", "springType": "COIL", "travel": [] },
+    { "brand": "MRP", "model": "Ribbon Coil", "springType": "COIL", "travel": [] }
+  ]
+}

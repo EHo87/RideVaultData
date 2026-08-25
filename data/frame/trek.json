@@ -1,0 +1,246 @@
+{
+  "brand": "Trek",
+  "lastUpdated": "2026-03-31",
+  "models": {
+    "Slash": {
+      "variants": ["Slash 9.8", "Slash 9.9", "Slash 8", "Slash 9.7"],
+      "year": "2024-",
+      "sections": [
+        {
+          "name": "피벗 & 링키지",
+          "bolts": [
+            {
+              "name": "Main Pivot",
+              "torqueNm": 16,
+              "size": "M10",
+              "count": 2,
+              "note": "그리스 도포 필수",
+              "warningIcon": "warning"
+            },
+            {
+              "name": "Rocker Link Pivot (Upper)",
+              "torqueNm": 12,
+              "size": "M8",
+              "count": 2,
+              "note": "Loctite 243 권장"
+            },
+            {
+              "name": "Rocker Link Pivot (Lower)",
+              "torqueNm": 12,
+              "size": "M8",
+              "count": 2
+            },
+            {
+              "name": "Seatstay Pivot",
+              "torqueNm": 10,
+              "size": "M6",
+              "count": 4
+            },
+            {
+              "name": "ABP Pivot (Chainstay)",
+              "torqueNm": 14,
+              "size": "M8",
+              "count": 2,
+              "note": "ABP (Active Braking Pivot) - 그리스 도포 필수",
+              "warningIcon": "info"
+            }
+          ]
+        },
+        {
+          "name": "샥 마운트",
+          "bolts": [
+            {
+              "name": "Shock Mount (Upper - Trunnion)",
+              "torqueNm": 16,
+              "size": "M8",
+              "note": "Trunnion 마운트 - 정기 점검 권장",
+              "warningIcon": "warning"
+            },
+            {
+              "name": "Shock Mount (Lower)",
+              "torqueNm": 12,
+              "size": "M8"
+            }
+          ]
+        },
+        {
+          "name": "스루액슬",
+          "bolts": [
+            {
+              "name": "Rear Thru Axle",
+              "torqueNm": 12,
+              "torqueNmMax": 16,
+              "note": "Mino Link 방향 확인"
+            }
+          ]
+        },
+        {
+          "name": "시트포스트",
+          "bolts": [
+            {
+              "name": "Seatpost Clamp",
+              "torqueNm": 5,
+              "torqueNmMax": 7,
+              "size": "M5",
+              "note": "카본 포스트 사용 시 카본 그리스 도포"
+            }
+          ]
+        },
+        {
+          "name": "기타",
+          "bolts": [
+            {
+              "name": "Mino Link Bolt",
+              "torqueNm": 6,
+              "torqueNmMax": 8,
+              "size": "M6",
+              "count": 2,
+              "note": "지오메트리 조정 칩 - 위치 변경 시에만",
+              "warningIcon": "info"
+            },
+            {
+              "name": "Bottle Cage",
+              "torqueNm": 3,
+              "torqueNmMax": 5,
+              "size": "M5",
+              "count": 2
+            },
+            {
+              "name": "Cable Guide",
+              "torqueNm": 2,
+              "torqueNmMax": 3
+            },
+            {
+              "name": "Knock Block Headset",
+              "torqueNm": 5,
+              "size": "M5",
+              "count": 2,
+              "note": "Knock Block 스페이서 방향 확인",
+              "warningIcon": "info"
+            }
+          ]
+        }
+      ],
+      "source": "Trek Service Manual"
+    },
+    "Fuel EX": {
+      "variants": ["Fuel EX 9.8", "Fuel EX 9.9", "Fuel EX 8", "Fuel EX 7"],
+      "year": "2024-",
+      "sections": [
+        {
+          "name": "피벗 & 링키지",
+          "bolts": [
+            {
+              "name": "Main Pivot",
+              "torqueNm": 16,
+              "size": "M10",
+              "count": 2,
+              "note": "그리스 도포 필수",
+              "warningIcon": "warning"
+            },
+            {
+              "name": "Rocker Link Pivot (Upper)",
+              "torqueNm": 12,
+              "size": "M8",
+              "count": 2,
+              "note": "Loctite 243 권장"
+            },
+            {
+              "name": "Rocker Link Pivot (Lower)",
+              "torqueNm": 12,
+              "size": "M8",
+              "count": 2
+            },
+            {
+              "name": "Seatstay Pivot",
+              "torqueNm": 10,
+              "size": "M6",
+              "count": 4
+            },
+            {
+              "name": "ABP Pivot (Chainstay)",
+              "torqueNm": 14,
+              "size": "M8",
+              "count": 2,
+              "note": "ABP (Active Braking Pivot)",
+              "warningIcon": "info"
+            }
+          ]
+        },
+        {
+          "name": "샥 마운트",
+          "bolts": [
+            {
+              "name": "Shock Mount (Upper - Trunnion)",
+              "torqueNm": 16,
+              "size": "M8",
+              "note": "Trunnion 마운트",
+              "warningIcon": "warning"
+            },
+            {
+              "name": "Shock Mount (Lower)",
+              "torqueNm": 12,
+              "size": "M8"
+            }
+          ]
+        },
+        {
+          "name": "스루액슬",
+          "bolts": [
+            {
+              "name": "Rear Thru Axle",
+              "torqueNm": 12,
+              "torqueNmMax": 16
+            }
+          ]
+        },
+        {
+          "name": "시트포스트",
+          "bolts": [
+            {
+              "name": "Seatpost Clamp",
+              "torqueNm": 5,
+              "torqueNmMax": 7,
+              "size": "M5"
+            }
+          ]
+        },
+        {
+          "name": "기타",
+          "bolts": [
+            {
+              "name": "Mino Link Bolt",
+              "torqueNm": 6,
+              "torqueNmMax": 8,
+              "size": "M6",
+              "count": 2,
+              "note": "지오메트리 조정 칩",
+              "warningIcon": "info"
+            },
+            {
+              "name": "Bottle Cage",
+              "torqueNm": 3,
+              "torqueNmMax": 5,
+              "size": "M5",
+              "count": 2
+            },
+            {
+              "name": "Cable Guide",
+              "torqueNm": 2,
+              "torqueNmMax": 3
+            },
+            {
+              "name": "Knock Block Headset",
+              "torqueNm": 5,
+              "size": "M5",
+              "count": 2,
+              "note": "Knock Block 스페이서 방향 확인",
+              "warningIcon": "info"
+            }
+          ]
+        }
+      ],
+      "source": "Trek Service Manual"
+    }
+  }
+}

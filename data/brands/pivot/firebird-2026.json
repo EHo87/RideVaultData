@@ -1,0 +1,149 @@
+{
+  "brand": "Pivot",
+  "model": "Firebird",
+  "year": 2026,
+  "type": "enduro",
+  "wheelSize": "29",
+  "travel": {
+    "front": 170,
+    "rear": 165
+  },
+  "source": "ENDURO Mountainbike Magazine (Pivot 공식 차트)",
+  "sourceUrl": "https://enduro-mtb.com/en/the-best-enduro-mtb-review/pivot-firebird-review-2026/",
+  "lastUpdated": "2026-08-25",
+  "notes": "신세대 Firebird (2025-04 발표, MY2026). 출고 기본: Low 포지션 + 숏 체인스테이. Swinger 드롭아웃으로 체인스테이 +8mm 연장 가능, MX(멀릿) 호환. 프로그레션 플립칩(27%/32%) 별도.",
+  "flipchips": [
+    {
+      "id": "geometry",
+      "name": "Geometry Flip Chip",
+      "description": "헤드앵글과 BB 높이 조정",
+      "positions": [
+        {
+          "id": "low",
+          "name": "Low",
+          "description": "낮은 BB, 슬랙한 헤드앵글 (출고 기본)"
+        },
+        {
+          "id": "high",
+          "name": "High",
+          "description": "높은 BB, 스팁한 헤드앵글"
+        }
+      ],
+      "default": "low",
+      "adjustments": {
+        "low": {
+          "bbHeight": 0,
+          "headAngle": 0,
+          "seatAngle": 0
+        },
+        "high": {
+          "bbHeight": 5,
+          "headAngle": 0.5,
+          "seatAngle": 0.5
+        }
+      }
+    }
+  ],
+  "sizes": [
+    {
+      "size": "XS",
+      "reach": 410,
+      "stack": 615,
+      "headAngle": 63.8,
+      "seatAngle": 77.6,
+      "seatAngleEffective": 77.6,
+      "chainstay": 430,
+      "wheelbase": 1179,
+      "bbDrop": 10,
+      "bbHeight": null,
+      "seatTube": 365,
+      "topTubeActual": null,
+      "topTubeEffective": 558,
+      "standover": null,
+      "forkOffset": null,
+      "forkLength": null,
+      "headTube": 85,
+      "trail": null
+    },
+    {
+      "size": "S",
+      "reach": 440,
+      "stack": 625,
+      "headAngle": 63.4,
+      "seatAngle": 77.0,
+      "seatAngleEffective": 77.0,
+      "chainstay": 430,
+      "wheelbase": 1217,
+      "bbDrop": 13,
+      "bbHeight": null,
+      "seatTube": 385,
+      "topTubeActual": null,
+      "topTubeEffective": 596,
+      "standover": null,
+      "forkOffset": null,
+      "forkLength": null,
+      "headTube": 95,
+      "trail": null
+    },
+    {
+      "size": "M",
+      "reach": 463,
+      "stack": 637,
+      "headAngle": 63.4,
+      "seatAngle": 77.0,
+      "seatAngleEffective": 77.0,
+      "chainstay": 432,
+      "wheelbase": 1248,
+      "bbDrop": 13,
+      "bbHeight": null,
+      "seatTube": 415,
+      "topTubeActual": null,
+      "topTubeEffective": 622,
+      "standover": null,
+      "forkOffset": null,
+      "forkLength": null,
+      "headTube": 108,
+      "trail": null
+    },
+    {
+      "size": "L",
+      "reach": 480,
+      "stack": 646,
+      "headAngle": 63.4,
+      "seatAngle": 77.0,
+      "seatAngleEffective": 77.0,
+      "chainstay": 434,
+      "wheelbase": 1271,
+      "bbDrop": 13,
+      "bbHeight": null,
+      "seatTube": 440,
+      "topTubeActual": null,
+      "topTubeEffective": 635,
+      "standover": null,
+      "forkOffset": null,
+      "forkLength": null,
+      "headTube": 118,
+      "trail": null
+    },
+    {
+      "size": "XL",
+      "reach": 500,
+      "stack": 655,
+      "headAngle": 63.4,
+      "seatAngle": 77.0,
+      "seatAngleEffective": 77.0,
+      "chainstay": 437,
+      "wheelbase": 1299,
+      "bbDrop": 13,
+      "bbHeight": null,
+      "seatTube": 475,
+      "topTubeActual": null,
+      "topTubeEffective": 657,
+      "standover": null,
+      "forkOffset": null,
+      "forkLength": null,
+      "headTube": 128,
+      "trail": null
+    }
+  ]
+}

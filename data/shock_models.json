@@ -1,0 +1,20 @@
+{
+  "version": 1,
+  "lastUpdated": "2026-07-09",
+  "note": "자동완성 전용 — Recommended Setup(shock_settings.json)과는 별개 소스. 압력차트/리바운드 기본값 없음. 리테일러 상품 목록/제조사 페이지 기준으로 폭넓게 수집한 브랜드+모델명 목록이며, 정밀도가 아니라 커버리지를 위한 파일이다.",
+  "shocks": [
+    { "brand": "Öhlins", "model": "TTX22M", "springType": "COIL" },
+    { "brand": "Öhlins", "model": "TTX2 Air", "springType": "AIR" },
+    { "brand": "DVO", "model": "Jade X", "springType": "COIL" },
+    { "brand": "DVO", "model": "Topaz", "springType": "AIR" },
+    { "brand": "Marzocchi", "model": "Bomber CR", "springType": "COIL" },
+    { "brand": "Manitou", "model": "Mara", "springType": "AIR" },
+    { "brand": "Manitou", "model": "Mara Pro", "springType": "AIR" },
+    { "brand": "Cane Creek", "model": "DB Air IL", "springType": "AIR" },
+    { "brand": "Cane Creek", "model": "DB Coil IL", "springType": "COIL" },
+    { "brand": "EXT", "model": "Storia", "springType": "COIL" },
+    { "brand": "EXT", "model": "Arma", "springType": "COIL" },
+    { "brand": "X-Fusion", "model": "O2 Pro RCX", "springType": "AIR" },
+    { "brand": "Push Industries", "model": "ElevenSix", "springType": "COIL" }
+  ]
+}

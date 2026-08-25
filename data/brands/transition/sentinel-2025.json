@@ -1,0 +1,148 @@
+{
+  "brand": "Transition",
+  "model": "Sentinel",
+  "year": 2025,
+  "type": "trail",
+  "wheelSize": "29",
+  "travel": {
+    "front": 160,
+    "rear": 140
+  },
+  "source": "Transition Bikes Official",
+  "sourceUrl": "https://www.transitionbikes.com/bikes/sentinel",
+  "lastUpdated": "2026-03-31",
+  "flipchips": [
+    {
+      "id": "giddy-up",
+      "name": "GiddyUp Chip",
+      "description": "Transition의 지오메트리 조정 칩",
+      "positions": [
+        {
+          "id": "low",
+          "name": "Low",
+          "description": "낮은 BB, 슬랙한 헤드앵글"
+        },
+        {
+          "id": "high",
+          "name": "High",
+          "description": "높은 BB, 스팁한 헤드앵글"
+        }
+      ],
+      "default": "low",
+      "adjustments": {
+        "low": {
+          "bbHeight": 0,
+          "headAngle": 0,
+          "seatAngle": 0
+        },
+        "high": {
+          "bbHeight": 8,
+          "headAngle": 0.5,
+          "seatAngle": 0.3
+        }
+      }
+    }
+  ],
+  "sizes": [
+    {
+      "size": "S",
+      "reach": 435,
+      "stack": 614,
+      "headAngle": 64.0,
+      "seatAngle": 78.0,
+      "seatAngleEffective": 78.0,
+      "chainstay": 432,
+      "wheelbase": 1222,
+      "bbDrop": 35,
+      "bbHeight": 343,
+      "seatTube": 400,
+      "topTubeActual": null,
+      "topTubeEffective": 569,
+      "standover": null,
+      "forkOffset": 44,
+      "forkLength": null,
+      "headTube": 100,
+      "trail": null
+    },
+    {
+      "size": "M",
+      "reach": 460,
+      "stack": 622,
+      "headAngle": 64.0,
+      "seatAngle": 78.0,
+      "seatAngleEffective": 78.0,
+      "chainstay": 432,
+      "wheelbase": 1248,
+      "bbDrop": 35,
+      "bbHeight": 343,
+      "seatTube": 420,
+      "topTubeActual": null,
+      "topTubeEffective": 594,
+      "standover": null,
+      "forkOffset": 44,
+      "forkLength": null,
+      "headTube": 110,
+      "trail": null
+    },
+    {
+      "size": "L",
+      "reach": 485,
+      "stack": 632,
+      "headAngle": 64.0,
+      "seatAngle": 78.0,
+      "seatAngleEffective": 78.0,
+      "chainstay": 437,
+      "wheelbase": 1277,
+      "bbDrop": 35,
+      "bbHeight": 343,
+      "seatTube": 445,
+      "topTubeActual": null,
+      "topTubeEffective": 621,
+      "standover": null,
+      "forkOffset": 44,
+      "forkLength": null,
+      "headTube": 120,
+      "trail": null
+    },
+    {
+      "size": "XL",
+      "reach": 515,
+      "stack": 642,
+      "headAngle": 64.0,
+      "seatAngle": 78.0,
+      "seatAngleEffective": 78.0,
+      "chainstay": 437,
+      "wheelbase": 1310,
+      "bbDrop": 35,
+      "bbHeight": 343,
+      "seatTube": 480,
+      "topTubeActual": null,
+      "topTubeEffective": 651,
+      "standover": null,
+      "forkOffset": 44,
+      "forkLength": null,
+      "headTube": 135,
+      "trail": null
+    },
+    {
+      "size": "XXL",
+      "reach": 545,
+      "stack": 657,
+      "headAngle": 64.0,
+      "seatAngle": 78.0,
+      "seatAngleEffective": 78.0,
+      "chainstay": 442,
+      "wheelbase": 1343,
+      "bbDrop": 35,
+      "bbHeight": 343,
+      "seatTube": 510,
+      "topTubeActual": null,
+      "topTubeEffective": 683,
+      "standover": null,
+      "forkOffset": 44,
+      "forkLength": null,
+      "headTube": 150,
+      "trail": null
+    }
+  ]
+}
