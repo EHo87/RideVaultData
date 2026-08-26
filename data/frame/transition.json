@@ -2,216 +2,166 @@
   "brand": "Transition",
   "lastUpdated": "2026-08-26",
   "models": {
-    "Sentinel": {
-      "variants": ["Sentinel Carbon", "Sentinel Alloy"],
-      "year": "2024-",
+    "Sentinel Alloy V3": {
+      "variants": ["Sentinel", "Sentinel Alloy", "Sentinel V3 Alloy"],
+      "year": "2024-2026",
       "sections": [
         {
           "name": "피벗 & 링키지",
           "bolts": [
-            {
-              "name": "Main Pivot Axle",
-              "torqueNm": 19,
-              "count": 1,
-              "note": "17x60mm 액슬, 샤프트 그리스 + 나사산 블루 록타이트"
-            },
-            {
-              "name": "Main Pivot Screw",
-              "torqueNm": 10,
-              "size": "M6",
-              "count": 1,
-              "note": "블루 록타이트"
-            },
-            {
-              "name": "Chainstay Pivot Screw",
-              "torqueNm": 10,
-              "count": 2,
-              "note": "12x15mm V2 스크류, 블루 록타이트 (15x26mm 액슬에는 그리스만)"
-            },
-            {
-              "name": "Seatstay Pivot Screw",
-              "torqueNm": 12,
-              "count": 2,
-              "note": "12x12mm, 블루 록타이트"
-            },
-            {
-              "name": "Rocker Pivot Axle",
-              "torqueNm": 15,
-              "count": 2,
-              "note": "15x38mm, 샤프트 그리스"
-            }
+            {"name": "Main Pivot Axle", "torqueNm": 19, "count": 1, "note": "17x60mm (TRB-MAX), 샤프트 그리스 + 나사산 블루 록타이트"},
+            {"name": "Main Pivot Screw", "torqueNm": 10, "size": "M6", "count": 1, "note": "M6x25, 블루 록타이트"},
+            {"name": "Chainstay Pivot Screw", "torqueNm": 10, "count": 2, "note": "12x15mm V2, 블루 록타이트; 15x26mm 액슬은 그리스"},
+            {"name": "Seatstay Pivot Screw", "torqueNm": 12, "count": 2, "note": "12x12mm, 블루 록타이트"},
+            {"name": "Rocker Pivot Axle", "torqueNm": 15, "count": 2, "note": "15x38mm, 샤프트 그리스"}
           ]
         },
         {
           "name": "샥 마운트",
           "bolts": [
-            {
-              "name": "Trunnion Shock Bolt",
-              "torqueNm": 12,
-              "size": "M10",
-              "count": 2,
-              "note": "V2 10x24mm, 블루 록타이트"
-            },
-            {
-              "name": "Shock Bolt (Lower)",
-              "torqueNm": 10,
-              "size": "M8",
-              "count": 1,
-              "note": "8x55mm, 샤프트 그리스 + 나사산 블루 록타이트"
-            }
+            {"name": "Trunnion Shock Bolt", "torqueNm": 12, "size": "M10", "count": 2, "note": "V2 10x24mm, 블루 록타이트"},
+            {"name": "Shock Bolt (Lower)", "torqueNm": 10, "size": "M8", "count": 1, "note": "8x55mm, 샤프트 그리스 + 나사산 블루 록타이트"}
           ]
         }
       ],
-      "source": "Transition Product Support - Sentinel (공식 토크 스펙)",
+      "source": "Transition Product Support - Sentinel Alloy V3 (official web-only; PDF torque table unavailable)",
       "sourceUrl": "https://www.transitionbikes.com/Product-Support-By-Model-Version-Details/Sentinel-Alloy/126"
     },
-    "Spire": {
-      "variants": ["Spire Carbon", "Spire Alloy"],
-      "year": "2021-",
+    "Sentinel Carbon V3": {
+      "variants": ["Sentinel", "Sentinel Carbon", "Sentinel V3 Carbon"],
+      "year": "2024-2026",
       "sections": [
         {
           "name": "피벗 & 링키지",
           "bolts": [
-            {
-              "name": "Main Pivot Axle",
-              "torqueNm": 19,
-              "count": 1,
-              "note": "17x60mm 액슬, 샤프트 그리스 + 나사산 블루 록타이트"
-            },
-            {
-              "name": "Main Pivot Screw",
-              "torqueNm": 10,
-              "size": "M6",
-              "count": 1,
-              "note": "블루 록타이트"
-            },
-            {
-              "name": "Chainstay Pivot Screw",
-              "torqueNm": 12,
-              "count": 2,
-              "note": "12x15mm V2, 블루 록타이트"
-            },
-            {
-              "name": "Seatstay Pivot Screw",
-              "torqueNm": 12,
-              "count": 2,
-              "note": "12x12mm, 블루 록타이트"
-            },
-            {
-              "name": "Rocker Pivot Axle",
-              "torqueNm": 15,
-              "count": 2,
-              "note": "15x38mm, 샤프트 그리스"
-            }
+            {"name": "Main Pivot Axle", "torqueNm": 19, "count": 1, "note": "17x80mm (TRB-MAX-80L), 샤프트 그리스 + 나사산 블루 록타이트"},
+            {"name": "Main Pivot Screw", "torqueNm": 10, "size": "M6", "count": 1, "note": "M6x25, 블루 록타이트"},
+            {"name": "Chainstay Pivot Screw", "torqueNm": 10, "count": 2, "note": "12x15mm V2, 블루 록타이트; 15x26mm 액슬은 그리스"},
+            {"name": "Seatstay Pivot Screw", "torqueNm": 12, "count": 2, "note": "12x12mm, 블루 록타이트"},
+            {"name": "Rocker Pivot Axle", "torqueNm": 15, "count": 2, "note": "15x38mm, 샤프트 그리스"}
           ]
         },
         {
           "name": "샥 마운트",
           "bolts": [
-            {
-              "name": "Trunnion Shock Bolt",
-              "torqueNm": 12,
-              "size": "M10",
-              "count": 2,
-              "note": "V2 10x24mm, 블루 록타이트"
-            },
-            {
-              "name": "Shock Bolt (Lower)",
-              "torqueNm": 10,
-              "size": "M8",
-              "count": 1,
-              "note": "8x55mm, 샤프트 그리스 + 나사산 블루 록타이트"
-            }
+            {"name": "Trunnion Shock Bolt", "torqueNm": 12, "size": "M10", "count": 2, "note": "V2 10x24mm, 블루 록타이트"},
+            {"name": "Shock Bolt (Lower)", "torqueNm": 10, "size": "M8", "count": 1, "note": "8x55mm, 샤프트 그리스 + 나사산 블루 록타이트"}
           ]
         },
         {
-          "name": "스루액슬",
+          "name": "기타",
           "bolts": [
-            {
-              "name": "Rear Thru Axle",
-              "torqueNm": 10,
-              "torqueNmMax": 12,
-              "note": "12x148mm, 샤프트/나사산 그리스"
-            }
+            {"name": "Seatpost Collar Bolt", "torqueNm": 6, "torqueNmMax": 7, "count": 1, "note": "37mm 볼트식 시트포스트 클램프, 볼트 그리스"},
+            {"name": "Storage Door Screw", "torqueNm": 1.5, "size": "M3", "count": 4, "note": "M3x10mm 프레임 스토리지 도어 스크류"}
           ]
         }
       ],
-      "source": "Transition Product Support - Spire (공식 토크 스펙)",
+      "source": "Transition Product Support - Sentinel Carbon V3 (official web-only; PDF torque table unavailable)",
+      "sourceUrl": "https://www.transitionbikes.com/Product-Support-By-Model-Version-Details/Sentinel-Carbon/125"
+    },
+    "Spire Carbon": {
+      "variants": ["Spire"],
+      "year": "2021-2026",
+      "sections": [
+        {
+          "name": "피벗 & 링키지",
+          "bolts": [
+            {"name": "Main Pivot Axle", "torqueNm": 19, "count": 1, "note": "17x60mm, 샤프트 그리스 + 나사산 블루 록타이트"},
+            {"name": "Main Pivot Screw", "torqueNm": 10, "size": "M6", "count": 1, "note": "M6x25, 블루 록타이트"},
+            {"name": "Chainstay Pivot Screw", "torqueNm": 12, "count": 2, "note": "12x15mm V2, 블루 록타이트"},
+            {"name": "Seatstay Pivot Screw", "torqueNm": 12, "count": 2, "note": "12x12mm, 블루 록타이트"},
+            {"name": "Rocker Pivot Axle", "torqueNm": 15, "count": 2, "note": "15x38mm, 샤프트 그리스"}
+          ]
+        },
+        {
+          "name": "샥 마운트",
+          "bolts": [
+            {"name": "Trunnion Shock Bolt", "torqueNm": 12, "size": "M10", "count": 2, "note": "V2 10x24mm, 블루 록타이트"},
+            {"name": "Shock Bolt (Lower)", "torqueNm": 10, "size": "M8", "count": 1, "note": "8x55mm, 샤프트 그리스 + 나사산 블루 록타이트"}
+          ]
+        },
+        {"name": "스루액슬", "bolts": [{"name": "Rear Thru Axle", "torqueNm": 10, "torqueNmMax": 12, "count": 1, "note": "12x148mm TRB-HAX, 샤프트/나사산 그리스"}]}
+      ],
+      "source": "Transition Product Support - Spire Carbon (official web-only; PDF torque table unavailable)",
       "sourceUrl": "https://www.transitionbikes.com/Product-Support-By-Model-Version-Details/Spire-Carbon/27"
     },
-    "Patrol": {
-      "variants": ["Patrol Carbon", "Patrol Alloy"],
-      "year": "2021-",
+    "Spire Alloy": {
+      "variants": ["Spire"],
+      "year": "2021-2026",
       "sections": [
         {
           "name": "피벗 & 링키지",
           "bolts": [
-            {
-              "name": "Main Pivot Axle",
-              "torqueNm": 19,
-              "count": 1,
-              "note": "17x80mm 액슬, 샤프트 그리스 + 나사산 블루 록타이트"
-            },
-            {
-              "name": "Main Pivot Screw",
-              "torqueNm": 10,
-              "size": "M6",
-              "count": 1,
-              "note": "블루 록타이트"
-            },
-            {
-              "name": "Chainstay Pivot Screw",
-              "torqueNm": 12,
-              "count": 2,
-              "note": "12x15mm V2, 블루 록타이트"
-            },
-            {
-              "name": "Seatstay Pivot Screw",
-              "torqueNm": 12,
-              "count": 2,
-              "note": "12x12mm, 블루 록타이트"
-            },
-            {
-              "name": "Rocker Pivot Axle",
-              "torqueNm": 15,
-              "count": 2,
-              "note": "15x38mm, 샤프트 그리스"
-            }
+            {"name": "Main Pivot Axle", "torqueNm": 19, "count": 1, "note": "17x60mm, 샤프트 그리스 + 나사산 블루 록타이트"},
+            {"name": "Main Pivot Screw", "torqueNm": 10, "size": "M6", "count": 1, "note": "M6x25, 블루 록타이트"},
+            {"name": "Chainstay Pivot Screw", "torqueNm": 10, "count": 2, "note": "12x15mm V2, 블루 록타이트"},
+            {"name": "Seatstay Pivot Screw", "torqueNm": 12, "count": 2, "note": "12x12mm, 블루 록타이트"},
+            {"name": "Rocker Pivot Axle", "torqueNm": 15, "count": 2, "note": "15x38mm, 샤프트 그리스"}
           ]
         },
         {
           "name": "샥 마운트",
           "bolts": [
-            {
-              "name": "Trunnion Shock Bolt",
-              "torqueNm": 12,
-              "size": "M10",
-              "count": 2,
-              "note": "V2 10x24mm, 블루 록타이트"
-            },
-            {
-              "name": "Shock Bolt (Lower)",
-              "torqueNm": 10,
-              "size": "M8",
-              "count": 1,
-              "note": "8x55mm, 샤프트 그리스 + 나사산 블루 록타이트"
-            }
+            {"name": "Trunnion Shock Bolt", "torqueNm": 12, "size": "M10", "count": 2, "note": "V2 10x24mm, 블루 록타이트"},
+            {"name": "Shock Bolt (Lower)", "torqueNm": 10, "size": "M8", "count": 1, "note": "8x55mm, 샤프트 그리스 + 나사산 블루 록타이트"}
+          ]
+        },
+        {"name": "스루액슬", "bolts": [{"name": "Rear Thru Axle", "torqueNm": 10, "torqueNmMax": 12, "count": 1, "note": "12x148mm TRB-HAX, 샤프트/나사산 그리스"}]}
+      ],
+      "source": "Transition Product Support - Spire Alloy (official web-only; PDF torque table unavailable)",
+      "sourceUrl": "https://www.transitionbikes.com/Product-Support-By-Model-Version-Details/Spire-Alloy/31"
+    },
+    "Patrol Carbon": {
+      "variants": ["Patrol"],
+      "year": "2022-2025",
+      "sections": [
+        {
+          "name": "피벗 & 링키지",
+          "bolts": [
+            {"name": "Main Pivot Axle", "torqueNm": 19, "count": 1, "note": "17x80mm, 샤프트 그리스 + 나사산 블루 록타이트"},
+            {"name": "Main Pivot Screw", "torqueNm": 10, "size": "M6", "count": 1, "note": "M6x25, 블루 록타이트"},
+            {"name": "Chainstay Pivot Screw", "torqueNm": 12, "count": 2, "note": "12x15mm V2, 블루 록타이트"},
+            {"name": "Seatstay Pivot Screw", "torqueNm": 12, "count": 2, "note": "12x12mm, 블루 록타이트"},
+            {"name": "Rocker Pivot Axle", "torqueNm": 15, "count": 2, "note": "15x38mm, 샤프트 그리스"}
           ]
         },
         {
-          "name": "스루액슬",
+          "name": "샥 마운트",
           "bolts": [
-            {
-              "name": "Rear Thru Axle",
-              "torqueNm": 10,
-              "torqueNmMax": 12,
-              "note": "12x148mm, 샤프트/나사산 그리스"
-            }
+            {"name": "Trunnion Shock Bolt", "torqueNm": 12, "size": "M10", "count": 2, "note": "V2 10x24mm, 블루 록타이트"},
+            {"name": "Shock Bolt (Lower)", "torqueNm": 10, "size": "M8", "count": 1, "note": "8x55mm, 샤프트 그리스 + 나사산 블루 록타이트"}
           ]
-        }
+        },
+        {"name": "스루액슬", "bolts": [{"name": "Rear Thru Axle", "torqueNm": 10, "torqueNmMax": 12, "count": 1, "note": "12x148mm TRB-HAX, 샤프트/나사산 그리스"}]}
       ],
-      "source": "Transition Product Support - Patrol (공식 토크 스펙)",
+      "source": "Transition Product Support - Patrol Carbon (official web-only; PDF torque table unavailable)",
       "sourceUrl": "https://www.transitionbikes.com/Product-Support-By-Model-Version-Details/Patrol-Carbon/119"
+    },
+    "Patrol Alloy": {
+      "variants": ["Patrol"],
+      "year": "2021-2025",
+      "sections": [
+        {
+          "name": "피벗 & 링키지",
+          "bolts": [
+            {"name": "Main Pivot Axle", "torqueNm": 19, "count": 1, "note": "17x60mm, 샤프트 그리스 + 나사산 블루 록타이트"},
+            {"name": "Main Pivot Screw", "torqueNm": 10, "size": "M6", "count": 1, "note": "M6x25, 블루 록타이트"},
+            {"name": "Chainstay Pivot Screw", "torqueNm": 10, "count": 2, "note": "12x15mm V2, 블루 록타이트"},
+            {"name": "Seatstay Pivot Screw", "torqueNm": 12, "count": 2, "note": "12x12mm, 블루 록타이트"},
+            {"name": "Rocker Pivot Axle", "torqueNm": 15, "count": 2, "note": "15x38mm, 샤프트 그리스"}
+          ]
+        },
+        {
+          "name": "샥 마운트",
+          "bolts": [
+            {"name": "Trunnion Shock Bolt", "torqueNm": 12, "size": "M10", "count": 2, "note": "V2 10x24mm, 블루 록타이트"},
+            {"name": "Shock Bolt (Lower)", "torqueNm": 10, "size": "M8", "count": 1, "note": "8x55mm, 샤프트 그리스 + 나사산 블루 록타이트"}
+          ]
+        },
+        {"name": "스루액슬", "bolts": [{"name": "Rear Thru Axle", "torqueNm": 10, "torqueNmMax": 12, "count": 1, "note": "12x148mm TRB-HAX, 샤프트/나사산 그리스"}]}
+      ],
+      "source": "Transition Product Support - Patrol Alloy (official web-only; PDF torque table unavailable)",
+      "sourceUrl": "https://www.transitionbikes.com/Product-Support-By-Model-Version-Details/Patrol-Alloy/28"
     }
   }
 }

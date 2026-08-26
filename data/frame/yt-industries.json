@@ -2,75 +2,68 @@
   "brand": "YT Industries",
   "lastUpdated": "2026-08-26",
   "models": {
-    "Capra 29": {
-      "variants": ["Capra 29 AL", "Capra AL 29"],
-      "year": "2018-2023",
+    "Capra 29 AL MK2": {
+      "variants": ["Capra 29 AL", "Capra AL 29", "Capra MK2 29 AL"],
+      "year": "2018-2021",
       "sections": [
         {
           "name": "피벗 & 링키지",
           "bolts": [
-            {
-              "name": "Main Pivot",
-              "torqueNm": 20,
-              "count": 1,
-              "note": "중강도 스레드락커 (Loctite 243) 권장"
-            },
-            {
-              "name": "Lower Link Pivot",
-              "torqueNm": 20,
-              "count": 2,
-              "note": "Loctite 243"
-            },
-            {
-              "name": "Upper Link Pivot",
-              "torqueNm": 10,
-              "count": 2,
-              "note": "Loctite 243"
-            },
-            {
-              "name": "Horst Link Pivot",
-              "torqueNm": 12,
-              "count": 2,
-              "note": "Loctite 243"
-            }
+            {"name": "Main Pivot", "torqueNm": 20, "count": 1, "note": "중강도 스레드락커 Loctite 243 권장"},
+            {"name": "Lower Link Pivot", "torqueNm": 20, "count": 2, "note": "Loctite 243"},
+            {"name": "Upper Link Pivot", "torqueNm": 10, "count": 2, "note": "Loctite 243"},
+            {"name": "Horst Link Pivot", "torqueNm": 12, "count": 2, "note": "Loctite 243"}
           ]
         },
         {
           "name": "샥 마운트",
           "bolts": [
-            {
-              "name": "Shock Bolt (Front)",
-              "torqueNm": 10,
-              "torqueNmMax": 12,
-              "size": "M8",
-              "note": "Ø8x30mm 하드웨어"
-            },
-            {
-              "name": "Shock Bolt (Rear)",
-              "torqueNm": 10,
-              "torqueNmMax": 12,
-              "size": "M8",
-              "note": "Ø8x40mm 하드웨어"
-            }
+            {"name": "Shock Bolt (Front)", "torqueNm": 10, "torqueNmMax": 12, "size": "M8", "count": 1, "note": "Ø8x30mm 하드웨어, Loctite 243"},
+            {"name": "Shock Bolt (Rear)", "torqueNm": 10, "torqueNmMax": 12, "size": "M8", "count": 1, "note": "Ø8x40mm 하드웨어, Loctite 243"}
           ]
         },
         {
           "name": "기타",
           "bolts": [
-            {
-              "name": "Mech Hanger",
-              "torqueNm": 18,
-              "note": "디레일러 행어 볼트"
-            },
-            {
-              "name": "Cable Clamp",
-              "torqueNm": 3
-            }
+            {"name": "Mech Hanger", "torqueNm": 18, "count": 1, "note": "디레일러 행어 스크류"},
+            {"name": "Cable Clamp", "torqueNm": 3, "size": "M3", "count": 1, "note": "M3x8 스크류"}
           ]
         }
       ],
-      "source": "YT Capra 29 AL Technical Information (공식 분해도/토크 문서)",
+      "source": "YT Capra 29 AL MK2 Technical Information Customer 2018-01-18 (official PDF verified)",
       "sourceUrl": "https://www.yt-industries.com/media/58/12/a4/1729759008/CAPRA-29-AL-TECHNICAL_INFORMATION_CUSTOMER_180118.pdf"
+    },
+    "Capra 29 AL MK3": {
+      "variants": ["Capra MK3 29 AL", "Capra MK3 AL 29"],
+      "year": "2021-2026",
+      "sections": [
+        {
+          "name": "피벗 & 링키지",
+          "bolts": [
+            {"name": "Main Pivot Axle", "torqueNm": 17, "count": 1, "note": "메인 피벗 액슬; 샤프트/베어링 그리스, 고정 스크류 스레드락커"},
+            {"name": "Lower Link Axle", "torqueNm": 20, "count": 1, "note": "로워 링크 액슬, 그리스"},
+            {"name": "Lower Link Retaining Screw", "torqueNm": 5, "count": 1, "note": "Loctite"},
+            {"name": "Yoke Bolt", "torqueNm": 12, "count": 4},
+            {"name": "Horst Link Bolt", "torqueNm": 12, "count": 2, "note": "그리스"},
+            {"name": "Horst Link Screw", "torqueNm": 2, "torqueNmMax": 3, "count": 2, "note": "Loctite"}
+          ]
+        },
+        {
+          "name": "샥 마운트",
+          "bolts": [
+            {"name": "Shock Bolt (Front)", "torqueNm": 10, "torqueNmMax": 12, "size": "M8", "count": 1, "note": "Ø8x20mm 하드웨어, 그리스 + Loctite"},
+            {"name": "Shock Bolt (Rear)", "torqueNm": 10, "torqueNmMax": 12, "size": "M8", "count": 1, "note": "Ø8x15mm 하드웨어, 그리스 + Loctite"}
+          ]
+        },
+        {
+          "name": "기타",
+          "bolts": [
+            {"name": "Cable Intake Screw", "torqueNm": 3, "count": 7, "note": "Loctite; MK3 BOM item 12/32"}
+          ]
+        }
+      ],
+      "source": "YT Capra MK3 29 & MX AL Customer BOM, Technical Information 2021-11-12 (official PDF verified). YT's official support index classifies the exact Capra AL drawing as MK3 / 2021 - Current; applicability is frozen through audit year 2026, which explicitly includes 2024.",
+      "sourceUrl": "https://www.yt-industries.com/media/27/cf/df/1733505204/CAPRA%20MK3%2029-MX%20AL%20CUSTOMER%20BOM.pdf"
     }
   }
 }

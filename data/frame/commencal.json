@@ -2,107 +2,78 @@
   "brand": "Commencal",
   "lastUpdated": "2026-08-26",
   "models": {
-    "Meta SX": {
-      "variants": ["Meta SX V4"],
+    "Meta SX V4": {
+      "variants": ["Meta SX"],
       "year": "2022-2023",
       "sections": [
         {
           "name": "피벗 & 링키지",
           "bolts": [
-            {
-              "name": "Main Pivot Bolt",
-              "torqueNm": 30,
-              "torqueNmMax": 35,
-              "count": 1,
-              "note": "메인 피벗 볼트 (META 29.2 플랫폼 공용)",
-              "warningIcon": "info"
-            },
-            {
-              "name": "Rocker / Front Triangle Axle",
-              "torqueNm": 10,
-              "torqueNmMax": 12,
-              "count": 2,
-              "note": "로커-프론트 트라이앵글 액슬 (2개 세트)"
-            }
-          ]
-        }
-      ],
-      "source": "Commencal 공식 스페어파츠 페이지 (Torque tightening 표기)",
-      "sourceUrl": "https://www.commencal.com/us/en/main-pivot-axle-kit-meta-29.2/W21METAAXLEMP.html"
-    },
-    "Meta SX V5": {
-      "variants": ["Meta SX V5"],
-      "year": "2024-",
-      "sections": [
-        {
-          "name": "피벗 & 링키지",
-          "bolts": [
-            {
-              "name": "Lower Link Axle (Front Triangle)",
-              "torqueNm": 20,
-              "note": "익스팬더 볼트는 6 Nm"
-            },
-            {
-              "name": "Lower Link Axle (Rear Triangle)",
-              "torqueNm": 20,
-              "note": "익스팬더 볼트는 6 Nm"
-            },
-            {
-              "name": "Upper Link Axle (Rear Triangle)",
-              "torqueNm": 12
-            },
-            {
-              "name": "Upper Link / Clevis Axle",
-              "torqueNm": 12
-            },
-            {
-              "name": "Axle Expander Bolt",
-              "torqueNm": 6,
-              "note": "액슬 익스팬더 시스템 고정 볼트 (풀림 방지)"
-            },
-            {
-              "name": "Bearing Lock Ring",
-              "torqueNm": 5
-            }
+            {"name": "Main Pivot Axle Kit", "torqueNm": 35, "count": 1, "note": "W21METAAXLEMP; 고정 볼트 W21METABOLTMP"},
+            {"name": "Rocker / Front Triangle Axle", "torqueNm": 12, "count": 2, "note": "W21METAAXLERKFT"},
+            {"name": "Rocker / Clevis Axle", "torqueNm": 12, "count": 2, "note": "W21METAAXLERKCL"},
+            {"name": "Rocker / Seatstay Axle", "torqueNm": 12, "count": 2, "note": "W21METAAXLERKSS"},
+            {"name": "Chainstay / Seatstay Axle", "torqueNm": 12, "count": 2, "note": "W21METAAXLECSSS"},
+            {"name": "Bearing Lock Ring", "torqueNm": 5, "note": "W21METALOCKRING"}
           ]
         },
         {
           "name": "샥 마운트",
           "bolts": [
-            {
-              "name": "Shock Axle (Front Triangle)",
-              "torqueNm": 20,
-              "note": "익스팬더 볼트는 6 Nm"
-            }
+            {"name": "Shock / Clevis Axle", "torqueNm": 9, "count": 1, "note": "W22MTXAXLESHCL"},
+            {"name": "Shock / Top Tube Axle Kit", "torqueNm": 9, "count": 1, "note": "W21METAAXLESHTT"}
           ]
         },
         {
           "name": "스루액슬",
           "bolts": [
-            {
-              "name": "Rear Thru Axle",
-              "torqueNm": 15,
-              "note": "UDH 180mm 액슬"
-            }
+            {"name": "Rear Thru Axle", "torqueNm": 12, "count": 1, "note": "W19AXLEWHEELBOOST, 12x148mm"}
           ]
         },
         {
           "name": "기타",
           "bolts": [
-            {
-              "name": "Universal Derailleur Hanger",
-              "torqueNm": 25,
-              "note": "SRAM UDH"
-            },
-            {
-              "name": "Top Tube Cable Guide",
-              "torqueNm": 3
-            }
+            {"name": "Derailleur Hanger", "torqueNm": 10, "count": 1, "note": "W21METARHR"},
+            {"name": "Lower Cable Guide", "torqueNm": 3, "count": 1, "note": "W19CLHCABLEGUIDEB"},
+            {"name": "Downtube Protector Screw", "torqueNm": 3, "count": 2, "note": "W21METAPROTECDT"}
           ]
         }
       ],
-      "source": "Commencal Tech - META SX V5 (공식 테크 문서)",
-      "sourceUrl": "https://www.commencal.com/ad/en/tech-meta-sx-v5.html"
+      "source": "Commencal Tech 2022/2023 META SX official technical PDFs (PDF verified)",
+      "sourceUrl": "https://static.commencal.com/tech/2023-COMMENCAL-META-SX-RIDE-METALLIC-GREEN.pdf"
+    },
+    "Meta SX V5": {
+      "variants": ["Meta SX"],
+      "year": "2023-2027",
+      "sections": [
+        {
+          "name": "피벗 & 링키지",
+          "bolts": [
+            {"name": "Lower Link Axle (Rear Triangle)", "torqueNm": 20, "count": 1, "note": "W23MTV5AXLELLRT; 익스팬더 볼트 6 Nm"},
+            {"name": "Upper Link Axle (Front Triangle)", "torqueNm": 20, "count": 1, "note": "W22TPOAXLEULFT; 익스팬더 볼트 6 Nm"},
+            {"name": "Upper Link Axle (Rear Triangle)", "torqueNm": 12, "count": 1, "note": "W23MTV5AXLEULRT"},
+            {"name": "Upper Link / Clevis Axle", "torqueNm": 12, "count": 1, "note": "W23MTV5AXLEULCL"},
+            {"name": "Axle Expander Bolt", "torqueNm": 6, "count": 3, "note": "프론트 로워 링크, 프론트 어퍼 링크, 리어 로워 링크 액슬 키트"},
+            {"name": "Bearing Lock Ring", "torqueNm": 5, "note": "W21METALOCKRING"}
+          ]
+        },
+        {
+          "name": "샥 마운트",
+          "bolts": [
+            {"name": "Shock Axle (Front Triangle)", "torqueNm": 10, "count": 1, "note": "W23MTV5AXLESHFT"},
+            {"name": "Shock / Clevis Axle", "torqueNm": 9, "count": 1, "note": "W21MPWTRAXLESHCL"}
+          ]
+        },
+        {
+          "name": "기타",
+          "bolts": [
+            {"name": "Universal Derailleur Hanger", "torqueNm": 25, "count": 1, "note": "A22HANGSRAMUDH"},
+            {"name": "Top Tube Cable Guide", "torqueNm": 3, "note": "W19CLHCABLEGUIDEB"}
+          ]
+        }
+      ],
+      "source": "Commencal Tech - META SX V5 (official web-only; PDF torque table unavailable). Official current V5 catalog includes model year 2027; applicability is closed at 2027 rather than extended into unknown future years. Conflicting W22TPOAXLELLFT and W22AXLEWHEELUDH180 values intentionally omitted pending manufacturer confirmation.",
+      "sourceUrl": "https://www.commencal.com/us/en/tech-meta-sx-v5.html"
     }
   }
 }

@@ -1,204 +1,90 @@
 {
   "brand": "Santa Cruz",
-  "lastUpdated": "2026-01-27",
+  "lastUpdated": "2026-08-26",
   "models": {
     "Nomad V6": {
-      "variants": ["Nomad 6", "Nomad MX"],
-      "year": "2024-",
+      "variants": ["Nomad 6", "Nomad 6 C", "Nomad 6 CC"],
+      "year": "2024-2026",
       "sections": [
         {
           "name": "피벗 & 링키지",
           "bolts": [
-            {
-              "name": "Main Pivot (Lower)",
-              "torqueNm": 15,
-              "size": "M10",
-              "count": 2,
-              "note": "Loctite 243 권장"
-            },
-            {
-              "name": "Main Pivot (Upper)",
-              "torqueNm": 12,
-              "size": "M8",
-              "count": 2
-            },
-            {
-              "name": "Seatstay Pivot",
-              "torqueNm": 12,
-              "size": "M8",
-              "count": 4,
-              "note": "토크 후 1/8회전 백오프",
-              "warningIcon": "warning"
-            },
-            {
-              "name": "Upper Link Pivot",
-              "torqueNm": 10,
-              "size": "M6",
-              "count": 4
-            },
-            {
-              "name": "Lower Link Pivot",
-              "torqueNm": 12,
-              "size": "M8",
-              "count": 2
-            }
+            {"name": "M10x23 Screw", "torqueNm": 16, "size": "M10x23", "count": 2, "note": "나사산 Loctite 242, 샤프트 그리스"},
+            {"name": "M6x20 SHCS", "torqueNm": 9, "size": "M6x20", "count": 2, "note": "나사산 Loctite 242"},
+            {"name": "Pivot Axle M15x91", "torqueNm": 20, "size": "M15x91", "count": 1, "note": "나사산 Loctite 242, 샤프트 그리스"},
+            {"name": "Pivot Axle M15x80.5", "torqueNm": 20, "size": "M15x80.5", "count": 1, "note": "나사산 Loctite 242, 샤프트 그리스"},
+            {"name": "Pivot Axle M15x68.5", "torqueNm": 20, "size": "M15x68.5", "count": 1, "note": "나사산 Loctite 242, 샤프트 그리스"},
+            {"name": "M6 Grease Fitting", "torqueNm": 9, "size": "M6", "count": 1}
           ]
         },
         {
           "name": "샥 마운트",
           "bolts": [
-            {
-              "name": "Shock Mount (Upper)",
-              "torqueNm": 14,
-              "size": "M8",
-              "note": "그리스 도포 권장",
-              "warningIcon": "info"
-            },
-            {
-              "name": "Shock Mount (Lower)",
-              "torqueNm": 14,
-              "size": "M8"
-            }
+            {"name": "M8x45 Shock Bolt", "torqueNm": 20, "size": "M8x45", "count": 2, "note": "나사산 Loctite 242"}
           ]
         },
         {
-          "name": "스루액슬",
+          "name": "디레일러 행어",
           "bolts": [
-            {
-              "name": "Rear Thru Axle",
-              "torqueNm": 12,
-              "torqueNmMax": 14
-            }
+            {"name": "SCB UDH Screw", "torqueNm": 20, "count": 1, "note": "역나사"}
           ]
         },
         {
-          "name": "시트포스트",
+          "name": "보호대 & 수납",
           "bolts": [
-            {
-              "name": "Seatpost Clamp",
-              "torqueNm": 5,
-              "torqueNmMax": 6,
-              "size": "M5",
-              "note": "카본 포스트는 4-5Nm 권장",
-              "warningIcon": "warning"
-            }
-          ]
-        },
-        {
-          "name": "기타",
-          "bolts": [
-            {
-              "name": "Bottle Cage",
-              "torqueNm": 3,
-              "torqueNmMax": 5,
-              "size": "M5",
-              "count": 2
-            },
-            {
-              "name": "Cable Guide",
-              "torqueNm": 2,
-              "torqueNmMax": 3
-            },
-            {
-              "name": "ISCG Mount",
-              "torqueNm": 6,
-              "size": "M6",
-              "count": 3
-            }
+            {"name": "Glovebox Bezel M3x8 BHCS", "torqueNm": 0.5, "size": "M3x8", "count": 4, "note": "나사산 Loctite 242"},
+            {"name": "Glovebox / Storage M3x6 Screw", "torqueNm": 0.6, "size": "M3x6", "count": 1, "note": "나사산 Loctite 242"},
+            {"name": "Chainstay Protector M3x12 BHCS", "torqueNm": 0.5, "size": "M3x12", "count": 1, "note": "나사산 그리스"},
+            {"name": "Lower Link Fender M4x12 BHC", "torqueNm": 0.65, "size": "M4x12", "count": 2, "note": "나사산 그리스"},
+            {"name": "Shuttle Guard M4x8 BHCS", "torqueNm": 0.65, "size": "M4x8", "count": 2, "note": "나사산 그리스"},
+            {"name": "Downtube Protector M4x12 BHC", "torqueNm": 0.65, "size": "M4x12", "count": 2, "note": "나사산 그리스"}
           ]
         }
       ],
-      "source": "Santa Cruz Owner's Manual"
+      "source": "Santa Cruz Nomad 6 MY24/MY25/MY26 official product support exploded diagrams (official web-only; PDF torque table unavailable)",
+      "sourceUrl": "https://www.santacruzbicycles.com/en-ca/pages/product-support/nomad-6-my26"
     },
     "Megatower V2": {
-      "variants": ["Megatower 2", "Megatower CC"],
-      "year": "2023-",
+      "variants": ["Megatower", "Megatower 2", "Megatower 2 C", "Megatower 2 CC"],
+      "year": "2023-2026",
       "sections": [
         {
           "name": "피벗 & 링키지",
           "bolts": [
-            {
-              "name": "Main Pivot (Lower)",
-              "torqueNm": 15,
-              "size": "M10",
-              "count": 2,
-              "note": "Loctite 243 권장"
-            },
-            {
-              "name": "Main Pivot (Upper)",
-              "torqueNm": 12,
-              "size": "M8",
-              "count": 2
-            },
-            {
-              "name": "Rocker Link Pivot",
-              "torqueNm": 10,
-              "size": "M6",
-              "count": 4
-            },
-            {
-              "name": "Lower Link Pivot",
-              "torqueNm": 12,
-              "size": "M8",
-              "count": 2
-            }
+            {"name": "M10x23 Screw", "torqueNm": 16, "size": "M10x23", "count": 2, "note": "나사산 Loctite 242, 샤프트 그리스"},
+            {"name": "M6x20 SHCS", "torqueNm": 9, "size": "M6x20", "count": 3, "note": "나사산 Loctite 242"},
+            {"name": "Pivot Axle M15x91", "torqueNm": 20, "size": "M15x91", "count": 1, "note": "나사산 Loctite 242, 샤프트 그리스"},
+            {"name": "Pivot Axle M15x68.5", "torqueNm": 20, "size": "M15x68.5", "count": 1, "note": "나사산 Loctite 242, 샤프트 그리스"},
+            {"name": "Pivot Axle M15x80.5", "torqueNm": 20, "size": "M15x80.5", "count": 1, "note": "나사산 Loctite 242, 샤프트 그리스"},
+            {"name": "M6 Grease Fitting", "torqueNm": 9, "size": "M6", "count": 1}
           ]
         },
         {
           "name": "샥 마운트",
           "bolts": [
-            {
-              "name": "Shock Mount (Upper)",
-              "torqueNm": 14,
-              "size": "M8"
-            },
-            {
-              "name": "Shock Mount (Lower)",
-              "torqueNm": 14,
-              "size": "M8"
-            }
+            {"name": "M8x45 Shock Bolt", "torqueNm": 20, "size": "M8x45", "count": 2, "note": "나사산 Loctite 242"}
           ]
         },
         {
-          "name": "스루액슬",
+          "name": "디레일러 행어",
           "bolts": [
-            {
-              "name": "Rear Thru Axle",
-              "torqueNm": 12,
-              "torqueNmMax": 14
-            }
+            {"name": "SCB UDH Screw", "torqueNm": 20, "count": 1, "note": "역나사"}
           ]
         },
         {
-          "name": "시트포스트",
+          "name": "보호대 & 수납",
           "bolts": [
-            {
-              "name": "Seatpost Clamp",
-              "torqueNm": 5,
-              "torqueNmMax": 6,
-              "size": "M5"
-            }
-          ]
-        },
-        {
-          "name": "기타",
-          "bolts": [
-            {
-              "name": "Bottle Cage",
-              "torqueNm": 3,
-              "torqueNmMax": 5,
-              "size": "M5",
-              "count": 2
-            },
-            {
-              "name": "Cable Guide",
-              "torqueNm": 2,
-              "torqueNmMax": 3
-            }
+            {"name": "Shuttle Guard M4x8 BHCS", "torqueNm": 0.65, "size": "M4x8", "count": 2, "note": "나사산 그리스"},
+            {"name": "Downtube Protector M4x12 BHC", "torqueNm": 0.65, "size": "M4x12", "count": 2, "note": "나사산 그리스"},
+            {"name": "Glovebox Bezel M3x8 BHCS", "torqueNm": 0.5, "size": "M3x8", "count": 4, "note": "나사산 Loctite 242"},
+            {"name": "Glovebox / Storage M3x6 Screw", "torqueNm": 0.6, "size": "M3x6", "count": 1, "note": "나사산 Loctite 242"},
+            {"name": "Chainstay Protector M3x12 BHCS", "torqueNm": 0.5, "size": "M3x12", "count": 1, "note": "나사산 그리스"},
+            {"name": "Lower Link Fender M4x12 BHC", "torqueNm": 0.65, "size": "M4x12", "count": 2, "note": "나사산 그리스"}
           ]
         }
       ],
-      "source": "Santa Cruz Owner's Manual"
+      "source": "Santa Cruz Megatower 2 MY23/MY25/MY26 official product support exploded diagrams (official web-only; PDF torque table unavailable)",
+      "sourceUrl": "https://www.santacruzbicycles.com/pages/product-support/megatower-2-my-26"
     }
   }
 }

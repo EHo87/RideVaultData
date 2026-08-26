@@ -1,168 +1,99 @@
 {
   "brand": "Canyon",
-  "lastUpdated": "2026-04-03",
+  "lastUpdated": "2026-08-26",
   "models": {
-    "Spectral CF": {
-      "variants": ["Spectral CF 7", "Spectral CF 8", "Spectral CF 9"],
-      "year": "2024-",
+    "Spectral CF M179-01 (MY2024)": {
+      "variants": [
+        "Spectral CF M179-01",
+        "Spectral CF"
+      ],
+      "year": "2024",
       "sections": [
         {
-          "name": "피벗 & 링키지",
+          "name": "프레임 도면 콜아웃",
           "bolts": [
             {
-              "name": "Main Pivot",
+              "name": "Main Pivot Fastener (Position 22)",
+              "torqueNm": 20
+            },
+            {
+              "name": "Upper Shock Mount Fastener (Position 11)",
               "torqueNm": 20,
-              "size": "M10",
-              "count": 2,
-              "note": "Loctite 243 권장",
-              "warningIcon": "warning"
+              "count": 1
             },
             {
-              "name": "Rocker Link Pivot (Upper)",
-              "torqueNm": 17,
-              "size": "M8",
+              "name": "Rocker Mount Fasteners (Position 32)",
+              "torqueNm": 20,
               "count": 2
             },
             {
-              "name": "Rocker Link Pivot (Lower)",
-              "torqueNm": 17,
-              "size": "M8",
-              "count": 2
-            },
-            {
-              "name": "Seatstay Pivot",
-              "torqueNm": 12,
-              "size": "M6",
-              "count": 4
-            }
-          ]
-        },
-        {
-          "name": "샥 마운트",
-          "bolts": [
-            {
-              "name": "Shock Mount (Upper)",
+              "name": "Horst Link Fasteners (Position 39)",
               "torqueNm": 15,
-              "torqueNmMax": 20,
-              "size": "M8",
-              "note": "그리스 도포 권장",
-              "warningIcon": "info"
-            },
-            {
-              "name": "Shock Mount (Lower)",
-              "torqueNm": 15,
-              "torqueNmMax": 20,
-              "size": "M8"
-            }
-          ]
-        },
-        {
-          "name": "스루액슬",
-          "bolts": [
-            {
-              "name": "Rear Thru Axle",
-              "torqueNm": 12,
-              "note": "Canyon 전용 스루액슬"
-            }
-          ]
-        },
-        {
-          "name": "시트포스트",
-          "bolts": [
-            {
-              "name": "Seatpost Clamp",
-              "torqueNm": 5,
-              "torqueNmMax": 6,
-              "size": "M5",
-              "note": "카본 포스트는 4-5Nm 권장",
-              "warningIcon": "warning"
-            }
-          ]
-        },
-        {
-          "name": "기타",
-          "bolts": [
-            {
-              "name": "Bottle Cage",
-              "torqueNm": 3,
-              "torqueNmMax": 5,
-              "size": "M5",
               "count": 2
+            }
+          ]
+        },
+        {
+          "name": "케이블 라우팅",
+          "bolts": [
+            {
+              "name": "Cable Exit Screw (Position 28)",
+              "torqueNm": 0.5,
+              "count": 1
             },
             {
-              "name": "Cable Guide",
-              "torqueNm": 2,
-              "torqueNmMax": 3
+              "name": "Cable Guide Screw (Position 9)",
+              "torqueNm": 1
             },
             {
-              "name": "ISCG Mount",
-              "torqueNm": 6,
-              "size": "M6",
-              "count": 3
+              "name": "Cable Routing Screw (Position 45)",
+              "torqueNm": 1,
+              "count": 1
+            },
+            {
+              "name": "Cable Routing Screw (Position 46)",
+              "torqueNm": 1,
+              "count": 1
             }
           ]
         }
       ],
-      "source": "Canyon MTB Owner's Manual / Canyon Support"
+      "source": "Canyon Spectral CF exploded drawing M179-01, Revision 00 (12.02.2024), p. 1",
+      "sourceUrl": "https://www.canyon.com/on/demandware.static/-/Library-Sites-canyon-shared/default/dwbcdf6997/explosiondrawings/2024/spectral/M179-01_BOM_Spectral%20CF.pdf"
     },
-    "Strive CFR": {
-      "variants": ["Strive CFR", "Strive CF"],
-      "year": "2022-",
+    "Strive CFR M147-01 (MY2022)": {
+      "variants": [
+        "Strive CFR M147-01",
+        "Strive CFR"
+      ],
+      "year": "2022",
       "sections": [
         {
-          "name": "피벗 & 링키지",
+          "name": "프레임 도면 콜아웃",
           "bolts": [
             {
-              "name": "Main Pivot",
+              "name": "Frame/Link Fastener (Position 9)",
+              "torqueNm": 20
+            },
+            {
+              "name": "Frame/Link Fastener (Position 14)",
+              "torqueNm": 15,
+              "count": 1
+            },
+            {
+              "name": "Horst Link Fastener Assemblies (Positions 29-31)",
+              "torqueNm": 10,
+              "count": 2
+            },
+            {
+              "name": "Rocker/Seatstay Fasteners (Position 35)",
               "torqueNm": 20,
-              "size": "M10",
-              "count": 2,
-              "note": "Loctite 243 권장",
-              "warningIcon": "warning"
-            },
-            {
-              "name": "Rocker Link Pivot (Upper)",
-              "torqueNm": 17,
-              "size": "M8",
               "count": 2
             },
             {
-              "name": "Rocker Link Pivot (Lower)",
-              "torqueNm": 17,
-              "size": "M8",
+              "name": "Rocker/Seatstay Fasteners (Position 40)",
+              "torqueNm": 15,
               "count": 2
-            },
-            {
-              "name": "Seatstay Pivot",
-              "torqueNm": 12,
-              "size": "M6",
-              "count": 4
-            },
-            {
-              "name": "Shapeshifter Mount",
-              "torqueNm": 8,
-              "size": "M6",
-              "count": 2,
-              "note": "Shapeshifter 장착 모델만 해당",
-              "warningIcon": "info"
-            }
-          ]
-        },
-        {
-          "name": "샥 마운트",
-          "bolts": [
-            {
-              "name": "Shock Mount (Upper)",
-              "torqueNm": 15,
-              "torqueNmMax": 20,
-              "size": "M8",
-              "note": "그리스 도포 권장"
-            },
-            {
-              "name": "Shock Mount (Lower)",
-              "torqueNm": 15,
-              "torqueNmMax": 20,
-              "size": "M8"
             }
           ]
         },
@@ -170,22 +101,9 @@
           "name": "스루액슬",
           "bolts": [
             {
-              "name": "Rear Thru Axle",
-              "torqueNm": 12,
-              "note": "Canyon 전용 스루액슬"
-            }
-          ]
-        },
-        {
-          "name": "시트포스트",
-          "bolts": [
-            {
-              "name": "Seatpost Clamp",
-              "torqueNm": 5,
-              "torqueNmMax": 6,
-              "size": "M5",
-              "note": "카본 포스트는 4-5Nm 권장",
-              "warningIcon": "warning"
+              "name": "Rear Thru Axle (Position 25)",
+              "torqueNm": 15,
+              "count": 1
             }
           ]
         },
@@ -193,21 +111,15 @@
           "name": "기타",
           "bolts": [
             {
-              "name": "Bottle Cage",
+              "name": "Water Bottle Screws (Position 8)",
               "torqueNm": 3,
-              "torqueNmMax": 5,
-              "size": "M5",
-              "count": 2
-            },
-            {
-              "name": "Cable Guide",
-              "torqueNm": 2,
-              "torqueNmMax": 3
+              "count": 4
             }
           ]
         }
       ],
-      "source": "Canyon MTB Owner's Manual / Canyon Support"
+      "source": "Canyon Strive CFR exploded drawing M147-01, Revision 00 (02.05.2022), p. 1",
+      "sourceUrl": "https://www.canyon.com/on/demandware.static/-/Library-Sites-canyon-shared/default/dw190c2a8d/explosiondrawings/2022/strive/M147-01_BOM_Strive%20CFR.pdf"
     }
   }
 }
