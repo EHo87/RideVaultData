@@ -1,0 +1,171 @@
+{
+  "brand": "Scott",
+  "model": "Gambler",
+  "year": 2026,
+  "type": "dh",
+  "wheelSize": "29/27.5 MX",
+  "travel": {
+    "front": 200,
+    "rear": 210
+  },
+  "source": "Vital MTB / MBR (Scott 공식 차트 전재)",
+  "sourceUrl": "https://www.vitalmtb.com/product/guide/bikes/scott/gambler-68791",
+  "lastUpdated": "2026-08-26",
+  "notes": "2026 신형 6바 링키지 DH(쇼크 프레임 내장). 수치는 Low BB + 롱 체인스테이(464mm) + 뉴트럴 헤드셋 컵 기준. High BB: HA/STA +1°, BB +16mm(345→361mm), 리치 +12mm, 스택 -9mm. 체인스테이 플립칩 15mm(High BB 기준 445/460mm). 헤드셋 컵으로 리치 ±6mm. 스택/헤드튜브(110mm)/시트튜브(405mm)는 전 사이즈 동일(공식 차트 수치). 29인치 리어 휠 호환. 완성차는 MX 구성.",
+  "flipchips": [
+    {
+      "id": "bb",
+      "name": "BB Height Chip",
+      "description": "프론트 쇼크 마운트 회전으로 BB 높이 16mm, 각도 1° 조정",
+      "positions": [
+        {
+          "id": "low",
+          "name": "Low",
+          "description": "낮은 BB(345mm), HA 62.5° - 고속 안정성"
+        },
+        {
+          "id": "high",
+          "name": "High",
+          "description": "높은 BB(361mm), HA 63.5° - 민첩성/롤오버"
+        }
+      ],
+      "default": "low",
+      "adjustments": {
+        "low": {
+          "bbHeight": 0,
+          "headAngle": 0,
+          "seatAngle": 0
+        },
+        "high": {
+          "bbHeight": 16,
+          "headAngle": 1,
+          "seatAngle": 1,
+          "reach": 12,
+          "stack": -9
+        }
+      }
+    },
+    {
+      "id": "chainstay",
+      "name": "Chainstay Flip Chip",
+      "description": "리어 드롭아웃 플립칩으로 체인스테이 15mm 조정",
+      "positions": [
+        {
+          "id": "long",
+          "name": "Long",
+          "description": "긴 체인스테이(Low BB 기준 464mm) - 고속 안정성"
+        },
+        {
+          "id": "short",
+          "name": "Short",
+          "description": "짧은 체인스테이(Low BB 기준 449mm) - 민첩한 핸들링"
+        }
+      ],
+      "default": "long",
+      "adjustments": {
+        "long": {
+          "chainstay": 0
+        },
+        "short": {
+          "chainstay": -15
+        }
+      }
+    },
+    {
+      "id": "reach-adjust",
+      "name": "Reach Adjust Headset Cups",
+      "description": "이센트릭 헤드셋 컵으로 리치 ±6mm 조정",
+      "positions": [
+        {
+          "id": "short",
+          "name": "Short (-6mm)",
+          "description": "짧은 리치"
+        },
+        {
+          "id": "neutral",
+          "name": "Neutral",
+          "description": "기본 리치"
+        },
+        {
+          "id": "long",
+          "name": "Long (+6mm)",
+          "description": "긴 리치"
+        }
+      ],
+      "default": "neutral",
+      "adjustments": {
+        "short": {
+          "reach": -6
+        },
+        "neutral": {
+          "reach": 0
+        },
+        "long": {
+          "reach": 6
+        }
+      }
+    }
+  ],
+  "sizes": [
+    {
+      "size": "M",
+      "reach": 433,
+      "stack": 648,
+      "headAngle": 62.5,
+      "seatAngle": 76.0,
+      "seatAngleEffective": 76.0,
+      "chainstay": 464,
+      "wheelbase": 1278,
+      "bbDrop": 14,
+      "bbHeight": 345,
+      "seatTube": 405,
+      "topTubeActual": null,
+      "topTubeEffective": 608,
+      "standover": null,
+      "forkOffset": null,
+      "forkLength": null,
+      "headTube": 110,
+      "trail": null
+    },
+    {
+      "size": "L",
+      "reach": 458,
+      "stack": 648,
+      "headAngle": 62.5,
+      "seatAngle": 76.0,
+      "seatAngleEffective": 76.0,
+      "chainstay": 464,
+      "wheelbase": 1303,
+      "bbDrop": 14,
+      "bbHeight": 345,
+      "seatTube": 405,
+      "topTubeActual": null,
+      "topTubeEffective": 633,
+      "standover": null,
+      "forkOffset": null,
+      "forkLength": null,
+      "headTube": 110,
+      "trail": null
+    },
+    {
+      "size": "XL",
+      "reach": 483,
+      "stack": 648,
+      "headAngle": 62.5,
+      "seatAngle": 76.0,
+      "seatAngleEffective": 76.0,
+      "chainstay": 464,
+      "wheelbase": 1328,
+      "bbDrop": 14,
+      "bbHeight": 345,
+      "seatTube": 405,
+      "topTubeActual": null,
+      "topTubeEffective": 658,
+      "standover": null,
+      "forkOffset": null,
+      "forkLength": null,
+      "headTube": 110,
+      "trail": null
+    }
+  ]
+}

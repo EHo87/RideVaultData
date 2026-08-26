@@ -1,0 +1,127 @@
+{
+  "brand": "Orbea",
+  "model": "Rallon EN",
+  "year": 2026,
+  "type": "enduro",
+  "wheelSize": "29",
+  "travel": {
+    "front": 180,
+    "rear": 170
+  },
+  "source": "Bike Insights (Orbea 공식 지오메트리 전재)",
+  "sourceUrl": "https://bikeinsights.com/bikes/5cc5e4b5b25d8c0017bce564-orbea-rallon?version=2026-enduro",
+  "lastUpdated": "2026-08-26",
+  "notes": "2026 신세대 Rallon 엔듀로 버전(기존 rallon-2025와 별개). 29 휠 / Gravity Link High(Linear) / 뉴트럴 앵글셋 / 롱 체인스테이(450mm) 기준. 체인스테이는 442mm(숏)/450mm(롱) 비조절식 옵션 - 442mm 선택 시 wheelbase 약 -8mm. MX(뮬렛) 리어휠 구성 가능. 3포지션 앵글 조절 헤드셋 컵으로 헤드앵글 총 63.2°~64.8° 범위 조정 가능. ENDURO-MTB 매거진 차트와 교차 검증(리치/스택/앵글 일치).",
+  "flipchips": [
+    {
+      "id": "gravity-link",
+      "name": "Gravity Link",
+      "description": "쇼크 링크 2포지션 - 헤드앵글과 BB 높이 조정",
+      "positions": [
+        {
+          "id": "high",
+          "name": "High",
+          "description": "기본 포지션 - 높은 BB, 스팁한 헤드앵글"
+        },
+        {
+          "id": "low",
+          "name": "Low",
+          "description": "낮은 BB, 슬랙한 헤드앵글 - 하강 안정성 향상"
+        }
+      ],
+      "default": "high",
+      "adjustments": {
+        "high": {
+          "headAngle": 0,
+          "bbHeight": 0
+        },
+        "low": {
+          "headAngle": -0.5,
+          "bbHeight": -7
+        }
+      }
+    }
+  ],
+  "sizes": [
+    {
+      "size": "S",
+      "reach": 429.8,
+      "stack": 629.3,
+      "headAngle": 64.2,
+      "seatAngle": 79.8,
+      "seatAngleEffective": 79.8,
+      "chainstay": 450,
+      "wheelbase": 1218,
+      "bbDrop": 28.2,
+      "bbHeight": 343.8,
+      "seatTube": 400,
+      "topTubeActual": null,
+      "topTubeEffective": 542.6,
+      "standover": 762.9,
+      "forkOffset": 44,
+      "forkLength": null,
+      "headTube": 100,
+      "trail": 130.9
+    },
+    {
+      "size": "M",
+      "reach": 454.8,
+      "stack": 638.3,
+      "headAngle": 64.2,
+      "seatAngle": 79.4,
+      "seatAngleEffective": 79.4,
+      "chainstay": 450,
+      "wheelbase": 1247.3,
+      "bbDrop": 28.2,
+      "bbHeight": 343.8,
+      "seatTube": 405,
+      "topTubeActual": null,
+      "topTubeEffective": 574.6,
+      "standover": 755.9,
+      "forkOffset": 44,
+      "forkLength": null,
+      "headTube": 110,
+      "trail": 130.9
+    },
+    {
+      "size": "L",
+      "reach": 477.9,
+      "stack": 647.3,
+      "headAngle": 64.2,
+      "seatAngle": 79.1,
+      "seatAngleEffective": 79.1,
+      "chainstay": 450,
+      "wheelbase": 1274.7,
+      "bbDrop": 28.2,
+      "bbHeight": 343.8,
+      "seatTube": 410,
+      "topTubeActual": null,
+      "topTubeEffective": 603.1,
+      "standover": 757.9,
+      "forkOffset": 44,
+      "forkLength": null,
+      "headTube": 120,
+      "trail": 130.9
+    },
+    {
+      "size": "XL",
+      "reach": 504.9,
+      "stack": 656.3,
+      "headAngle": 64.2,
+      "seatAngle": 78.8,
+      "seatAngleEffective": 78.8,
+      "chainstay": 450,
+      "wheelbase": 1306,
+      "bbDrop": 28.2,
+      "bbHeight": 343.8,
+      "seatTube": 420,
+      "topTubeActual": null,
+      "topTubeEffective": 635.3,
+      "standover": 762.9,
+      "forkOffset": 44,
+      "forkLength": null,
+      "headTube": 130,
+      "trail": 130.9
+    }
+  ]
+}

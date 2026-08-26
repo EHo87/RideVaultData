@@ -1,0 +1,147 @@
+{
+  "brand": "Norco",
+  "model": "Fluid FS",
+  "year": 2027,
+  "type": "trail",
+  "wheelSize": "29/27.5 MX",
+  "travel": {
+    "front": 140,
+    "rear": 130
+  },
+  "source": "Norco Official",
+  "sourceUrl": "https://www.norco.com/bikes/mountain/trail/fluid-gen-3/27-fluid-a1/",
+  "lastUpdated": "2026-08-26",
+  "notes": "MY27 신형 (Norco 공식 명칭은 'Fluid' Gen 3, A1/A2/A3 알루미늄). 스톡 MX(29/27.5) 구성 기준 - 풀 29 구성 시 chainstay +2mm, wheelbase +2mm. 사이즈 표기는 S1~S5. seatAngle은 유효각. bbDrop은 프론트 기준(MX 구성 리어 기준은 13mm). S4 wheelbase는 공식 차트 오타(159) - 29 구성값 1261에서 MX -2mm 규칙으로 1259 보정. chainstay는 Norco 공식 Rear Centre Length.",
+  "flipchips": [
+    {
+      "id": "wheel-config",
+      "name": "Wheel Configuration Chip",
+      "description": "리어 휠 사이즈(27.5/29) 대응 지오메트리 보정",
+      "positions": [
+        {
+          "id": "mx",
+          "name": "MX (29/27.5)",
+          "description": "스톡 구성 - 뮬렛"
+        },
+        {
+          "id": "29",
+          "name": "Full 29",
+          "description": "풀 29 구성"
+        }
+      ],
+      "default": "mx",
+      "adjustments": {
+        "mx": {
+          "chainstay": 0,
+          "wheelbase": 0
+        },
+        "29": {
+          "chainstay": 2,
+          "wheelbase": 2
+        }
+      }
+    }
+  ],
+  "sizes": [
+    {
+      "size": "S1",
+      "reach": 432,
+      "stack": 608,
+      "headAngle": 65.0,
+      "seatAngle": 76.5,
+      "seatAngleEffective": 76.5,
+      "chainstay": 426,
+      "wheelbase": 1176,
+      "bbDrop": 32,
+      "bbHeight": 342,
+      "seatTube": 360,
+      "topTubeActual": null,
+      "topTubeEffective": 578,
+      "standover": 673,
+      "forkOffset": 44,
+      "forkLength": null,
+      "headTube": 100,
+      "trail": 126
+    },
+    {
+      "size": "S2",
+      "reach": 452,
+      "stack": 617,
+      "headAngle": 65.0,
+      "seatAngle": 76.75,
+      "seatAngleEffective": 76.75,
+      "chainstay": 430,
+      "wheelbase": 1202,
+      "bbDrop": 32,
+      "bbHeight": 342,
+      "seatTube": 380,
+      "topTubeActual": null,
+      "topTubeEffective": 597,
+      "standover": 676,
+      "forkOffset": 44,
+      "forkLength": null,
+      "headTube": 110,
+      "trail": 126
+    },
+    {
+      "size": "S3",
+      "reach": 472,
+      "stack": 626,
+      "headAngle": 65.0,
+      "seatAngle": 77.0,
+      "seatAngleEffective": 77.0,
+      "chainstay": 434,
+      "wheelbase": 1230,
+      "bbDrop": 32,
+      "bbHeight": 342,
+      "seatTube": 395,
+      "topTubeActual": null,
+      "topTubeEffective": 617,
+      "standover": 677,
+      "forkOffset": 44,
+      "forkLength": null,
+      "headTube": 120,
+      "trail": 126
+    },
+    {
+      "size": "S4",
+      "reach": 492,
+      "stack": 635,
+      "headAngle": 65.0,
+      "seatAngle": 77.25,
+      "seatAngleEffective": 77.25,
+      "chainstay": 438,
+      "wheelbase": 1259,
+      "bbDrop": 32,
+      "bbHeight": 342,
+      "seatTube": 440,
+      "topTubeActual": null,
+      "topTubeEffective": 636,
+      "standover": 685,
+      "forkOffset": 44,
+      "forkLength": null,
+      "headTube": 130,
+      "trail": 126
+    },
+    {
+      "size": "S5",
+      "reach": 512,
+      "stack": 644,
+      "headAngle": 65.0,
+      "seatAngle": 77.5,
+      "seatAngleEffective": 77.5,
+      "chainstay": 442,
+      "wheelbase": 1287,
+      "bbDrop": 32,
+      "bbHeight": 342,
+      "seatTube": 465,
+      "topTubeActual": null,
+      "topTubeEffective": 655,
+      "standover": 700,
+      "forkOffset": 44,
+      "forkLength": null,
+      "headTube": 140,
+      "trail": 126
+    }
+  ]
+}

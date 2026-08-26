@@ -1,0 +1,161 @@
+{
+  "brand": "Canyon",
+  "model": "Sender CFR",
+  "year": 2025,
+  "type": "dh",
+  "wheelSize": "29/27.5 MX",
+  "travel": {
+    "front": 200,
+    "rear": 200
+  },
+  "source": "Canyon Official",
+  "sourceUrl": "https://www.canyon.com/en-us/mountain-bikes/downhill-bikes/sender/sender-cfr-cllctv/4447.html",
+  "lastUpdated": "2026-08-26",
+  "notes": "2025-05 발표 하이피벗(아이들러) 신형 DH. 수치는 High BB 포지션(HA 63.0°, BB 352mm) 기준. Low 포지션: HA 62.7°, BB 347mm. 리치 조절 헤드셋 컵 ±8mm. 체인스테이 438mm(스태틱, 리어워드 액슬 패스로 트래블 중 증가). CFR 빌드 포크는 Fox 40(203mm). KIS 스티어링 스태빌라이저 장착.",
+  "flipchips": [
+    {
+      "id": "bb",
+      "name": "BB Flip Chip",
+      "description": "BB 높이 5mm와 헤드앵글 0.3° 조정",
+      "positions": [
+        {
+          "id": "high",
+          "name": "High",
+          "description": "높은 BB(352mm), HA 63.0°"
+        },
+        {
+          "id": "low",
+          "name": "Low",
+          "description": "낮은 BB(347mm), HA 62.7° - 고속 안정성"
+        }
+      ],
+      "default": "high",
+      "adjustments": {
+        "high": {
+          "bbHeight": 0,
+          "headAngle": 0
+        },
+        "low": {
+          "bbHeight": -5,
+          "headAngle": -0.3
+        }
+      }
+    },
+    {
+      "id": "reach-adjust",
+      "name": "Reach Adjust Headset Cups",
+      "description": "리치 ±8mm 조정 헤드셋 컵",
+      "positions": [
+        {
+          "id": "short",
+          "name": "Short (-8mm)",
+          "description": "짧은 리치 - 타이트한 테크니컬 트랙"
+        },
+        {
+          "id": "neutral",
+          "name": "Neutral",
+          "description": "기본 리치"
+        },
+        {
+          "id": "long",
+          "name": "Long (+8mm)",
+          "description": "긴 리치 - 고속 트랙"
+        }
+      ],
+      "default": "neutral",
+      "adjustments": {
+        "short": {
+          "reach": -8
+        },
+        "neutral": {
+          "reach": 0
+        },
+        "long": {
+          "reach": 8
+        }
+      }
+    }
+  ],
+  "sizes": [
+    {
+      "size": "S",
+      "reach": 443,
+      "stack": 626,
+      "headAngle": 63.0,
+      "seatAngle": 78.5,
+      "seatAngleEffective": 78.5,
+      "chainstay": 438,
+      "wheelbase": 1246,
+      "bbDrop": 24,
+      "bbHeight": 352,
+      "seatTube": 400,
+      "topTubeActual": null,
+      "topTubeEffective": 570,
+      "standover": 753,
+      "forkOffset": 52,
+      "forkLength": null,
+      "headTube": 100,
+      "trail": null
+    },
+    {
+      "size": "M",
+      "reach": 468,
+      "stack": 630,
+      "headAngle": 63.0,
+      "seatAngle": 78.5,
+      "seatAngleEffective": 78.5,
+      "chainstay": 438,
+      "wheelbase": 1273,
+      "bbDrop": 24,
+      "bbHeight": 352,
+      "seatTube": 400,
+      "topTubeActual": null,
+      "topTubeEffective": 596,
+      "standover": 756,
+      "forkOffset": 52,
+      "forkLength": null,
+      "headTube": 105,
+      "trail": null
+    },
+    {
+      "size": "L",
+      "reach": 495,
+      "stack": 635,
+      "headAngle": 63.0,
+      "seatAngle": 78.0,
+      "seatAngleEffective": 78.0,
+      "chainstay": 438,
+      "wheelbase": 1303,
+      "bbDrop": 24,
+      "bbHeight": 352,
+      "seatTube": 420,
+      "topTubeActual": null,
+      "topTubeEffective": 630,
+      "standover": 754,
+      "forkOffset": 52,
+      "forkLength": null,
+      "headTube": 110,
+      "trail": null
+    },
+    {
+      "size": "XL",
+      "reach": 518,
+      "stack": 639,
+      "headAngle": 63.0,
+      "seatAngle": 78.0,
+      "seatAngleEffective": 78.0,
+      "chainstay": 438,
+      "wheelbase": 1328,
+      "bbDrop": 24,
+      "bbHeight": 352,
+      "seatTube": 440,
+      "topTubeActual": null,
+      "topTubeEffective": 654,
+      "standover": 759,
+      "forkOffset": 52,
+      "forkLength": null,
+      "headTube": 115,
+      "trail": null
+    }
+  ]
+}

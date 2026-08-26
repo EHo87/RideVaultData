@@ -1,13 +1,20 @@
 {
   "version": "2.0.0",
-  "lastUpdated": "2026-08-25",
-  "totalBikes": 95,
+  "lastUpdated": "2026-08-26",
+  "totalBikes": 113,
   "brands": [
     {
       "name": "Santa Cruz",
       "slug": "santa-cruz",
       "country": "USA",
       "models": [
+        {
+          "name": "Blur 5",
+          "slug": "blur-5",
+          "type": "xc",
+          "years": [2027],
+          "file": "blur-5"
+        },
         {
           "name": "Nomad 7",
           "slug": "nomad-7",
@@ -134,6 +141,20 @@
       "slug": "specialized",
       "country": "USA",
       "models": [
+        {
+          "name": "Epic 9",
+          "slug": "epic-9",
+          "type": "xc",
+          "years": [2027],
+          "file": "epic-9"
+        },
+        {
+          "name": "Demo 11",
+          "slug": "demo-11",
+          "type": "dh",
+          "years": [2027],
+          "file": "demo-11"
+        },
         {
           "name": "Enduro",
           "slug": "enduro",
@@ -282,6 +303,27 @@
       "country": "Germany",
       "models": [
         {
+          "name": "Lux Trail",
+          "slug": "lux-trail",
+          "type": "downcountry",
+          "years": [2026],
+          "file": "lux-trail"
+        },
+        {
+          "name": "Sender CFR",
+          "slug": "sender-cfr",
+          "type": "dh",
+          "years": [2025],
+          "file": "sender-cfr"
+        },
+        {
+          "name": "Torque AL",
+          "slug": "torque-al",
+          "type": "enduro",
+          "years": [2026],
+          "file": "torque-al"
+        },
+        {
           "name": "Spectral AL",
           "slug": "spectral-al",
           "type": "trail",
@@ -345,6 +387,13 @@
       "country": "Germany",
       "models": [
         {
+          "name": "Izzo",
+          "slug": "izzo",
+          "type": "trail",
+          "years": [2025],
+          "file": "izzo"
+        },
+        {
           "name": "Capra",
           "slug": "capra",
           "type": "enduro",
@@ -393,6 +442,27 @@
       "slug": "giant",
       "country": "Taiwan",
       "models": [
+        {
+          "name": "Stance",
+          "slug": "stance",
+          "type": "trail",
+          "years": [2026],
+          "file": "stance"
+        },
+        {
+          "name": "Anthem Advanced SL",
+          "slug": "anthem-advanced-sl",
+          "type": "xc",
+          "years": [2026],
+          "file": "anthem-advanced-sl"
+        },
+        {
+          "name": "Reign SE",
+          "slug": "reign-se",
+          "type": "enduro",
+          "years": [2025, 2026],
+          "file": "reign-se"
+        },
         {
           "name": "Trance X",
           "slug": "trance-x",
@@ -443,6 +513,20 @@
       "country": "France",
       "models": [
         {
+          "name": "Meta HT V3",
+          "slug": "meta-ht-v3",
+          "type": "enduro",
+          "years": [2025],
+          "file": "meta-ht-v3"
+        },
+        {
+          "name": "Supreme DH V5.2",
+          "slug": "supreme-dh",
+          "type": "dh",
+          "years": [2026],
+          "file": "supreme-dh"
+        },
+        {
           "name": "Meta SX",
           "slug": "meta-sx",
           "type": "enduro",
@@ -470,6 +554,13 @@
       "slug": "scott",
       "country": "Switzerland",
       "models": [
+        {
+          "name": "Gambler",
+          "slug": "gambler",
+          "type": "dh",
+          "years": [2026],
+          "file": "gambler"
+        },
         {
           "name": "Ransom",
           "slug": "ransom",
@@ -653,6 +744,27 @@
       "country": "Canada",
       "models": [
         {
+          "name": "Torrent DH",
+          "slug": "torrent-dh",
+          "type": "dh",
+          "years": [2027],
+          "file": "torrent-dh"
+        },
+        {
+          "name": "Fluid FS",
+          "slug": "fluid-fs",
+          "type": "trail",
+          "years": [2027],
+          "file": "fluid-fs"
+        },
+        {
+          "name": "Revolver C 130",
+          "slug": "revolver",
+          "type": "downcountry",
+          "years": [2026],
+          "file": "revolver"
+        },
+        {
           "name": "Sight",
           "slug": "sight",
           "type": "trail",
@@ -771,6 +883,20 @@
       "slug": "orbea",
       "country": "Spain",
       "models": [
+        {
+          "name": "Rallon DH",
+          "slug": "rallon-dh",
+          "type": "dh",
+          "years": [2026],
+          "file": "rallon-dh"
+        },
+        {
+          "name": "Rallon EN",
+          "slug": "rallon-en",
+          "type": "enduro",
+          "years": [2026],
+          "file": "rallon-en"
+        },
         {
           "name": "Rallon",
           "slug": "rallon",

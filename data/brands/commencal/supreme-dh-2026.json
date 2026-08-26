@@ -1,0 +1,153 @@
+{
+  "brand": "Commencal",
+  "model": "Supreme DH V5.2",
+  "year": 2026,
+  "type": "dh",
+  "wheelSize": "29/27.5 MX",
+  "travel": {
+    "front": 200,
+    "rear": 220
+  },
+  "source": "Commencal Official",
+  "sourceUrl": "https://www.commencal.com/en/landing-supreme-dh-v5-2.html",
+  "lastUpdated": "2026-08-26",
+  "notes": "V5.2 (2026). 지오메트리는 V5와 동일 (공식 발표). High 포지션 기준 수치. Commencal 공식 차트의 BB 수치는 액슬 라인 기준 상대값(High -3mm / Low +2.5mm 하강, XS는 -3.5/+1.5)이라 bbDrop/bbHeight는 null 처리. XS는 포크 길이 581mm(타 사이즈 612mm) 기준.",
+  "flipchips": [
+    {
+      "id": "shock-mount",
+      "name": "Shock Mount Flip Chip",
+      "description": "로어 쇼크 마운트 플립칩 - BB 높이, 헤드앵글, 리치, 체인스테이 길이 조정",
+      "positions": [
+        {
+          "id": "high",
+          "name": "High",
+          "description": "민첩성 향상 - 느리고 평탄한 기술 구간용"
+        },
+        {
+          "id": "low",
+          "name": "Low",
+          "description": "안정성 향상 - 빠르고 가파른 트랙용"
+        }
+      ],
+      "default": "high",
+      "adjustments": {
+        "high": {
+          "headAngle": 0,
+          "seatAngle": 0,
+          "bbHeight": 0
+        },
+        "low": {
+          "headAngle": -0.4,
+          "seatAngle": -0.4,
+          "reach": -4,
+          "stack": 3,
+          "chainstay": 2,
+          "wheelbase": 2,
+          "bbHeight": -5.5
+        }
+      }
+    }
+  ],
+  "sizes": [
+    {
+      "size": "XS",
+      "reach": 405,
+      "stack": 602.5,
+      "headAngle": 64.3,
+      "seatAngle": 76.8,
+      "seatAngleEffective": 76.8,
+      "chainstay": 440,
+      "wheelbase": 1194,
+      "bbDrop": null,
+      "bbHeight": null,
+      "seatTube": 370,
+      "topTubeActual": null,
+      "topTubeEffective": 546,
+      "standover": null,
+      "forkOffset": 52,
+      "forkLength": 581,
+      "headTube": 112,
+      "trail": null
+    },
+    {
+      "size": "S",
+      "reach": 435,
+      "stack": 646,
+      "headAngle": 63.7,
+      "seatAngle": 76.1,
+      "seatAngleEffective": 76.1,
+      "chainstay": 440,
+      "wheelbase": 1244,
+      "bbDrop": null,
+      "bbHeight": null,
+      "seatTube": 370,
+      "topTubeActual": null,
+      "topTubeEffective": 594,
+      "standover": null,
+      "forkOffset": 52,
+      "forkLength": 612,
+      "headTube": 112,
+      "trail": null
+    },
+    {
+      "size": "M",
+      "reach": 460,
+      "stack": 646,
+      "headAngle": 63.7,
+      "seatAngle": 76.1,
+      "seatAngleEffective": 76.1,
+      "chainstay": 452,
+      "wheelbase": 1281,
+      "bbDrop": null,
+      "bbHeight": null,
+      "seatTube": 370,
+      "topTubeActual": null,
+      "topTubeEffective": 619,
+      "standover": null,
+      "forkOffset": 52,
+      "forkLength": 612,
+      "headTube": 112,
+      "trail": null
+    },
+    {
+      "size": "L",
+      "reach": 488,
+      "stack": 646,
+      "headAngle": 63.7,
+      "seatAngle": 76.1,
+      "seatAngleEffective": 76.1,
+      "chainstay": 452,
+      "wheelbase": 1309,
+      "bbDrop": null,
+      "bbHeight": null,
+      "seatTube": 370,
+      "topTubeActual": null,
+      "topTubeEffective": 647,
+      "standover": null,
+      "forkOffset": 52,
+      "forkLength": 612,
+      "headTube": 112,
+      "trail": null
+    },
+    {
+      "size": "XL",
+      "reach": 508,
+      "stack": 646,
+      "headAngle": 63.7,
+      "seatAngle": 76.1,
+      "seatAngleEffective": 76.1,
+      "chainstay": 452,
+      "wheelbase": 1329,
+      "bbDrop": null,
+      "bbHeight": null,
+      "seatTube": 370,
+      "topTubeActual": null,
+      "topTubeEffective": 667,
+      "standover": null,
+      "forkOffset": 52,
+      "forkLength": 612,
+      "headTube": 112,
+      "trail": null
+    }
+  ]
+}

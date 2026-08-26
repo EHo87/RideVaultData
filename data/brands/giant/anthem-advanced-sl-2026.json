@@ -1,0 +1,129 @@
+{
+  "brand": "Giant",
+  "model": "Anthem Advanced SL",
+  "year": 2026,
+  "type": "xc",
+  "wheelSize": "29",
+  "travel": {
+    "front": 120,
+    "rear": 120
+  },
+  "source": "Giant Official",
+  "sourceUrl": "https://www.giant-bicycles.com/us/anthem-advanced-sl-0-2026",
+  "lastUpdated": "2026-08-26",
+  "notes": "2026 풀 리디자인 XC(120/120). 수치는 LO 플립칩 포지션 기준(공식 차트 첫 번째 컬럼, 기본 출고 포지션 여부는 미확인). HI 포지션: HA/STA +0.5°, BB드롭 51→45mm(약 +6mm), 체인스테이 437→435mm, 트레일 116→112mm. L/XL은 LO에서 BB드롭 52mm.",
+  "flipchips": [
+    {
+      "id": "geometry",
+      "name": "Geometry Flip Chip",
+      "description": "헤드/시트 앵글 0.5°와 BB드롭 6mm 조정",
+      "positions": [
+        {
+          "id": "lo",
+          "name": "Lo",
+          "description": "슬랙한 헤드앵글(66.5°), 낮은 BB(드롭 51mm) - 안정성 향상"
+        },
+        {
+          "id": "hi",
+          "name": "Hi",
+          "description": "스팁한 헤드앵글(67.0°), 높은 BB(드롭 45mm) - 민첩성/페달 클리어런스"
+        }
+      ],
+      "default": "lo",
+      "adjustments": {
+        "lo": {
+          "bbHeight": 0,
+          "headAngle": 0,
+          "seatAngle": 0
+        },
+        "hi": {
+          "bbHeight": 6,
+          "headAngle": 0.5,
+          "seatAngle": 0.5
+        }
+      }
+    }
+  ],
+  "sizes": [
+    {
+      "size": "S",
+      "reach": 420,
+      "stack": 602,
+      "headAngle": 66.5,
+      "seatAngle": 75.5,
+      "seatAngleEffective": 75.5,
+      "chainstay": 437,
+      "wheelbase": 1141,
+      "bbDrop": 51,
+      "bbHeight": null,
+      "seatTube": 400,
+      "topTubeActual": null,
+      "topTubeEffective": 576,
+      "standover": 769,
+      "forkOffset": 44,
+      "forkLength": null,
+      "headTube": 90,
+      "trail": 116
+    },
+    {
+      "size": "M",
+      "reach": 445,
+      "stack": 607,
+      "headAngle": 66.5,
+      "seatAngle": 75.5,
+      "seatAngleEffective": 75.5,
+      "chainstay": 437,
+      "wheelbase": 1168,
+      "bbDrop": 51,
+      "bbHeight": null,
+      "seatTube": 420,
+      "topTubeActual": null,
+      "topTubeEffective": 602,
+      "standover": 764,
+      "forkOffset": 44,
+      "forkLength": null,
+      "headTube": 95,
+      "trail": 115.9
+    },
+    {
+      "size": "L",
+      "reach": 465,
+      "stack": 616,
+      "headAngle": 66.5,
+      "seatAngle": 75.5,
+      "seatAngleEffective": 75.5,
+      "chainstay": 437,
+      "wheelbase": 1192,
+      "bbDrop": 52,
+      "bbHeight": null,
+      "seatTube": 465,
+      "topTubeActual": null,
+      "topTubeEffective": 624,
+      "standover": 758,
+      "forkOffset": 44,
+      "forkLength": null,
+      "headTube": 105,
+      "trail": 115.9
+    },
+    {
+      "size": "XL",
+      "reach": 490,
+      "stack": 626,
+      "headAngle": 66.5,
+      "seatAngle": 75.5,
+      "seatAngleEffective": 75.5,
+      "chainstay": 437,
+      "wheelbase": 1221,
+      "bbDrop": 52,
+      "bbHeight": null,
+      "seatTube": 495,
+      "topTubeActual": null,
+      "topTubeEffective": 651,
+      "standover": 751,
+      "forkOffset": 44,
+      "forkLength": null,
+      "headTube": 115,
+      "trail": 115.8
+    }
+  ]
+}

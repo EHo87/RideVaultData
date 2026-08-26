@@ -1,0 +1,109 @@
+{
+  "brand": "Giant",
+  "model": "Reign SE",
+  "year": 2025,
+  "type": "enduro",
+  "wheelSize": "29/27.5 MX",
+  "travel": {
+    "front": 180,
+    "rear": 165
+  },
+  "source": "Giant Official",
+  "sourceUrl": "https://www.giant-bicycles.com/au/reign-se-2026",
+  "lastUpdated": "2026-08-26",
+  "notes": "2025-08 Crankworx Whistler 발표 한정판(100대 미만) ALUXX SL 알로이 그래비티 모델. Giant 공식 카탈로그 표기는 MY2026. 수치는 MID 플립칩 포지션 기준(Giant 공식: HA 62.6°/63.0°, STA +0.4°, BB드롭 20/15mm 선택). 사이즈 M/L/XL만 제공. L/XL의 STA가 M보다 1° 슬랙한 것은 공식 차트 수치임.",
+  "flipchips": [
+    {
+      "id": "geometry",
+      "name": "Geometry Flip Chip",
+      "description": "헤드/시트 앵글 0.4°와 BB 높이 5mm 조정",
+      "positions": [
+        {
+          "id": "mid",
+          "name": "Mid",
+          "description": "슬랙한 헤드앵글(62.6°), 낮은 BB - 하강 성능 향상"
+        },
+        {
+          "id": "high",
+          "name": "High",
+          "description": "스팁한 헤드앵글(63.0°), 높은 BB - 페달링/민첩성 향상"
+        }
+      ],
+      "default": "mid",
+      "adjustments": {
+        "mid": {
+          "bbHeight": 0,
+          "headAngle": 0,
+          "seatAngle": 0
+        },
+        "high": {
+          "bbHeight": 5,
+          "headAngle": 0.4,
+          "seatAngle": 0.4
+        }
+      }
+    }
+  ],
+  "sizes": [
+    {
+      "size": "M",
+      "reach": 446,
+      "stack": 639,
+      "headAngle": 62.6,
+      "seatAngle": 77.4,
+      "seatAngleEffective": 77.4,
+      "chainstay": 443,
+      "wheelbase": 1251,
+      "bbDrop": 20,
+      "bbHeight": null,
+      "seatTube": 425,
+      "topTubeActual": null,
+      "topTubeEffective": 589,
+      "standover": 734,
+      "forkOffset": 44,
+      "forkLength": null,
+      "headTube": 105,
+      "trail": 147
+    },
+    {
+      "size": "L",
+      "reach": 466,
+      "stack": 648,
+      "headAngle": 62.6,
+      "seatAngle": 76.4,
+      "seatAngleEffective": 76.4,
+      "chainstay": 443,
+      "wheelbase": 1275,
+      "bbDrop": 20,
+      "bbHeight": null,
+      "seatTube": 450,
+      "topTubeActual": null,
+      "topTubeEffective": 623,
+      "standover": 750,
+      "forkOffset": 44,
+      "forkLength": null,
+      "headTube": 105,
+      "trail": 147
+    },
+    {
+      "size": "XL",
+      "reach": 497,
+      "stack": 653,
+      "headAngle": 62.6,
+      "seatAngle": 76.4,
+      "seatAngleEffective": 76.4,
+      "chainstay": 443,
+      "wheelbase": 1308,
+      "bbDrop": 21,
+      "bbHeight": null,
+      "seatTube": 475,
+      "topTubeActual": null,
+      "topTubeEffective": 655,
+      "standover": 744,
+      "forkOffset": 44,
+      "forkLength": null,
+      "headTube": 120,
+      "trail": 147
+    }
+  ]
+}

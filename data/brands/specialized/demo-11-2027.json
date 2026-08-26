@@ -1,0 +1,141 @@
+{
+  "brand": "Specialized",
+  "model": "Demo 11",
+  "year": 2027,
+  "type": "dh",
+  "wheelSize": "29/27.5 MX",
+  "travel": {
+    "front": 200,
+    "rear": 200
+  },
+  "source": "Specialized Official",
+  "sourceUrl": "https://www.specialized.com/us/en/s-works-demo-11/p/4293955",
+  "lastUpdated": "2026-08-26",
+  "notes": "MY27 신형 (HighGear 하이피벗 드라이브 시스템). BB 플립칩 High + 리치 조절 헤드셋 컵 middle 포지션 기준. 리치는 모듈러 헤드셋 컵으로 ±6mm 조절. 헤드앵글은 62.5° 고정. 사이즈는 S3/S4/S5 3종. 트레일 137mm는 611mm 액슬-투-크라운/52mm 오프셋 포크 기준 공식 수치.",
+  "flipchips": [
+    {
+      "id": "bb-chip",
+      "name": "BB Flip Chip",
+      "description": "로어 링크 2포지션 플립칩 - BB 높이 조정 (헤드앵글은 고정)",
+      "positions": [
+        {
+          "id": "high",
+          "name": "High",
+          "description": "BB 355mm - 페달 클리어런스 확보"
+        },
+        {
+          "id": "low",
+          "name": "Low",
+          "description": "BB 348mm - 무게중심 하향, 안정성 향상"
+        }
+      ],
+      "default": "high",
+      "adjustments": {
+        "high": {
+          "bbHeight": 0,
+          "stack": 0
+        },
+        "low": {
+          "bbHeight": -7,
+          "stack": 5
+        }
+      }
+    },
+    {
+      "id": "reach-cups",
+      "name": "Reach Adjust Headset Cups",
+      "description": "모듈러 헤드셋 컵 - 리치 조절",
+      "positions": [
+        {
+          "id": "short",
+          "name": "Short",
+          "description": "리치 -6mm"
+        },
+        {
+          "id": "middle",
+          "name": "Middle",
+          "description": "기준 포지션"
+        },
+        {
+          "id": "long",
+          "name": "Long",
+          "description": "리치 +6mm"
+        }
+      ],
+      "default": "middle",
+      "adjustments": {
+        "short": {
+          "reach": -6
+        },
+        "middle": {
+          "reach": 0
+        },
+        "long": {
+          "reach": 6
+        }
+      }
+    }
+  ],
+  "sizes": [
+    {
+      "size": "S3",
+      "reach": 445,
+      "stack": 640,
+      "headAngle": 62.5,
+      "seatAngle": 78.0,
+      "seatAngleEffective": 78.0,
+      "chainstay": 435,
+      "wheelbase": 1260,
+      "bbDrop": 20,
+      "bbHeight": 355,
+      "seatTube": 400,
+      "topTubeActual": null,
+      "topTubeEffective": 582,
+      "standover": null,
+      "forkOffset": 52,
+      "forkLength": 611,
+      "headTube": 110,
+      "trail": 137
+    },
+    {
+      "size": "S4",
+      "reach": 475,
+      "stack": 640,
+      "headAngle": 62.5,
+      "seatAngle": 78.0,
+      "seatAngleEffective": 78.0,
+      "chainstay": 445,
+      "wheelbase": 1302,
+      "bbDrop": 20,
+      "bbHeight": 355,
+      "seatTube": 420,
+      "topTubeActual": null,
+      "topTubeEffective": 614,
+      "standover": null,
+      "forkOffset": 52,
+      "forkLength": 611,
+      "headTube": 110,
+      "trail": 137
+    },
+    {
+      "size": "S5",
+      "reach": 500,
+      "stack": 640,
+      "headAngle": 62.5,
+      "seatAngle": 78.0,
+      "seatAngleEffective": 78.0,
+      "chainstay": 455,
+      "wheelbase": 1335,
+      "bbDrop": 20,
+      "bbHeight": 355,
+      "seatTube": 420,
+      "topTubeActual": null,
+      "topTubeEffective": 637,
+      "standover": null,
+      "forkOffset": 52,
+      "forkLength": 611,
+      "headTube": 110,
+      "trail": 137
+    }
+  ]
+}

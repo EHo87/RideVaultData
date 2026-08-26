@@ -1,0 +1,129 @@
+{
+  "brand": "Specialized",
+  "model": "Epic 9",
+  "year": 2027,
+  "type": "xc",
+  "wheelSize": "29",
+  "travel": {
+    "front": 120,
+    "rear": 120
+  },
+  "source": "Specialized Official",
+  "sourceUrl": "https://www.specialized.com/us/en/s-works-epic-9/p/4274030",
+  "lastUpdated": "2026-08-26",
+  "notes": "MY27 신형 XC 레이스 바이크. 로어 쇼크 아이렛 플립칩 Low 포지션 기준 수치 (리뷰 인용 기준값: 헤드앵글 65.9°). bbDrop은 S 사이즈만 42mm(공식 차트), M~XL 40mm. bbHeight도 S 333mm, M~XL 335mm. 포크 길이 531mm(120mm SID) 기준.",
+  "flipchips": [
+    {
+      "id": "shock-eyelet",
+      "name": "Shock Eyelet Flip Chip",
+      "description": "로어 쇼크 아이렛 2포지션 - 헤드앵글, BB, 리치 조정",
+      "positions": [
+        {
+          "id": "low",
+          "name": "Low",
+          "description": "기준 포지션 - 슬랙한 헤드앵글, 낮은 BB"
+        },
+        {
+          "id": "high",
+          "name": "High",
+          "description": "스팁한 헤드앵글, 높은 BB - 페달 클리어런스 향상"
+        }
+      ],
+      "default": "low",
+      "adjustments": {
+        "low": {
+          "headAngle": 0,
+          "bbHeight": 0,
+          "reach": 0
+        },
+        "high": {
+          "headAngle": 0.4,
+          "bbHeight": 5,
+          "reach": 5
+        }
+      }
+    }
+  ],
+  "sizes": [
+    {
+      "size": "S",
+      "reach": 420,
+      "stack": 594,
+      "headAngle": 65.9,
+      "seatAngle": 76.0,
+      "seatAngleEffective": 76.0,
+      "chainstay": 435,
+      "wheelbase": 1148,
+      "bbDrop": 42,
+      "bbHeight": 333,
+      "seatTube": 390,
+      "topTubeActual": null,
+      "topTubeEffective": 568,
+      "standover": 749,
+      "forkOffset": 44,
+      "forkLength": 531,
+      "headTube": 92,
+      "trail": 120
+    },
+    {
+      "size": "M",
+      "reach": 450,
+      "stack": 604,
+      "headAngle": 65.9,
+      "seatAngle": 76.0,
+      "seatAngleEffective": 76.0,
+      "chainstay": 435,
+      "wheelbase": 1184,
+      "bbDrop": 40,
+      "bbHeight": 335,
+      "seatTube": 410,
+      "topTubeActual": null,
+      "topTubeEffective": 601,
+      "standover": 755,
+      "forkOffset": 44,
+      "forkLength": 531,
+      "headTube": 105,
+      "trail": 120
+    },
+    {
+      "size": "L",
+      "reach": 480,
+      "stack": 618,
+      "headAngle": 65.9,
+      "seatAngle": 76.0,
+      "seatAngleEffective": 76.0,
+      "chainstay": 438,
+      "wheelbase": 1223,
+      "bbDrop": 40,
+      "bbHeight": 335,
+      "seatTube": 455,
+      "topTubeActual": null,
+      "topTubeEffective": 634,
+      "standover": 757,
+      "forkOffset": 44,
+      "forkLength": 531,
+      "headTube": 120,
+      "trail": 120
+    },
+    {
+      "size": "XL",
+      "reach": 505,
+      "stack": 645,
+      "headAngle": 65.9,
+      "seatAngle": 76.0,
+      "seatAngleEffective": 76.0,
+      "chainstay": 442,
+      "wheelbase": 1264,
+      "bbDrop": 40,
+      "bbHeight": 335,
+      "seatTube": 505,
+      "topTubeActual": null,
+      "topTubeEffective": 666,
+      "standover": 764,
+      "forkOffset": 44,
+      "forkLength": 531,
+      "headTube": 150,
+      "trail": 120
+    }
+  ]
+}

@@ -1,0 +1,175 @@
+{
+  "brand": "Canyon",
+  "model": "Torque AL",
+  "year": 2026,
+  "type": "enduro",
+  "wheelSize": "29/27.5 MX",
+  "travel": {
+    "front": 180,
+    "rear": 180
+  },
+  "source": "Canyon Official",
+  "sourceUrl": "https://www.canyon.com/en-lt/mountain-bikes/enduro-bikes/torque/al/torque-al-7/4321.html",
+  "lastUpdated": "2026-08-26",
+  "notes": "2026 신형 알루미늄 프리라이드/엔듀로. 수치는 제품 페이지 기본 표기(HA 63.5°/STA 78.5°, 체인스테이 430mm 쇼트 드롭아웃) 기준. XS는 27.5/27.5 휠 + 리어 170mm. 시트스테이 플립칩으로 각도 ±0.5°/BB ±7.5mm, 모듈러 T-type 드롭아웃으로 체인스테이 430/440mm 선택. bbDrop은 Canyon 표기 'BB offset 12mm'. 듀얼크라운(최대 190mm) 포크 호환.",
+  "flipchips": [
+    {
+      "id": "geometry",
+      "name": "Seatstay Flip Chip",
+      "description": "헤드/시트 앵글 0.5°와 BB 높이 7.5mm 조정",
+      "positions": [
+        {
+          "id": "slack",
+          "name": "Slack",
+          "description": "슬랙한 헤드앵글(63.5°) - 하강 성능 향상"
+        },
+        {
+          "id": "steep",
+          "name": "Steep",
+          "description": "스팁한 헤드앵글(64°) - 페달링/민첩성 향상"
+        }
+      ],
+      "default": "slack",
+      "adjustments": {
+        "slack": {
+          "bbHeight": 0,
+          "headAngle": 0,
+          "seatAngle": 0
+        },
+        "steep": {
+          "bbHeight": 7.5,
+          "headAngle": 0.5,
+          "seatAngle": 0.5
+        }
+      }
+    },
+    {
+      "id": "dropout",
+      "name": "Modular Dropout",
+      "description": "체인스테이 길이 430/440mm 선택",
+      "positions": [
+        {
+          "id": "short",
+          "name": "Short (430mm)",
+          "description": "짧은 리어센터 - 플레이풀한 핸들링"
+        },
+        {
+          "id": "long",
+          "name": "Long (440mm)",
+          "description": "긴 리어센터 - 고속 안정성"
+        }
+      ],
+      "default": "short",
+      "adjustments": {
+        "short": {
+          "chainstay": 0
+        },
+        "long": {
+          "chainstay": 10
+        }
+      }
+    }
+  ],
+  "sizes": [
+    {
+      "size": "XS",
+      "reach": 420,
+      "stack": 624,
+      "headAngle": 63.5,
+      "seatAngle": 78.5,
+      "seatAngleEffective": 78.5,
+      "chainstay": 430,
+      "wheelbase": 1204,
+      "bbDrop": 12,
+      "bbHeight": null,
+      "seatTube": 385,
+      "topTubeActual": null,
+      "topTubeEffective": 547,
+      "standover": 750,
+      "forkOffset": null,
+      "forkLength": null,
+      "headTube": 110,
+      "trail": null
+    },
+    {
+      "size": "S",
+      "reach": 445,
+      "stack": 634,
+      "headAngle": 63.5,
+      "seatAngle": 78.5,
+      "seatAngleEffective": 78.5,
+      "chainstay": 430,
+      "wheelbase": 1225,
+      "bbDrop": 12,
+      "bbHeight": null,
+      "seatTube": 405,
+      "topTubeActual": null,
+      "topTubeEffective": 574,
+      "standover": 756,
+      "forkOffset": null,
+      "forkLength": null,
+      "headTube": 100,
+      "trail": null
+    },
+    {
+      "size": "M",
+      "reach": 470,
+      "stack": 643,
+      "headAngle": 63.5,
+      "seatAngle": 78.5,
+      "seatAngleEffective": 78.5,
+      "chainstay": 430,
+      "wheelbase": 1254,
+      "bbDrop": 12,
+      "bbHeight": null,
+      "seatTube": 405,
+      "topTubeActual": null,
+      "topTubeEffective": 601,
+      "standover": 761,
+      "forkOffset": null,
+      "forkLength": null,
+      "headTube": 110,
+      "trail": null
+    },
+    {
+      "size": "L",
+      "reach": 495,
+      "stack": 652,
+      "headAngle": 63.5,
+      "seatAngle": 78.5,
+      "seatAngleEffective": 78.5,
+      "chainstay": 430,
+      "wheelbase": 1284,
+      "bbDrop": 12,
+      "bbHeight": null,
+      "seatTube": 420,
+      "topTubeActual": null,
+      "topTubeEffective": 628,
+      "standover": 767,
+      "forkOffset": null,
+      "forkLength": null,
+      "headTube": 120,
+      "trail": null
+    },
+    {
+      "size": "XL",
+      "reach": 520,
+      "stack": 656,
+      "headAngle": 63.5,
+      "seatAngle": 78.5,
+      "seatAngleEffective": 78.5,
+      "chainstay": 430,
+      "wheelbase": 1311,
+      "bbDrop": 12,
+      "bbHeight": null,
+      "seatTube": 450,
+      "topTubeActual": null,
+      "topTubeEffective": 653,
+      "standover": 771,
+      "forkOffset": null,
+      "forkLength": null,
+      "headTube": 125,
+      "trail": null
+    }
+  ]
+}

@@ -1,0 +1,149 @@
+{
+  "brand": "YT Industries",
+  "model": "Izzo",
+  "year": 2025,
+  "type": "trail",
+  "wheelSize": "29",
+  "travel": {
+    "front": 140,
+    "rear": 130
+  },
+  "source": "YT Official 차트 (Vital MTB 전재)",
+  "sourceUrl": "https://www.vitalmtb.com/product/guide/bikes/yt/izzo-66781",
+  "lastUpdated": "2026-08-26",
+  "notes": "2025 Core 라인업은 기존 Izzo 프레임에 140mm 포크 적용(리어 130mm). 수치는 Low 플립칩 포지션, 130mm 포크 기준 공식 차트. 140mm 포크 장착 시 실측 HA 약 65.7°(Low)/BB 338mm (Bikerumor/99spokes). 플립칩(어퍼 쇼크 마운트): High에서 +0.5°/BB +5mm. 사이즈별 체인스테이(S-L 432mm, XL-XXL 437mm). 공식 페이지: https://www.yt-industries.com/en-us/Bikes/Trail-Izzo/core-1/",
+  "flipchips": [
+    {
+      "id": "geometry",
+      "name": "Shock Mount Flip Chip",
+      "description": "헤드/시트 앵글 0.5°와 BB 높이 5mm 조정",
+      "positions": [
+        {
+          "id": "low",
+          "name": "Low",
+          "description": "낮은 BB(334mm), 슬랙한 헤드앵글(66.0°) - 하강 성능 향상"
+        },
+        {
+          "id": "high",
+          "name": "High",
+          "description": "높은 BB(339mm), 스팁한 헤드앵글(66.5°) - 페달링 효율"
+        }
+      ],
+      "default": "low",
+      "adjustments": {
+        "low": {
+          "bbHeight": 0,
+          "headAngle": 0,
+          "seatAngle": 0
+        },
+        "high": {
+          "bbHeight": 5,
+          "headAngle": 0.5,
+          "seatAngle": 0.5
+        }
+      }
+    }
+  ],
+  "sizes": [
+    {
+      "size": "S",
+      "reach": 429,
+      "stack": 603,
+      "headAngle": 66.0,
+      "seatAngle": 77.0,
+      "seatAngleEffective": 77.0,
+      "chainstay": 432,
+      "wheelbase": 1158,
+      "bbDrop": 40,
+      "bbHeight": 334,
+      "seatTube": 400,
+      "topTubeActual": null,
+      "topTubeEffective": 566,
+      "standover": 734,
+      "forkOffset": null,
+      "forkLength": null,
+      "headTube": 95,
+      "trail": null
+    },
+    {
+      "size": "M",
+      "reach": 450,
+      "stack": 612,
+      "headAngle": 66.0,
+      "seatAngle": 77.0,
+      "seatAngleEffective": 77.0,
+      "chainstay": 432,
+      "wheelbase": 1183,
+      "bbDrop": 40,
+      "bbHeight": 334,
+      "seatTube": 425,
+      "topTubeActual": null,
+      "topTubeEffective": 591,
+      "standover": 727,
+      "forkOffset": null,
+      "forkLength": null,
+      "headTube": 105,
+      "trail": null
+    },
+    {
+      "size": "L",
+      "reach": 472,
+      "stack": 621,
+      "headAngle": 66.0,
+      "seatAngle": 77.0,
+      "seatAngleEffective": 77.0,
+      "chainstay": 432,
+      "wheelbase": 1209,
+      "bbDrop": 40,
+      "bbHeight": 334,
+      "seatTube": 450,
+      "topTubeActual": null,
+      "topTubeEffective": 616,
+      "standover": 721,
+      "forkOffset": null,
+      "forkLength": null,
+      "headTube": 115,
+      "trail": null
+    },
+    {
+      "size": "XL",
+      "reach": 492,
+      "stack": 635,
+      "headAngle": 66.0,
+      "seatAngle": 77.0,
+      "seatAngleEffective": 77.0,
+      "chainstay": 437,
+      "wheelbase": 1240,
+      "bbDrop": 40,
+      "bbHeight": 334,
+      "seatTube": 475,
+      "topTubeActual": null,
+      "topTubeEffective": 641,
+      "standover": 716,
+      "forkOffset": null,
+      "forkLength": null,
+      "headTube": 130,
+      "trail": null
+    },
+    {
+      "size": "XXL",
+      "reach": 513,
+      "stack": 644,
+      "headAngle": 66.0,
+      "seatAngle": 77.0,
+      "seatAngleEffective": 77.0,
+      "chainstay": 437,
+      "wheelbase": 1265,
+      "bbDrop": 40,
+      "bbHeight": 334,
+      "seatTube": 500,
+      "topTubeActual": null,
+      "topTubeEffective": 666,
+      "standover": 734,
+      "forkOffset": null,
+      "forkLength": null,
+      "headTube": 140,
+      "trail": null
+    }
+  ]
+}

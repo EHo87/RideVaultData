@@ -1,0 +1,133 @@
+{
+  "brand": "Orbea",
+  "model": "Rallon DH",
+  "year": 2026,
+  "type": "dh",
+  "wheelSize": "29/27.5 MX",
+  "travel": {
+    "front": 200,
+    "rear": 200
+  },
+  "source": "Bike Insights (Orbea 공식 지오메트리 전재)",
+  "sourceUrl": "https://bikeinsights.com/bikes/5cc5e4b5b25d8c0017bce564-orbea-rallon?version=2026-dh",
+  "lastUpdated": "2026-08-26",
+  "notes": "2026 Rallon 패밀리의 DH 버전 (Orbea 첫 DH 바이크, D-LTD). High(Progressive)/뉴트럴 헤드셋/숏 체인스테이 기준. 체인스테이는 442mm(숏)/450mm(롱) 옵션 - 공식 수치 442mm 기재 (Bike Insights 전재값 439.9mm 대신 Orbea 공식 옵션값 채택). MX 기본, 풀 29 구성 가능. Attitude Adjust 헤드셋 컵으로 헤드앵글 ±0.75° 조정(스톡 63.8°). Gravity Link는 쇼크 프로그레션 25%/30% 전환. BB 높이/드롭·트레일은 신뢰 가능한 공식 수치 미확인으로 null. Freehub 리뷰와 교차 검증(L 리치 473, 스톡 헤드앵글 63.8°, 시트앵글 78.7°).",
+  "flipchips": [
+    {
+      "id": "attitude-adjust-headset",
+      "name": "Attitude Adjust Headset",
+      "description": "3포지션 헤드셋 컵 - 헤드앵글 조정",
+      "positions": [
+        {
+          "id": "neutral",
+          "name": "Neutral",
+          "description": "기준 포지션 (63.8°)"
+        },
+        {
+          "id": "slack",
+          "name": "Slack",
+          "description": "슬랙 -0.75°"
+        },
+        {
+          "id": "steep",
+          "name": "Steep",
+          "description": "스팁 +0.75°"
+        }
+      ],
+      "default": "neutral",
+      "adjustments": {
+        "neutral": {
+          "headAngle": 0
+        },
+        "slack": {
+          "headAngle": -0.75
+        },
+        "steep": {
+          "headAngle": 0.75
+        }
+      }
+    }
+  ],
+  "sizes": [
+    {
+      "size": "S",
+      "reach": 425.2,
+      "stack": 632.5,
+      "headAngle": 63.8,
+      "seatAngle": 79.4,
+      "seatAngleEffective": 79.4,
+      "chainstay": 442,
+      "wheelbase": 1222,
+      "bbDrop": null,
+      "bbHeight": null,
+      "seatTube": 400,
+      "topTubeActual": null,
+      "topTubeEffective": 543.3,
+      "standover": 767.6,
+      "forkOffset": 52,
+      "forkLength": null,
+      "headTube": 100,
+      "trail": null
+    },
+    {
+      "size": "M",
+      "reach": 450.2,
+      "stack": 641.6,
+      "headAngle": 63.8,
+      "seatAngle": 79.0,
+      "seatAngleEffective": 79.0,
+      "chainstay": 442,
+      "wheelbase": 1251.4,
+      "bbDrop": null,
+      "bbHeight": null,
+      "seatTube": 405,
+      "topTubeActual": null,
+      "topTubeEffective": 575.4,
+      "standover": 760.6,
+      "forkOffset": 52,
+      "forkLength": null,
+      "headTube": 110,
+      "trail": null
+    },
+    {
+      "size": "L",
+      "reach": 473.2,
+      "stack": 650.7,
+      "headAngle": 63.8,
+      "seatAngle": 78.6,
+      "seatAngleEffective": 78.6,
+      "chainstay": 442,
+      "wheelbase": 1278.7,
+      "bbDrop": null,
+      "bbHeight": null,
+      "seatTube": 410,
+      "topTubeActual": null,
+      "topTubeEffective": 603.9,
+      "standover": 762.5,
+      "forkOffset": 52,
+      "forkLength": null,
+      "headTube": 120,
+      "trail": null
+    },
+    {
+      "size": "XL",
+      "reach": 500.3,
+      "stack": 659.8,
+      "headAngle": 63.8,
+      "seatAngle": 78.4,
+      "seatAngleEffective": 78.4,
+      "chainstay": 442,
+      "wheelbase": 1310.1,
+      "bbDrop": null,
+      "bbHeight": null,
+      "seatTube": 420,
+      "topTubeActual": null,
+      "topTubeEffective": 636.2,
+      "standover": 767.5,
+      "forkOffset": 52,
+      "forkLength": null,
+      "headTube": 130,
+      "trail": null
+    }
+  ]
+}
