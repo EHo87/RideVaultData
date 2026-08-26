@@ -1,0 +1,139 @@
+{
+  "brand": "Giant",
+  "model": "Reign Advanced E+",
+  "year": 2026,
+  "type": "e-mtb",
+  "wheelSize": "29/27.5 MX",
+  "travel": {
+    "front": 180,
+    "rear": 170
+  },
+  "source": "Vital MTB (공식 지오메트리 전재)",
+  "sourceUrl": "https://www.vitalmtb.com/product/guide/e-bikes/giant/reign-e-69896",
+  "lastUpdated": "2026-08-26",
+  "notes": "풀파워 엔듀로 eMTB. Giant SyncDrive Pro 3 모터(90Nm/800W peak), 560Wh 배터리(+280Wh 익스텐더 옵션). Mid 포지션 기준 수치. 3단 Maestro 플립칩(헤드/시트앵글 ±0.4°, BB드롭 25/30/35mm) + 3단 헤드셋 컵(리치 약 ±5mm) 조정 가능. bbHeight는 공식 미공개.",
+  "flipchips": [
+    {
+      "id": "maestro",
+      "name": "Maestro Flip Chip (3단)",
+      "description": "로커 링크 3단 플립칩 - 헤드/시트앵글과 BB 높이 조정",
+      "positions": [
+        {
+          "id": "low",
+          "name": "Low",
+          "description": "슬랙한 앵글(-0.4°), BB -5mm - 하강 성능 향상"
+        },
+        {
+          "id": "mid",
+          "name": "Mid",
+          "description": "기본 포지션"
+        },
+        {
+          "id": "high",
+          "name": "High",
+          "description": "스팁한 앵글(+0.4°), BB +5mm - 민첩성 향상"
+        }
+      ],
+      "default": "mid",
+      "adjustments": {
+        "low": {
+          "bbHeight": -5,
+          "headAngle": -0.4,
+          "seatAngle": -0.4
+        },
+        "mid": {
+          "bbHeight": 0,
+          "headAngle": 0,
+          "seatAngle": 0
+        },
+        "high": {
+          "bbHeight": 5,
+          "headAngle": 0.4,
+          "seatAngle": 0.4
+        }
+      }
+    }
+  ],
+  "sizes": [
+    {
+      "size": "S",
+      "reach": 430,
+      "stack": 645,
+      "headAngle": 63.5,
+      "seatAngle": 77.5,
+      "seatAngleEffective": 77.5,
+      "chainstay": 450,
+      "wheelbase": 1226,
+      "bbDrop": 30,
+      "bbHeight": null,
+      "seatTube": 400,
+      "topTubeActual": null,
+      "topTubeEffective": 569,
+      "standover": null,
+      "forkOffset": 44,
+      "forkLength": null,
+      "headTube": 95,
+      "trail": null
+    },
+    {
+      "size": "M",
+      "reach": 460,
+      "stack": 654,
+      "headAngle": 63.5,
+      "seatAngle": 77.5,
+      "seatAngleEffective": 77.5,
+      "chainstay": 450,
+      "wheelbase": 1261,
+      "bbDrop": 30,
+      "bbHeight": null,
+      "seatTube": 425,
+      "topTubeActual": null,
+      "topTubeEffective": 601,
+      "standover": null,
+      "forkOffset": 44,
+      "forkLength": null,
+      "headTube": 105,
+      "trail": null
+    },
+    {
+      "size": "L",
+      "reach": 480,
+      "stack": 667,
+      "headAngle": 63.5,
+      "seatAngle": 77.5,
+      "seatAngleEffective": 77.5,
+      "chainstay": 450,
+      "wheelbase": 1288,
+      "bbDrop": 30,
+      "bbHeight": null,
+      "seatTube": 450,
+      "topTubeActual": null,
+      "topTubeEffective": 624,
+      "standover": null,
+      "forkOffset": 44,
+      "forkLength": null,
+      "headTube": 120,
+      "trail": null
+    },
+    {
+      "size": "XL",
+      "reach": 510,
+      "stack": 680,
+      "headAngle": 63.5,
+      "seatAngle": 77.5,
+      "seatAngleEffective": 77.5,
+      "chainstay": 450,
+      "wheelbase": 1323,
+      "bbDrop": 30,
+      "bbHeight": null,
+      "seatTube": 475,
+      "topTubeActual": null,
+      "topTubeEffective": 656,
+      "standover": null,
+      "forkOffset": 44,
+      "forkLength": null,
+      "headTube": 135,
+      "trail": null
+    }
+  ]
+}

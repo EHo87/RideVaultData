@@ -1,0 +1,127 @@
+{
+  "brand": "Orbea",
+  "model": "Wild LT",
+  "year": 2027,
+  "type": "e-mtb",
+  "wheelSize": "29",
+  "travel": {
+    "front": 170,
+    "rear": 170
+  },
+  "source": "E-MOUNTAINBIKE Magazine (Orbea 공식 차트)",
+  "sourceUrl": "https://ebike-mtb.com/en/orbea-wild-lt-2027-test/",
+  "lastUpdated": "2026-08-26",
+  "notes": "DJI Avinox M2S RS 풀파워 (Orbea 전용 튜닝, 표준 750W / 부스트 최대 1300W), 800Wh (카본 프레임은 600Wh 옵션). 풀파워 엔듀로, 카본/알루미늄 프레임, 풀 29 또는 MX 구성 지원. 프론트 170-200mm 대응. 차트는 Low 세팅 기준.",
+  "flipchips": [
+    {
+      "id": "geometry",
+      "name": "Geometry Flip Chip",
+      "description": "헤드앵글과 BB 높이 조정",
+      "positions": [
+        {
+          "id": "low",
+          "name": "Low",
+          "description": "낮은 BB(드롭 28mm), 슬랙한 헤드앵글(63.3°) - 하강 성능 향상"
+        },
+        {
+          "id": "high",
+          "name": "High",
+          "description": "높은 BB(드롭 20mm), 스팁한 헤드앵글(63.9°), 리치 +6mm - 민첩성 향상"
+        }
+      ],
+      "default": "low",
+      "adjustments": {
+        "low": {
+          "bbHeight": 0,
+          "headAngle": 0
+        },
+        "high": {
+          "bbHeight": 8,
+          "headAngle": 0.6
+        }
+      }
+    }
+  ],
+  "sizes": [
+    {
+      "size": "S",
+      "reach": 430,
+      "stack": 628,
+      "headAngle": 63.3,
+      "seatAngle": 77.5,
+      "seatAngleEffective": 77.5,
+      "chainstay": 448,
+      "wheelbase": 1230,
+      "bbDrop": 28,
+      "bbHeight": null,
+      "seatTube": 400,
+      "topTubeActual": null,
+      "topTubeEffective": null,
+      "standover": null,
+      "forkOffset": null,
+      "forkLength": null,
+      "headTube": 110,
+      "trail": null
+    },
+    {
+      "size": "M",
+      "reach": 455,
+      "stack": 637,
+      "headAngle": 63.3,
+      "seatAngle": 77.5,
+      "seatAngleEffective": 77.5,
+      "chainstay": 448,
+      "wheelbase": 1257,
+      "bbDrop": 28,
+      "bbHeight": null,
+      "seatTube": 405,
+      "topTubeActual": null,
+      "topTubeEffective": null,
+      "standover": null,
+      "forkOffset": null,
+      "forkLength": null,
+      "headTube": 120,
+      "trail": null
+    },
+    {
+      "size": "L",
+      "reach": 480,
+      "stack": 647,
+      "headAngle": 63.3,
+      "seatAngle": 77.5,
+      "seatAngleEffective": 77.5,
+      "chainstay": 448,
+      "wheelbase": 1289,
+      "bbDrop": 28,
+      "bbHeight": null,
+      "seatTube": 410,
+      "topTubeActual": null,
+      "topTubeEffective": null,
+      "standover": null,
+      "forkOffset": null,
+      "forkLength": null,
+      "headTube": 130,
+      "trail": null
+    },
+    {
+      "size": "XL",
+      "reach": 505,
+      "stack": 656,
+      "headAngle": 63.3,
+      "seatAngle": 77.5,
+      "seatAngleEffective": 77.5,
+      "chainstay": 448,
+      "wheelbase": 1318,
+      "bbDrop": 28,
+      "bbHeight": null,
+      "seatTube": 420,
+      "topTubeActual": null,
+      "topTubeEffective": null,
+      "standover": null,
+      "forkOffset": null,
+      "forkLength": null,
+      "headTube": 140,
+      "trail": null
+    }
+  ]
+}

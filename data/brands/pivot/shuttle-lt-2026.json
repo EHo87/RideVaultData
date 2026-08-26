@@ -1,0 +1,127 @@
+{
+  "brand": "Pivot",
+  "model": "Shuttle LT",
+  "year": 2026,
+  "type": "e-mtb",
+  "wheelSize": "29/27.5 MX",
+  "travel": {
+    "front": 170,
+    "rear": 165
+  },
+  "source": "BikeRadar / Velomotion (Pivot 공식 차트)",
+  "sourceUrl": "https://www.bikeradar.com/reviews/bikes/electric-bikes/pivot-shuttle-lt-2026",
+  "lastUpdated": "2026-08-26",
+  "notes": "Bosch Performance Line CX / CX-R Gen5 풀파워 (100Nm/750W), 800Wh PowerTube (600Wh 호환, 익스텐더 시 최대 1050Wh). 풀파워 엔듀로, DW-Link. 차트는 High 포지션 + 롱 체인스테이(451mm, 리어 165mm) + Flat 시트각 기준. 숏 체인스테이(443mm) 시 리어 162mm. 시트각 76.5°/78° 조절(Slacky McSteepTube), 29er 풀 세팅 가능. XS(리치 420mm)는 공식 전체 차트 미확보로 제외.",
+  "flipchips": [
+    {
+      "id": "geometry",
+      "name": "Geometry Flip Chip",
+      "description": "헤드앵글과 BB 높이 조정 (로커 링크)",
+      "positions": [
+        {
+          "id": "high",
+          "name": "High",
+          "description": "높은 BB, 스팁한 헤드앵글(64°) - 민첩성 향상"
+        },
+        {
+          "id": "low",
+          "name": "Low",
+          "description": "낮은 BB, 슬랙한 헤드앵글(63.2°) - 하강 성능 향상"
+        }
+      ],
+      "default": "high",
+      "adjustments": {
+        "high": {
+          "headAngle": 0,
+          "seatAngle": 0
+        },
+        "low": {
+          "headAngle": -0.8,
+          "seatAngle": -0.8
+        }
+      }
+    }
+  ],
+  "sizes": [
+    {
+      "size": "S",
+      "reach": 443,
+      "stack": 639,
+      "headAngle": 64,
+      "seatAngle": 76.5,
+      "seatAngleEffective": 76.5,
+      "chainstay": 451,
+      "wheelbase": 1240,
+      "bbDrop": null,
+      "bbHeight": 346,
+      "seatTube": 378,
+      "topTubeActual": null,
+      "topTubeEffective": 605,
+      "standover": 689,
+      "forkOffset": null,
+      "forkLength": null,
+      "headTube": 110,
+      "trail": null
+    },
+    {
+      "size": "M",
+      "reach": 468,
+      "stack": 648,
+      "headAngle": 64,
+      "seatAngle": 76.5,
+      "seatAngleEffective": 76.5,
+      "chainstay": 451,
+      "wheelbase": 1269,
+      "bbDrop": null,
+      "bbHeight": 346,
+      "seatTube": 399,
+      "topTubeActual": null,
+      "topTubeEffective": 632,
+      "standover": 689,
+      "forkOffset": null,
+      "forkLength": null,
+      "headTube": 120,
+      "trail": null
+    },
+    {
+      "size": "L",
+      "reach": 483,
+      "stack": 657,
+      "headAngle": 64,
+      "seatAngle": 76.5,
+      "seatAngleEffective": 76.5,
+      "chainstay": 451,
+      "wheelbase": 1288,
+      "bbDrop": null,
+      "bbHeight": 346,
+      "seatTube": 432,
+      "topTubeActual": null,
+      "topTubeEffective": 649,
+      "standover": 704,
+      "forkOffset": null,
+      "forkLength": null,
+      "headTube": 130,
+      "trail": null
+    },
+    {
+      "size": "XL",
+      "reach": 503,
+      "stack": 666,
+      "headAngle": 64,
+      "seatAngle": 76.5,
+      "seatAngleEffective": 76.5,
+      "chainstay": 451,
+      "wheelbase": 1313,
+      "bbDrop": null,
+      "bbHeight": 346,
+      "seatTube": 470,
+      "topTubeActual": null,
+      "topTubeEffective": 671,
+      "standover": 720,
+      "forkOffset": null,
+      "forkLength": null,
+      "headTube": 140,
+      "trail": null
+    }
+  ]
+}

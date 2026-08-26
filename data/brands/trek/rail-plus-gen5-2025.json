@@ -1,0 +1,129 @@
+{
+  "brand": "Trek",
+  "model": "Rail+ Gen 5",
+  "year": 2025,
+  "type": "e-mtb",
+  "wheelSize": "29/27.5 MX",
+  "travel": {
+    "front": 160,
+    "rear": 160
+  },
+  "source": "Vital MTB (공식 지오메트리 전재)",
+  "sourceUrl": "https://www.vitalmtb.com/product/guide/e-bikes/trek/rail-62671",
+  "lastUpdated": "2026-08-26",
+  "notes": "풀파워 eMTB (MY25-26). Bosch Performance Line CX Gen5(100Nm), 800Wh 탈착식 배터리. Low(출고 기본) 포지션 기준 수치. 사이즈 S는 앞뒤 27.5인치, M-XL은 MX(29/27.5). 별도 앵글 조절 헤드셋 컵으로 헤드앵글 ±1° 조정 가능.",
+  "flipchips": [
+    {
+      "id": "mino-link",
+      "name": "Mino Link",
+      "description": "로커 링크 2단 플립칩 - 헤드/시트앵글과 BB 높이 조정",
+      "positions": [
+        {
+          "id": "low",
+          "name": "Low",
+          "description": "출고 기본 - 낮은 BB, 슬랙한 앵글"
+        },
+        {
+          "id": "high",
+          "name": "High",
+          "description": "앵글 +0.5° 스팁, BB +7mm - 민첩성 향상"
+        }
+      ],
+      "default": "low",
+      "adjustments": {
+        "low": {
+          "bbHeight": 0,
+          "headAngle": 0,
+          "seatAngle": 0
+        },
+        "high": {
+          "bbHeight": 7,
+          "headAngle": 0.5,
+          "seatAngle": 0.5
+        }
+      }
+    }
+  ],
+  "sizes": [
+    {
+      "size": "S",
+      "reach": 430,
+      "stack": 594,
+      "headAngle": 64.5,
+      "seatAngle": 77.4,
+      "seatAngleEffective": 77.4,
+      "chainstay": 448,
+      "wheelbase": 1202,
+      "bbDrop": 18,
+      "bbHeight": 338,
+      "seatTube": 380,
+      "topTubeActual": null,
+      "topTubeEffective": 563,
+      "standover": 758,
+      "forkOffset": null,
+      "forkLength": null,
+      "headTube": 100,
+      "trail": null
+    },
+    {
+      "size": "M",
+      "reach": 450,
+      "stack": 627,
+      "headAngle": 64.5,
+      "seatAngle": 77.2,
+      "seatAngleEffective": 77.2,
+      "chainstay": 448,
+      "wheelbase": 1230,
+      "bbDrop": 24,
+      "bbHeight": 338,
+      "seatTube": 410,
+      "topTubeActual": null,
+      "topTubeEffective": 592,
+      "standover": 769,
+      "forkOffset": null,
+      "forkLength": null,
+      "headTube": 100,
+      "trail": null
+    },
+    {
+      "size": "L",
+      "reach": 490,
+      "stack": 645,
+      "headAngle": 64.5,
+      "seatAngle": 77.0,
+      "seatAngleEffective": 77.0,
+      "chainstay": 448,
+      "wheelbase": 1278,
+      "bbDrop": 24,
+      "bbHeight": 338,
+      "seatTube": 435,
+      "topTubeActual": null,
+      "topTubeEffective": 639,
+      "standover": 769,
+      "forkOffset": null,
+      "forkLength": null,
+      "headTube": 120,
+      "trail": null
+    },
+    {
+      "size": "XL",
+      "reach": 515,
+      "stack": 667,
+      "headAngle": 64.5,
+      "seatAngle": 76.9,
+      "seatAngleEffective": 76.9,
+      "chainstay": 448,
+      "wheelbase": 1314,
+      "bbDrop": 24,
+      "bbHeight": 338,
+      "seatTube": 470,
+      "topTubeActual": null,
+      "topTubeEffective": 670,
+      "standover": 779,
+      "forkOffset": null,
+      "forkLength": null,
+      "headTube": 145,
+      "trail": null
+    }
+  ]
+}

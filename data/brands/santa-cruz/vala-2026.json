@@ -1,0 +1,149 @@
+{
+  "brand": "Santa Cruz",
+  "model": "Vala",
+  "year": 2026,
+  "type": "e-mtb",
+  "wheelSize": "29/27.5 MX",
+  "travel": {
+    "front": 160,
+    "rear": 150
+  },
+  "source": "Santa Cruz Official",
+  "sourceUrl": "https://www.santacruzbicycles.com/pages/product-support/vala-1-my-26",
+  "lastUpdated": "2026-08-26",
+  "notes": "풀파워 eMTB (MY26). Bosch Performance Line CX Gen5(85Nm/600W), 600Wh PowerTube(+PowerMore 250Wh 익스텐더 호환). 산타크루즈 최초 호스트링크(4-bar VPP) 서스펜션. Hi 포지션 기준 수치. bbDrop은 프론트 기준.",
+  "flipchips": [
+    {
+      "id": "geometry",
+      "name": "Geometry Flip Chip",
+      "description": "헤드앵글과 BB 높이 조정",
+      "positions": [
+        {
+          "id": "low",
+          "name": "Low",
+          "description": "낮은 BB, 슬랙한 헤드앵글 - 하강 성능 향상"
+        },
+        {
+          "id": "high",
+          "name": "High",
+          "description": "높은 BB, 스팁한 헤드앵글 - 민첩성 향상"
+        }
+      ],
+      "default": "high",
+      "adjustments": {
+        "low": {
+          "bbHeight": -4,
+          "headAngle": -0.3,
+          "seatAngle": -0.3
+        },
+        "high": {
+          "bbHeight": 0,
+          "headAngle": 0,
+          "seatAngle": 0
+        }
+      }
+    }
+  ],
+  "sizes": [
+    {
+      "size": "S",
+      "reach": 435,
+      "stack": 623,
+      "headAngle": 64.2,
+      "seatAngle": 77.5,
+      "seatAngleEffective": 77.5,
+      "chainstay": 439,
+      "wheelbase": 1210,
+      "bbDrop": 28,
+      "bbHeight": 344,
+      "seatTube": 380,
+      "topTubeActual": null,
+      "topTubeEffective": 573,
+      "standover": 741,
+      "forkOffset": 44,
+      "forkLength": null,
+      "headTube": 110,
+      "trail": null
+    },
+    {
+      "size": "M",
+      "reach": 460,
+      "stack": 632,
+      "headAngle": 64.2,
+      "seatAngle": 77.5,
+      "seatAngleEffective": 77.5,
+      "chainstay": 440,
+      "wheelbase": 1240,
+      "bbDrop": 28,
+      "bbHeight": 344,
+      "seatTube": 400,
+      "topTubeActual": null,
+      "topTubeEffective": 601,
+      "standover": 735,
+      "forkOffset": 44,
+      "forkLength": null,
+      "headTube": 120,
+      "trail": null
+    },
+    {
+      "size": "L",
+      "reach": 480,
+      "stack": 641,
+      "headAngle": 64.2,
+      "seatAngle": 77.5,
+      "seatAngleEffective": 77.5,
+      "chainstay": 443,
+      "wheelbase": 1268,
+      "bbDrop": 28,
+      "bbHeight": 344,
+      "seatTube": 420,
+      "topTubeActual": null,
+      "topTubeEffective": 622,
+      "standover": 734,
+      "forkOffset": 44,
+      "forkLength": null,
+      "headTube": 130,
+      "trail": null
+    },
+    {
+      "size": "XL",
+      "reach": 500,
+      "stack": 655,
+      "headAngle": 64.2,
+      "seatAngle": 77.5,
+      "seatAngleEffective": 77.5,
+      "chainstay": 446,
+      "wheelbase": 1297,
+      "bbDrop": 28,
+      "bbHeight": 344,
+      "seatTube": 460,
+      "topTubeActual": null,
+      "topTubeEffective": 645,
+      "standover": 734,
+      "forkOffset": 44,
+      "forkLength": null,
+      "headTube": 145,
+      "trail": null
+    },
+    {
+      "size": "XXL",
+      "reach": 525,
+      "stack": 668,
+      "headAngle": 64.2,
+      "seatAngle": 77.5,
+      "seatAngleEffective": 77.5,
+      "chainstay": 450,
+      "wheelbase": 1333,
+      "bbDrop": 28,
+      "bbHeight": 344,
+      "seatTube": 500,
+      "topTubeActual": null,
+      "topTubeEffective": 673,
+      "standover": 728,
+      "forkOffset": 44,
+      "forkLength": null,
+      "headTube": 160,
+      "trail": null
+    }
+  ]
+}
