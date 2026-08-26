@@ -1,6 +1,6 @@
 {
-  "version": 3,
-  "lastUpdated": "2026-04-20",
+  "version": 4,
+  "lastUpdated": "2026-08-26",
   "weightNote": "Rider + gear weight (fully geared riding weight)",
   "forks": [
     {
@@ -330,6 +330,276 @@
       "sagPercent": 25,
       "source": "Fox/Marzocchi 36mm Tuning Guide (shared Fox 36 EVOL air spring platform)",
       "sourceUrl": "https://www.marzocchi.com/pages/product-service-manuals"
+    },
+    {
+      "brand": "Marzocchi",
+      "model": "Bomber Z2",
+      "variants": [],
+      "modelPattern": "Bomber Z2|Marzocchi Z2|\\bZ2\\b",
+      "years": [2020, 2021, 2022, 2023, 2024, 2025, 2026],
+      "generation": "FLOAT EVOL / RAIL Damper",
+      "travel": [100, 110, 120, 130, 140, 150],
+      "springType": "AIR",
+      "maxPressure": 120,
+      "pressureChart": [
+        { "weightLbs": 120, "weightKg": 54, "psi": 58 },
+        { "weightLbs": 130, "weightKg": 59, "psi": 63 },
+        { "weightLbs": 140, "weightKg": 64, "psi": 68 },
+        { "weightLbs": 150, "weightKg": 68, "psi": 72 },
+        { "weightLbs": 160, "weightKg": 73, "psi": 77 },
+        { "weightLbs": 170, "weightKg": 77, "psi": 82 },
+        { "weightLbs": 180, "weightKg": 82, "psi": 86 },
+        { "weightLbs": 190, "weightKg": 86, "psi": 91 },
+        { "weightLbs": 200, "weightKg": 91, "psi": 96 },
+        { "weightLbs": 210, "weightKg": 95, "psi": 100 },
+        { "weightLbs": 220, "weightKg": 100, "psi": 105 },
+        { "weightLbs": 230, "weightKg": 104, "psi": 110 },
+        { "weightLbs": 240, "weightKg": 109, "psi": 114 }
+      ],
+      "reboundChart": {
+        "note": "Clicks counter-clockwise from fully closed",
+        "damperVariants": {
+          "RAIL": [
+            { "weightLbs": 120, "weightKg": 54, "rebound": 13 },
+            { "weightLbs": 130, "weightKg": 59, "rebound": 10 },
+            { "weightLbs": 140, "weightKg": 64, "rebound": 9 },
+            { "weightLbs": 150, "weightKg": 68, "rebound": 9 },
+            { "weightLbs": 160, "weightKg": 73, "rebound": 8 },
+            { "weightLbs": 170, "weightKg": 77, "rebound": 8 },
+            { "weightLbs": 180, "weightKg": 82, "rebound": 8 },
+            { "weightLbs": 190, "weightKg": 86, "rebound": 7 },
+            { "weightLbs": 200, "weightKg": 91, "rebound": 7 },
+            { "weightLbs": 210, "weightKg": 95, "rebound": 6 },
+            { "weightLbs": 220, "weightKg": 100, "rebound": 4 },
+            { "weightLbs": 230, "weightKg": 104, "rebound": 3 },
+            { "weightLbs": 240, "weightKg": 109, "rebound": 2 }
+          ]
+        }
+      },
+      "compressionDefaults": {
+        "RAIL": { "compression": 0, "note": "Fully open starting position; add compression to taste after setting sag" }
+      },
+      "sagPercent": 20,
+      "source": "Marzocchi Bomber Z2 Tuning Guide 605-00-237 Rev A",
+      "sourceUrl": "https://tech.ridefox.com/bike/owners-manuals/2838/bomber-z2"
+    },
+    {
+      "brand": "DVO",
+      "model": "Diamond D1",
+      "variants": [],
+      "modelPattern": "Diamond 35.*D1|Diamond D1(?! SL)",
+      "years": [2020, 2021, 2022, 2023],
+      "generation": "35 mm chassis / OTT / D1",
+      "travel": [140, 150, 160],
+      "springType": "AIR",
+      "maxPressure": 170,
+      "pressureChart": [
+        { "weightLbs": 130, "weightKg": 59, "psi": 95 },
+        { "weightLbs": 150, "weightKg": 68, "psi": 105 },
+        { "weightLbs": 170, "weightKg": 77, "psi": 118 },
+        { "weightLbs": 190, "weightKg": 86, "psi": 128 },
+        { "weightLbs": 210, "weightKg": 95, "psi": 133 },
+        { "weightLbs": 230, "weightKg": 104, "psi": 138 },
+        { "weightLbs": 240, "weightKg": 109, "psi": 140 }
+      ],
+      "reboundChart": {
+        "note": "Midpoint of DVO's official Faster-Slower band; clicks counter-clockwise from fully closed",
+        "damperVariants": {
+          "D1": [
+            { "weightLbs": 130, "weightKg": 59, "rebound": 12 },
+            { "weightLbs": 150, "weightKg": 68, "rebound": 12 },
+            { "weightLbs": 170, "weightKg": 77, "rebound": 10 },
+            { "weightLbs": 190, "weightKg": 86, "rebound": 10 },
+            { "weightLbs": 210, "weightKg": 95, "rebound": 8 },
+            { "weightLbs": 230, "weightKg": 104, "rebound": 8 },
+            { "weightLbs": 240, "weightKg": 109, "rebound": 8 }
+          ]
+        }
+      },
+      "sagPercent": 20,
+      "source": "DVO Diamond Set Up (legacy 35 mm D1)",
+      "sourceUrl": "https://tech.dvosuspension.com/setup/diamond/"
+    },
+    {
+      "brand": "DVO",
+      "model": "Onyx SC D1",
+      "variants": [],
+      "modelPattern": "Onyx SC.*D1|Onyx.*SC.*D1",
+      "years": [2020, 2021, 2022, 2023],
+      "generation": "36 mm chassis / OTT / D1",
+      "travel": [160, 170, 180],
+      "springType": "AIR",
+      "maxPressure": 130,
+      "pressureChart": [
+        { "weightLbs": 130, "weightKg": 59, "psi": 63 },
+        { "weightLbs": 150, "weightKg": 68, "psi": 73 },
+        { "weightLbs": 170, "weightKg": 77, "psi": 78 },
+        { "weightLbs": 190, "weightKg": 86, "psi": 83 },
+        { "weightLbs": 210, "weightKg": 95, "psi": 88 },
+        { "weightLbs": 230, "weightKg": 104, "psi": 95 },
+        { "weightLbs": 240, "weightKg": 109, "psi": 98 }
+      ],
+      "reboundChart": {
+        "note": "Midpoint of DVO's official Faster-Slower band; 230 lb uses the official 95 PSI boundary because the rebound guide has no 90-95 PSI band",
+        "damperVariants": {
+          "D1": [
+            { "weightLbs": 130, "weightKg": 59, "rebound": 20 },
+            { "weightLbs": 150, "weightKg": 68, "rebound": 20 },
+            { "weightLbs": 170, "weightKg": 77, "rebound": 16 },
+            { "weightLbs": 190, "weightKg": 86, "rebound": 12 },
+            { "weightLbs": 210, "weightKg": 95, "rebound": 8 },
+            { "weightLbs": 230, "weightKg": 104, "rebound": 4 },
+            { "weightLbs": 240, "weightKg": 109, "rebound": 4 }
+          ]
+        }
+      },
+      "sagPercent": 20,
+      "source": "DVO Fork Set Up Guide 2020 v4 (Onyx SC D1)",
+      "sourceUrl": "https://tech.dvosuspension.com/wp-content/uploads/2020/09/DVO-Set-Up-Guide-2020-v4.pdf"
+    },
+    {
+      "brand": "RockShox",
+      "model": "ZEB Select+",
+      "variants": [],
+      "modelPattern": "ZEB.*Select\\+|ZEB.*Select Plus",
+      "years": [2023, 2024],
+      "generation": "A2 / DebonAir+ / Charger 3 RC2",
+      "travel": [150, 160, 170, 180, 190],
+      "springType": "AIR",
+      "maxPressure": 94,
+      "pressureChart": [
+        { "weightLbs": 100, "weightKg": 45, "psi": 29 },
+        { "weightLbs": 110, "weightKg": 50, "psi": 33 },
+        { "weightLbs": 120, "weightKg": 54, "psi": 37 },
+        { "weightLbs": 130, "weightKg": 59, "psi": 41 },
+        { "weightLbs": 140, "weightKg": 64, "psi": 45 },
+        { "weightLbs": 150, "weightKg": 68, "psi": 50 },
+        { "weightLbs": 160, "weightKg": 73, "psi": 54 },
+        { "weightLbs": 170, "weightKg": 77, "psi": 58 },
+        { "weightLbs": 180, "weightKg": 82, "psi": 62 },
+        { "weightLbs": 190, "weightKg": 86, "psi": 66 },
+        { "weightLbs": 200, "weightKg": 91, "psi": 70 },
+        { "weightLbs": 210, "weightKg": 95, "psi": 74 },
+        { "weightLbs": 220, "weightKg": 100, "psi": 78 },
+        { "weightLbs": 230, "weightKg": 104, "psi": 82 },
+        { "weightLbs": 240, "weightKg": 109, "psi": 86 },
+        { "weightLbs": 250, "weightKg": 113, "psi": 90 },
+        { "weightLbs": 260, "weightKg": 118, "psi": 94 },
+        { "weightLbs": 270, "weightKg": 122, "psi": 94 },
+        { "weightLbs": 280, "weightKg": 127, "psi": 94 },
+        { "weightLbs": 290, "weightKg": 132, "psi": 94 },
+        { "weightLbs": 300, "weightKg": 136, "psi": 94 },
+        { "weightLbs": 320, "weightKg": 145, "psi": 94 },
+        { "weightLbs": 340, "weightKg": 154, "psi": 94 }
+      ],
+      "reboundChart": {
+        "note": "Trailhead rebound clicks from closed",
+        "damperVariants": {
+          "Charger 3 RC2": [
+            { "weightLbs": 100, "weightKg": 45, "rebound": 15 },
+            { "weightLbs": 110, "weightKg": 50, "rebound": 14 },
+            { "weightLbs": 120, "weightKg": 54, "rebound": 14 },
+            { "weightLbs": 130, "weightKg": 59, "rebound": 13 },
+            { "weightLbs": 140, "weightKg": 64, "rebound": 12 },
+            { "weightLbs": 150, "weightKg": 68, "rebound": 12 },
+            { "weightLbs": 160, "weightKg": 73, "rebound": 11 },
+            { "weightLbs": 170, "weightKg": 77, "rebound": 11 },
+            { "weightLbs": 180, "weightKg": 82, "rebound": 10 },
+            { "weightLbs": 190, "weightKg": 86, "rebound": 9 },
+            { "weightLbs": 200, "weightKg": 91, "rebound": 9 },
+            { "weightLbs": 210, "weightKg": 95, "rebound": 8 },
+            { "weightLbs": 220, "weightKg": 100, "rebound": 8 },
+            { "weightLbs": 230, "weightKg": 104, "rebound": 7 },
+            { "weightLbs": 240, "weightKg": 109, "rebound": 6 },
+            { "weightLbs": 250, "weightKg": 113, "rebound": 6 },
+            { "weightLbs": 260, "weightKg": 118, "rebound": 5 },
+            { "weightLbs": 270, "weightKg": 122, "rebound": 5 },
+            { "weightLbs": 280, "weightKg": 127, "rebound": 4 },
+            { "weightLbs": 290, "weightKg": 132, "rebound": 3 },
+            { "weightLbs": 300, "weightKg": 136, "rebound": 3 },
+            { "weightLbs": 320, "weightKg": 145, "rebound": 2 },
+            { "weightLbs": 340, "weightKg": 154, "rebound": 0 }
+          ]
+        }
+      },
+      "compressionDefaults": {
+        "Charger 3 RC2": { "hsc": 0, "lsc": 0, "note": "Trailhead neutral/middle indexed starting position" }
+      },
+      "sagPercent": 25,
+      "source": "RockShox Trailhead FS-ZEB-SELP-A2 (08T31492985)",
+      "sourceUrl": "https://trailhead.rockshox.com/en/product/08T31492985/tuning/setup"
+    },
+    {
+      "brand": "RockShox",
+      "model": "Lyrik Select+",
+      "variants": [],
+      "modelPattern": "Lyrik.*Select\\+|Lyrik.*Select Plus",
+      "years": [2023, 2024],
+      "generation": "D1 / DebonAir+ / Charger 3 RC2",
+      "travel": [140, 150, 160],
+      "springType": "AIR",
+      "maxPressure": 163,
+      "pressureChart": [
+        { "weightLbs": 100, "weightKg": 45, "psi": 40 },
+        { "weightLbs": 110, "weightKg": 50, "psi": 45 },
+        { "weightLbs": 120, "weightKg": 54, "psi": 50 },
+        { "weightLbs": 130, "weightKg": 59, "psi": 55 },
+        { "weightLbs": 140, "weightKg": 64, "psi": 60 },
+        { "weightLbs": 150, "weightKg": 68, "psi": 65 },
+        { "weightLbs": 160, "weightKg": 73, "psi": 70 },
+        { "weightLbs": 170, "weightKg": 77, "psi": 75 },
+        { "weightLbs": 180, "weightKg": 82, "psi": 80 },
+        { "weightLbs": 190, "weightKg": 86, "psi": 85 },
+        { "weightLbs": 200, "weightKg": 91, "psi": 90 },
+        { "weightLbs": 210, "weightKg": 95, "psi": 95 },
+        { "weightLbs": 220, "weightKg": 100, "psi": 100 },
+        { "weightLbs": 230, "weightKg": 104, "psi": 105 },
+        { "weightLbs": 240, "weightKg": 109, "psi": 110 },
+        { "weightLbs": 250, "weightKg": 113, "psi": 115 },
+        { "weightLbs": 260, "weightKg": 118, "psi": 120 },
+        { "weightLbs": 270, "weightKg": 122, "psi": 125 },
+        { "weightLbs": 280, "weightKg": 127, "psi": 130 },
+        { "weightLbs": 290, "weightKg": 132, "psi": 135 },
+        { "weightLbs": 300, "weightKg": 136, "psi": 140 },
+        { "weightLbs": 320, "weightKg": 145, "psi": 150 },
+        { "weightLbs": 340, "weightKg": 154, "psi": 160 }
+      ],
+      "reboundChart": {
+        "note": "Trailhead rebound clicks from closed",
+        "damperVariants": {
+          "Charger 3 RC2": [
+            { "weightLbs": 100, "weightKg": 45, "rebound": 15 },
+            { "weightLbs": 110, "weightKg": 50, "rebound": 14 },
+            { "weightLbs": 120, "weightKg": 54, "rebound": 14 },
+            { "weightLbs": 130, "weightKg": 59, "rebound": 13 },
+            { "weightLbs": 140, "weightKg": 64, "rebound": 12 },
+            { "weightLbs": 150, "weightKg": 68, "rebound": 12 },
+            { "weightLbs": 160, "weightKg": 73, "rebound": 11 },
+            { "weightLbs": 170, "weightKg": 77, "rebound": 11 },
+            { "weightLbs": 180, "weightKg": 82, "rebound": 10 },
+            { "weightLbs": 190, "weightKg": 86, "rebound": 9 },
+            { "weightLbs": 200, "weightKg": 91, "rebound": 9 },
+            { "weightLbs": 210, "weightKg": 95, "rebound": 8 },
+            { "weightLbs": 220, "weightKg": 100, "rebound": 8 },
+            { "weightLbs": 230, "weightKg": 104, "rebound": 7 },
+            { "weightLbs": 240, "weightKg": 109, "rebound": 6 },
+            { "weightLbs": 250, "weightKg": 113, "rebound": 6 },
+            { "weightLbs": 260, "weightKg": 118, "rebound": 5 },
+            { "weightLbs": 270, "weightKg": 122, "rebound": 5 },
+            { "weightLbs": 280, "weightKg": 127, "rebound": 4 },
+            { "weightLbs": 290, "weightKg": 132, "rebound": 3 },
+            { "weightLbs": 300, "weightKg": 136, "rebound": 3 },
+            { "weightLbs": 320, "weightKg": 145, "rebound": 2 },
+            { "weightLbs": 340, "weightKg": 154, "rebound": 0 }
+          ]
+        }
+      },
+      "compressionDefaults": {
+        "Charger 3 RC2": { "hsc": 0, "lsc": 0, "note": "Trailhead neutral/middle indexed starting position" }
+      },
+      "sagPercent": 25,
+      "source": "RockShox Trailhead FS-LYRK-SELP-D1 (18t32771334)",
+      "sourceUrl": "https://trailhead.rockshox.com/en/product/18t32771334/tuning/setup"
     }
   ]
 }
