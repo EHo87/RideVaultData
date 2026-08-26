@@ -1,0 +1,76 @@
+{
+  "brand": "YT Industries",
+  "lastUpdated": "2026-08-26",
+  "models": {
+    "Capra 29": {
+      "variants": ["Capra 29 AL", "Capra AL 29"],
+      "year": "2018-2023",
+      "sections": [
+        {
+          "name": "피벗 & 링키지",
+          "bolts": [
+            {
+              "name": "Main Pivot",
+              "torqueNm": 20,
+              "count": 1,
+              "note": "중강도 스레드락커 (Loctite 243) 권장"
+            },
+            {
+              "name": "Lower Link Pivot",
+              "torqueNm": 20,
+              "count": 2,
+              "note": "Loctite 243"
+            },
+            {
+              "name": "Upper Link Pivot",
+              "torqueNm": 10,
+              "count": 2,
+              "note": "Loctite 243"
+            },
+            {
+              "name": "Horst Link Pivot",
+              "torqueNm": 12,
+              "count": 2,
+              "note": "Loctite 243"
+            }
+          ]
+        },
+        {
+          "name": "샥 마운트",
+          "bolts": [
+            {
+              "name": "Shock Bolt (Front)",
+              "torqueNm": 10,
+              "torqueNmMax": 12,
+              "size": "M8",
+              "note": "Ø8x30mm 하드웨어"
+            },
+            {
+              "name": "Shock Bolt (Rear)",
+              "torqueNm": 10,
+              "torqueNmMax": 12,
+              "size": "M8",
+              "note": "Ø8x40mm 하드웨어"
+            }
+          ]
+        },
+        {
+          "name": "기타",
+          "bolts": [
+            {
+              "name": "Mech Hanger",
+              "torqueNm": 18,
+              "note": "디레일러 행어 볼트"
+            },
+            {
+              "name": "Cable Clamp",
+              "torqueNm": 3
+            }
+          ]
+        }
+      ],
+      "source": "YT Capra 29 AL Technical Information (공식 분해도/토크 문서)",
+      "sourceUrl": "https://www.yt-industries.com/media/58/12/a4/1729759008/CAPRA-29-AL-TECHNICAL_INFORMATION_CUSTOMER_180118.pdf"
+    }
+  }
+}

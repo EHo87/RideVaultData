@@ -1,0 +1,160 @@
+{
+  "brand": "Hope",
+  "lastUpdated": "2026-08-26",
+  "components": {
+    "brake_lever": {
+      "Tech 4": {
+        "variants": ["Tech 4", "Tech 4 V4", "Tech 4 E4", "Tech 4 X2", "Tech 4 EVO"],
+        "bolts": [
+          {
+            "name": "Clamp Bolt",
+            "torqueNm": 4,
+            "torqueNmMax": 5,
+            "count": 1,
+            "size": "M5",
+            "note": "4mm 육각, 힌지 클램프"
+          }
+        ],
+        "source": "Hope Tech 4 Installation Guide",
+        "sourceUrl": "https://www.hopetech.com/product-documents/brakes/"
+      },
+      "Tech 3": {
+        "variants": ["Tech 3", "Tech 3 E4", "Tech 3 V4", "Tech 3 X2", "Tech 3 Duo"],
+        "bolts": [
+          {
+            "name": "Clamp Bolt",
+            "torqueNm": 4,
+            "torqueNmMax": 5,
+            "size": "M5",
+            "note": "4mm 육각, 교대로 조임"
+          }
+        ],
+        "source": "Hope Tech 3 Master Cylinder Installation Guide (2019)",
+        "sourceUrl": "https://www.hopetech.com/_repository/1/documents/TECH3DUOX2-M4-V4Instructions.pdf"
+      }
+    },
+    "stem": {
+      "AM Stem": {
+        "variants": ["AM Stem", "Hope AM Stem", "AM Freeride Stem"],
+        "bolts": [
+          {
+            "name": "Steerer Clamp",
+            "torqueNm": 5,
+            "count": 2,
+            "size": "M5",
+            "note": "M5x16mm, 교대로 조임"
+          },
+          {
+            "name": "Faceplate Bolt",
+            "torqueNm": 5,
+            "count": 4,
+            "size": "M5",
+            "note": "M5x20mm, 상단 2개 먼저 조임 - 하단에 조립 갭 유지",
+            "warningIcon": "warning"
+          }
+        ],
+        "source": "Hope AM Stem Instructions (Issue 003, 02/2018)"
+      },
+      "XC Stem": {
+        "variants": ["XC Stem", "Hope XC Stem", "Hope Stem"],
+        "bolts": [
+          {
+            "name": "Steerer Clamp",
+            "torqueNm": 7,
+            "torqueNmMax": 8,
+            "count": 2,
+            "size": "M5",
+            "note": "교대로 조임"
+          },
+          {
+            "name": "Faceplate Bolt",
+            "torqueNm": 5,
+            "count": 4,
+            "size": "M5",
+            "note": "교대로 조임",
+            "warningIcon": "warning"
+          }
+        ],
+        "source": "Hope Stem Fitting Instructions",
+        "sourceUrl": "https://www.hopetech.com/_repository/1/documents/New-Stem-Instructions.pdf"
+      }
+    },
+    "bottom_bracket": {
+      "BSA30 Threaded BB": {
+        "variants": ["BSA30", "30mm Threaded BB", "BBSS30N", "Hope BSA30"],
+        "bolts": [
+          {
+            "name": "BB Cup",
+            "torqueNm": 40,
+            "torqueNmMax": 50,
+            "count": 2,
+            "size": "BB Tool (HTT188)",
+            "note": "드라이브 사이드: 역나사 (반시계 방향 조임)",
+            "warningIcon": "warning"
+          }
+        ],
+        "source": "Hope 30mm Threaded BB Instructions (INST011)",
+        "sourceUrl": "https://www.hopetech.com/_repository/1/documents/30mmThreadedBB-EN_FR_DE_V2.pdf"
+      },
+      "T47 68/73": {
+        "variants": ["T47", "T47 68/73", "T47 BB", "Hope T47"],
+        "bolts": [
+          {
+            "name": "BB Cup",
+            "torqueNm": 35,
+            "torqueNmMax": 40,
+            "count": 2,
+            "size": "BB Tool",
+            "note": "드라이브 사이드: 역나사 (반시계 방향 조임)",
+            "warningIcon": "warning"
+          }
+        ],
+        "source": "Hope T47 68-73mm BB Instructions",
+        "sourceUrl": "https://www.hopetech.com/_repository/1/documents/T47_68-73mm_Instructions.pdf"
+      }
+    },
+    "pedals": {
+      "F22": {
+        "variants": ["F22", "F22 Flat Pedal", "Hope F22"],
+        "bolts": [
+          {
+            "name": "Pedal Spindle",
+            "torqueNm": 35,
+            "torqueNmMax": 40,
+            "size": "8mm Hex",
+            "note": "나사산에 그리스 도포, 좌측 페달 역나사",
+            "warningIcon": "warning"
+          },
+          {
+            "name": "Pin",
+            "torqueNm": 4,
+            "note": "핀당 토크값 - 숏핀 2mm/롱핀 2.5mm 육각, 볼엔드 렌치 사용 금지"
+          }
+        ],
+        "source": "Hope F22 Pedal Instructions (INST040)",
+        "sourceUrl": "https://www.hopetech.com/_repository/1/documents/Hope_F22_Pedals.pdf"
+      },
+      "F20": {
+        "variants": ["F20", "F20 Flat Pedal", "Hope F20"],
+        "bolts": [
+          {
+            "name": "Pedal Spindle",
+            "torqueNm": 35,
+            "torqueNmMax": 40,
+            "size": "8mm Hex",
+            "note": "나사산에 그리스 도포, 좌측 페달 역나사",
+            "warningIcon": "warning"
+          },
+          {
+            "name": "Pin",
+            "torqueNm": 4,
+            "count": 20,
+            "note": "핀당 토크값, 2mm 육각 - 볼엔드 렌치 사용 금지"
+          }
+        ],
+        "source": "Hope F20 Pedal Instructions (2013)",
+        "sourceUrl": "https://www.hopetech.com/_repository/1/documents/F20Pedalinstructions.pdf"
+      }
+    }
+  }
+}

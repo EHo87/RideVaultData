@@ -1,0 +1,108 @@
+{
+  "brand": "Commencal",
+  "lastUpdated": "2026-08-26",
+  "models": {
+    "Meta SX": {
+      "variants": ["Meta SX V4"],
+      "year": "2022-2023",
+      "sections": [
+        {
+          "name": "피벗 & 링키지",
+          "bolts": [
+            {
+              "name": "Main Pivot Bolt",
+              "torqueNm": 30,
+              "torqueNmMax": 35,
+              "count": 1,
+              "note": "메인 피벗 볼트 (META 29.2 플랫폼 공용)",
+              "warningIcon": "info"
+            },
+            {
+              "name": "Rocker / Front Triangle Axle",
+              "torqueNm": 10,
+              "torqueNmMax": 12,
+              "count": 2,
+              "note": "로커-프론트 트라이앵글 액슬 (2개 세트)"
+            }
+          ]
+        }
+      ],
+      "source": "Commencal 공식 스페어파츠 페이지 (Torque tightening 표기)",
+      "sourceUrl": "https://www.commencal.com/us/en/main-pivot-axle-kit-meta-29.2/W21METAAXLEMP.html"
+    },
+    "Meta SX V5": {
+      "variants": ["Meta SX V5"],
+      "year": "2024-",
+      "sections": [
+        {
+          "name": "피벗 & 링키지",
+          "bolts": [
+            {
+              "name": "Lower Link Axle (Front Triangle)",
+              "torqueNm": 20,
+              "note": "익스팬더 볼트는 6 Nm"
+            },
+            {
+              "name": "Lower Link Axle (Rear Triangle)",
+              "torqueNm": 20,
+              "note": "익스팬더 볼트는 6 Nm"
+            },
+            {
+              "name": "Upper Link Axle (Rear Triangle)",
+              "torqueNm": 12
+            },
+            {
+              "name": "Upper Link / Clevis Axle",
+              "torqueNm": 12
+            },
+            {
+              "name": "Axle Expander Bolt",
+              "torqueNm": 6,
+              "note": "액슬 익스팬더 시스템 고정 볼트 (풀림 방지)"
+            },
+            {
+              "name": "Bearing Lock Ring",
+              "torqueNm": 5
+            }
+          ]
+        },
+        {
+          "name": "샥 마운트",
+          "bolts": [
+            {
+              "name": "Shock Axle (Front Triangle)",
+              "torqueNm": 20,
+              "note": "익스팬더 볼트는 6 Nm"
+            }
+          ]
+        },
+        {
+          "name": "스루액슬",
+          "bolts": [
+            {
+              "name": "Rear Thru Axle",
+              "torqueNm": 15,
+              "note": "UDH 180mm 액슬"
+            }
+          ]
+        },
+        {
+          "name": "기타",
+          "bolts": [
+            {
+              "name": "Universal Derailleur Hanger",
+              "torqueNm": 25,
+              "note": "SRAM UDH"
+            },
+            {
+              "name": "Top Tube Cable Guide",
+              "torqueNm": 3
+            }
+          ]
+        }
+      ],
+      "source": "Commencal Tech - META SX V5 (공식 테크 문서)",
+      "sourceUrl": "https://www.commencal.com/ad/en/tech-meta-sx-v5.html"
+    }
+  }
+}

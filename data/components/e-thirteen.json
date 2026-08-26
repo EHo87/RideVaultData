@@ -1,0 +1,80 @@
+{
+  "brand": "e*thirteen",
+  "lastUpdated": "2026-08-26",
+  "components": {
+    "crankset": {
+      "Helix Race": {
+        "variants": ["Helix Race", "Helix R", "Helix Race Crank"],
+        "bolts": [
+          {
+            "name": "Crank Bolt",
+            "torqueNm": 40,
+            "torqueNmMax": 45,
+            "size": "8mm Hex",
+            "note": "드라이브 사이드 암 조임",
+            "warningIcon": "warning"
+          },
+          {
+            "name": "Self-Extractor Cap",
+            "torqueNm": 20,
+            "note": "전 모델 공통 셀프 익스트랙터 캡 토크"
+          }
+        ],
+        "source": "e*thirteen Helix Race Crank Install Guide",
+        "sourceUrl": "https://service.bythehive.com/Guide/How+to+install+Helix+Race+Cranks/108"
+      },
+      "TRS Race (CS4)": {
+        "variants": ["TRS Race", "TRS", "LG1 Race", "LG1 Crank", "TRS Race Carbon"],
+        "bolts": [
+          {
+            "name": "Crank Bolt",
+            "torqueNm": 40,
+            "size": "8mm Hex",
+            "note": "드라이브 사이드 암 조임",
+            "warningIcon": "warning"
+          },
+          {
+            "name": "Self-Extractor Cap",
+            "torqueNm": 20,
+            "note": "전 모델 공통 셀프 익스트랙터 캡 토크"
+          }
+        ],
+        "source": "e*thirteen CS4 TRS & LG1 Crank Install Guide",
+        "sourceUrl": "https://service.bythehive.com/Guide/How+to+install-remove+CS4+TRS+&+LG1+cranks/96"
+      }
+    },
+    "chain_guide": {
+      "LG1 Gen 2": {
+        "variants": ["LG1", "LG1+", "LG1 Plus", "LG1 Gen 2", "LG1 Chainguide"],
+        "bolts": [
+          {
+            "name": "ISCG Mount Bolt",
+            "torqueNm": 6,
+            "count": 3,
+            "note": "ISCG05 탭에 고정"
+          },
+          {
+            "name": "Lower Armature Screw",
+            "torqueNm": 6,
+            "count": 2,
+            "size": "T25"
+          },
+          {
+            "name": "Bash Guard Screw",
+            "torqueNm": 0.9,
+            "size": "T25",
+            "note": "과도한 토크 금지",
+            "warningIcon": "warning"
+          },
+          {
+            "name": "Lower Slider Screw",
+            "torqueNm": 0.9,
+            "note": "화살표를 체인 하단에 정렬 후 조임"
+          }
+        ],
+        "source": "e*thirteen Gen 2 LG1 Chainguide Install Guide",
+        "sourceUrl": "https://service.bythehive.com/Guide/How+to+Install+Gen+2+LG1+chainguides/65"
+      }
+    }
+  }
+}

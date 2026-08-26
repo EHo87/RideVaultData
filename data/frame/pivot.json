@@ -1,0 +1,116 @@
+{
+  "brand": "Pivot",
+  "lastUpdated": "2026-08-26",
+  "models": {
+    "Firebird V3": {
+      "variants": ["Firebird 29 V3", "Firebird Carbon"],
+      "year": "2022-",
+      "sections": [
+        {
+          "name": "피벗 & 링키지",
+          "bolts": [
+            {
+              "name": "Link Bolt (M14x20)",
+              "torqueNm": 35,
+              "size": "M14",
+              "note": "상/하부 링크 볼트, Loctite 243",
+              "warningIcon": "info"
+            },
+            {
+              "name": "Flip Chip Bolt (M14x20)",
+              "torqueNm": 35,
+              "size": "M14",
+              "note": "플립칩 볼트, Loctite 243"
+            }
+          ]
+        },
+        {
+          "name": "샥 마운트",
+          "bolts": [
+            {
+              "name": "Front Shock Bolt",
+              "torqueNm": 13,
+              "size": "M8",
+              "note": "30.1mm 샥 스페이싱, 샤프트 그리스 + 나사산 Loctite 243"
+            },
+            {
+              "name": "Trunnion Mount Bolt",
+              "torqueNm": 13,
+              "size": "M10",
+              "note": "Loctite 243"
+            }
+          ]
+        },
+        {
+          "name": "스루액슬",
+          "bolts": [
+            {
+              "name": "Rear Thru Axle",
+              "torqueNm": 15,
+              "note": "157mm Super Boost UDH 액슬, 그리스 도포"
+            }
+          ]
+        },
+        {
+          "name": "기타",
+          "bolts": [
+            {
+              "name": "UDH Hanger Bolt",
+              "torqueNm": 25,
+              "note": "SRAM Universal Derailleur Hanger"
+            }
+          ]
+        }
+      ],
+      "source": "Pivot Firebird Carbon 29 V3 Small Parts Schematic",
+      "sourceUrl": "https://portal.pivotcycles.com/portalimages/TechSpec/Firebird%20V3%20Small%20Parts%20Schematic_F9CV3.pdf"
+    },
+    "Trail 429 V3": {
+      "variants": ["Trail 429 Carbon 29 V3", "Trail 429 Enduro"],
+      "year": "2021-",
+      "sections": [
+        {
+          "name": "피벗 & 링키지",
+          "bolts": [
+            {
+              "name": "Link Bolt (M14x20)",
+              "torqueNm": 35,
+              "size": "M14",
+              "note": "상/하부 링크 볼트, Loctite 243",
+              "warningIcon": "info"
+            },
+            {
+              "name": "Flip Chip Bolt (M14x20)",
+              "torqueNm": 35,
+              "size": "M14",
+              "note": "플립칩 볼트, Loctite 243"
+            }
+          ]
+        },
+        {
+          "name": "샥 마운트",
+          "bolts": [
+            {
+              "name": "Front Shock Bolt",
+              "torqueNm": 13,
+              "size": "M8",
+              "note": "30.1mm 샥 스페이싱, 안티시즈 도포"
+            }
+          ]
+        },
+        {
+          "name": "스루액슬",
+          "bolts": [
+            {
+              "name": "Rear Thru Axle",
+              "torqueNm": 15,
+              "note": "157mm 액슬, 그리스 도포"
+            }
+          ]
+        }
+      ],
+      "source": "Pivot Trail 429 Carbon 29 V3 Small Parts Schematic",
+      "sourceUrl": "https://nuxx.net/files/bicycle/pivot/Pivot%20Trail%20429%20v3%20Small%20Parts%20Schematic%20v1.pdf"
+    }
+  }
+}

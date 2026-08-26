@@ -1,0 +1,226 @@
+{
+  "brand": "Yeti",
+  "lastUpdated": "2026-08-26",
+  "models": {
+    "SB160": {
+      "variants": ["SB160 T-Series", "SB160 C-Series"],
+      "year": "2023-",
+      "sections": [
+        {
+          "name": "피벗 & 링키지",
+          "bolts": [
+            {
+              "name": "Main Pivot Collet Axle",
+              "torqueNm": 25,
+              "size": "M15x1.5",
+              "count": 1,
+              "note": "10mm 알렌키, 샤프트 그리스 + 나사산 안티시즈",
+              "warningIcon": "info"
+            },
+            {
+              "name": "SS Pivot Shoulder Screw",
+              "torqueNm": 25,
+              "size": "M15",
+              "count": 2,
+              "note": "시트스테이 피벗, 링크 안쪽에서 조립 (콜렛 넛 사용)"
+            },
+            {
+              "name": "Link Pivot Collet Axle",
+              "torqueNm": 25,
+              "size": "M15",
+              "count": 1
+            },
+            {
+              "name": "Collet Wedge Bolt (15mm)",
+              "torqueNm": 14,
+              "size": "M4",
+              "count": 2,
+              "note": "메인/링크 피벗 콜렛 액슬 내부 웻지 볼트, 5mm 알렌키"
+            },
+            {
+              "name": "Switch Infinity Mount SHCS",
+              "torqueNm": 12,
+              "size": "M6",
+              "count": 4,
+              "note": "크로스 패턴으로 토크 후 반복 확인, 그리스 저크는 비구동측",
+              "warningIcon": "warning"
+            }
+          ]
+        },
+        {
+          "name": "샥 마운트",
+          "bolts": [
+            {
+              "name": "Shock Collet Axle",
+              "torqueNm": 15,
+              "size": "M10x1.0",
+              "count": 1,
+              "note": "샥 하단 익스텐더 관통 후 상단 익스텐더에 체결"
+            },
+            {
+              "name": "Collet Wedge Bolt (10mm)",
+              "torqueNm": 8,
+              "count": 1,
+              "note": "샥 콜렛 액슬 내부 웻지 볼트"
+            },
+            {
+              "name": "Shock Extender M6 Bolt",
+              "torqueNm": 10,
+              "size": "M6",
+              "count": 2,
+              "note": "샥 익스텐더/앞 샥 아이릿 고정 (Female 8mm 볼트 + Male M6 스크류)"
+            }
+          ]
+        },
+        {
+          "name": "스루액슬",
+          "bolts": [
+            {
+              "name": "Rear Thru Axle",
+              "torqueNm": 15,
+              "size": "M12x1",
+              "note": "172mm UDH 전용 볼트온 액슬"
+            }
+          ]
+        },
+        {
+          "name": "기타",
+          "bolts": [
+            {
+              "name": "SRAM Universal Hanger",
+              "torqueNm": 25,
+              "note": "그리스 사용 금지, 행어 캡 볼트는 역나사",
+              "warningIcon": "warning"
+            },
+            {
+              "name": "DT Protector M5 SHCS",
+              "torqueNm": 5,
+              "size": "M5",
+              "count": 3,
+              "note": "다운튜브 프로텍터 로우 프로파일 볼트"
+            },
+            {
+              "name": "Bottle Cage",
+              "torqueNm": 4,
+              "size": "M5",
+              "count": 2,
+              "note": "핸드 타이트 수준"
+            }
+          ]
+        }
+      ],
+      "source": "Yeti SB160 Owner's Manual (MY23)",
+      "sourceUrl": "https://yeticycles.com/cms/media/f0e2ecd7-8b05-43b3-b71e-87e57c1d6657_YetiCycles_MY23_OwnersManual_SB160.pdf"
+    },
+    "SB140": {
+      "variants": ["SB140 29", "SB140 LR"],
+      "year": "2023-",
+      "sections": [
+        {
+          "name": "피벗 & 링키지",
+          "bolts": [
+            {
+              "name": "Main Pivot Collet Axle",
+              "torqueNm": 25,
+              "size": "M15x1.5",
+              "count": 1,
+              "note": "10mm 알렌키, 샤프트 그리스 + 나사산 안티시즈",
+              "warningIcon": "info"
+            },
+            {
+              "name": "SS Pivot Shoulder Screw",
+              "torqueNm": 25,
+              "size": "M15",
+              "count": 2,
+              "note": "시트스테이 피벗, 링크 안쪽에서 조립 (콜렛 넛 사용)"
+            },
+            {
+              "name": "Link Pivot Collet Axle",
+              "torqueNm": 25,
+              "size": "M15",
+              "count": 1
+            },
+            {
+              "name": "Collet Wedge Bolt (15mm)",
+              "torqueNm": 14,
+              "size": "M4",
+              "count": 2,
+              "note": "메인/링크 피벗 콜렛 액슬 내부 웻지 볼트, 5mm 알렌키"
+            },
+            {
+              "name": "Switch Infinity Mount SHCS",
+              "torqueNm": 12,
+              "size": "M6",
+              "count": 4,
+              "note": "크로스 패턴으로 토크 후 반복 확인, 그리스 저크는 비구동측",
+              "warningIcon": "warning"
+            }
+          ]
+        },
+        {
+          "name": "샥 마운트",
+          "bolts": [
+            {
+              "name": "Shock Collet Axle",
+              "torqueNm": 15,
+              "size": "M10x1.0",
+              "count": 1,
+              "note": "샥 하단 익스텐더 관통 후 상단 익스텐더에 체결"
+            },
+            {
+              "name": "Collet Wedge Bolt (10mm)",
+              "torqueNm": 8,
+              "count": 1,
+              "note": "샥 콜렛 액슬 내부 웻지 볼트"
+            },
+            {
+              "name": "Shock Extender M6 Bolt",
+              "torqueNm": 10,
+              "size": "M6",
+              "count": 2,
+              "note": "샥 익스텐더/앞 샥 아이릿 고정 (Female 8mm 볼트 + Male M6 스크류)"
+            }
+          ]
+        },
+        {
+          "name": "스루액슬",
+          "bolts": [
+            {
+              "name": "Rear Thru Axle",
+              "torqueNm": 15,
+              "size": "M12x1",
+              "note": "172mm UDH 전용 볼트온 액슬"
+            }
+          ]
+        },
+        {
+          "name": "기타",
+          "bolts": [
+            {
+              "name": "SRAM Universal Hanger",
+              "torqueNm": 25,
+              "note": "그리스 사용 금지, 행어 캡 볼트는 역나사",
+              "warningIcon": "warning"
+            },
+            {
+              "name": "DT Protector M5 SHCS",
+              "torqueNm": 5,
+              "size": "M5",
+              "count": 3,
+              "note": "다운튜브 프로텍터 로우 프로파일 볼트"
+            },
+            {
+              "name": "Bottle Cage",
+              "torqueNm": 4,
+              "size": "M5",
+              "count": 2,
+              "note": "핸드 타이트 수준"
+            }
+          ]
+        }
+      ],
+      "source": "Yeti SB140/LR Owner's Manual (MY23)",
+      "sourceUrl": "https://yeticycles.com/cms/media/33b05080-e485-4489-a5a3-084935e76a24_YetiCycles_MY23_OwnersManual_SB140.pdf"
+    }
+  }
+}

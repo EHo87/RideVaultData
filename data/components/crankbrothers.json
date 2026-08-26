@@ -1,0 +1,171 @@
+{
+  "brand": "Crankbrothers",
+  "lastUpdated": "2026-08-26",
+  "components": {
+    "pedals": {
+      "Mallet E": {
+        "variants": ["Mallet E", "Mallet Enduro", "Mallet E LS"],
+        "bolts": [
+          {
+            "name": "Pedal Spindle",
+            "torqueNm": 34,
+            "size": "8mm Hex",
+            "note": "나사산에 그리스 도포, 좌측 페달 역나사",
+            "warningIcon": "warning"
+          },
+          {
+            "name": "Body Screw",
+            "torqueNm": 6,
+            "note": "바디 고정 스크류"
+          },
+          {
+            "name": "End Cap",
+            "torqueNm": 3,
+            "note": "육각 타입 엔드캡"
+          },
+          {
+            "name": "Spindle Nut",
+            "torqueNm": 4,
+            "note": "내부 스핀들 너트 (분해 정비 시)"
+          }
+        ],
+        "source": "Crankbrothers Pedals & Wheels Torque Spec Chart (2018)",
+        "sourceUrl": "https://crankbrothers.zendesk.com/hc/en-us/articles/115004250633-Mallet-Technical-Documents"
+      },
+      "Mallet DH": {
+        "variants": ["Mallet DH", "Mallet DH Race", "Mallet DH 11"],
+        "bolts": [
+          {
+            "name": "Pedal Spindle",
+            "torqueNm": 34,
+            "size": "8mm Hex",
+            "note": "나사산에 그리스 도포, 좌측 페달 역나사",
+            "warningIcon": "warning"
+          },
+          {
+            "name": "Body Screw",
+            "torqueNm": 6,
+            "note": "바디 고정 스크류"
+          },
+          {
+            "name": "End Cap",
+            "torqueNm": 3,
+            "note": "육각 타입 엔드캡 (2016+ 모델)"
+          },
+          {
+            "name": "Spindle Nut",
+            "torqueNm": 4,
+            "note": "내부 스핀들 너트 (분해 정비 시)"
+          }
+        ],
+        "source": "Crankbrothers Pedals & Wheels Torque Spec Chart (2018)",
+        "sourceUrl": "https://crankbrothers.zendesk.com/hc/en-us/articles/115004250633-Mallet-Technical-Documents"
+      },
+      "Stamp 7": {
+        "variants": ["Stamp 7", "Stamp 11"],
+        "bolts": [
+          {
+            "name": "Pedal Spindle",
+            "torqueNm": 34,
+            "size": "8mm Hex",
+            "note": "나사산에 그리스 도포, 좌측 페달 역나사",
+            "warningIcon": "warning"
+          },
+          {
+            "name": "Bearing Retainer",
+            "torqueNm": 4,
+            "note": "분해 정비 시"
+          },
+          {
+            "name": "Grease Port Screw",
+            "torqueNm": 0.5,
+            "note": "과도한 토크 금지",
+            "warningIcon": "warning"
+          }
+        ],
+        "source": "Crankbrothers Pedals & Wheels Torque Spec Chart (2018)",
+        "sourceUrl": "https://crankbrothers.zendesk.com/hc/en-us/articles/115004284194-Stamp-Technical-Documents"
+      },
+      "Stamp 1": {
+        "variants": ["Stamp 1", "Stamp 1 Gen 2", "Stamp"],
+        "bolts": [
+          {
+            "name": "Pedal Spindle",
+            "torqueNm": 34,
+            "size": "8mm Hex",
+            "note": "나사산에 그리스 도포, 좌측 페달 역나사",
+            "warningIcon": "warning"
+          },
+          {
+            "name": "Traction Pin",
+            "torqueNm": 1,
+            "note": "핀당 토크값"
+          },
+          {
+            "name": "End Cap",
+            "torqueNm": 2.5
+          },
+          {
+            "name": "Spindle Nut",
+            "torqueNm": 4,
+            "note": "내부 스핀들 너트 (분해 정비 시)"
+          }
+        ],
+        "source": "Crankbrothers Pedals & Wheels Torque Spec Chart (2018)",
+        "sourceUrl": "https://crankbrothers.zendesk.com/hc/en-us/articles/115004284194-Stamp-Technical-Documents"
+      }
+    },
+    "dropper_remote": {
+      "Highline Remote": {
+        "variants": ["Highline Remote", "Highline Lever", "Highline 3 Remote", "Highline 7 Remote", "Highline 11 Remote"],
+        "bolts": [
+          {
+            "name": "Lever Clamp Bolt",
+            "torqueNm": 2.5,
+            "note": "핸들바 클램프"
+          },
+          {
+            "name": "Lever Set Screw",
+            "torqueNm": 1
+          }
+        ],
+        "source": "Crankbrothers Seatposts & Stems Torque Spec Chart (2018)",
+        "sourceUrl": "https://crankbrothers.zendesk.com/hc/en-us/articles/115004033453-Highline-V1-V2-Technical-Documents-2016-2019"
+      }
+    },
+    "stem": {
+      "Cobalt 3": {
+        "variants": ["Cobalt 3", "Cobalt 3 Stem"],
+        "bolts": [
+          {
+            "name": "Bar Clamp Bolt",
+            "torqueNm": 5,
+            "note": "교대로 조임"
+          },
+          {
+            "name": "Steerer Clamp Bolt",
+            "torqueNm": 5,
+            "note": "핀치 스타일 (끝단 2볼트) 기준"
+          }
+        ],
+        "source": "Crankbrothers Seatposts & Stems Torque Spec Chart (2018)"
+      },
+      "Iodine 3": {
+        "variants": ["Iodine 3", "Iodine 3 Stem", "Iodine Stem"],
+        "bolts": [
+          {
+            "name": "Bar Clamp Bolt",
+            "torqueNm": 5.5,
+            "note": "교대로 조임"
+          },
+          {
+            "name": "Steerer Clamp Bolt",
+            "torqueNm": 5,
+            "note": "핀치 스타일 기준 - 웨지 스타일(센터 1볼트)은 9Nm"
+          }
+        ],
+        "source": "Crankbrothers Seatposts & Stems Torque Spec Chart (2018)"
+      }
+    }
+  }
+}

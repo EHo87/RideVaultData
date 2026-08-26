@@ -1,6 +1,6 @@
 {
-  "version": "1.2.0",
-  "lastUpdated": "2026-03-30",
+  "version": "1.3.0",
+  "lastUpdated": "2026-08-26",
   "brands": [
     {
       "id": "deity",
@@ -46,6 +46,31 @@
       "id": "race-face",
       "name": "Race Face",
       "categories": ["handlebar", "stem", "crankset", "pedals"]
+    },
+    {
+      "id": "hope",
+      "name": "Hope",
+      "categories": ["brake_lever", "stem", "bottom_bracket", "pedals"]
+    },
+    {
+      "id": "crankbrothers",
+      "name": "Crankbrothers",
+      "categories": ["pedals", "dropper_remote", "stem"]
+    },
+    {
+      "id": "pnw",
+      "name": "PNW Components",
+      "categories": ["dropper_remote", "handlebar", "stem"]
+    },
+    {
+      "id": "trp",
+      "name": "TRP",
+      "categories": ["brake_lever", "shifter", "rear_derailleur"]
+    },
+    {
+      "id": "e-thirteen",
+      "name": "e*thirteen",
+      "categories": ["crankset", "chain_guide"]
     }
   ]
 }

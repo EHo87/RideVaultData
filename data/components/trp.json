@@ -1,0 +1,78 @@
+{
+  "brand": "TRP",
+  "lastUpdated": "2026-08-26",
+  "components": {
+    "brake_lever": {
+      "DH-R EVO": {
+        "variants": ["DH-R EVO", "DHR EVO", "G-Spec DH-R EVO", "HD-M841"],
+        "bolts": [
+          {
+            "name": "Clamp Bolt",
+            "torqueNm": 3,
+            "torqueNmMax": 5,
+            "note": "4mm 육각 - 핸들바 제조사 스펙 확인",
+            "warningIcon": "warning"
+          },
+          {
+            "name": "Caliper Mount Bolt",
+            "torqueNm": 6,
+            "torqueNmMax": 8,
+            "count": 2,
+            "note": "5mm 육각 - 포크/프레임 제조사 스펙 확인"
+          },
+          {
+            "name": "Hose Compression Nut",
+            "torqueNm": 5,
+            "torqueNmMax": 7,
+            "note": "8mm 렌치"
+          }
+        ],
+        "source": "TRP HD-M841 (DH-R EVO) Owner's Manual",
+        "sourceUrl": "https://tektro.eu/wp-content/uploads/TRP-DH-R-EVO-manual.pdf"
+      }
+    },
+    "shifter": {
+      "TR12 Shifter": {
+        "variants": ["TR12 Shifter", "DH7 Shifter", "G-Spec Shifter", "TRP Shifter"],
+        "bolts": [
+          {
+            "name": "Clamp Bolt",
+            "torqueNm": 3,
+            "note": "4mm 육각 - 카본바에는 카본 페이스트 소량 도포",
+            "warningIcon": "warning"
+          },
+          {
+            "name": "Advance Lever Bolt",
+            "torqueNm": 1,
+            "count": 2,
+            "size": "T10",
+            "note": "엄지 레버 위치 조절 볼트"
+          }
+        ],
+        "source": "TRP G-Spec RD & SL User Manual",
+        "sourceUrl": "https://tektro.eu/wp-content/uploads/TRP-Schaltung-DH7-TR12-IM_Bedienungsanleitung.pdf"
+      }
+    },
+    "rear_derailleur": {
+      "TR12": {
+        "variants": ["TR12", "TR12 Derailleur", "DH7", "G-Spec RD"],
+        "bolts": [
+          {
+            "name": "Mount Bolt",
+            "torqueNm": 10,
+            "torqueNmMax": 12,
+            "note": "5mm 육각, 행어에 장착 - 클러치 OFF 위치에서 조임"
+          },
+          {
+            "name": "Cable Pinch Bolt",
+            "torqueNm": 4,
+            "torqueNmMax": 6,
+            "note": "5mm 육각"
+          }
+        ],
+        "source": "TRP G-Spec RD & SL User Manual",
+        "sourceUrl": "https://tektro.eu/wp-content/uploads/TRP-Schaltung-DH7-TR12-IM_Bedienungsanleitung.pdf"
+      }
+    }
+  }
+}

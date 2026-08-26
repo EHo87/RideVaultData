@@ -1,0 +1,85 @@
+{
+  "brand": "PNW Components",
+  "lastUpdated": "2026-08-26",
+  "components": {
+    "dropper_remote": {
+      "Loam Lever": {
+        "variants": ["Loam Lever", "Loam Lever Gen 2", "PNW Loam Lever"],
+        "bolts": [
+          {
+            "name": "Clamp Bolt",
+            "torqueNm": 2,
+            "note": "3mm 육각, 최대 토크 - 과도한 조임 금지",
+            "warningIcon": "warning"
+          },
+          {
+            "name": "Cable Fixing Bolt",
+            "torqueNm": 2.5,
+            "note": "3mm 육각, 케이블 고정"
+          }
+        ],
+        "source": "PNW Loam Lever Install Manual",
+        "sourceUrl": "https://www.pnwcomponents.com/pages/manual-page-loam-lever"
+      }
+    },
+    "handlebar": {
+      "Loam Carbon Handlebar": {
+        "variants": ["Loam Carbon", "Loam Carbon Bar", "Loam Handlebar"],
+        "bolts": [
+          {
+            "name": "Stem Clamp Bolt",
+            "torqueNm": 8,
+            "note": "최대 토크 - 스템 제조사 권장값이 더 낮으면 그 값 우선, 카본 페이스트 사용",
+            "warningIcon": "warning"
+          },
+          {
+            "name": "Lever/Control Clamp",
+            "torqueNm": 6,
+            "note": "최대 토크 - 브레이크/시프터/리모트 클램프",
+            "warningIcon": "warning"
+          }
+        ],
+        "source": "PNW Loam Carbon Handlebar Manual",
+        "sourceUrl": "https://www.pnwcomponents.com/pages/manuals-loam-carbon-handlebar"
+      }
+    },
+    "stem": {
+      "Loam Stem": {
+        "variants": ["Loam Stem", "PNW Loam Stem"],
+        "bolts": [
+          {
+            "name": "Faceplate Bolt",
+            "torqueNm": 6,
+            "count": 4,
+            "note": "상단 2개 먼저 노갭(no-gap) 조임 후 하단 조임",
+            "warningIcon": "warning"
+          },
+          {
+            "name": "Steerer Clamp",
+            "torqueNm": 6,
+            "count": 2
+          }
+        ],
+        "source": "PNW Loam Stem Install Manual"
+      },
+      "Range Stem": {
+        "variants": ["Range Stem", "Range Stem Gen 3", "PNW Range Stem"],
+        "bolts": [
+          {
+            "name": "Faceplate Bolt",
+            "torqueNm": 6,
+            "count": 4,
+            "note": "상단 2개 먼저 노갭(no-gap) 조임 후 하단 조임",
+            "warningIcon": "warning"
+          },
+          {
+            "name": "Steerer Clamp",
+            "torqueNm": 6,
+            "count": 2
+          }
+        ],
+        "source": "PNW Range Stem Install Manual"
+      }
+    }
+  }
+}

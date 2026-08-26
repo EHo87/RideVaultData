@@ -1,6 +1,6 @@
 {
-  "version": "1.2.0",
-  "lastUpdated": "2026-04-03",
+  "version": "1.3.0",
+  "lastUpdated": "2026-08-26",
   "brands": [
     {
       "id": "canyon",
@@ -21,6 +21,31 @@
       "id": "trek",
       "name": "Trek",
       "models": 2
+    },
+    {
+      "id": "yeti",
+      "name": "Yeti",
+      "models": 2
+    },
+    {
+      "id": "commencal",
+      "name": "Commencal",
+      "models": 2
+    },
+    {
+      "id": "transition",
+      "name": "Transition",
+      "models": 3
+    },
+    {
+      "id": "pivot",
+      "name": "Pivot",
+      "models": 2
+    },
+    {
+      "id": "yt-industries",
+      "name": "YT Industries",
+      "models": 1
     }
   ]
 }
