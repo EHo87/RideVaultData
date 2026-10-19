@@ -1,0 +1,70 @@
+{
+  "schemaVersion": 2,
+  "guideId": "rockshox-super-deluxe-coil-rc2t-b1",
+  "revision": 2,
+  "displayName": "RockShox Super Deluxe Coil · B1 · HSC",
+  "partType": "shock",
+  "years": [],
+  "variantId": "identified-platform",
+  "sources": [
+    {
+      "id": "source-1",
+      "title": "RockShox · platform reference",
+      "url": "https://www.sram.com/en/rockshox/learn/shock-deep-dives/rc2t"
+    },
+    {
+      "id": "source-2",
+      "title": "RockShox · platform reference",
+      "url": "https://www.sram.com/globalassets/document-hierarchy/service-manuals/rockshox/rear-suspension/2023-super-deluxe-coil-service-manual.pdf#page=9"
+    },
+    {
+      "id": "source-3",
+      "title": "RockShox · platform reference",
+      "url": "https://www.sram.com/globalassets/document-hierarchy/service-manuals/rockshox/rear-suspension/2023-super-deluxe-coil-service-manual.pdf#page=25"
+    },
+    {
+      "id": "source-4",
+      "title": "RockShox · Super Deluxe Coil B1 · 아이렛형",
+      "url": "https://www.sram.com/en/rockshox/models/rs-sdlc-ult-b1"
+    }
+  ],
+  "panels": [
+    {
+      "id": "compression",
+      "labelKey": "compression",
+      "photos": [
+        {
+          "id": "compression-1",
+          "image": {
+            "path": "compression-1.webp",
+            "width": 1024,
+            "height": 1024,
+            "bytes": 32748,
+            "sha256": "48bb733a653507c21cbb8a81d9a3622f83a1f55fde01193e6d606bdea48cf0e0",
+            "sourceId": "source-4"
+          },
+          "viewpoint": "adjuster_face",
+          "controls": [
+            {
+              "id": "hsc",
+              "function": "HSC",
+              "position": "standalone",
+              "tool": {
+                "type": "hex",
+                "sizeMm": 3
+              },
+              "closeDirection": "clockwise",
+              "closeEffect": "more_compression_damping",
+              "anchor": {
+                "x": 0.513437,
+                "y": 0.506308
+              },
+              "labelOrder": 0
+            }
+          ],
+          "preconditions": []
+        }
+      ]
+    }
+  ]
+}

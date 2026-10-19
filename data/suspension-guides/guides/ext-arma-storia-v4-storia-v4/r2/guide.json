@@ -1,0 +1,200 @@
+{
+  "schemaVersion": 2,
+  "guideId": "ext-arma-storia-v4-storia-v4",
+  "revision": 2,
+  "displayName": "EXT Storia V4",
+  "partType": "shock",
+  "years": [],
+  "variantId": "identified-platform",
+  "sources": [
+    {
+      "id": "source-1",
+      "title": "EXT · platform reference",
+      "url": "https://extremeshox.com/support/"
+    },
+    {
+      "id": "source-2",
+      "title": "EXT · original image / manual",
+      "url": "https://extremeshox.com/wp-content/uploads/2024/06/Arma-Storia-V4-Quick-Manual.pdf"
+    }
+  ],
+  "panels": [
+    {
+      "id": "compression",
+      "labelKey": "compression",
+      "photos": [
+        {
+          "id": "compression-1",
+          "image": {
+            "path": "compression-1.webp",
+            "width": 1024,
+            "height": 1024,
+            "bytes": 33932,
+            "sha256": "217c0c064140bc3a8078e09ce2ad019b7d198f5505a353fa23b0ff87f41bb6ff",
+            "sourceId": "source-1"
+          },
+          "viewpoint": "adjuster_face",
+          "controls": [
+            {
+              "id": "lsc",
+              "function": "LSC",
+              "position": "center",
+              "tool": {
+                "type": "hex",
+                "sizeMm": 4
+              },
+              "closeDirection": "clockwise",
+              "closeEffect": "more_compression_damping",
+              "anchor": {
+                "x": 0.442342,
+                "y": 0.478378
+              },
+              "labelOrder": 0
+            }
+          ],
+          "preconditions": []
+        },
+        {
+          "id": "compression-2",
+          "image": {
+            "path": "compression-2.webp",
+            "width": 1024,
+            "height": 1024,
+            "bytes": 33026,
+            "sha256": "6b18dc9f388be3233027cef4f389c2f4672832b42d12e7fb21d4e4d7e354e8d4",
+            "sourceId": "source-1"
+          },
+          "viewpoint": "adjuster_face",
+          "controls": [
+            {
+              "id": "hsc",
+              "function": "HSC",
+              "position": "outer",
+              "tool": {
+                "type": "hex",
+                "sizeMm": 5
+              },
+              "closeDirection": "clockwise",
+              "closeEffect": "more_compression_damping",
+              "anchor": {
+                "x": 0.427928,
+                "y": 0.5
+              },
+              "labelOrder": 0
+            }
+          ],
+          "preconditions": []
+        }
+      ]
+    },
+    {
+      "id": "rebound",
+      "labelKey": "rebound",
+      "photos": [
+        {
+          "id": "rebound-3",
+          "image": {
+            "path": "rebound-3.webp",
+            "width": 1024,
+            "height": 1024,
+            "bytes": 24670,
+            "sha256": "59031c13e00c3faafc37da1c0e0a723581dd1a214b0c2b15facbc81260b2237b",
+            "sourceId": "source-1"
+          },
+          "viewpoint": "adjuster_face",
+          "controls": [
+            {
+              "id": "rebound",
+              "function": "REBOUND",
+              "position": "standalone",
+              "tool": {
+                "type": "hand"
+              },
+              "closeDirection": "clockwise",
+              "closeEffect": "slower_rebound",
+              "anchor": {
+                "x": 0.377477,
+                "y": 0.312613
+              },
+              "labelOrder": 0
+            }
+          ],
+          "preconditions": []
+        }
+      ]
+    },
+    {
+      "id": "hbc",
+      "labelKey": "hbc",
+      "photos": [
+        {
+          "id": "hbc-4",
+          "image": {
+            "path": "hbc-4.webp",
+            "width": 1024,
+            "height": 1024,
+            "bytes": 29726,
+            "sha256": "c22c5eb78efad33abc04345fc9b87168a48aafbdf73082f24f610279943c51dc",
+            "sourceId": "source-1"
+          },
+          "viewpoint": "adjuster_face",
+          "controls": [
+            {
+              "id": "hbc",
+              "function": "HBC",
+              "position": "standalone",
+              "tool": {
+                "type": "hex",
+                "sizeMm": 4
+              },
+              "closeDirection": "clockwise",
+              "closeEffect": "more_bottom_out_damping",
+              "anchor": {
+                "x": 0.435135,
+                "y": 0.478378
+              },
+              "labelOrder": 0
+            }
+          ],
+          "preconditions": []
+        }
+      ]
+    },
+    {
+      "id": "lok",
+      "labelKey": "lok",
+      "photos": [
+        {
+          "id": "lok-5",
+          "image": {
+            "path": "lok-5.webp",
+            "width": 1024,
+            "height": 1024,
+            "bytes": 35304,
+            "sha256": "11978e7385dad835f355875a0a47429eee3b4b34ae5da02b73967d4634a48ee1",
+            "sourceId": "source-1"
+          },
+          "viewpoint": "adjuster_face",
+          "controls": [
+            {
+              "id": "lok",
+              "function": "LOK",
+              "position": "standalone",
+              "tool": {
+                "type": "hand"
+              },
+              "closeDirection": "lever_markings",
+              "closeEffect": "pedaling_platform_on",
+              "anchor": {
+                "x": 0.363063,
+                "y": 0.572072
+              },
+              "labelOrder": 0
+            }
+          ],
+          "preconditions": []
+        }
+      ]
+    }
+  ]
+}

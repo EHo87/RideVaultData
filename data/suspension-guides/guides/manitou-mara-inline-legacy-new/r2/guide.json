@@ -1,0 +1,59 @@
+{
+  "schemaVersion": 2,
+  "guideId": "manitou-mara-inline-legacy-new",
+  "revision": 2,
+  "displayName": "Manitou Mara · original IPA Inline",
+  "partType": "shock",
+  "years": [],
+  "variantId": "identified-platform",
+  "sources": [
+    {
+      "id": "source-1",
+      "title": "Manitou · adjuster instructions",
+      "url": "https://hayesbicycle.com/products/mara_z"
+    },
+    {
+      "id": "source-2",
+      "title": "Manitou · Mara 인라인 · 노브 정면",
+      "url": "https://hayesbicycle.zendesk.com/hc/en-us/sections/360005599273-Shock-Set-Up-Guides"
+    }
+  ],
+  "panels": [
+    {
+      "id": "rebound",
+      "labelKey": "rebound",
+      "photos": [
+        {
+          "id": "rebound-1",
+          "image": {
+            "path": "rebound-1.webp",
+            "width": 1024,
+            "height": 1024,
+            "bytes": 57382,
+            "sha256": "e9c1ee540ab589100a98faa42c7cf8979a5885acfe25ab3edb841352214f2d8c",
+            "sourceId": "source-2"
+          },
+          "viewpoint": "adjuster_face",
+          "controls": [
+            {
+              "id": "rebound",
+              "function": "REBOUND",
+              "position": "standalone",
+              "tool": {
+                "type": "hand"
+              },
+              "closeDirection": "clockwise",
+              "closeEffect": "slower_rebound",
+              "anchor": {
+                "x": 0.517382,
+                "y": 0.482189
+              },
+              "labelOrder": 0
+            }
+          ],
+          "preconditions": []
+        }
+      ]
+    }
+  ]
+}

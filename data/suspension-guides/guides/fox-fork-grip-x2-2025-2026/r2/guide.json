@@ -1,0 +1,147 @@
+{
+  "schemaVersion": 2,
+  "guideId": "fox-fork-grip-x2-2025-2026",
+  "revision": 2,
+  "displayName": "FOX 36 / 38 · GRIP X2",
+  "partType": "fork",
+  "years": [],
+  "variantId": "identified-platform",
+  "sources": [
+    {
+      "id": "source-1",
+      "title": "FOX · platform reference",
+      "url": "https://tech.ridefox.com/bike/owners-manuals/3089/fork--2026-36mm"
+    },
+    {
+      "id": "source-2",
+      "title": "FOX · platform reference",
+      "url": "https://tech.ridefox.com/bike/owners-manuals/3103/fork--2026-38mm"
+    },
+    {
+      "id": "source-3",
+      "title": "FOX · platform reference",
+      "url": "https://tech.ridefox.com/bike/owners-manuals/2979/fork--2025-36mm-or-38mm"
+    },
+    {
+      "id": "source-4",
+      "title": "FOX · platform reference",
+      "url": "https://ridefox.com/pages/grip-dampers"
+    },
+    {
+      "id": "source-5",
+      "title": "FOX · original image / manual",
+      "url": "https://ridefox.com/cdn/shop/files/GRIPX2_7.jpg?v=1773081803&width=680"
+    },
+    {
+      "id": "source-6",
+      "title": "FOX · original image / manual",
+      "url": "https://tech.ridefox.com/img/help/page2979-XBHT/inline/Grip-X2-rebound.jpg"
+    }
+  ],
+  "panels": [
+    {
+      "id": "compression",
+      "labelKey": "compression",
+      "photos": [
+        {
+          "id": "compression-1",
+          "image": {
+            "path": "compression-1.webp",
+            "width": 1024,
+            "height": 1024,
+            "bytes": 80314,
+            "sha256": "ef01a4cc11716bbe7f8b6566c971cd19fb132c0eeec0711fafb1b8a34e8ebb3c",
+            "sourceId": "source-4"
+          },
+          "viewpoint": "adjuster_face",
+          "controls": [
+            {
+              "id": "lsc",
+              "function": "LSC",
+              "position": "center",
+              "tool": {
+                "type": "hand"
+              },
+              "closeDirection": "clockwise",
+              "closeEffect": "more_compression_damping",
+              "anchor": {
+                "x": 0.593604,
+                "y": 0.537172
+              },
+              "labelOrder": 0
+            },
+            {
+              "id": "hsc",
+              "function": "HSC",
+              "position": "outer",
+              "tool": {
+                "type": "hand"
+              },
+              "closeDirection": "clockwise",
+              "closeEffect": "more_compression_damping",
+              "anchor": {
+                "x": 0.831104,
+                "y": 0.487186
+              },
+              "labelOrder": 1
+            }
+          ],
+          "preconditions": [
+            "compression_lever_open_if_present"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "rebound",
+      "labelKey": "rebound",
+      "photos": [
+        {
+          "id": "rebound-2",
+          "image": {
+            "path": "rebound-2.webp",
+            "width": 1024,
+            "height": 1024,
+            "bytes": 21596,
+            "sha256": "b9781e2de04413bb1c550f29c9c4d3f494ffd805cdd855a52aca8e1ed1cd171b",
+            "sourceId": "source-3"
+          },
+          "viewpoint": "adjuster_face",
+          "controls": [
+            {
+              "id": "hsr",
+              "function": "HSR",
+              "position": "upper",
+              "tool": {
+                "type": "hand"
+              },
+              "closeDirection": "clockwise",
+              "closeEffect": "slower_rebound",
+              "anchor": {
+                "x": 0.475502,
+                "y": 0.364087
+              },
+              "labelOrder": 0
+            },
+            {
+              "id": "lsr",
+              "function": "LSR",
+              "position": "lower",
+              "tool": {
+                "type": "hand"
+              },
+              "closeDirection": "clockwise",
+              "closeEffect": "slower_rebound",
+              "anchor": {
+                "x": 0.475502,
+                "y": 0.56305
+              },
+              "labelOrder": 1
+            }
+          ],
+          "preconditions": []
+        }
+      ]
+    }
+  ]
+}

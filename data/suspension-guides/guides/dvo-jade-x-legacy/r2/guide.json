@@ -1,0 +1,95 @@
+{
+  "schemaVersion": 2,
+  "guideId": "dvo-jade-x-legacy",
+  "revision": 2,
+  "displayName": "DVO Jade X · legacy green T3",
+  "partType": "shock",
+  "years": [],
+  "variantId": "identified-platform",
+  "sources": [
+    {
+      "id": "source-1",
+      "title": "DVO · platform reference",
+      "url": "https://tech.dvosuspension.com/wp-content/uploads/2019/09/Jade-X-Set-Up-Guide-2.pdf"
+    },
+    {
+      "id": "source-2",
+      "title": "DVO · 리바운드",
+      "url": "https://dvosuspension.com/product/jade-x/"
+    }
+  ],
+  "panels": [
+    {
+      "id": "rebound",
+      "labelKey": "rebound",
+      "photos": [
+        {
+          "id": "rebound-1",
+          "image": {
+            "path": "rebound-1.webp",
+            "width": 1024,
+            "height": 1024,
+            "bytes": 64574,
+            "sha256": "f53d52947104d7768a9fa828802014c9948af2e2824b535d122718467403c468",
+            "sourceId": "source-2"
+          },
+          "viewpoint": "adjuster_face",
+          "controls": [
+            {
+              "id": "rebound",
+              "function": "REBOUND",
+              "position": "standalone",
+              "tool": {
+                "type": "hand"
+              },
+              "closeDirection": "clockwise",
+              "closeEffect": "slower_rebound",
+              "anchor": {
+                "x": 0.489941,
+                "y": 0.488895
+              },
+              "labelOrder": 0
+            }
+          ],
+          "preconditions": []
+        }
+      ]
+    },
+    {
+      "id": "compression",
+      "labelKey": "compression",
+      "photos": [
+        {
+          "id": "compression-2",
+          "image": {
+            "path": "compression-2.webp",
+            "width": 1024,
+            "height": 1024,
+            "bytes": 49890,
+            "sha256": "08c66711c6f952a8ba636b074155a7865f17346ab895c0858ec8c41f2745a45c",
+            "sourceId": "source-2"
+          },
+          "viewpoint": "adjuster_face",
+          "controls": [
+            {
+              "id": "compression",
+              "function": "COMPRESSION",
+              "position": "standalone",
+              "tool": {
+                "type": "hand"
+              },
+              "closeDirection": "positions_123",
+              "closeEffect": "more_compression_damping",
+              "anchor": {
+                "x": 0.499211,
+                "y": 0.499648
+              },
+              "labelOrder": 0
+            }
+          ],
+          "preconditions": []
+        }
+      ]
+    }
+  ]
+}

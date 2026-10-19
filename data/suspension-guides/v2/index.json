@@ -1,6 +1,6 @@
 {
   "schemaVersion": 2,
-  "revision": 2,
+  "revision": 3,
   "updatedAt": "2026-10-19",
   "guides": [
     {
@@ -102,7 +102,7 @@
     },
     {
       "guideId": "fox-fork-grip2-2019-2024",
-      "revision": 1,
+      "revision": 2,
       "partType": "fork",
       "brandSlug": "fox",
       "brandAliases": [
@@ -123,9 +123,9 @@
       "confirmedVariantModelAliases": [],
       "requiresVariantConfirmation": true,
       "matchingMode": "platform_confirmation",
-      "guidePath": "suspension-guides/guides/fox-fork-grip2-2019-2024/r1/guide.json",
-      "guideSha256": "bb9e9a9f66b4e339c620ec3c9039031c232818897a25f70c73619a5225bcfa51",
-      "guideBytes": 4376
+      "guidePath": "suspension-guides/guides/fox-fork-grip2-2019-2024/r2/guide.json",
+      "guideSha256": "1354887ba586b25cb49ad48daf5e76431c66d7e0862fca371191fc45ae9b813d",
+      "guideBytes": 4375
     },
     {
       "guideId": "fox-fork-fit4-2019-2024",
@@ -252,7 +252,7 @@
     },
     {
       "guideId": "fox-fork-grip-x2-2025-2026",
-      "revision": 1,
+      "revision": 2,
       "partType": "fork",
       "brandSlug": "fox",
       "brandAliases": [
@@ -273,13 +273,13 @@
       "confirmedVariantModelAliases": [],
       "requiresVariantConfirmation": true,
       "matchingMode": "platform_confirmation",
-      "guidePath": "suspension-guides/guides/fox-fork-grip-x2-2025-2026/r1/guide.json",
-      "guideSha256": "e392990ea9c54b08ac01db3aae9e1892e1eea88b94edd25097f2f8225e692f13",
+      "guidePath": "suspension-guides/guides/fox-fork-grip-x2-2025-2026/r2/guide.json",
+      "guideSha256": "043c55ca2a111094ae3fea5e25c0621727b04c3022760e60e95d51d67e9ac041",
       "guideBytes": 4052
     },
     {
       "guideId": "fox-shock-x2-dhx2-2019-2020",
-      "revision": 1,
+      "revision": 2,
       "partType": "shock",
       "brandSlug": "fox",
       "brandAliases": [
@@ -301,13 +301,13 @@
       "confirmedVariantModelAliases": [],
       "requiresVariantConfirmation": true,
       "matchingMode": "platform_confirmation",
-      "guidePath": "suspension-guides/guides/fox-shock-x2-dhx2-2019-2020/r1/guide.json",
-      "guideSha256": "2d6960bb649f2eb15bf2577cad0b2300560f8122d0b30c90686079626fb032be",
-      "guideBytes": 4313
+      "guidePath": "suspension-guides/guides/fox-shock-x2-dhx2-2019-2020/r2/guide.json",
+      "guideSha256": "1c00f12671e9cce829f1ae69cf742e9eba2efbbeb0a46066005a2baba5872343",
+      "guideBytes": 4311
     },
     {
       "guideId": "fox-shock-float-x2-2021-2025",
-      "revision": 1,
+      "revision": 2,
       "partType": "shock",
       "brandSlug": "fox",
       "brandAliases": [
@@ -326,13 +326,13 @@
       "confirmedVariantModelAliases": [],
       "requiresVariantConfirmation": true,
       "matchingMode": "platform_confirmation",
-      "guidePath": "suspension-guides/guides/fox-shock-float-x2-2021-2025/r1/guide.json",
-      "guideSha256": "20329a92b20585b02e0439634a3ce75d09051f95aaafdb6f654a751fca85657d",
+      "guidePath": "suspension-guides/guides/fox-shock-float-x2-2021-2025/r2/guide.json",
+      "guideSha256": "76c37882411adf706b23283734477e77b4f4f74d96f496666c3a575683c95b7c",
       "guideBytes": 5004
     },
     {
       "guideId": "fox-shock-dhx2-2021-2025",
-      "revision": 1,
+      "revision": 2,
       "partType": "shock",
       "brandSlug": "fox",
       "brandAliases": [
@@ -350,13 +350,13 @@
       "confirmedVariantModelAliases": [],
       "requiresVariantConfirmation": true,
       "matchingMode": "platform_confirmation",
-      "guidePath": "suspension-guides/guides/fox-shock-dhx2-2021-2025/r1/guide.json",
-      "guideSha256": "9d013c2c044e6bbf263739fbb1a31ac76d87eab9de66cded47bf688ed20b6f05",
-      "guideBytes": 5143
+      "guidePath": "suspension-guides/guides/fox-shock-dhx2-2021-2025/r2/guide.json",
+      "guideSha256": "06bb0163c1025fa3814fe09d237766177969772c3f479a3fbd9f24370e9a0e53",
+      "guideBytes": 5144
     },
     {
       "guideId": "fox-shock-float-x2-2026",
-      "revision": 1,
+      "revision": 2,
       "partType": "shock",
       "brandSlug": "fox",
       "brandAliases": [
@@ -375,13 +375,13 @@
       "confirmedVariantModelAliases": [],
       "requiresVariantConfirmation": true,
       "matchingMode": "platform_confirmation",
-      "guidePath": "suspension-guides/guides/fox-shock-float-x2-2026/r1/guide.json",
-      "guideSha256": "35d6895fd07f61597c5bc8dc9924393395bf87707a300ceca3790b1185538aa2",
-      "guideBytes": 3984
+      "guidePath": "suspension-guides/guides/fox-shock-float-x2-2026/r2/guide.json",
+      "guideSha256": "c734b2c9a261fe9758f62823f4e466e90cf3d31edd152134e1343d136a458ae8",
+      "guideBytes": 3985
     },
     {
       "guideId": "fox-shock-dhx2-2026",
-      "revision": 1,
+      "revision": 2,
       "partType": "shock",
       "brandSlug": "fox",
       "brandAliases": [
@@ -399,13 +399,13 @@
       "confirmedVariantModelAliases": [],
       "requiresVariantConfirmation": true,
       "matchingMode": "platform_confirmation",
-      "guidePath": "suspension-guides/guides/fox-shock-dhx2-2026/r1/guide.json",
-      "guideSha256": "d47bb749ca43afb54d700c5eac41743af59bc1502a0f612ae8db1e327a168afb",
+      "guidePath": "suspension-guides/guides/fox-shock-dhx2-2026/r2/guide.json",
+      "guideSha256": "d5e62d4cc48e2af759c5b9c5260d810ce848b228c9d7af72277f0130ce160f11",
       "guideBytes": 2101
     },
     {
       "guideId": "fox-shock-float-x-2022-2026",
-      "revision": 1,
+      "revision": 2,
       "partType": "shock",
       "brandSlug": "fox",
       "brandAliases": [
@@ -423,8 +423,8 @@
       "confirmedVariantModelAliases": [],
       "requiresVariantConfirmation": true,
       "matchingMode": "platform_confirmation",
-      "guidePath": "suspension-guides/guides/fox-shock-float-x-2022-2026/r1/guide.json",
-      "guideSha256": "e7b80d7a510da1fb7b836c41505970945a8a5874d438e84ef343757f3c929de2",
+      "guidePath": "suspension-guides/guides/fox-shock-float-x-2022-2026/r2/guide.json",
+      "guideSha256": "fac3783a6259cd5131aa292aae3eddd68016d1a8f82585cd3494d098105bd878",
       "guideBytes": 3437
     },
     {
@@ -454,7 +454,7 @@
     },
     {
       "guideId": "fox-shock-dpx2-comp-adj-2020-2021",
-      "revision": 1,
+      "revision": 2,
       "partType": "shock",
       "brandSlug": "fox",
       "brandAliases": [
@@ -472,8 +472,8 @@
       "confirmedVariantModelAliases": [],
       "requiresVariantConfirmation": true,
       "matchingMode": "platform_confirmation",
-      "guidePath": "suspension-guides/guides/fox-shock-dpx2-comp-adj-2020-2021/r1/guide.json",
-      "guideSha256": "951f6b419adace13c58988460d5882a6ef99f234977ac163dd9fc8fceb920987",
+      "guidePath": "suspension-guides/guides/fox-shock-dpx2-comp-adj-2020-2021/r2/guide.json",
+      "guideSha256": "479f6e2d1ad318166ae1cceb157b72c8011041b32d98045b18247011c8f432d2",
       "guideBytes": 1802
     },
     {
@@ -609,7 +609,7 @@
     },
     {
       "guideId": "rockshox-super-deluxe-legacy-rct",
-      "revision": 1,
+      "revision": 2,
       "partType": "shock",
       "brandSlug": "rockshox",
       "brandAliases": [
@@ -626,13 +626,13 @@
       "confirmedVariantModelAliases": [],
       "requiresVariantConfirmation": true,
       "matchingMode": "platform_confirmation",
-      "guidePath": "suspension-guides/guides/rockshox-super-deluxe-legacy-rct/r1/guide.json",
-      "guideSha256": "5da4cf5837711398ebd6eedd0500dc715ae730c7f2f39aa3261a0ac39ad0df26",
-      "guideBytes": 1981
+      "guidePath": "suspension-guides/guides/rockshox-super-deluxe-legacy-rct/r2/guide.json",
+      "guideSha256": "b808f770f592b4a68e96b79c125d4dfff11606de5faa08d158b728f89420e9e8",
+      "guideBytes": 1982
     },
     {
       "guideId": "rockshox-super-deluxe-rc2t-c1-c2",
-      "revision": 1,
+      "revision": 2,
       "partType": "shock",
       "brandSlug": "rockshox",
       "brandAliases": [
@@ -649,13 +649,13 @@
       "confirmedVariantModelAliases": [],
       "requiresVariantConfirmation": true,
       "matchingMode": "platform_confirmation",
-      "guidePath": "suspension-guides/guides/rockshox-super-deluxe-rc2t-c1-c2/r1/guide.json",
-      "guideSha256": "1e0222fcc524948c9e276c4273291a405897c596e0408fcd022f170278b1c68a",
-      "guideBytes": 4198
+      "guidePath": "suspension-guides/guides/rockshox-super-deluxe-rc2t-c1-c2/r2/guide.json",
+      "guideSha256": "cb131b216bdba8eb2712ff112fe80ab9cc63a3d83ab0e8071c56915fab96463b",
+      "guideBytes": 4199
     },
     {
       "guideId": "rockshox-super-deluxe-coil-rc2t-b1",
-      "revision": 1,
+      "revision": 2,
       "partType": "shock",
       "brandSlug": "rockshox",
       "brandAliases": [
@@ -672,13 +672,13 @@
       "confirmedVariantModelAliases": [],
       "requiresVariantConfirmation": true,
       "matchingMode": "platform_confirmation",
-      "guidePath": "suspension-guides/guides/rockshox-super-deluxe-coil-rc2t-b1/r1/guide.json",
-      "guideSha256": "d11b583aaa5cb65d35a44271007a42192e05cf9b0ef6a60bf547b9e5a8332c91",
+      "guidePath": "suspension-guides/guides/rockshox-super-deluxe-coil-rc2t-b1/r2/guide.json",
+      "guideSha256": "bb13215f8442e63a1d24a1443289570db53ac6cbbd3139facc0735ea27a1aff3",
       "guideBytes": 2098
     },
     {
       "guideId": "rockshox-deluxe-ultimate-rct-c1-c2",
-      "revision": 1,
+      "revision": 2,
       "partType": "shock",
       "brandSlug": "rockshox",
       "brandAliases": [
@@ -695,8 +695,8 @@
       "confirmedVariantModelAliases": [],
       "requiresVariantConfirmation": true,
       "matchingMode": "platform_confirmation",
-      "guidePath": "suspension-guides/guides/rockshox-deluxe-ultimate-rct-c1-c2/r1/guide.json",
-      "guideSha256": "8fd233db03b18fab9a6cdae8106698e0b910b8178be46279967aa0b898829097",
+      "guidePath": "suspension-guides/guides/rockshox-deluxe-ultimate-rct-c1-c2/r2/guide.json",
+      "guideSha256": "4262966cbace3bf3338ec443948d3ca8aeb9fa60989f24e4bf190786301e3607",
       "guideBytes": 3359
     },
     {
@@ -854,7 +854,7 @@
     },
     {
       "guideId": "dvo-topaz-t3-legacy",
-      "revision": 1,
+      "revision": 2,
       "partType": "shock",
       "brandSlug": "dvo",
       "brandAliases": [
@@ -870,8 +870,8 @@
       "confirmedVariantModelAliases": [],
       "requiresVariantConfirmation": true,
       "matchingMode": "platform_confirmation",
-      "guidePath": "suspension-guides/guides/dvo-topaz-t3-legacy/r1/guide.json",
-      "guideSha256": "642deeaf56af15935928d19988e26e0f7a1fd5b80675d0ec7767337f10700518",
+      "guidePath": "suspension-guides/guides/dvo-topaz-t3-legacy/r2/guide.json",
+      "guideSha256": "ac6d20aca39fe370fea0ffd7cdb441414b3e4b7ded2997e776b3dda9cf5a9db5",
       "guideBytes": 2375
     },
     {
@@ -964,7 +964,7 @@
     },
     {
       "guideId": "dvo-jade-x-legacy",
-      "revision": 1,
+      "revision": 2,
       "partType": "shock",
       "brandSlug": "dvo",
       "brandAliases": [
@@ -979,9 +979,9 @@
       "confirmedVariantModelAliases": [],
       "requiresVariantConfirmation": true,
       "matchingMode": "platform_confirmation",
-      "guidePath": "suspension-guides/guides/dvo-jade-x-legacy/r1/guide.json",
-      "guideSha256": "72f861a2f78912d9e35d40f53ea5977a5a399b3134f6b033eeb120331525a6a2",
-      "guideBytes": 2510
+      "guidePath": "suspension-guides/guides/dvo-jade-x-legacy/r2/guide.json",
+      "guideSha256": "f49bd800ecb8d64ab3015ccad884047747d8efd47d66e08b423e3a3bae0b8e2c",
+      "guideBytes": 2511
     },
     {
       "guideId": "ohlins-rxf36-m2",
@@ -1033,7 +1033,7 @@
     },
     {
       "guideId": "ohlins-ttx22m2",
-      "revision": 1,
+      "revision": 2,
       "partType": "shock",
       "brandSlug": "ohlins",
       "brandAliases": [
@@ -1051,9 +1051,9 @@
       "confirmedVariantModelAliases": [],
       "requiresVariantConfirmation": true,
       "matchingMode": "platform_confirmation",
-      "guidePath": "suspension-guides/guides/ohlins-ttx22m2/r1/guide.json",
-      "guideSha256": "aa0fea3b36b8f6ead0d092e13808f90c5531272e5af12b51062666a49252d0cd",
-      "guideBytes": 3101
+      "guidePath": "suspension-guides/guides/ohlins-ttx22m2/r2/guide.json",
+      "guideSha256": "18a5dd820b89852bea84434d56f20b7fd290a76a698c9d71dfefa7dce91a3170",
+      "guideBytes": 3100
     },
     {
       "guideId": "ohlins-ttxair",
@@ -1109,7 +1109,7 @@
     },
     {
       "guideId": "ext-arma-storia-v3-storia",
-      "revision": 1,
+      "revision": 2,
       "partType": "shock",
       "brandSlug": "ext",
       "brandAliases": [
@@ -1125,13 +1125,13 @@
       "confirmedVariantModelAliases": [],
       "requiresVariantConfirmation": true,
       "matchingMode": "platform_confirmation",
-      "guidePath": "suspension-guides/guides/ext-arma-storia-v3-storia/r1/guide.json",
-      "guideSha256": "161e2be6a2b6e4155b72297d7a95f94abeafc3d0da8983cf9a9f4808aee01bbd",
-      "guideBytes": 4371
+      "guidePath": "suspension-guides/guides/ext-arma-storia-v3-storia/r2/guide.json",
+      "guideSha256": "3473f2709acb428332a9d468eeb62efbc51fce35a56a3e525f563a144e0613b7",
+      "guideBytes": 4374
     },
     {
       "guideId": "ext-arma-storia-v3-arma",
-      "revision": 1,
+      "revision": 2,
       "partType": "shock",
       "brandSlug": "ext",
       "brandAliases": [
@@ -1147,13 +1147,13 @@
       "confirmedVariantModelAliases": [],
       "requiresVariantConfirmation": true,
       "matchingMode": "platform_confirmation",
-      "guidePath": "suspension-guides/guides/ext-arma-storia-v3-arma/r1/guide.json",
-      "guideSha256": "22b90631b8e4698f44f2f30815dfe3209e493a21ec38a7feffc24ae2062d7461",
-      "guideBytes": 4390
+      "guidePath": "suspension-guides/guides/ext-arma-storia-v3-arma/r2/guide.json",
+      "guideSha256": "400c17d80e8ddbbaf6de032dab8eb8c7b46684af09365c2bf439dfc7b7053109",
+      "guideBytes": 4396
     },
     {
       "guideId": "ext-arma-storia-v4-storia-v4",
-      "revision": 1,
+      "revision": 2,
       "partType": "shock",
       "brandSlug": "ext",
       "brandAliases": [
@@ -1168,13 +1168,13 @@
       "confirmedVariantModelAliases": [],
       "requiresVariantConfirmation": true,
       "matchingMode": "platform_confirmation",
-      "guidePath": "suspension-guides/guides/ext-arma-storia-v4-storia-v4/r1/guide.json",
-      "guideSha256": "4674832e00459fa34d5fa49b915e7b74e8da425c2224367509e2dd0751cf7221",
-      "guideBytes": 5326
+      "guidePath": "suspension-guides/guides/ext-arma-storia-v4-storia-v4/r2/guide.json",
+      "guideSha256": "fa9529b10dcb2f4220b75900d7c12df0ecfac412a7f0118a082662c23f351473",
+      "guideBytes": 5332
     },
     {
       "guideId": "ext-arma-storia-v4-arma-v4",
-      "revision": 1,
+      "revision": 2,
       "partType": "shock",
       "brandSlug": "ext",
       "brandAliases": [
@@ -1189,9 +1189,9 @@
       "confirmedVariantModelAliases": [],
       "requiresVariantConfirmation": true,
       "matchingMode": "platform_confirmation",
-      "guidePath": "suspension-guides/guides/ext-arma-storia-v4-arma-v4/r1/guide.json",
-      "guideSha256": "49f68b528bdabfc399ad0e217e56ae4e2ba27e475c999889cd303396e0c08ad8",
-      "guideBytes": 4373
+      "guidePath": "suspension-guides/guides/ext-arma-storia-v4-arma-v4/r2/guide.json",
+      "guideSha256": "0da22877f4dd34fdd7b5db60ddcdbb5179d963e605a5375382b372dbfefb4221",
+      "guideBytes": 4380
     },
     {
       "guideId": "ext-e-storia",
@@ -1240,7 +1240,7 @@
     },
     {
       "guideId": "ext-era-v2",
-      "revision": 1,
+      "revision": 2,
       "partType": "fork",
       "brandSlug": "ext",
       "brandAliases": [
@@ -1258,13 +1258,13 @@
       "confirmedVariantModelAliases": [],
       "requiresVariantConfirmation": true,
       "matchingMode": "platform_confirmation",
-      "guidePath": "suspension-guides/guides/ext-era-v2/r1/guide.json",
-      "guideSha256": "3d6aca083402793a6effdc95e6f630585a9f17aa18b6a81dcbc32687a83cfcc6",
+      "guidePath": "suspension-guides/guides/ext-era-v2/r2/guide.json",
+      "guideSha256": "733b3c38ea8145fb29441b3a22ef885d1332f586992e09888dee93b46475d32e",
       "guideBytes": 3337
     },
     {
       "guideId": "ext-vaia",
-      "revision": 1,
+      "revision": 2,
       "partType": "fork",
       "brandSlug": "ext",
       "brandAliases": [
@@ -1279,13 +1279,13 @@
       "confirmedVariantModelAliases": [],
       "requiresVariantConfirmation": true,
       "matchingMode": "platform_confirmation",
-      "guidePath": "suspension-guides/guides/ext-vaia/r1/guide.json",
-      "guideSha256": "56138994cddd19e9807e040e722ed21ac7e7d4fc4a9a3390eb1410f7c19395fd",
+      "guidePath": "suspension-guides/guides/ext-vaia/r2/guide.json",
+      "guideSha256": "3dbfde1c9c503bc35ea37fe2583e68efc8e5150d4a2686a67b0f84ffc7ad6c31",
       "guideBytes": 3312
     },
     {
       "guideId": "cane-creek-il-g1-air",
-      "revision": 1,
+      "revision": 2,
       "partType": "shock",
       "brandSlug": "cane-creek",
       "brandAliases": [
@@ -1300,13 +1300,13 @@
       "confirmedVariantModelAliases": [],
       "requiresVariantConfirmation": true,
       "matchingMode": "platform_confirmation",
-      "guidePath": "suspension-guides/guides/cane-creek-il-g1-air/r1/guide.json",
-      "guideSha256": "f323dd78060d9ede7233b41f868d3f7d479315c5207bfd1ee58f663d17d58aba",
-      "guideBytes": 3066
+      "guidePath": "suspension-guides/guides/cane-creek-il-g1-air/r2/guide.json",
+      "guideSha256": "40c6486126149056cae747ed03fd0d89b3ef0e30988611614af66984272dedb1",
+      "guideBytes": 3065
     },
     {
       "guideId": "cane-creek-il-g1-coil",
-      "revision": 1,
+      "revision": 2,
       "partType": "shock",
       "brandSlug": "cane-creek",
       "brandAliases": [
@@ -1321,13 +1321,13 @@
       "confirmedVariantModelAliases": [],
       "requiresVariantConfirmation": true,
       "matchingMode": "platform_confirmation",
-      "guidePath": "suspension-guides/guides/cane-creek-il-g1-coil/r1/guide.json",
-      "guideSha256": "5395138d1e44723deab06a6ef9ce07ea470cb80fc3f39ecb35c9d14e19b7908b",
-      "guideBytes": 3068
+      "guidePath": "suspension-guides/guides/cane-creek-il-g1-coil/r2/guide.json",
+      "guideSha256": "68079e2cbc9b34b64253be01c213605f8129a7d9829cfef77906d79613357b5a",
+      "guideBytes": 3067
     },
     {
       "guideId": "cane-creek-il-g2-air",
-      "revision": 1,
+      "revision": 2,
       "partType": "shock",
       "brandSlug": "cane-creek",
       "brandAliases": [
@@ -1342,13 +1342,13 @@
       "confirmedVariantModelAliases": [],
       "requiresVariantConfirmation": true,
       "matchingMode": "platform_confirmation",
-      "guidePath": "suspension-guides/guides/cane-creek-il-g2-air/r1/guide.json",
-      "guideSha256": "419a48e54c446853827ad608dc1a41f084e5be12e92b3bfa7cdcfa89b6d63a9f",
+      "guidePath": "suspension-guides/guides/cane-creek-il-g2-air/r2/guide.json",
+      "guideSha256": "c35f89fb9c8cd68717cf6fedf2fb58a1c11f5524ac004d016fefe7c09c6cb5ec",
       "guideBytes": 3020
     },
     {
       "guideId": "cane-creek-il-g2-coil",
-      "revision": 1,
+      "revision": 2,
       "partType": "shock",
       "brandSlug": "cane-creek",
       "brandAliases": [
@@ -1363,9 +1363,9 @@
       "confirmedVariantModelAliases": [],
       "requiresVariantConfirmation": true,
       "matchingMode": "platform_confirmation",
-      "guidePath": "suspension-guides/guides/cane-creek-il-g2-coil/r1/guide.json",
-      "guideSha256": "245d28bb2e26d96838e51697446dcbd6cba183f0084e625d617db6594aaa1f43",
-      "guideBytes": 3023
+      "guidePath": "suspension-guides/guides/cane-creek-il-g2-coil/r2/guide.json",
+      "guideSha256": "055141a9e3323af27b5d5b28a0d4b8a3e8f2a11deefe61549be53b71146e4794",
+      "guideBytes": 3022
     },
     {
       "guideId": "manitou-mattoc-service",
@@ -1412,7 +1412,7 @@
     },
     {
       "guideId": "manitou-mara-inline-legacy-new",
-      "revision": 1,
+      "revision": 2,
       "partType": "shock",
       "brandSlug": "manitou",
       "brandAliases": [
@@ -1427,9 +1427,9 @@
       "confirmedVariantModelAliases": [],
       "requiresVariantConfirmation": true,
       "matchingMode": "platform_confirmation",
-      "guidePath": "suspension-guides/guides/manitou-mara-inline-legacy-new/r1/guide.json",
-      "guideSha256": "74dd4e744d99128a52842af114c9c5ee249bed9f3375d3849a09587fb6b0c11b",
-      "guideBytes": 1559
+      "guidePath": "suspension-guides/guides/manitou-mara-inline-legacy-new/r2/guide.json",
+      "guideSha256": "16269beb8acd48bc5ed612e632aa4318e2c0c6052382c8f24ec74900a80619ec",
+      "guideBytes": 1560
     },
     {
       "guideId": "formula-selva-v",

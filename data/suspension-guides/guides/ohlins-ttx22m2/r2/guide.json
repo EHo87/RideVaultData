@@ -1,0 +1,110 @@
+{
+  "schemaVersion": 2,
+  "guideId": "ohlins-ttx22m2",
+  "revision": 2,
+  "displayName": "Öhlins TTX22m.2 · I / II / III lever",
+  "partType": "shock",
+  "years": [],
+  "variantId": "identified-platform",
+  "sources": [
+    {
+      "id": "source-1",
+      "title": "Öhlins · platform reference",
+      "url": "https://www.ohlins.com/storage/136B69C71F77624D297FA4A78CC2EFA72F2885F0B5F9F1671B017FA1F26B4628/4217d1ac8ed14007a7b8af264e3b26b4/pdf/media/a8594530ef154028969147dcb58ec9b5/Owners%20manual%20TTX22m.2.pdf"
+    },
+    {
+      "id": "source-2",
+      "title": "Öhlins · platform reference",
+      "url": "https://www.ohlins.com/en-us/mountain-bike/rear-shocks/ttx22m-2-coil-210x55-am"
+    }
+  ],
+  "panels": [
+    {
+      "id": "compression",
+      "labelKey": "compression",
+      "photos": [
+        {
+          "id": "compression-1",
+          "image": {
+            "path": "compression-1.webp",
+            "width": 1024,
+            "height": 1024,
+            "bytes": 79248,
+            "sha256": "e568865caeeeaaf833771af6a941b6982729c09dd5f3443fcdc922713e52bc76",
+            "sourceId": "source-2"
+          },
+          "viewpoint": "adjuster_face",
+          "controls": [
+            {
+              "id": "lsc",
+              "function": "LSC",
+              "position": "center",
+              "tool": {
+                "type": "hand"
+              },
+              "closeDirection": "clockwise",
+              "closeEffect": "more_compression_damping",
+              "anchor": {
+                "x": 0.45553,
+                "y": 0.404237
+              },
+              "labelOrder": 0
+            },
+            {
+              "id": "hsc",
+              "function": "HSC",
+              "position": "outer",
+              "tool": {
+                "type": "hand"
+              },
+              "closeDirection": "positions_i_iii",
+              "closeEffect": "more_compression_damping",
+              "anchor": {
+                "x": 0.573275,
+                "y": 0.654544
+              },
+              "labelOrder": 1
+            }
+          ],
+          "preconditions": []
+        }
+      ]
+    },
+    {
+      "id": "rebound",
+      "labelKey": "rebound",
+      "photos": [
+        {
+          "id": "rebound-2",
+          "image": {
+            "path": "rebound-2.webp",
+            "width": 1024,
+            "height": 1024,
+            "bytes": 46960,
+            "sha256": "da0405a452f40781553916de1e508a808ab0778c935220621b687c6c468ecd73",
+            "sourceId": "source-2"
+          },
+          "viewpoint": "adjuster_face",
+          "controls": [
+            {
+              "id": "rebound",
+              "function": "REBOUND",
+              "position": "standalone",
+              "tool": {
+                "type": "hand"
+              },
+              "closeDirection": "clockwise",
+              "closeEffect": "slower_rebound",
+              "anchor": {
+                "x": 0.678125,
+                "y": 0.528125
+              },
+              "labelOrder": 0
+            }
+          ],
+          "preconditions": []
+        }
+      ]
+    }
+  ]
+}

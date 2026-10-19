@@ -1,5 +1,5 @@
 {
-  "version": 15,
+  "version": 16,
   "lastUpdated": "2026-10-19",
   "minAppVersion": "0.1.0",
   "components": {
@@ -11,7 +11,7 @@
     "lastUpdated": "2026-08-26"
   },
   "suspensionGuides": {
-    "revision": 2,
+    "revision": 3,
     "schemaVersion": 2,
     "indexPath": "suspension-guides/v2/index.json",
     "lastUpdated": "2026-10-19"

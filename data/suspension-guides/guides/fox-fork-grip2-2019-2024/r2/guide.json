@@ -1,0 +1,155 @@
+{
+  "schemaVersion": 2,
+  "guideId": "fox-fork-grip2-2019-2024",
+  "revision": 2,
+  "displayName": "FOX 36 / 38 · GRIP2 · HSC/LSC/HSR/LSR",
+  "partType": "fork",
+  "years": [],
+  "variantId": "identified-platform",
+  "sources": [
+    {
+      "id": "source-1",
+      "title": "FOX · platform reference",
+      "url": "https://tech.ridefox.com/bike/owners-manuals/2930/fork--2024-36mm-or-38mm"
+    },
+    {
+      "id": "source-2",
+      "title": "FOX · platform reference",
+      "url": "https://tech.ridefox.com/bike/owners-manuals/2830/fork--2023-36mm-or-38mm"
+    },
+    {
+      "id": "source-3",
+      "title": "FOX · platform reference",
+      "url": "https://tech.ridefox.com/bike/owners-manuals/1144/fork--2022-36mm-or-38mm"
+    },
+    {
+      "id": "source-4",
+      "title": "FOX · platform reference",
+      "url": "https://tech.ridefox.com/bike/owners-manuals/1082/fork--2021-36mm-or-38mm"
+    },
+    {
+      "id": "source-5",
+      "title": "FOX · platform reference",
+      "url": "https://tech.ridefox.com/bike/owners-manuals/1040/fork--2020-36mm"
+    },
+    {
+      "id": "source-6",
+      "title": "FOX · platform reference",
+      "url": "https://tech.ridefox.com/bike/owners-manuals/938/fork--2019-36mm"
+    },
+    {
+      "id": "source-7",
+      "title": "FOX · original image / manual",
+      "url": "https://tech.ridefox.com/img/help/page938-PX0Q/inline/GRIP2-HSC-knoba.jpg"
+    },
+    {
+      "id": "source-8",
+      "title": "FOX · original image / manual",
+      "url": "https://tech.ridefox.com/img/help/page938-PX0Q/inline/GRIP2-REBOUND.jpg"
+    }
+  ],
+  "panels": [
+    {
+      "id": "compression",
+      "labelKey": "compression",
+      "photos": [
+        {
+          "id": "compression-1",
+          "image": {
+            "path": "compression-1.webp",
+            "width": 1024,
+            "height": 1024,
+            "bytes": 155030,
+            "sha256": "cc1cdee41db262cfed55748275912f4a02364dbfb0180482b00e34ede0fcca8c",
+            "sourceId": "source-6"
+          },
+          "viewpoint": "adjuster_face",
+          "controls": [
+            {
+              "id": "lsc",
+              "function": "LSC",
+              "position": "center",
+              "tool": {
+                "type": "hand"
+              },
+              "closeDirection": "clockwise",
+              "closeEffect": "more_compression_damping",
+              "anchor": {
+                "x": 0.640625,
+                "y": 0.528125
+              },
+              "labelOrder": 0
+            },
+            {
+              "id": "hsc",
+              "function": "HSC",
+              "position": "outer",
+              "tool": {
+                "type": "hand"
+              },
+              "closeDirection": "clockwise",
+              "closeEffect": "more_compression_damping",
+              "anchor": {
+                "x": 0.875,
+                "y": 0.5
+              },
+              "labelOrder": 1
+            }
+          ],
+          "preconditions": []
+        }
+      ]
+    },
+    {
+      "id": "rebound",
+      "labelKey": "rebound",
+      "photos": [
+        {
+          "id": "rebound-2",
+          "image": {
+            "path": "rebound-2.webp",
+            "width": 1024,
+            "height": 1024,
+            "bytes": 22924,
+            "sha256": "96c5d40b4f2d82d7e34393784cddb2cd14d732e2c81d0aeed26ae45b213cb37d",
+            "sourceId": "source-6"
+          },
+          "viewpoint": "adjuster_face",
+          "controls": [
+            {
+              "id": "hsr",
+              "function": "HSR",
+              "position": "upper",
+              "tool": {
+                "type": "hand"
+              },
+              "closeDirection": "clockwise",
+              "closeEffect": "slower_rebound",
+              "anchor": {
+                "x": 0.471127,
+                "y": 0.484471
+              },
+              "labelOrder": 0
+            },
+            {
+              "id": "lsr",
+              "function": "LSR",
+              "position": "lower",
+              "tool": {
+                "type": "hand"
+              },
+              "closeDirection": "clockwise",
+              "closeEffect": "slower_rebound",
+              "anchor": {
+                "x": 0.471127,
+                "y": 0.63171
+              },
+              "labelOrder": 1
+            }
+          ],
+          "preconditions": []
+        }
+      ]
+    }
+  ]
+}

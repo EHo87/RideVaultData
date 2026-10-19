@@ -1,0 +1,112 @@
+{
+  "schemaVersion": 2,
+  "guideId": "rockshox-deluxe-ultimate-rct-c1-c2",
+  "revision": 2,
+  "displayName": "RockShox Deluxe Ultimate · Gen C · RCT",
+  "partType": "shock",
+  "years": [],
+  "variantId": "identified-platform",
+  "sources": [
+    {
+      "id": "source-1",
+      "title": "RockShox · platform reference",
+      "url": "https://www.sram.com/globalassets/document-hierarchy/service-manuals/rockshox/rear-suspension/2023-deluxe-service-manual.pdf#page=13"
+    },
+    {
+      "id": "source-2",
+      "title": "RockShox · platform reference",
+      "url": "https://www.sram.com/globalassets/document-hierarchy/service-manuals/rockshox/rear-suspension/2023-deluxe-service-manual.pdf#page=10"
+    },
+    {
+      "id": "source-3",
+      "title": "RockShox · platform reference",
+      "url": "https://www.sram.com/globalassets/document-hierarchy/service-manuals/rockshox/rear-suspension/2023-deluxe-service-manual.pdf#page=42"
+    },
+    {
+      "id": "source-4",
+      "title": "RockShox · Deluxe Ultimate C2 · 상단 정면",
+      "url": "https://www.sram.com/en/rockshox/models/rs-dlx-ult-c2"
+    },
+    {
+      "id": "source-5",
+      "title": "RockShox · Deluxe Ultimate Gen C · 리바운드 링",
+      "url": "https://docs.sram.com/en-US/publications/5ODr3E6BhL1uWDnWhq4ATB/UM%20-%20Suspension"
+    }
+  ],
+  "panels": [
+    {
+      "id": "compression",
+      "labelKey": "compression",
+      "photos": [
+        {
+          "id": "compression-1",
+          "image": {
+            "path": "compression-1.webp",
+            "width": 1024,
+            "height": 1024,
+            "bytes": 68300,
+            "sha256": "d2ecb342ba84ae1389c3b0e8a60f8704cb126555b1bccef6563543539f509399",
+            "sourceId": "source-4"
+          },
+          "viewpoint": "adjuster_face",
+          "controls": [
+            {
+              "id": "compression",
+              "function": "COMPRESSION",
+              "position": "standalone",
+              "tool": {
+                "type": "hand"
+              },
+              "closeDirection": "clockwise",
+              "closeEffect": "more_compression_damping",
+              "anchor": {
+                "x": 0.509909,
+                "y": 0.451127
+              },
+              "labelOrder": 0
+            }
+          ],
+          "preconditions": [
+            "compression_pull_turn_release"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "rebound",
+      "labelKey": "rebound",
+      "photos": [
+        {
+          "id": "rebound-2",
+          "image": {
+            "path": "rebound-2.webp",
+            "width": 1024,
+            "height": 1024,
+            "bytes": 38408,
+            "sha256": "22ec48e0e947bfc2ff3b6f51683dc555a6246b6942314464e7fc4674bed4a945",
+            "sourceId": "source-5"
+          },
+          "viewpoint": "adjuster_face",
+          "controls": [
+            {
+              "id": "rebound",
+              "function": "REBOUND",
+              "position": "standalone",
+              "tool": {
+                "type": "hand"
+              },
+              "closeDirection": "clockwise",
+              "closeEffect": "slower_rebound",
+              "anchor": {
+                "x": 0.412013,
+                "y": 0.48669
+              },
+              "labelOrder": 0
+            }
+          ],
+          "preconditions": []
+        }
+      ]
+    }
+  ]
+}
