@@ -1,0 +1,105 @@
+{
+  "schemaVersion": 2,
+  "guideId": "marzocchi-fork-z2-rail1",
+  "revision": 1,
+  "displayName": "Marzocchi Bomber Z2 · RAIL 1.0 Sweep",
+  "partType": "fork",
+  "years": [],
+  "variantId": "identified-platform",
+  "sources": [
+    {
+      "id": "source-1",
+      "title": "Marzocchi · platform reference",
+      "url": "https://tech.ridefox.com/bike/owners-manuals/2838/bomber-z2"
+    },
+    {
+      "id": "source-2",
+      "title": "Marzocchi · platform reference",
+      "url": "https://tech.ridefox.com/bike/service-procedures/1052/bomber-z2-full-rebuild-(rail-1.0-damper)"
+    },
+    {
+      "id": "source-3",
+      "title": "Marzocchi · platform reference",
+      "url": "https://tech.ridefox.com/bike/parts-drawings/1048/bomber-z2"
+    },
+    {
+      "id": "source-4",
+      "title": "Marzocchi · original image / manual",
+      "url": "https://tech.ridefox.com/img/help/page2836-KNVM/inline/605-00-237-%20RevA_Z2_TuningGuide.pdf"
+    }
+  ],
+  "panels": [
+    {
+      "id": "compression",
+      "labelKey": "compression",
+      "photos": [
+        {
+          "id": "compression-1",
+          "image": {
+            "path": "compression-1.webp",
+            "width": 1024,
+            "height": 1024,
+            "bytes": 34618,
+            "sha256": "96fed086d23166ad5286b06ada091ce7f07b9cd6f22f4960c359385acf43766c",
+            "sourceId": "source-1"
+          },
+          "viewpoint": "adjuster_face",
+          "controls": [
+            {
+              "id": "compression",
+              "function": "COMPRESSION",
+              "position": "standalone",
+              "tool": {
+                "type": "hand"
+              },
+              "closeDirection": "clockwise",
+              "closeEffect": "more_compression_damping",
+              "anchor": {
+                "x": 0.5,
+                "y": 0.546875
+              },
+              "labelOrder": 0
+            }
+          ],
+          "preconditions": []
+        }
+      ]
+    },
+    {
+      "id": "rebound",
+      "labelKey": "rebound",
+      "photos": [
+        {
+          "id": "rebound-2",
+          "image": {
+            "path": "rebound-2.webp",
+            "width": 1024,
+            "height": 1024,
+            "bytes": 17516,
+            "sha256": "b9a1a9afca954bff75a101fc48a6c72699504799c7e3d38254571567251f5690",
+            "sourceId": "source-1"
+          },
+          "viewpoint": "adjuster_face",
+          "controls": [
+            {
+              "id": "rebound",
+              "function": "REBOUND",
+              "position": "standalone",
+              "tool": {
+                "type": "hand"
+              },
+              "closeDirection": "clockwise",
+              "closeEffect": "slower_rebound",
+              "anchor": {
+                "x": 0.359375,
+                "y": 0.790625
+              },
+              "labelOrder": 0
+            }
+          ],
+          "preconditions": []
+        }
+      ]
+    }
+  ]
+}

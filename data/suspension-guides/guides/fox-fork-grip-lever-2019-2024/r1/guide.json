@@ -1,0 +1,114 @@
+{
+  "schemaVersion": 2,
+  "guideId": "fox-fork-grip-lever-2019-2024",
+  "revision": 1,
+  "displayName": "FOX 34 / 36 / 38 · GRIP · blue lever",
+  "partType": "fork",
+  "years": [],
+  "variantId": "identified-platform",
+  "sources": [
+    {
+      "id": "source-1",
+      "title": "FOX · platform reference",
+      "url": "https://tech.ridefox.com/bike/owners-manuals/2931/fork--2024-32mm-or-32mm-tc-or-34mm-or-34mm-awl"
+    },
+    {
+      "id": "source-2",
+      "title": "FOX · platform reference",
+      "url": "https://tech.ridefox.com/bike/owners-manuals/2930/fork--2024-36mm-or-38mm"
+    },
+    {
+      "id": "source-3",
+      "title": "FOX · platform reference",
+      "url": "https://tech.ridefox.com/bike/owners-manuals/2829/fork--2023-32mm-or-32mm-tc-or-34mm-or-34mm-awl"
+    },
+    {
+      "id": "source-4",
+      "title": "FOX · platform reference",
+      "url": "https://tech.ridefox.com/bike/owners-manuals/2830/fork--2023-36mm-or-38mm"
+    },
+    {
+      "id": "source-5",
+      "title": "FOX · platform reference",
+      "url": "https://tech.ridefox.com/bike/owners-manuals/1143/fork--2022-32mm-or-32mm-tc-or-34mm"
+    },
+    {
+      "id": "source-6",
+      "title": "FOX · platform reference",
+      "url": "https://tech.ridefox.com/bike/owners-manuals/1144/fork--2022-36mm-or-38mm"
+    },
+    {
+      "id": "source-7",
+      "title": "FOX · platform reference",
+      "url": "https://tech.ridefox.com/bike/owners-manuals/1081/fork--2021-32mm-or-34mm"
+    },
+    {
+      "id": "source-8",
+      "title": "FOX · platform reference",
+      "url": "https://tech.ridefox.com/bike/owners-manuals/1082/fork--2021-36mm-or-38mm"
+    },
+    {
+      "id": "source-9",
+      "title": "FOX · platform reference",
+      "url": "https://tech.ridefox.com/bike/owners-manuals/1041/fork--2020-32mm-or-34mm"
+    },
+    {
+      "id": "source-10",
+      "title": "FOX · platform reference",
+      "url": "https://tech.ridefox.com/bike/owners-manuals/1040/fork--2020-36mm"
+    },
+    {
+      "id": "source-11",
+      "title": "FOX · platform reference",
+      "url": "https://tech.ridefox.com/bike/owners-manuals/919/fork--2019-32mm-or-34mm"
+    },
+    {
+      "id": "source-12",
+      "title": "FOX · platform reference",
+      "url": "https://tech.ridefox.com/bike/owners-manuals/938/fork--2019-36mm"
+    },
+    {
+      "id": "source-13",
+      "title": "FOX · original image / manual",
+      "url": "https://tech.ridefox.com/img/help/page690-01BF/inline/Grip-lever-image.jpg"
+    }
+  ],
+  "panels": [
+    {
+      "id": "compression",
+      "labelKey": "compression",
+      "photos": [
+        {
+          "id": "compression-1",
+          "image": {
+            "path": "compression-1.webp",
+            "width": 1024,
+            "height": 1024,
+            "bytes": 49314,
+            "sha256": "557301f12dcd336217f35fb620ac3ea403c5357d25eceef09798470faf72817a",
+            "sourceId": "source-12"
+          },
+          "viewpoint": "adjuster_face",
+          "controls": [
+            {
+              "id": "compression",
+              "function": "COMPRESSION",
+              "position": "standalone",
+              "tool": {
+                "type": "hand"
+              },
+              "closeDirection": "clockwise",
+              "closeEffect": "more_compression_damping",
+              "anchor": {
+                "x": 0.48125,
+                "y": 0.5
+              },
+              "labelOrder": 0
+            }
+          ],
+          "preconditions": []
+        }
+      ]
+    }
+  ]
+}

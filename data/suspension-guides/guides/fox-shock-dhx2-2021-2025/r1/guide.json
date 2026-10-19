@@ -1,0 +1,176 @@
+{
+  "schemaVersion": 2,
+  "guideId": "fox-shock-dhx2-2021-2025",
+  "revision": 1,
+  "displayName": "FOX DHX2 · 2021–2025 · separate HSR / LSR",
+  "partType": "shock",
+  "years": [],
+  "variantId": "identified-platform",
+  "sources": [
+    {
+      "id": "source-1",
+      "title": "FOX · platform reference",
+      "url": "https://tech.ridefox.com/bike/owners-manuals/2981/shock--2025-all-coil-shocks-(dhx2-and-dhx-models)"
+    },
+    {
+      "id": "source-2",
+      "title": "FOX · platform reference",
+      "url": "https://tech.ridefox.com/bike/owners-manuals/2928/shock--2024-all-coil-shocks-(dhx2-and-dhx-models)"
+    },
+    {
+      "id": "source-3",
+      "title": "FOX · platform reference",
+      "url": "https://tech.ridefox.com/bike/owners-manuals/2832/shock--2023-all-coil-shocks-(dhx2-and-dhx-models)"
+    },
+    {
+      "id": "source-4",
+      "title": "FOX · platform reference",
+      "url": "https://tech.ridefox.com/bike/owners-manuals/1146/shock--2022-all-coil-shocks-(dhx2-and-dhx-models)"
+    },
+    {
+      "id": "source-5",
+      "title": "FOX · platform reference",
+      "url": "https://tech.ridefox.com/bike/owners-manuals/1080/shock--2021-all-coil-shocks-(dhx2-and-van-models)"
+    },
+    {
+      "id": "source-6",
+      "title": "FOX · original image / manual",
+      "url": "https://tech.ridefox.com/img/help/page1080-8XBE/inline/dhx2-comp.jpg"
+    },
+    {
+      "id": "source-7",
+      "title": "FOX · original image / manual",
+      "url": "https://tech.ridefox.com/img/help/page1080-8XBE/inline/dhx2-lsr.jpg"
+    },
+    {
+      "id": "source-8",
+      "title": "FOX · original image / manual",
+      "url": "https://tech.ridefox.com/img/help/page1080-8XBE/inline/dhx2-hsr.jpg"
+    }
+  ],
+  "panels": [
+    {
+      "id": "compression",
+      "labelKey": "compression",
+      "photos": [
+        {
+          "id": "compression-1",
+          "image": {
+            "path": "compression-1.webp",
+            "width": 1024,
+            "height": 1024,
+            "bytes": 47194,
+            "sha256": "f6cfee3c3ad40e91ff00952fc67ade31bfcfdbeca3e20e51af3768ca2dc9ec3c",
+            "sourceId": "source-5"
+          },
+          "viewpoint": "adjuster_face",
+          "controls": [
+            {
+              "id": "lsc",
+              "function": "LSC",
+              "position": "center",
+              "tool": {
+                "type": "hex",
+                "sizeMm": 3
+              },
+              "closeDirection": "clockwise",
+              "closeEffect": "more_compression_damping",
+              "anchor": {
+                "x": 0.499739,
+                "y": 0.406877
+              },
+              "labelOrder": 0
+            },
+            {
+              "id": "hsc",
+              "function": "HSC",
+              "position": "outer",
+              "tool": {
+                "type": "hex",
+                "sizeMm": 6
+              },
+              "closeDirection": "clockwise",
+              "closeEffect": "more_compression_damping",
+              "anchor": {
+                "x": 0.579922,
+                "y": 0.513841
+              },
+              "labelOrder": 1
+            }
+          ],
+          "preconditions": [
+            "compression_lever_open_if_present"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "rebound",
+      "labelKey": "rebound",
+      "photos": [
+        {
+          "id": "rebound-2",
+          "image": {
+            "path": "rebound-2.webp",
+            "width": 1024,
+            "height": 1024,
+            "bytes": 34386,
+            "sha256": "aa55d79aefa792e040178aa4a6b9ffee2b983a2054c9410d1f680ecec5e6c811",
+            "sourceId": "source-5"
+          },
+          "viewpoint": "adjuster_face",
+          "controls": [
+            {
+              "id": "lsr",
+              "function": "LSR",
+              "position": "standalone",
+              "tool": {
+                "type": "hex",
+                "sizeMm": 3
+              },
+              "closeDirection": "clockwise",
+              "closeEffect": "slower_rebound",
+              "anchor": {
+                "x": 0.500631,
+                "y": 0.451831
+              },
+              "labelOrder": 0
+            }
+          ],
+          "preconditions": []
+        },
+        {
+          "id": "rebound-3",
+          "image": {
+            "path": "rebound-3.webp",
+            "width": 1024,
+            "height": 1024,
+            "bytes": 38314,
+            "sha256": "ddd95e1f5d16e0fe063f9097300d72c81da19dfc7d7265bdceb4f0f6719a7ea1",
+            "sourceId": "source-5"
+          },
+          "viewpoint": "adjuster_face",
+          "controls": [
+            {
+              "id": "hsr",
+              "function": "HSR",
+              "position": "standalone",
+              "tool": {
+                "type": "hex",
+                "sizeMm": 2
+              },
+              "closeDirection": "clockwise",
+              "closeEffect": "slower_rebound",
+              "anchor": {
+                "x": 0.45767,
+                "y": 0.390194
+              },
+              "labelOrder": 0
+            }
+          ],
+          "preconditions": []
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,59 @@
+{
+  "schemaVersion": 2,
+  "guideId": "mrp-ribbon-coil-legacy",
+  "revision": 1,
+  "displayName": "MRP Ribbon Coil · original EssenTTial damper",
+  "partType": "fork",
+  "years": [],
+  "variantId": "identified-platform",
+  "sources": [
+    {
+      "id": "source-1",
+      "title": "MRP · platform reference",
+      "url": "https://mrpbike.com/pages/tech-resources"
+    },
+    {
+      "id": "source-2",
+      "title": "MRP · original image / manual",
+      "url": "https://cdn.shopify.com/s/files/1/2785/4912/files/RIBBON_COIL_OWNERS_MANUAL_Rev_1_1.pdf?11367388448973570734"
+    }
+  ],
+  "panels": [
+    {
+      "id": "compression",
+      "labelKey": "compression",
+      "photos": [
+        {
+          "id": "compression-1",
+          "image": {
+            "path": "compression-1.webp",
+            "width": 1024,
+            "height": 1024,
+            "bytes": 34782,
+            "sha256": "028fa1e4cd76995dd5391bc16d0fe2ebb6c076d444135993e74958128f215918",
+            "sourceId": "source-1"
+          },
+          "viewpoint": "adjuster_face",
+          "controls": [
+            {
+              "id": "compression",
+              "function": "COMPRESSION",
+              "position": "standalone",
+              "tool": {
+                "type": "hand"
+              },
+              "closeDirection": "clockwise",
+              "closeEffect": "more_compression_damping",
+              "anchor": {
+                "x": 0.575,
+                "y": 0.575
+              },
+              "labelOrder": 0
+            }
+          ],
+          "preconditions": []
+        }
+      ]
+    }
+  ]
+}

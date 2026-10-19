@@ -1,0 +1,120 @@
+{
+  "schemaVersion": 2,
+  "guideId": "fox-shock-float-x-2022-2026",
+  "revision": 1,
+  "displayName": "FOX FLOAT X · external LSC dial",
+  "partType": "shock",
+  "years": [],
+  "variantId": "identified-platform",
+  "sources": [
+    {
+      "id": "source-1",
+      "title": "FOX · platform reference",
+      "url": "https://tech.ridefox.com/bike/owners-manuals/3098/shock--2026-float-sl-and-float-x"
+    },
+    {
+      "id": "source-2",
+      "title": "FOX · platform reference",
+      "url": "https://tech.ridefox.com/bike/owners-manuals/2983/shock--2025-float-sl-and-float-x"
+    },
+    {
+      "id": "source-3",
+      "title": "FOX · platform reference",
+      "url": "https://tech.ridefox.com/bike/owners-manuals/2927/shock--2024-float-sl-and-float-x"
+    },
+    {
+      "id": "source-4",
+      "title": "FOX · platform reference",
+      "url": "https://tech.ridefox.com/bike/owners-manuals/2833/shock--2023-float-dps-and-float-x"
+    },
+    {
+      "id": "source-5",
+      "title": "FOX · platform reference",
+      "url": "https://tech.ridefox.com/bike/owners-manuals/1147/shock--2022-float-dps-and-float-x"
+    },
+    {
+      "id": "source-6",
+      "title": "FOX · original image / manual",
+      "url": "https://tech.ridefox.com/img/help/page1147-Z52T/inline/float-x-lsc.jpg"
+    },
+    {
+      "id": "source-7",
+      "title": "FOX · original image / manual",
+      "url": "https://tech.ridefox.com/img/help/page1147-Z52T/inline/FLOAT-X-rebound.jpg"
+    }
+  ],
+  "panels": [
+    {
+      "id": "compression",
+      "labelKey": "compression",
+      "photos": [
+        {
+          "id": "compression-1",
+          "image": {
+            "path": "compression-1.webp",
+            "width": 1024,
+            "height": 1024,
+            "bytes": 41436,
+            "sha256": "d84793860743a79c08b0a2b38f1ea4174a3b29c55b3189706dd5e16719063a5d",
+            "sourceId": "source-5"
+          },
+          "viewpoint": "adjuster_face",
+          "controls": [
+            {
+              "id": "lsc",
+              "function": "LSC",
+              "position": "standalone",
+              "tool": {
+                "type": "hand"
+              },
+              "closeDirection": "clockwise",
+              "closeEffect": "more_compression_damping",
+              "anchor": {
+                "x": 0.500056,
+                "y": 0.457214
+              },
+              "labelOrder": 0
+            }
+          ],
+          "preconditions": []
+        }
+      ]
+    },
+    {
+      "id": "rebound",
+      "labelKey": "rebound",
+      "photos": [
+        {
+          "id": "rebound-2",
+          "image": {
+            "path": "rebound-2.webp",
+            "width": 1024,
+            "height": 1024,
+            "bytes": 35398,
+            "sha256": "fc35c8093d369371aacace5478cf1038e4916805b8090a0e6dd68c95d5926069",
+            "sourceId": "source-5"
+          },
+          "viewpoint": "adjuster_face",
+          "controls": [
+            {
+              "id": "rebound",
+              "function": "REBOUND",
+              "position": "standalone",
+              "tool": {
+                "type": "hand"
+              },
+              "closeDirection": "clockwise",
+              "closeEffect": "slower_rebound",
+              "anchor": {
+                "x": 0.500278,
+                "y": 0.454481
+              },
+              "labelOrder": 0
+            }
+          ],
+          "preconditions": []
+        }
+      ]
+    }
+  ]
+}

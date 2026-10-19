@@ -1,0 +1,77 @@
+{
+  "schemaVersion": 1,
+  "guideId": "rockshox-charger3-2023-2024",
+  "revision": 1,
+  "displayName": "RockShox Charger 3 RC2",
+  "partType": "fork",
+  "years": [
+    2023,
+    2024
+  ],
+  "variantId": "charger3-rc2",
+  "sources": [
+    {
+      "id": "sram-logic",
+      "title": "RockShox Compression Knob Logic · Charger 3",
+      "url": "https://www.sram.com/en/rockshox/learn/fork-deep-dives/compression-knob-logic"
+    },
+    {
+      "id": "sram-manual",
+      "title": "2023+ ZEB / Lyrik / Pike manual · model scope and adjusters",
+      "url": "https://www.sram.com/globalassets/document-hierarchy/service-manuals/rockshox/front-suspension/2023-zeb-lyrik-pike-service-manual.pdf#page=83"
+    }
+  ],
+  "panels": [
+    {
+      "id": "compression",
+      "labelKey": "compression",
+      "photos": [
+        {
+          "id": "compression-overview",
+          "image": {
+            "path": "compression.webp",
+            "width": 1024,
+            "height": 1024,
+            "bytes": 72632,
+            "sha256": "8bbb88a72f6b5f872d8ae32833d2375cb612337d80a542a029122153c2fd9f39",
+            "sourceId": "sram-logic"
+          },
+          "viewpoint": "adjuster_face",
+          "controls": [
+            {
+              "id": "lsc",
+              "function": "LSC",
+              "position": "center",
+              "tool": {
+                "type": "hand"
+              },
+              "closeDirection": "clockwise",
+              "closeEffect": "more_compression_damping",
+              "anchor": {
+                "x": 0.557692,
+                "y": 0.504327
+              },
+              "labelOrder": 0
+            },
+            {
+              "id": "hsc",
+              "function": "HSC",
+              "position": "outer",
+              "tool": {
+                "type": "hand"
+              },
+              "closeDirection": "clockwise",
+              "closeEffect": "more_compression_damping",
+              "anchor": {
+                "x": 0.703365,
+                "y": 0.637019
+              },
+              "labelOrder": 1
+            }
+          ],
+          "preconditions": []
+        }
+      ]
+    }
+  ]
+}

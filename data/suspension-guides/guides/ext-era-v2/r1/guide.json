@@ -1,0 +1,125 @@
+{
+  "schemaVersion": 2,
+  "guideId": "ext-era-v2",
+  "revision": 1,
+  "displayName": "EXT Era V2 / V2.1 / V2 LT",
+  "partType": "fork",
+  "years": [],
+  "variantId": "identified-platform",
+  "sources": [
+    {
+      "id": "source-1",
+      "title": "EXT · platform reference",
+      "url": "https://extremeshox.com/support/"
+    },
+    {
+      "id": "source-2",
+      "title": "EXT · original image / manual",
+      "url": "https://extremeshox.com/wp-content/uploads/2023/08/quick-manual-Era-v2_20x30.pdf"
+    }
+  ],
+  "panels": [
+    {
+      "id": "compression",
+      "labelKey": "compression",
+      "photos": [
+        {
+          "id": "compression-1",
+          "image": {
+            "path": "compression-1.webp",
+            "width": 1024,
+            "height": 1024,
+            "bytes": 41066,
+            "sha256": "80736cddec7972c0d5c60724fdfaa07496eba1e7558593d55c880454b1266994",
+            "sourceId": "source-1"
+          },
+          "viewpoint": "adjuster_face",
+          "controls": [
+            {
+              "id": "lsc",
+              "function": "LSC",
+              "position": "center",
+              "tool": {
+                "type": "hand"
+              },
+              "closeDirection": "clockwise",
+              "closeEffect": "more_compression_damping",
+              "anchor": {
+                "x": 0.584375,
+                "y": 0.51875
+              },
+              "labelOrder": 0
+            }
+          ],
+          "preconditions": []
+        },
+        {
+          "id": "compression-2",
+          "image": {
+            "path": "compression-2.webp",
+            "width": 1024,
+            "height": 1024,
+            "bytes": 50042,
+            "sha256": "bcd8707c0d11ed47e05224440d0627e77e2867f4363eab3476ff286506f39441",
+            "sourceId": "source-1"
+          },
+          "viewpoint": "adjuster_face",
+          "controls": [
+            {
+              "id": "hsc",
+              "function": "HSC",
+              "position": "outer",
+              "tool": {
+                "type": "hand"
+              },
+              "closeDirection": "clockwise",
+              "closeEffect": "more_compression_damping",
+              "anchor": {
+                "x": 0.7625,
+                "y": 0.5
+              },
+              "labelOrder": 0
+            }
+          ],
+          "preconditions": []
+        }
+      ]
+    },
+    {
+      "id": "rebound",
+      "labelKey": "rebound",
+      "photos": [
+        {
+          "id": "rebound-3",
+          "image": {
+            "path": "rebound-3.webp",
+            "width": 1024,
+            "height": 1024,
+            "bytes": 36530,
+            "sha256": "ebedd38c67023b936091ff0109b1d259edb1e77d8d706277a5fe1a75985a3d3d",
+            "sourceId": "source-1"
+          },
+          "viewpoint": "adjuster_face",
+          "controls": [
+            {
+              "id": "rebound",
+              "function": "REBOUND",
+              "position": "standalone",
+              "tool": {
+                "type": "hand"
+              },
+              "closeDirection": "clockwise",
+              "closeEffect": "slower_rebound",
+              "anchor": {
+                "x": 0.5,
+                "y": 0.640625
+              },
+              "labelOrder": 0
+            }
+          ],
+          "preconditions": []
+        }
+      ]
+    }
+  ]
+}

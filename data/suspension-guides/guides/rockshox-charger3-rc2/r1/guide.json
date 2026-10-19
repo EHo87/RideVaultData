@@ -1,0 +1,114 @@
+{
+  "schemaVersion": 2,
+  "guideId": "rockshox-charger3-rc2",
+  "revision": 1,
+  "displayName": "RockShox Pike / Lyrik / ZEB · CHARGER 3 engraving",
+  "partType": "fork",
+  "years": [],
+  "variantId": "identified-platform",
+  "sources": [
+    {
+      "id": "source-1",
+      "title": "RockShox · platform reference",
+      "url": "https://www.sram.com/en/rockshox/rockshox-technology/charger-3"
+    },
+    {
+      "id": "source-2",
+      "title": "RockShox · platform reference",
+      "url": "https://www.sram.com/globalassets/document-hierarchy/service-manuals/rockshox/front-suspension/2023-zeb-lyrik-pike-service-manual.pdf#page=12"
+    },
+    {
+      "id": "source-3",
+      "title": "RockShox · platform reference",
+      "url": "https://www.sram.com/globalassets/document-hierarchy/service-manuals/rockshox/front-suspension/2023-zeb-lyrik-pike-service-manual.pdf#page=21"
+    },
+    {
+      "id": "source-4",
+      "title": "RockShox · platform reference",
+      "url": "https://www.sram.com/globalassets/document-hierarchy/service-manuals/rockshox/front-suspension/2023-zeb-lyrik-pike-service-manual.pdf#page=27"
+    },
+    {
+      "id": "source-5",
+      "title": "RockShox · platform reference",
+      "url": "https://www.sram.com/globalassets/document-hierarchy/service-manuals/rockshox/front-suspension/2023-zeb-lyrik-pike-service-manual.pdf#page=83"
+    },
+    {
+      "id": "source-6",
+      "title": "RockShox · platform reference",
+      "url": "https://www.sram.com/globalassets/document-hierarchy/service-manuals/rockshox/front-suspension/2023-zeb-lyrik-pike-service-manual.pdf#page=14"
+    },
+    {
+      "id": "source-7",
+      "title": "RockShox · platform reference",
+      "url": "https://www.sram.com/globalassets/document-hierarchy/service-manuals/rockshox/front-suspension/2023-zeb-lyrik-pike-service-manual.pdf#page=22"
+    },
+    {
+      "id": "source-8",
+      "title": "RockShox · platform reference",
+      "url": "https://www.sram.com/globalassets/document-hierarchy/service-manuals/rockshox/front-suspension/2023-zeb-lyrik-pike-service-manual.pdf#page=29"
+    },
+    {
+      "id": "source-9",
+      "title": "RockShox · controls reference",
+      "url": "https://www.sram.com/globalassets/document-hierarchy/service-manuals/rockshox/front-suspension/2023-zeb-lyrik-pike-service-manual.pdf#page=34"
+    },
+    {
+      "id": "source-10",
+      "title": "RockShox · Charger 3 · 공식 정면 클로즈업",
+      "url": "https://www.sram.com/en/rockshox/learn/fork-deep-dives/compression-knob-logic"
+    }
+  ],
+  "panels": [
+    {
+      "id": "compression",
+      "labelKey": "compression",
+      "photos": [
+        {
+          "id": "compression-1",
+          "image": {
+            "path": "compression-1.webp",
+            "width": 1024,
+            "height": 1024,
+            "bytes": 66426,
+            "sha256": "b3be1275856c11e7cf7b94bb186a137641afbe2fef4ff4b4cd0bc8c5033a7b6d",
+            "sourceId": "source-10"
+          },
+          "viewpoint": "adjuster_face",
+          "controls": [
+            {
+              "id": "lsc",
+              "function": "LSC",
+              "position": "center",
+              "tool": {
+                "type": "hand"
+              },
+              "closeDirection": "clockwise",
+              "closeEffect": "more_compression_damping",
+              "anchor": {
+                "x": 0.575,
+                "y": 0.546875
+              },
+              "labelOrder": 0
+            },
+            {
+              "id": "hsc",
+              "function": "HSC",
+              "position": "outer",
+              "tool": {
+                "type": "hand"
+              },
+              "closeDirection": "clockwise",
+              "closeEffect": "more_compression_damping",
+              "anchor": {
+                "x": 0.7625,
+                "y": 0.5
+              },
+              "labelOrder": 1
+            }
+          ],
+          "preconditions": []
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,79 @@
+{
+  "schemaVersion": 2,
+  "guideId": "fox-fork-grip-2025-2026",
+  "revision": 1,
+  "displayName": "FOX 34 / 36 / 38 · GRIP · 2025/2026 lever",
+  "partType": "fork",
+  "years": [],
+  "variantId": "identified-platform",
+  "sources": [
+    {
+      "id": "source-1",
+      "title": "FOX · platform reference",
+      "url": "https://tech.ridefox.com/bike/owners-manuals/3104/fork--2026-32mm--or-34mm-(including-32-step-cast-and-32-taper-cast)"
+    },
+    {
+      "id": "source-2",
+      "title": "FOX · platform reference",
+      "url": "https://tech.ridefox.com/bike/owners-manuals/3089/fork--2026-36mm"
+    },
+    {
+      "id": "source-3",
+      "title": "FOX · platform reference",
+      "url": "https://tech.ridefox.com/bike/owners-manuals/3103/fork--2026-38mm"
+    },
+    {
+      "id": "source-4",
+      "title": "FOX · platform reference",
+      "url": "https://tech.ridefox.com/bike/owners-manuals/2978/fork--2025-32mm--or-34mm-(including-step-cast-and-taper-cast)"
+    },
+    {
+      "id": "source-5",
+      "title": "FOX · platform reference",
+      "url": "https://tech.ridefox.com/bike/owners-manuals/2979/fork--2025-36mm-or-38mm"
+    },
+    {
+      "id": "source-6",
+      "title": "FOX · original image / manual",
+      "url": "https://tech.ridefox.com/img/help/page2978-GPQ9/inline/2025-Grip.jpg"
+    }
+  ],
+  "panels": [
+    {
+      "id": "compression",
+      "labelKey": "compression",
+      "photos": [
+        {
+          "id": "compression-1",
+          "image": {
+            "path": "compression-1.webp",
+            "width": 1024,
+            "height": 1024,
+            "bytes": 69266,
+            "sha256": "7bdedce1b8fc95a1b7e336db857e1f1709e746da82435bfb60249f9ef24a2a23",
+            "sourceId": "source-5"
+          },
+          "viewpoint": "adjuster_face",
+          "controls": [
+            {
+              "id": "compression",
+              "function": "COMPRESSION",
+              "position": "standalone",
+              "tool": {
+                "type": "hand"
+              },
+              "closeDirection": "clockwise",
+              "closeEffect": "more_compression_damping",
+              "anchor": {
+                "x": 0.561923,
+                "y": 0.420503
+              },
+              "labelOrder": 0
+            }
+          ],
+          "preconditions": []
+        }
+      ]
+    }
+  ]
+}

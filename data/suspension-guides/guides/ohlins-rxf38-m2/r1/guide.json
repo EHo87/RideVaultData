@@ -1,0 +1,120 @@
+{
+  "schemaVersion": 2,
+  "guideId": "ohlins-rxf38-m2",
+  "revision": 1,
+  "displayName": "Öhlins RXF38 m.2 · TTX18",
+  "partType": "fork",
+  "years": [],
+  "variantId": "identified-platform",
+  "sources": [
+    {
+      "id": "source-1",
+      "title": "Öhlins · platform reference",
+      "url": "https://ohlins.com/storage/4D81EA83A21214EDFB4A57331844F3692B56F2CCA1ED9BD1BE95A5CDFE6D1B1E/9bd7e6402a3e42ff93f357c6b15e645b/pdf/media/0377e17f271d4af39560e027d515d36d/Owners%20manual%20RXF38%20m.2.pdf"
+    }
+  ],
+  "panels": [
+    {
+      "id": "compression",
+      "labelKey": "compression",
+      "photos": [
+        {
+          "id": "compression-1",
+          "image": {
+            "path": "compression-1.webp",
+            "width": 1024,
+            "height": 1024,
+            "bytes": 83046,
+            "sha256": "7a5306b93f284c37904787c2c585b484cc717c9af31364b39da1e61520347743",
+            "sourceId": "source-1"
+          },
+          "viewpoint": "adjuster_face",
+          "controls": [
+            {
+              "id": "lsc",
+              "function": "LSC",
+              "position": "center",
+              "tool": {
+                "type": "hand"
+              },
+              "closeDirection": "clockwise",
+              "closeEffect": "more_compression_damping",
+              "anchor": {
+                "x": 0.51875,
+                "y": 0.425
+              },
+              "labelOrder": 0
+            }
+          ],
+          "preconditions": []
+        },
+        {
+          "id": "compression-2",
+          "image": {
+            "path": "compression-2.webp",
+            "width": 1024,
+            "height": 1024,
+            "bytes": 70712,
+            "sha256": "8d900235b078818ad614ca07c5dbdc8926c28db350dc4c417890b631ef93f207",
+            "sourceId": "source-1"
+          },
+          "viewpoint": "adjuster_face",
+          "controls": [
+            {
+              "id": "hsc",
+              "function": "HSC",
+              "position": "outer",
+              "tool": {
+                "type": "hand"
+              },
+              "closeDirection": "clockwise",
+              "closeEffect": "more_compression_damping",
+              "anchor": {
+                "x": 0.70625,
+                "y": 0.51875
+              },
+              "labelOrder": 0
+            }
+          ],
+          "preconditions": []
+        }
+      ]
+    },
+    {
+      "id": "rebound",
+      "labelKey": "rebound",
+      "photos": [
+        {
+          "id": "rebound-3",
+          "image": {
+            "path": "rebound-3.webp",
+            "width": 1024,
+            "height": 1024,
+            "bytes": 60032,
+            "sha256": "ac8d523bd69f88577169f47259e4af0f1297f1d3a202e1f3f694e9a0f7f868af",
+            "sourceId": "source-1"
+          },
+          "viewpoint": "adjuster_face",
+          "controls": [
+            {
+              "id": "rebound",
+              "function": "REBOUND",
+              "position": "lower",
+              "tool": {
+                "type": "hand"
+              },
+              "closeDirection": "clockwise",
+              "closeEffect": "slower_rebound",
+              "anchor": {
+                "x": 0.5375,
+                "y": 0.575
+              },
+              "labelOrder": 0
+            }
+          ],
+          "preconditions": []
+        }
+      ]
+    }
+  ]
+}

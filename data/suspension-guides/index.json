@@ -1,0 +1,104 @@
+{
+  "schemaVersion": 1,
+  "revision": 1,
+  "updatedAt": "2026-10-19",
+  "guides": [
+    {
+      "guideId": "fox-float-x2-factory-2019",
+      "revision": 1,
+      "partType": "shock",
+      "brandSlug": "fox",
+      "brandAliases": [
+        "FOX",
+        "Fox Racing Shox"
+      ],
+      "modelAliases": [
+        "FLOAT X2",
+        "FLOAT X2 Factory"
+      ],
+      "years": [
+        2019
+      ],
+      "variantId": "factory",
+      "variantLabel": "Factory · HSC / LSC / HSR / LSR",
+      "confirmedVariantModelAliases": [
+        "FLOAT X2 Factory"
+      ],
+      "requiresVariantConfirmation": true,
+      "guidePath": "suspension-guides/guides/fox-float-x2-factory-2019/r1/guide.json",
+      "guideSha256": "21e5754d7205fcdeacd8a37101affbda0730b84ba6057468438d62bd16fc3a02",
+      "guideBytes": 3368
+    },
+    {
+      "guideId": "fox-float-x2-factory-2026",
+      "revision": 1,
+      "partType": "shock",
+      "brandSlug": "fox",
+      "brandAliases": [
+        "FOX",
+        "Fox Racing Shox"
+      ],
+      "modelAliases": [
+        "FLOAT X2",
+        "FLOAT X2 Factory"
+      ],
+      "years": [
+        2026
+      ],
+      "variantId": "factory",
+      "variantLabel": "Factory · 2026 external rebound knobs",
+      "confirmedVariantModelAliases": [
+        "FLOAT X2 Factory"
+      ],
+      "requiresVariantConfirmation": true,
+      "guidePath": "suspension-guides/guides/fox-float-x2-factory-2026/r1/guide.json",
+      "guideSha256": "a5ae92ab25f713d8469dc06fc01c514324ed0ef036c793b52fffdd3ea522028f",
+      "guideBytes": 3660
+    },
+    {
+      "guideId": "rockshox-charger3-2023-2024",
+      "revision": 1,
+      "partType": "fork",
+      "brandSlug": "rockshox",
+      "brandAliases": [
+        "RockShox",
+        "Rock Shox"
+      ],
+      "modelAliases": [
+        "Pike",
+        "Pike Ultimate",
+        "Pike Select+",
+        "Pike Ultimate Charger 3 RC2",
+        "Pike Select+ Charger 3 RC2",
+        "Lyrik",
+        "Lyrik Ultimate",
+        "Lyrik Select+",
+        "Lyrik Ultimate Charger 3 RC2",
+        "Lyrik Select+ Charger 3 RC2",
+        "ZEB",
+        "ZEB Ultimate",
+        "ZEB Select+",
+        "ZEB Ultimate Charger 3 RC2",
+        "ZEB Select+ Charger 3 RC2"
+      ],
+      "years": [
+        2023,
+        2024
+      ],
+      "variantId": "charger3-rc2",
+      "variantLabel": "Charger 3 RC2 · Ultimate / Select+",
+      "confirmedVariantModelAliases": [
+        "Pike Ultimate Charger 3 RC2",
+        "Pike Select+ Charger 3 RC2",
+        "Lyrik Ultimate Charger 3 RC2",
+        "Lyrik Select+ Charger 3 RC2",
+        "ZEB Ultimate Charger 3 RC2",
+        "ZEB Select+ Charger 3 RC2"
+      ],
+      "requiresVariantConfirmation": true,
+      "guidePath": "suspension-guides/guides/rockshox-charger3-2023-2024/r1/guide.json",
+      "guideSha256": "9297a2fa9385a83e08936867d4dfcf8457aaeb7cbe118e93bfaba353b203e643",
+      "guideBytes": 2141
+    }
+  ]
+}

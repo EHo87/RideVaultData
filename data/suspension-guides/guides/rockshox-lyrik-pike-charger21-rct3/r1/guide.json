@@ -1,0 +1,69 @@
+{
+  "schemaVersion": 2,
+  "guideId": "rockshox-lyrik-pike-charger21-rct3",
+  "revision": 1,
+  "displayName": "RockShox Pike · Charger RCT3 · confirm 3-position lever",
+  "partType": "fork",
+  "years": [],
+  "variantId": "identified-platform",
+  "sources": [
+    {
+      "id": "source-1",
+      "title": "RockShox · platform reference",
+      "url": "https://www.sram.com/globalassets/document-hierarchy/service-manuals/rockshox/front-suspension/2019-2022-lyrik-2019-2023-yari-service-manual.pdf#page=15"
+    },
+    {
+      "id": "source-2",
+      "title": "RockShox · platform reference",
+      "url": "https://www.sram.com/globalassets/document-hierarchy/service-manuals/rockshox/front-suspension/2019-2022-pike-2019-2023-revelation-service-manual.pdf#page=13"
+    },
+    {
+      "id": "source-3",
+      "title": "RockShox · platform reference",
+      "url": "https://www.sram.com/globalassets/document-hierarchy/service-manuals/rockshox/front-suspension/2019-2022-pike-2019-2023-revelation-service-manual.pdf#page=41"
+    },
+    {
+      "id": "source-4",
+      "title": "RockShox · RCT3 · 중앙 LSC 설명 도판",
+      "url": "https://docs.sram.com/en-US/publications/5ODr3E6BhL1uWDnWhq4ATB/UM%20-%20Suspension"
+    }
+  ],
+  "panels": [
+    {
+      "id": "compression",
+      "labelKey": "compression",
+      "photos": [
+        {
+          "id": "compression-1",
+          "image": {
+            "path": "compression-1.webp",
+            "width": 1024,
+            "height": 1024,
+            "bytes": 42150,
+            "sha256": "55a0877c1981304073b4da627be0b88873fbff21edd518f0a8381c17e571b888",
+            "sourceId": "source-4"
+          },
+          "viewpoint": "adjuster_face",
+          "controls": [
+            {
+              "id": "lsc",
+              "function": "LSC",
+              "position": "center",
+              "tool": {
+                "type": "hand"
+              },
+              "closeDirection": "clockwise",
+              "closeEffect": "more_compression_damping",
+              "anchor": {
+                "x": 0.603125,
+                "y": 0.509375
+              },
+              "labelOrder": 0
+            }
+          ],
+          "preconditions": []
+        }
+      ]
+    }
+  ]
+}

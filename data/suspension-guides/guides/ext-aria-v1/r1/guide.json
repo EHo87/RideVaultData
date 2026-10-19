@@ -1,0 +1,127 @@
+{
+  "schemaVersion": 2,
+  "guideId": "ext-aria-v1",
+  "revision": 1,
+  "displayName": "EXT Aria V1",
+  "partType": "shock",
+  "years": [],
+  "variantId": "identified-platform",
+  "sources": [
+    {
+      "id": "source-1",
+      "title": "EXT · platform reference",
+      "url": "https://extremeshox.com/support/"
+    },
+    {
+      "id": "source-2",
+      "title": "EXT · original image / manual",
+      "url": "https://extremeshox.com/wp-content/uploads/2023/08/Quick-manual-Aria-min.pdf"
+    }
+  ],
+  "panels": [
+    {
+      "id": "compression",
+      "labelKey": "compression",
+      "photos": [
+        {
+          "id": "compression-1",
+          "image": {
+            "path": "compression-1.webp",
+            "width": 1024,
+            "height": 1024,
+            "bytes": 37898,
+            "sha256": "29440adc76fb5f7c180254b6414ea9331eb8b33f476258cb9ad61e67ec15ca57",
+            "sourceId": "source-1"
+          },
+          "viewpoint": "adjuster_face",
+          "controls": [
+            {
+              "id": "lsc",
+              "function": "LSC",
+              "position": "center",
+              "tool": {
+                "type": "hex",
+                "sizeMm": 4
+              },
+              "closeDirection": "clockwise",
+              "closeEffect": "more_compression_damping",
+              "anchor": {
+                "x": 0.59375,
+                "y": 0.425
+              },
+              "labelOrder": 0
+            }
+          ],
+          "preconditions": []
+        },
+        {
+          "id": "compression-2",
+          "image": {
+            "path": "compression-2.webp",
+            "width": 1024,
+            "height": 1024,
+            "bytes": 37012,
+            "sha256": "ec8f811ae34ad4f4397a3849fc1622249417b11b851e1a61781339599e7076e5",
+            "sourceId": "source-1"
+          },
+          "viewpoint": "adjuster_face",
+          "controls": [
+            {
+              "id": "hsc",
+              "function": "HSC",
+              "position": "outer",
+              "tool": {
+                "type": "wrench_or_socket",
+                "sizeMm": 12
+              },
+              "closeDirection": "clockwise",
+              "closeEffect": "more_compression_damping",
+              "anchor": {
+                "x": 0.546875,
+                "y": 0.425
+              },
+              "labelOrder": 0
+            }
+          ],
+          "preconditions": []
+        }
+      ]
+    },
+    {
+      "id": "rebound",
+      "labelKey": "rebound",
+      "photos": [
+        {
+          "id": "rebound-3",
+          "image": {
+            "path": "rebound-3.webp",
+            "width": 1024,
+            "height": 1024,
+            "bytes": 27552,
+            "sha256": "efb8211e7b86e7ea4b57f9b8729640ede490453b05d2113dcef3fb6118b765b2",
+            "sourceId": "source-1"
+          },
+          "viewpoint": "adjuster_face",
+          "controls": [
+            {
+              "id": "rebound",
+              "function": "REBOUND",
+              "position": "standalone",
+              "tool": {
+                "type": "hand"
+              },
+              "closeDirection": "clockwise",
+              "closeEffect": "slower_rebound",
+              "anchor": {
+                "x": 0.321875,
+                "y": 0.29375
+              },
+              "labelOrder": 0
+            }
+          ],
+          "preconditions": []
+        }
+      ]
+    }
+  ]
+}

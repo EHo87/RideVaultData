@@ -1,0 +1,129 @@
+{
+  "schemaVersion": 2,
+  "guideId": "manitou-mara-pro",
+  "revision": 1,
+  "displayName": "Manitou Mara Pro · Work / Party · black HSC / red LSC",
+  "partType": "shock",
+  "years": [],
+  "variantId": "identified-platform",
+  "sources": [
+    {
+      "id": "source-1",
+      "title": "Manitou · platform reference",
+      "url": "https://hayesbicycle.zendesk.com/hc/en-us/article_attachments/360071701094"
+    },
+    {
+      "id": "source-2",
+      "title": "Manitou · adjuster instructions",
+      "url": "https://hayesbicycle.zendesk.com/hc/en-us/article_attachments/28476110600727"
+    }
+  ],
+  "panels": [
+    {
+      "id": "compression",
+      "labelKey": "compression",
+      "photos": [
+        {
+          "id": "compression-1",
+          "image": {
+            "path": "compression-1.webp",
+            "width": 1024,
+            "height": 1024,
+            "bytes": 15464,
+            "sha256": "6122fb793becf0f396f8a77d97a70b34939354c5b2f43e38fa507c8a41e450dc",
+            "sourceId": "source-1"
+          },
+          "viewpoint": "adjuster_face",
+          "controls": [
+            {
+              "id": "hsc",
+              "function": "HSC",
+              "position": "outer",
+              "tool": {
+                "type": "hand"
+              },
+              "closeDirection": "clockwise",
+              "closeEffect": "more_compression_damping",
+              "anchor": {
+                "x": 0.7625,
+                "y": 0.6125
+              },
+              "labelOrder": 0
+            }
+          ],
+          "preconditions": [
+            "party_mode"
+          ]
+        },
+        {
+          "id": "compression-2",
+          "image": {
+            "path": "compression-2.webp",
+            "width": 1024,
+            "height": 1024,
+            "bytes": 43384,
+            "sha256": "8e72cb4daaea7b4a580f95e2857a9855cb4aba688c7813da95f96f7d24a1b1e3",
+            "sourceId": "source-1"
+          },
+          "viewpoint": "adjuster_face",
+          "controls": [
+            {
+              "id": "lsc",
+              "function": "LSC",
+              "position": "center",
+              "tool": {
+                "type": "hand"
+              },
+              "closeDirection": "clockwise",
+              "closeEffect": "more_compression_damping",
+              "anchor": {
+                "x": 0.640625,
+                "y": 0.584375
+              },
+              "labelOrder": 0
+            }
+          ],
+          "preconditions": [
+            "party_mode"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "rebound",
+      "labelKey": "rebound",
+      "photos": [
+        {
+          "id": "rebound-3",
+          "image": {
+            "path": "rebound-3.webp",
+            "width": 1024,
+            "height": 1024,
+            "bytes": 38666,
+            "sha256": "0268a1e549debac073a68f796059a65778aa2213a35159e723e4886597f013ef",
+            "sourceId": "source-1"
+          },
+          "viewpoint": "adjuster_face",
+          "controls": [
+            {
+              "id": "rebound",
+              "function": "REBOUND",
+              "position": "standalone",
+              "tool": {
+                "type": "hand"
+              },
+              "closeDirection": "clockwise",
+              "closeEffect": "slower_rebound",
+              "anchor": {
+                "x": 0.66875,
+                "y": 0.603125
+              },
+              "labelOrder": 0
+            }
+          ],
+          "preconditions": []
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,59 @@
+{
+  "schemaVersion": 2,
+  "guideId": "formula-selva-v",
+  "revision": 1,
+  "displayName": "Formula Selva V · rebound",
+  "partType": "fork",
+  "years": [],
+  "variantId": "identified-platform",
+  "sources": [
+    {
+      "id": "source-1",
+      "title": "Formula · platform reference",
+      "url": "https://www.rideformula.com/support/downloads/"
+    },
+    {
+      "id": "source-2",
+      "title": "Formula · original image / manual",
+      "url": "https://www.rideformula.com/wp-content/uploads/2025/06/Selva_V_User_Manual_EN-1.pdf"
+    }
+  ],
+  "panels": [
+    {
+      "id": "rebound",
+      "labelKey": "rebound",
+      "photos": [
+        {
+          "id": "rebound-1",
+          "image": {
+            "path": "rebound-1.webp",
+            "width": 1024,
+            "height": 1024,
+            "bytes": 31876,
+            "sha256": "60f4abcb67e5f7a5ac5f1cef7a361d5e96ce010036d9479d24b409df8078f039",
+            "sourceId": "source-1"
+          },
+          "viewpoint": "adjuster_face",
+          "controls": [
+            {
+              "id": "rebound",
+              "function": "REBOUND",
+              "position": "standalone",
+              "tool": {
+                "type": "hand"
+              },
+              "closeDirection": "clockwise",
+              "closeEffect": "slower_rebound",
+              "anchor": {
+                "x": 0.509375,
+                "y": 0.55625
+              },
+              "labelOrder": 0
+            }
+          ],
+          "preconditions": []
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,109 @@
+{
+  "schemaVersion": 2,
+  "guideId": "rockshox-charger31-rc2",
+  "revision": 1,
+  "displayName": "RockShox Pike / Lyrik / ZEB · CHARGER 3.1 engraving",
+  "partType": "fork",
+  "years": [],
+  "variantId": "identified-platform",
+  "sources": [
+    {
+      "id": "source-1",
+      "title": "RockShox · platform reference",
+      "url": "https://www.sram.com/globalassets/document-hierarchy/service-manuals/rockshox/front-suspension/2023-zeb-lyrik-pike-service-manual.pdf#page=12"
+    },
+    {
+      "id": "source-2",
+      "title": "RockShox · platform reference",
+      "url": "https://www.sram.com/globalassets/document-hierarchy/service-manuals/rockshox/front-suspension/2023-zeb-lyrik-pike-service-manual.pdf#page=21"
+    },
+    {
+      "id": "source-3",
+      "title": "RockShox · platform reference",
+      "url": "https://www.sram.com/globalassets/document-hierarchy/service-manuals/rockshox/front-suspension/2023-zeb-lyrik-pike-service-manual.pdf#page=26"
+    },
+    {
+      "id": "source-4",
+      "title": "RockShox · platform reference",
+      "url": "https://www.sram.com/globalassets/document-hierarchy/service-manuals/rockshox/front-suspension/2023-zeb-lyrik-pike-service-manual.pdf#page=83"
+    },
+    {
+      "id": "source-5",
+      "title": "RockShox · platform reference",
+      "url": "https://www.sram.com/globalassets/document-hierarchy/service-manuals/rockshox/front-suspension/2023-zeb-lyrik-pike-service-manual.pdf#page=14"
+    },
+    {
+      "id": "source-6",
+      "title": "RockShox · platform reference",
+      "url": "https://www.sram.com/globalassets/document-hierarchy/service-manuals/rockshox/front-suspension/2023-zeb-lyrik-pike-service-manual.pdf#page=22"
+    },
+    {
+      "id": "source-7",
+      "title": "RockShox · platform reference",
+      "url": "https://www.sram.com/globalassets/document-hierarchy/service-manuals/rockshox/front-suspension/2023-zeb-lyrik-pike-service-manual.pdf#page=28"
+    },
+    {
+      "id": "source-8",
+      "title": "RockShox · controls reference",
+      "url": "https://www.sram.com/globalassets/document-hierarchy/service-manuals/rockshox/front-suspension/2023-zeb-lyrik-pike-service-manual.pdf#page=34"
+    },
+    {
+      "id": "source-9",
+      "title": "RockShox · Charger 3.1 · 공식 정면 렌더",
+      "url": "https://www.sram.com/en/rockshox/collections/charger-3.1"
+    }
+  ],
+  "panels": [
+    {
+      "id": "compression",
+      "labelKey": "compression",
+      "photos": [
+        {
+          "id": "compression-1",
+          "image": {
+            "path": "compression-1.webp",
+            "width": 1024,
+            "height": 1024,
+            "bytes": 93684,
+            "sha256": "7c938600c30bc6f5355b936ae3bd7c20b306830b9335ebabac8307faadf2f4fa",
+            "sourceId": "source-9"
+          },
+          "viewpoint": "adjuster_face",
+          "controls": [
+            {
+              "id": "lsc",
+              "function": "LSC",
+              "position": "center",
+              "tool": {
+                "type": "hand"
+              },
+              "closeDirection": "clockwise",
+              "closeEffect": "more_compression_damping",
+              "anchor": {
+                "x": 0.593626,
+                "y": 0.536987
+              },
+              "labelOrder": 0
+            },
+            {
+              "id": "hsc",
+              "function": "HSC",
+              "position": "outer",
+              "tool": {
+                "type": "hand"
+              },
+              "closeDirection": "clockwise",
+              "closeEffect": "more_compression_damping",
+              "anchor": {
+                "x": 0.855984,
+                "y": 0.405737
+              },
+              "labelOrder": 1
+            }
+          ],
+          "preconditions": []
+        }
+      ]
+    }
+  ]
+}

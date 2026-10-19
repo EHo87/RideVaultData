@@ -1,0 +1,110 @@
+{
+  "schemaVersion": 2,
+  "guideId": "dvo-jade-x-prime",
+  "revision": 1,
+  "displayName": "DVO Jade X · Prime HSC/LSC",
+  "partType": "shock",
+  "years": [],
+  "variantId": "identified-platform",
+  "sources": [
+    {
+      "id": "source-1",
+      "title": "DVO · platform reference",
+      "url": "https://dvosuspension.com/wp-content/uploads/2024/05/DVO-Jade-X-Setup-Guide-May16.pdf"
+    },
+    {
+      "id": "source-2",
+      "title": "DVO · Prime HSC · LSC",
+      "url": "https://dvosuspension.com/product/jade-x/"
+    }
+  ],
+  "panels": [
+    {
+      "id": "compression",
+      "labelKey": "compression",
+      "photos": [
+        {
+          "id": "compression-1",
+          "image": {
+            "path": "compression-1.webp",
+            "width": 1024,
+            "height": 1024,
+            "bytes": 95800,
+            "sha256": "c858f01a02a9a3d744662f7617ed4b824e92e1ced1a1e828098bc34d5cf1a5b0",
+            "sourceId": "source-2"
+          },
+          "viewpoint": "adjuster_face",
+          "controls": [
+            {
+              "id": "lsc",
+              "function": "LSC",
+              "position": "center",
+              "tool": {
+                "type": "hand"
+              },
+              "closeDirection": "clockwise",
+              "closeEffect": "more_compression_damping",
+              "anchor": {
+                "x": 0.5,
+                "y": 0.565625
+              },
+              "labelOrder": 0
+            },
+            {
+              "id": "hsc",
+              "function": "HSC",
+              "position": "outer",
+              "tool": {
+                "type": "hand"
+              },
+              "closeDirection": "clockwise",
+              "closeEffect": "more_compression_damping",
+              "anchor": {
+                "x": 0.8,
+                "y": 0.59375
+              },
+              "labelOrder": 1
+            }
+          ],
+          "preconditions": []
+        }
+      ]
+    },
+    {
+      "id": "rebound",
+      "labelKey": "rebound",
+      "photos": [
+        {
+          "id": "rebound-2",
+          "image": {
+            "path": "rebound-2.webp",
+            "width": 1024,
+            "height": 1024,
+            "bytes": 61962,
+            "sha256": "1a830473f8f2543be6d147242824a65b38b8bbc04b62fe055f9047135f2cf80d",
+            "sourceId": "source-2"
+          },
+          "viewpoint": "adjuster_face",
+          "controls": [
+            {
+              "id": "rebound",
+              "function": "REBOUND",
+              "position": "standalone",
+              "tool": {
+                "type": "hand"
+              },
+              "closeDirection": "clockwise",
+              "closeEffect": "slower_rebound",
+              "anchor": {
+                "x": 0.5,
+                "y": 0.5
+              },
+              "labelOrder": 0
+            }
+          ],
+          "preconditions": []
+        }
+      ]
+    }
+  ]
+}

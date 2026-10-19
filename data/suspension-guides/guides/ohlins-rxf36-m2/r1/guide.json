@@ -1,0 +1,125 @@
+{
+  "schemaVersion": 2,
+  "guideId": "ohlins-rxf36-m2",
+  "revision": 1,
+  "displayName": "Öhlins RXF36 m.2 · TTX18",
+  "partType": "fork",
+  "years": [],
+  "variantId": "identified-platform",
+  "sources": [
+    {
+      "id": "source-1",
+      "title": "Öhlins · platform reference",
+      "url": "https://ohlins.com/storage/B799A00056AAEF9DE3E7BAB002F50562A6D1BA21B2998148273DF3D42E6199C0/4def7de90bca493cb2a999f99d34bdbf/pdf/media/fe3f1b241587489f98caf3f73ccd9139/OM_07258-07_7_MI_RXF36_m.2_AirCoil_TTX18.pdf"
+    },
+    {
+      "id": "source-2",
+      "title": "Öhlins · 압축 · LSC 강조",
+      "url": "https://www.ohlins.com/en-us/mountain-bike/front-forks/am-ohlins-rxf36-m-2-air-ttx18-27-5-38-160"
+    }
+  ],
+  "panels": [
+    {
+      "id": "compression",
+      "labelKey": "compression",
+      "photos": [
+        {
+          "id": "compression-1",
+          "image": {
+            "path": "compression-1.webp",
+            "width": 1024,
+            "height": 1024,
+            "bytes": 79670,
+            "sha256": "f50225af600f9084f78afd5a5ec9d0b0cdafb12845c4705768cff468a94a7317",
+            "sourceId": "source-2"
+          },
+          "viewpoint": "adjuster_face",
+          "controls": [
+            {
+              "id": "lsc",
+              "function": "LSC",
+              "position": "center",
+              "tool": {
+                "type": "hand"
+              },
+              "closeDirection": "clockwise",
+              "closeEffect": "more_compression_damping",
+              "anchor": {
+                "x": 0.51875,
+                "y": 0.425
+              },
+              "labelOrder": 0
+            }
+          ],
+          "preconditions": []
+        },
+        {
+          "id": "compression-2",
+          "image": {
+            "path": "compression-2.webp",
+            "width": 1024,
+            "height": 1024,
+            "bytes": 69492,
+            "sha256": "dc882f77d41f5b12aa996fd5fa4433aed8fd25bb801ff31af56dc8ab6cd45a6a",
+            "sourceId": "source-2"
+          },
+          "viewpoint": "adjuster_face",
+          "controls": [
+            {
+              "id": "hsc",
+              "function": "HSC",
+              "position": "outer",
+              "tool": {
+                "type": "hand"
+              },
+              "closeDirection": "clockwise",
+              "closeEffect": "more_compression_damping",
+              "anchor": {
+                "x": 0.70625,
+                "y": 0.51875
+              },
+              "labelOrder": 0
+            }
+          ],
+          "preconditions": []
+        }
+      ]
+    },
+    {
+      "id": "rebound",
+      "labelKey": "rebound",
+      "photos": [
+        {
+          "id": "rebound-3",
+          "image": {
+            "path": "rebound-3.webp",
+            "width": 1024,
+            "height": 1024,
+            "bytes": 57732,
+            "sha256": "d8b9a277ca4005bd7409a8abaf4bddfc9760b8c0723e5bede27dcb92a4989da3",
+            "sourceId": "source-2"
+          },
+          "viewpoint": "adjuster_face",
+          "controls": [
+            {
+              "id": "rebound",
+              "function": "REBOUND",
+              "position": "lower",
+              "tool": {
+                "type": "hand"
+              },
+              "closeDirection": "clockwise",
+              "closeEffect": "slower_rebound",
+              "anchor": {
+                "x": 0.5375,
+                "y": 0.575
+              },
+              "labelOrder": 0
+            }
+          ],
+          "preconditions": []
+        }
+      ]
+    }
+  ]
+}

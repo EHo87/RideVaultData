@@ -1,0 +1,164 @@
+{
+  "schemaVersion": 2,
+  "guideId": "ext-arma-storia-v4-arma-v4",
+  "revision": 1,
+  "displayName": "EXT Arma V4",
+  "partType": "shock",
+  "years": [],
+  "variantId": "identified-platform",
+  "sources": [
+    {
+      "id": "source-1",
+      "title": "EXT · platform reference",
+      "url": "https://extremeshox.com/support/"
+    },
+    {
+      "id": "source-2",
+      "title": "EXT · original image / manual",
+      "url": "https://extremeshox.com/wp-content/uploads/2024/06/Arma-Storia-V4-Quick-Manual.pdf"
+    }
+  ],
+  "panels": [
+    {
+      "id": "compression",
+      "labelKey": "compression",
+      "photos": [
+        {
+          "id": "compression-1",
+          "image": {
+            "path": "compression-1.webp",
+            "width": 1024,
+            "height": 1024,
+            "bytes": 44582,
+            "sha256": "e5f6b9761ed7f0f41b513f9ee9241edd79f22a316770ffaf274aeb86706f6ad1",
+            "sourceId": "source-1"
+          },
+          "viewpoint": "adjuster_face",
+          "controls": [
+            {
+              "id": "lsc",
+              "function": "LSC",
+              "position": "center",
+              "tool": {
+                "type": "hex",
+                "sizeMm": 4
+              },
+              "closeDirection": "clockwise",
+              "closeEffect": "more_compression_damping",
+              "anchor": {
+                "x": 0.425,
+                "y": 0.471875
+              },
+              "labelOrder": 0
+            }
+          ],
+          "preconditions": []
+        },
+        {
+          "id": "compression-2",
+          "image": {
+            "path": "compression-2.webp",
+            "width": 1024,
+            "height": 1024,
+            "bytes": 45532,
+            "sha256": "f782bff478c1c595fdda607767258fdc64ffdce987f5493c117e1dc166782e8c",
+            "sourceId": "source-1"
+          },
+          "viewpoint": "adjuster_face",
+          "controls": [
+            {
+              "id": "hsc",
+              "function": "HSC",
+              "position": "outer",
+              "tool": {
+                "type": "hex",
+                "sizeMm": 5
+              },
+              "closeDirection": "clockwise",
+              "closeEffect": "more_compression_damping",
+              "anchor": {
+                "x": 0.40625,
+                "y": 0.5
+              },
+              "labelOrder": 0
+            }
+          ],
+          "preconditions": []
+        }
+      ]
+    },
+    {
+      "id": "rebound",
+      "labelKey": "rebound",
+      "photos": [
+        {
+          "id": "rebound-3",
+          "image": {
+            "path": "rebound-3.webp",
+            "width": 1024,
+            "height": 1024,
+            "bytes": 32966,
+            "sha256": "667446361b398a349d22ccdd3587b6dc2c8b8d2b14b3c1bdb3e5140f452c29c5",
+            "sourceId": "source-1"
+          },
+          "viewpoint": "adjuster_face",
+          "controls": [
+            {
+              "id": "rebound",
+              "function": "REBOUND",
+              "position": "standalone",
+              "tool": {
+                "type": "hand"
+              },
+              "closeDirection": "clockwise",
+              "closeEffect": "slower_rebound",
+              "anchor": {
+                "x": 0.340625,
+                "y": 0.25625
+              },
+              "labelOrder": 0
+            }
+          ],
+          "preconditions": []
+        }
+      ]
+    },
+    {
+      "id": "hbc",
+      "labelKey": "hbc",
+      "photos": [
+        {
+          "id": "hbc-4",
+          "image": {
+            "path": "hbc-4.webp",
+            "width": 1024,
+            "height": 1024,
+            "bytes": 43978,
+            "sha256": "7940caa3dcd362324c8c1867e18319347ac4feeb889b4fb056cca6c780592c96",
+            "sourceId": "source-1"
+          },
+          "viewpoint": "adjuster_face",
+          "controls": [
+            {
+              "id": "hbc",
+              "function": "HBC",
+              "position": "standalone",
+              "tool": {
+                "type": "hex",
+                "sizeMm": 4
+              },
+              "closeDirection": "clockwise",
+              "closeEffect": "more_bottom_out_damping",
+              "anchor": {
+                "x": 0.3875,
+                "y": 0.378125
+              },
+              "labelOrder": 0
+            }
+          ],
+          "preconditions": []
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,143 @@
+{
+  "schemaVersion": 2,
+  "guideId": "fox-shock-float-x2-2026",
+  "revision": 1,
+  "displayName": "FOX FLOAT X2 · 2026 · external rebound adjusters",
+  "partType": "shock",
+  "years": [],
+  "variantId": "identified-platform",
+  "sources": [
+    {
+      "id": "source-1",
+      "title": "FOX · platform reference",
+      "url": "https://tech.ridefox.com/bike/owners-manuals/3023/shock--2026-float-x2"
+    },
+    {
+      "id": "source-2",
+      "title": "FOX · adjuster instructions",
+      "url": "https://serenity-foxfactory.asset.akeneo.cloud/fox_asset_family/media/605_00_321REVBFLOATX2ShockOwner_sGuide.pdf"
+    },
+    {
+      "id": "source-3",
+      "title": "FOX · original image / manual",
+      "url": "https://tech.ridefox.com/img/help/page3023-72BQ/inline/FX2-HSC-LSC.jpg"
+    },
+    {
+      "id": "source-4",
+      "title": "FOX · original image / manual",
+      "url": "https://tech.ridefox.com/img/help/page3023-72BQ/inline/FX2-HSR-LSR.jpg"
+    }
+  ],
+  "panels": [
+    {
+      "id": "compression",
+      "labelKey": "compression",
+      "photos": [
+        {
+          "id": "compression-1",
+          "image": {
+            "path": "compression-1.webp",
+            "width": 1024,
+            "height": 1024,
+            "bytes": 28572,
+            "sha256": "eadec91e2d16b5a5596c451c837fca729535aa5111dcdd93521d45e18cccd52b",
+            "sourceId": "source-1"
+          },
+          "viewpoint": "adjuster_face",
+          "controls": [
+            {
+              "id": "lsc",
+              "function": "LSC",
+              "position": "center",
+              "tool": {
+                "type": "hex",
+                "sizeMm": 3
+              },
+              "closeDirection": "clockwise",
+              "closeEffect": "more_compression_damping",
+              "anchor": {
+                "x": 0.488037,
+                "y": 0.467219
+              },
+              "labelOrder": 0
+            },
+            {
+              "id": "hsc",
+              "function": "HSC",
+              "position": "outer",
+              "tool": {
+                "type": "hex",
+                "sizeMm": 6
+              },
+              "closeDirection": "clockwise",
+              "closeEffect": "more_compression_damping",
+              "anchor": {
+                "x": 0.575076,
+                "y": 0.554294
+              },
+              "labelOrder": 1
+            }
+          ],
+          "preconditions": [
+            "compression_lever_open_if_present"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "rebound",
+      "labelKey": "rebound",
+      "photos": [
+        {
+          "id": "rebound-2",
+          "image": {
+            "path": "rebound-2.webp",
+            "width": 1024,
+            "height": 1024,
+            "bytes": 22916,
+            "sha256": "90ca98617b5a159b215dfb92d274f4620f031547a41bb0fca9977326f01bc451",
+            "sourceId": "source-1"
+          },
+          "viewpoint": "adjuster_face",
+          "controls": [
+            {
+              "id": "lsr",
+              "function": "LSR",
+              "position": "outer",
+              "tool": {
+                "type": "hex",
+                "sizeMm": 2
+              },
+              "closeDirection": "clockwise",
+              "closeEffect": "slower_rebound",
+              "anchor": {
+                "x": 0.80625,
+                "y": 0.33406
+              },
+              "labelOrder": 0
+            },
+            {
+              "id": "hsr",
+              "function": "HSR",
+              "position": "center",
+              "tool": {
+                "type": "hex",
+                "sizeMm": 2
+              },
+              "closeDirection": "clockwise",
+              "closeEffect": "slower_rebound",
+              "anchor": {
+                "x": 0.585074,
+                "y": 0.428184
+              },
+              "labelOrder": 1
+            }
+          ],
+          "preconditions": [
+            "rebound_tool_side_hole"
+          ]
+        }
+      ]
+    }
+  ]
+}

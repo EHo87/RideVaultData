@@ -1,0 +1,59 @@
+{
+  "schemaVersion": 2,
+  "guideId": "formula-selva-c",
+  "revision": 1,
+  "displayName": "Formula Selva C · rebound",
+  "partType": "fork",
+  "years": [],
+  "variantId": "identified-platform",
+  "sources": [
+    {
+      "id": "source-1",
+      "title": "Formula · platform reference",
+      "url": "https://www.rideformula.com/support/downloads/"
+    },
+    {
+      "id": "source-2",
+      "title": "Formula · original image / manual",
+      "url": "https://www.rideformula.com/wp-content/uploads/2018/10/2021_02-FORCEL_SELVA_C_GB.pdf"
+    }
+  ],
+  "panels": [
+    {
+      "id": "rebound",
+      "labelKey": "rebound",
+      "photos": [
+        {
+          "id": "rebound-1",
+          "image": {
+            "path": "rebound-1.webp",
+            "width": 1024,
+            "height": 1024,
+            "bytes": 28670,
+            "sha256": "c1fea988dfae6ff37b0c32f1454de0d04af750bdfc1224018027e2aee27fd5d8",
+            "sourceId": "source-1"
+          },
+          "viewpoint": "adjuster_face",
+          "controls": [
+            {
+              "id": "rebound",
+              "function": "REBOUND",
+              "position": "standalone",
+              "tool": {
+                "type": "hand"
+              },
+              "closeDirection": "clockwise",
+              "closeEffect": "slower_rebound",
+              "anchor": {
+                "x": 0.509375,
+                "y": 0.55625
+              },
+              "labelOrder": 0
+            }
+          ],
+          "preconditions": []
+        }
+      ]
+    }
+  ]
+}

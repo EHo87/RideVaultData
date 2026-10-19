@@ -1,0 +1,135 @@
+{
+  "schemaVersion": 1,
+  "guideId": "fox-float-x2-factory-2026",
+  "revision": 1,
+  "displayName": "FOX FLOAT X2 Factory",
+  "partType": "shock",
+  "years": [
+    2026
+  ],
+  "variantId": "factory",
+  "sources": [
+    {
+      "id": "fox-manual",
+      "title": "FOX 2026 FLOAT X2 image source",
+      "url": "https://tech.ridefox.com/bike/owners-manuals/3023/shock--2026-float-x2"
+    },
+    {
+      "id": "fox-revb",
+      "title": "FLOAT X2 Owner’s Guide 605-00-321 REV B · pp. 7–8",
+      "url": "https://serenity-foxfactory.asset.akeneo.cloud/fox_asset_family/media/605_00_321REVBFLOATX2ShockOwner_sGuide.pdf"
+    }
+  ],
+  "panels": [
+    {
+      "id": "compression",
+      "labelKey": "compression",
+      "photos": [
+        {
+          "id": "compression-overview",
+          "image": {
+            "path": "compression.webp",
+            "width": 1024,
+            "height": 1024,
+            "bytes": 42024,
+            "sha256": "c4a91364916957f58afbea549fe0fcd5fd9c2fb782b6bcbc3e17a7c9d080308a",
+            "sourceId": "fox-manual"
+          },
+          "viewpoint": "adjuster_face",
+          "controls": [
+            {
+              "id": "lsc",
+              "function": "LSC",
+              "position": "center",
+              "tool": {
+                "type": "hex",
+                "sizeMm": 3
+              },
+              "closeDirection": "clockwise",
+              "closeEffect": "more_compression_damping",
+              "anchor": {
+                "x": 0.679846,
+                "y": 0.34976
+              },
+              "labelOrder": 0
+            },
+            {
+              "id": "hsc",
+              "function": "HSC",
+              "position": "outer",
+              "tool": {
+                "type": "hex",
+                "sizeMm": 6
+              },
+              "closeDirection": "clockwise",
+              "closeEffect": "more_compression_damping",
+              "anchor": {
+                "x": 0.711104,
+                "y": 0.395433
+              },
+              "labelOrder": 1
+            }
+          ],
+          "preconditions": [
+            "compression_lever_open_if_present"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "rebound",
+      "labelKey": "rebound",
+      "photos": [
+        {
+          "id": "rebound-overview",
+          "image": {
+            "path": "rebound.webp",
+            "width": 1024,
+            "height": 1024,
+            "bytes": 28936,
+            "sha256": "b63a8d60dff14ca8036dbb88441f029e4a94b8d72348ec283d807858505ad884",
+            "sourceId": "fox-manual"
+          },
+          "viewpoint": "adjuster_face",
+          "controls": [
+            {
+              "id": "lsr",
+              "function": "LSR",
+              "position": "outer",
+              "tool": {
+                "type": "hex",
+                "sizeMm": 2
+              },
+              "closeDirection": "clockwise",
+              "closeEffect": "slower_rebound",
+              "anchor": {
+                "x": 0.806818,
+                "y": 0.278409
+              },
+              "labelOrder": 0
+            },
+            {
+              "id": "hsr",
+              "function": "HSR",
+              "position": "center",
+              "tool": {
+                "type": "hex",
+                "sizeMm": 2
+              },
+              "closeDirection": "clockwise",
+              "closeEffect": "slower_rebound",
+              "anchor": {
+                "x": 0.649148,
+                "y": 0.329545
+              },
+              "labelOrder": 1
+            }
+          ],
+          "preconditions": [
+            "rebound_tool_side_hole"
+          ]
+        }
+      ]
+    }
+  ]
+}

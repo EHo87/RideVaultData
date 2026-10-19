@@ -1,0 +1,100 @@
+{
+  "schemaVersion": 2,
+  "guideId": "marzocchi-fork-z1-dj-grip",
+  "revision": 1,
+  "displayName": "Marzocchi Bomber Z1 · GRIP Sweep",
+  "partType": "fork",
+  "years": [],
+  "variantId": "identified-platform",
+  "sources": [
+    {
+      "id": "source-1",
+      "title": "Marzocchi · platform reference",
+      "url": "https://tech.ridefox.com/bike/owners-manuals/2837/bomber-z1-or-dj"
+    },
+    {
+      "id": "source-2",
+      "title": "Marzocchi · platform reference",
+      "url": "https://tech.ridefox.com/bike/parts-drawings/961/bomber-z1"
+    },
+    {
+      "id": "source-3",
+      "title": "Marzocchi · original image / manual",
+      "url": "https://tech.ridefox.com/img/help/page2836-KNVM/inline/605-00-256_RevB_DJ-Z1_TuningGuide.pdf"
+    }
+  ],
+  "panels": [
+    {
+      "id": "compression",
+      "labelKey": "compression",
+      "photos": [
+        {
+          "id": "compression-1",
+          "image": {
+            "path": "compression-1.webp",
+            "width": 1024,
+            "height": 1024,
+            "bytes": 49668,
+            "sha256": "7c3c13316f80818026796c654628d1a922ec555eba12acb9fb5ac01dfe26f3e3",
+            "sourceId": "source-1"
+          },
+          "viewpoint": "adjuster_face",
+          "controls": [
+            {
+              "id": "compression",
+              "function": "COMPRESSION",
+              "position": "standalone",
+              "tool": {
+                "type": "hand"
+              },
+              "closeDirection": "clockwise",
+              "closeEffect": "more_compression_damping",
+              "anchor": {
+                "x": 0.5,
+                "y": 0.546875
+              },
+              "labelOrder": 0
+            }
+          ],
+          "preconditions": []
+        }
+      ]
+    },
+    {
+      "id": "rebound",
+      "labelKey": "rebound",
+      "photos": [
+        {
+          "id": "rebound-2",
+          "image": {
+            "path": "rebound-2.webp",
+            "width": 1024,
+            "height": 1024,
+            "bytes": 16870,
+            "sha256": "f84d906f267a67656218c3064c8b8a55d95b174231d854d7577a30fd8d1b525f",
+            "sourceId": "source-1"
+          },
+          "viewpoint": "adjuster_face",
+          "controls": [
+            {
+              "id": "rebound",
+              "function": "REBOUND",
+              "position": "standalone",
+              "tool": {
+                "type": "hand"
+              },
+              "closeDirection": "clockwise",
+              "closeEffect": "slower_rebound",
+              "anchor": {
+                "x": 0.359375,
+                "y": 0.790625
+              },
+              "labelOrder": 0
+            }
+          ],
+          "preconditions": []
+        }
+      ]
+    }
+  ]
+}

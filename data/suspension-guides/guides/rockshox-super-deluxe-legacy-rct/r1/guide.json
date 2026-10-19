@@ -1,0 +1,64 @@
+{
+  "schemaVersion": 2,
+  "guideId": "rockshox-super-deluxe-legacy-rct",
+  "revision": 1,
+  "displayName": "RockShox Super Deluxe · Gen A/B RCT · separate LSC knob",
+  "partType": "shock",
+  "years": [],
+  "variantId": "identified-platform",
+  "sources": [
+    {
+      "id": "source-1",
+      "title": "RockShox · platform reference",
+      "url": "https://www.sram.com/globalassets/document-hierarchy/service-manuals/rockshox/rear-suspension/2018-2022-super-deluxe-service-manual-english.pdf#page=8"
+    },
+    {
+      "id": "source-2",
+      "title": "RockShox · platform reference",
+      "url": "https://www.sram.com/globalassets/document-hierarchy/service-manuals/rockshox/rear-suspension/2018-2022-super-deluxe-service-manual-english.pdf#page=20"
+    },
+    {
+      "id": "source-3",
+      "title": "RockShox · Super Deluxe 구형 · LSC 노브",
+      "url": "https://docs.sram.com/en-US/publications/5ODr3E6BhL1uWDnWhq4ATB/UM%20-%20Suspension"
+    }
+  ],
+  "panels": [
+    {
+      "id": "compression",
+      "labelKey": "compression",
+      "photos": [
+        {
+          "id": "compression-1",
+          "image": {
+            "path": "compression-1.webp",
+            "width": 1024,
+            "height": 1024,
+            "bytes": 35472,
+            "sha256": "f9432a1d5be594dca853e727694370c0e42d11838cd5e24d5a308b864dc3ddd6",
+            "sourceId": "source-3"
+          },
+          "viewpoint": "adjuster_face",
+          "controls": [
+            {
+              "id": "compression",
+              "function": "COMPRESSION",
+              "position": "standalone",
+              "tool": {
+                "type": "hand"
+              },
+              "closeDirection": "clockwise",
+              "closeEffect": "more_compression_damping",
+              "anchor": {
+                "x": 0.480533,
+                "y": 0.42808
+              },
+              "labelOrder": 0
+            }
+          ],
+          "preconditions": []
+        }
+      ]
+    }
+  ]
+}

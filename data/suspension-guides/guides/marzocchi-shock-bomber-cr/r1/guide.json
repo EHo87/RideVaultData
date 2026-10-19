@@ -1,0 +1,95 @@
+{
+  "schemaVersion": 2,
+  "guideId": "marzocchi-shock-bomber-cr",
+  "revision": 1,
+  "displayName": "Marzocchi Bomber CR",
+  "partType": "shock",
+  "years": [],
+  "variantId": "identified-platform",
+  "sources": [
+    {
+      "id": "source-1",
+      "title": "Marzocchi · platform reference",
+      "url": "https://tech.ridefox.com/bike/owners-manuals/2840/bomber-cr"
+    },
+    {
+      "id": "source-2",
+      "title": "Marzocchi · original image / manual",
+      "url": "https://tech.ridefox.com/img/help/page2836-KNVM/inline/605-00-205_Marzocchi-BomberCR-Tuning-Guide-white-RevA.pdf"
+    }
+  ],
+  "panels": [
+    {
+      "id": "compression",
+      "labelKey": "compression",
+      "photos": [
+        {
+          "id": "compression-1",
+          "image": {
+            "path": "compression-1.webp",
+            "width": 1024,
+            "height": 1024,
+            "bytes": 25202,
+            "sha256": "4bfcc2faf63c2ae07b46cd44dc8bd9cabacc752fdbcbbff7746e3cfb6e6be2d2",
+            "sourceId": "source-1"
+          },
+          "viewpoint": "adjuster_face",
+          "controls": [
+            {
+              "id": "lsc",
+              "function": "LSC",
+              "position": "standalone",
+              "tool": {
+                "type": "hand"
+              },
+              "closeDirection": "clockwise",
+              "closeEffect": "more_compression_damping",
+              "anchor": {
+                "x": 0.228125,
+                "y": 0.415625
+              },
+              "labelOrder": 0
+            }
+          ],
+          "preconditions": []
+        }
+      ]
+    },
+    {
+      "id": "rebound",
+      "labelKey": "rebound",
+      "photos": [
+        {
+          "id": "rebound-2",
+          "image": {
+            "path": "rebound-2.webp",
+            "width": 1024,
+            "height": 1024,
+            "bytes": 20696,
+            "sha256": "4bacb02ae33db0cff9b78c375b6b1efc8e8983316d6d92685ea29de5f190ee79",
+            "sourceId": "source-1"
+          },
+          "viewpoint": "adjuster_face",
+          "controls": [
+            {
+              "id": "rebound",
+              "function": "REBOUND",
+              "position": "standalone",
+              "tool": {
+                "type": "hand"
+              },
+              "closeDirection": "clockwise",
+              "closeEffect": "slower_rebound",
+              "anchor": {
+                "x": 0.5,
+                "y": 0.6875
+              },
+              "labelOrder": 0
+            }
+          ],
+          "preconditions": []
+        }
+      ]
+    }
+  ]
+}

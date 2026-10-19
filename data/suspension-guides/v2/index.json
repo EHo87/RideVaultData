@@ -1,0 +1,1585 @@
+{
+  "schemaVersion": 2,
+  "revision": 2,
+  "updatedAt": "2026-10-19",
+  "guides": [
+    {
+      "guideId": "fox-float-x2-factory-2019",
+      "revision": 1,
+      "partType": "shock",
+      "brandSlug": "fox",
+      "brandAliases": [
+        "FOX",
+        "Fox Racing Shox"
+      ],
+      "modelAliases": [
+        "FLOAT X2",
+        "FLOAT X2 Factory"
+      ],
+      "years": [
+        2019
+      ],
+      "variantId": "factory",
+      "variantLabel": "Factory · HSC / LSC / HSR / LSR",
+      "confirmedVariantModelAliases": [
+        "FLOAT X2 Factory"
+      ],
+      "requiresVariantConfirmation": true,
+      "guidePath": "suspension-guides/guides/fox-float-x2-factory-2019/r1/guide.json",
+      "guideSha256": "21e5754d7205fcdeacd8a37101affbda0730b84ba6057468438d62bd16fc3a02",
+      "guideBytes": 3368
+    },
+    {
+      "guideId": "fox-float-x2-factory-2026",
+      "revision": 1,
+      "partType": "shock",
+      "brandSlug": "fox",
+      "brandAliases": [
+        "FOX",
+        "Fox Racing Shox"
+      ],
+      "modelAliases": [
+        "FLOAT X2",
+        "FLOAT X2 Factory"
+      ],
+      "years": [
+        2026
+      ],
+      "variantId": "factory",
+      "variantLabel": "Factory · 2026 external rebound knobs",
+      "confirmedVariantModelAliases": [
+        "FLOAT X2 Factory"
+      ],
+      "requiresVariantConfirmation": true,
+      "guidePath": "suspension-guides/guides/fox-float-x2-factory-2026/r1/guide.json",
+      "guideSha256": "a5ae92ab25f713d8469dc06fc01c514324ed0ef036c793b52fffdd3ea522028f",
+      "guideBytes": 3660
+    },
+    {
+      "guideId": "rockshox-charger3-2023-2024",
+      "revision": 1,
+      "partType": "fork",
+      "brandSlug": "rockshox",
+      "brandAliases": [
+        "RockShox",
+        "Rock Shox"
+      ],
+      "modelAliases": [
+        "Pike",
+        "Pike Ultimate",
+        "Pike Select+",
+        "Pike Ultimate Charger 3 RC2",
+        "Pike Select+ Charger 3 RC2",
+        "Lyrik",
+        "Lyrik Ultimate",
+        "Lyrik Select+",
+        "Lyrik Ultimate Charger 3 RC2",
+        "Lyrik Select+ Charger 3 RC2",
+        "ZEB",
+        "ZEB Ultimate",
+        "ZEB Select+",
+        "ZEB Ultimate Charger 3 RC2",
+        "ZEB Select+ Charger 3 RC2"
+      ],
+      "years": [
+        2023,
+        2024
+      ],
+      "variantId": "charger3-rc2",
+      "variantLabel": "Charger 3 RC2 · Ultimate / Select+",
+      "confirmedVariantModelAliases": [
+        "Pike Ultimate Charger 3 RC2",
+        "Pike Select+ Charger 3 RC2",
+        "Lyrik Ultimate Charger 3 RC2",
+        "Lyrik Select+ Charger 3 RC2",
+        "ZEB Ultimate Charger 3 RC2",
+        "ZEB Select+ Charger 3 RC2"
+      ],
+      "requiresVariantConfirmation": true,
+      "guidePath": "suspension-guides/guides/rockshox-charger3-2023-2024/r1/guide.json",
+      "guideSha256": "9297a2fa9385a83e08936867d4dfcf8457aaeb7cbe118e93bfaba353b203e643",
+      "guideBytes": 2141
+    },
+    {
+      "guideId": "fox-fork-grip2-2019-2024",
+      "revision": 1,
+      "partType": "fork",
+      "brandSlug": "fox",
+      "brandAliases": [
+        "FOX",
+        "Fox Racing Shox"
+      ],
+      "modelAliases": [
+        "36",
+        "36 Factory",
+        "36 Performance Elite",
+        "38",
+        "38 Factory",
+        "38 Performance Elite"
+      ],
+      "years": [],
+      "variantId": "identified-platform",
+      "variantLabel": "36 / 38 · GRIP2 · HSC/LSC/HSR/LSR",
+      "confirmedVariantModelAliases": [],
+      "requiresVariantConfirmation": true,
+      "matchingMode": "platform_confirmation",
+      "guidePath": "suspension-guides/guides/fox-fork-grip2-2019-2024/r1/guide.json",
+      "guideSha256": "bb9e9a9f66b4e339c620ec3c9039031c232818897a25f70c73619a5225bcfa51",
+      "guideBytes": 4376
+    },
+    {
+      "guideId": "fox-fork-fit4-2019-2024",
+      "revision": 1,
+      "partType": "fork",
+      "brandSlug": "fox",
+      "brandAliases": [
+        "FOX",
+        "Fox Racing Shox"
+      ],
+      "modelAliases": [
+        "34",
+        "34 Factory",
+        "34 Performance Elite",
+        "36",
+        "36 Factory",
+        "36 Performance Elite"
+      ],
+      "years": [],
+      "variantId": "identified-platform",
+      "variantLabel": "34 / 36 · FIT4 · Open mode adjust",
+      "confirmedVariantModelAliases": [],
+      "requiresVariantConfirmation": true,
+      "matchingMode": "platform_confirmation",
+      "guidePath": "suspension-guides/guides/fox-fork-fit4-2019-2024/r1/guide.json",
+      "guideSha256": "d13ba7be01bc378ad934c1a56749090d8a351b74ad226ba6b4faa4d1dbaceb41",
+      "guideBytes": 3553
+    },
+    {
+      "guideId": "fox-fork-grip-lever-2019-2024",
+      "revision": 1,
+      "partType": "fork",
+      "brandSlug": "fox",
+      "brandAliases": [
+        "FOX",
+        "Fox Racing Shox"
+      ],
+      "modelAliases": [
+        "34",
+        "34 Factory",
+        "34 Performance Elite",
+        "34 Performance",
+        "34 Rhythm",
+        "36",
+        "36 Factory",
+        "36 Performance Elite",
+        "36 Performance",
+        "36 Rhythm",
+        "38",
+        "38 Factory",
+        "38 Performance Elite",
+        "38 Performance",
+        "38 Rhythm"
+      ],
+      "years": [],
+      "variantId": "identified-platform",
+      "variantLabel": "34 / 36 / 38 · GRIP · blue lever",
+      "confirmedVariantModelAliases": [],
+      "requiresVariantConfirmation": true,
+      "matchingMode": "platform_confirmation",
+      "guidePath": "suspension-guides/guides/fox-fork-grip-lever-2019-2024/r1/guide.json",
+      "guideSha256": "e3c85c1b747b5b4513bd7b15e6463c67f498777906f64e59b666a3f520d5fd4c",
+      "guideBytes": 3508
+    },
+    {
+      "guideId": "fox-fork-grip-2025-2026",
+      "revision": 1,
+      "partType": "fork",
+      "brandSlug": "fox",
+      "brandAliases": [
+        "FOX",
+        "Fox Racing Shox"
+      ],
+      "modelAliases": [
+        "34",
+        "34 Factory",
+        "34 Performance Elite",
+        "34 Performance",
+        "36",
+        "36 Factory",
+        "36 Performance Elite",
+        "36 Performance",
+        "38",
+        "38 Factory",
+        "38 Performance Elite",
+        "38 Performance"
+      ],
+      "years": [],
+      "variantId": "identified-platform",
+      "variantLabel": "34 / 36 / 38 · GRIP · 2025/2026 lever",
+      "confirmedVariantModelAliases": [],
+      "requiresVariantConfirmation": true,
+      "matchingMode": "platform_confirmation",
+      "guidePath": "suspension-guides/guides/fox-fork-grip-2025-2026/r1/guide.json",
+      "guideSha256": "c1b2be4ad4a1c1baa4f599b35cae3dfcb6109a4f7b529a6d43a58a225a716fe9",
+      "guideBytes": 2339
+    },
+    {
+      "guideId": "fox-fork-grip-x-2025-2026",
+      "revision": 1,
+      "partType": "fork",
+      "brandSlug": "fox",
+      "brandAliases": [
+        "FOX",
+        "Fox Racing Shox"
+      ],
+      "modelAliases": [
+        "36",
+        "36 Factory",
+        "36 Performance Elite",
+        "38",
+        "38 Factory",
+        "38 Performance Elite"
+      ],
+      "years": [],
+      "variantId": "identified-platform",
+      "variantLabel": "36 / 38 · GRIP X",
+      "confirmedVariantModelAliases": [],
+      "requiresVariantConfirmation": true,
+      "matchingMode": "platform_confirmation",
+      "guidePath": "suspension-guides/guides/fox-fork-grip-x-2025-2026/r1/guide.json",
+      "guideSha256": "d887928971c6154d8be848ef90e48a1958d0683b0c067f67ddcf22eee2122029",
+      "guideBytes": 2755
+    },
+    {
+      "guideId": "fox-fork-grip-x2-2025-2026",
+      "revision": 1,
+      "partType": "fork",
+      "brandSlug": "fox",
+      "brandAliases": [
+        "FOX",
+        "Fox Racing Shox"
+      ],
+      "modelAliases": [
+        "36",
+        "36 Factory",
+        "36 Performance Elite",
+        "38",
+        "38 Factory",
+        "38 Performance Elite"
+      ],
+      "years": [],
+      "variantId": "identified-platform",
+      "variantLabel": "36 / 38 · GRIP X2",
+      "confirmedVariantModelAliases": [],
+      "requiresVariantConfirmation": true,
+      "matchingMode": "platform_confirmation",
+      "guidePath": "suspension-guides/guides/fox-fork-grip-x2-2025-2026/r1/guide.json",
+      "guideSha256": "e392990ea9c54b08ac01db3aae9e1892e1eea88b94edd25097f2f8225e692f13",
+      "guideBytes": 4052
+    },
+    {
+      "guideId": "fox-shock-x2-dhx2-2019-2020",
+      "revision": 1,
+      "partType": "shock",
+      "brandSlug": "fox",
+      "brandAliases": [
+        "FOX",
+        "Fox Racing Shox"
+      ],
+      "modelAliases": [
+        "Float X2",
+        "Float X2 Factory",
+        "Float X2 Performance Elite",
+        "X2",
+        "DHX2",
+        "DHX2 Factory",
+        "DHX2 Performance Elite"
+      ],
+      "years": [],
+      "variantId": "identified-platform",
+      "variantLabel": "FLOAT X2 / DHX2 · 2019–2020 · 3/6 mm rebound",
+      "confirmedVariantModelAliases": [],
+      "requiresVariantConfirmation": true,
+      "matchingMode": "platform_confirmation",
+      "guidePath": "suspension-guides/guides/fox-shock-x2-dhx2-2019-2020/r1/guide.json",
+      "guideSha256": "2d6960bb649f2eb15bf2577cad0b2300560f8122d0b30c90686079626fb032be",
+      "guideBytes": 4313
+    },
+    {
+      "guideId": "fox-shock-float-x2-2021-2025",
+      "revision": 1,
+      "partType": "shock",
+      "brandSlug": "fox",
+      "brandAliases": [
+        "FOX",
+        "Fox Racing Shox"
+      ],
+      "modelAliases": [
+        "Float X2",
+        "Float X2 Factory",
+        "Float X2 Performance Elite",
+        "X2"
+      ],
+      "years": [],
+      "variantId": "identified-platform",
+      "variantLabel": "Float X2 · 2021–2025 · separate HSR / LSR",
+      "confirmedVariantModelAliases": [],
+      "requiresVariantConfirmation": true,
+      "matchingMode": "platform_confirmation",
+      "guidePath": "suspension-guides/guides/fox-shock-float-x2-2021-2025/r1/guide.json",
+      "guideSha256": "20329a92b20585b02e0439634a3ce75d09051f95aaafdb6f654a751fca85657d",
+      "guideBytes": 5004
+    },
+    {
+      "guideId": "fox-shock-dhx2-2021-2025",
+      "revision": 1,
+      "partType": "shock",
+      "brandSlug": "fox",
+      "brandAliases": [
+        "FOX",
+        "Fox Racing Shox"
+      ],
+      "modelAliases": [
+        "DHX2",
+        "DHX2 Factory",
+        "DHX2 Performance Elite"
+      ],
+      "years": [],
+      "variantId": "identified-platform",
+      "variantLabel": "DHX2 · 2021–2025 · separate HSR / LSR",
+      "confirmedVariantModelAliases": [],
+      "requiresVariantConfirmation": true,
+      "matchingMode": "platform_confirmation",
+      "guidePath": "suspension-guides/guides/fox-shock-dhx2-2021-2025/r1/guide.json",
+      "guideSha256": "9d013c2c044e6bbf263739fbb1a31ac76d87eab9de66cded47bf688ed20b6f05",
+      "guideBytes": 5143
+    },
+    {
+      "guideId": "fox-shock-float-x2-2026",
+      "revision": 1,
+      "partType": "shock",
+      "brandSlug": "fox",
+      "brandAliases": [
+        "FOX",
+        "Fox Racing Shox"
+      ],
+      "modelAliases": [
+        "Float X2",
+        "Float X2 Factory",
+        "Float X2 Performance Elite",
+        "X2"
+      ],
+      "years": [],
+      "variantId": "identified-platform",
+      "variantLabel": "FLOAT X2 · 2026 · external rebound adjusters",
+      "confirmedVariantModelAliases": [],
+      "requiresVariantConfirmation": true,
+      "matchingMode": "platform_confirmation",
+      "guidePath": "suspension-guides/guides/fox-shock-float-x2-2026/r1/guide.json",
+      "guideSha256": "35d6895fd07f61597c5bc8dc9924393395bf87707a300ceca3790b1185538aa2",
+      "guideBytes": 3984
+    },
+    {
+      "guideId": "fox-shock-dhx2-2026",
+      "revision": 1,
+      "partType": "shock",
+      "brandSlug": "fox",
+      "brandAliases": [
+        "FOX",
+        "Fox Racing Shox"
+      ],
+      "modelAliases": [
+        "DHX2",
+        "DHX2 Factory",
+        "DHX2 Performance Elite"
+      ],
+      "years": [],
+      "variantId": "identified-platform",
+      "variantLabel": "DHX2 · 2026 · compression",
+      "confirmedVariantModelAliases": [],
+      "requiresVariantConfirmation": true,
+      "matchingMode": "platform_confirmation",
+      "guidePath": "suspension-guides/guides/fox-shock-dhx2-2026/r1/guide.json",
+      "guideSha256": "d47bb749ca43afb54d700c5eac41743af59bc1502a0f612ae8db1e327a168afb",
+      "guideBytes": 2101
+    },
+    {
+      "guideId": "fox-shock-float-x-2022-2026",
+      "revision": 1,
+      "partType": "shock",
+      "brandSlug": "fox",
+      "brandAliases": [
+        "FOX",
+        "Fox Racing Shox"
+      ],
+      "modelAliases": [
+        "Float X",
+        "Float X Factory",
+        "Float X Performance"
+      ],
+      "years": [],
+      "variantId": "identified-platform",
+      "variantLabel": "FLOAT X · external LSC dial",
+      "confirmedVariantModelAliases": [],
+      "requiresVariantConfirmation": true,
+      "matchingMode": "platform_confirmation",
+      "guidePath": "suspension-guides/guides/fox-shock-float-x-2022-2026/r1/guide.json",
+      "guideSha256": "e7b80d7a510da1fb7b836c41505970945a8a5874d438e84ef343757f3c929de2",
+      "guideBytes": 3437
+    },
+    {
+      "guideId": "fox-shock-float-dps-2019-2023",
+      "revision": 1,
+      "partType": "shock",
+      "brandSlug": "fox",
+      "brandAliases": [
+        "FOX",
+        "Fox Racing Shox"
+      ],
+      "modelAliases": [
+        "Float DPS",
+        "Float DPS Factory",
+        "Float DPS Performance",
+        "DPS"
+      ],
+      "years": [],
+      "variantId": "identified-platform",
+      "variantLabel": "FLOAT DPS · 3-position / Open mode adjust",
+      "confirmedVariantModelAliases": [],
+      "requiresVariantConfirmation": true,
+      "matchingMode": "platform_confirmation",
+      "guidePath": "suspension-guides/guides/fox-shock-float-dps-2019-2023/r1/guide.json",
+      "guideSha256": "c5b682857bbd4760243993bef5eeb44df4838a7c1e8d401203198d75e81a6658",
+      "guideBytes": 3472
+    },
+    {
+      "guideId": "fox-shock-dpx2-comp-adj-2020-2021",
+      "revision": 1,
+      "partType": "shock",
+      "brandSlug": "fox",
+      "brandAliases": [
+        "FOX",
+        "Fox Racing Shox"
+      ],
+      "modelAliases": [
+        "DPX2",
+        "DPX2 Factory",
+        "DPX2 Performance"
+      ],
+      "years": [],
+      "variantId": "identified-platform",
+      "variantLabel": "DPX2 · Comp Adj dial (not 3-position hex version)",
+      "confirmedVariantModelAliases": [],
+      "requiresVariantConfirmation": true,
+      "matchingMode": "platform_confirmation",
+      "guidePath": "suspension-guides/guides/fox-shock-dpx2-comp-adj-2020-2021/r1/guide.json",
+      "guideSha256": "951f6b419adace13c58988460d5882a6ef99f234977ac163dd9fc8fceb920987",
+      "guideBytes": 1802
+    },
+    {
+      "guideId": "rockshox-zeb-a1-charger21-rc2",
+      "revision": 1,
+      "partType": "fork",
+      "brandSlug": "rockshox",
+      "brandAliases": [
+        "RockShox",
+        "Rock Shox"
+      ],
+      "modelAliases": [
+        "ZEB",
+        "ZEB Ultimate"
+      ],
+      "years": [],
+      "variantId": "identified-platform",
+      "variantLabel": "ZEB · Charger 2.1 RC2",
+      "confirmedVariantModelAliases": [],
+      "requiresVariantConfirmation": true,
+      "matchingMode": "platform_confirmation",
+      "guidePath": "suspension-guides/guides/rockshox-zeb-a1-charger21-rc2/r1/guide.json",
+      "guideSha256": "35917e741cd8f1385ee8ec9213368f8681c177a6c09c41bc9d2818a933da3d4c",
+      "guideBytes": 3011
+    },
+    {
+      "guideId": "rockshox-lyrik-pike-charger21-rc2",
+      "revision": 1,
+      "partType": "fork",
+      "brandSlug": "rockshox",
+      "brandAliases": [
+        "RockShox",
+        "Rock Shox"
+      ],
+      "modelAliases": [
+        "Lyrik",
+        "Lyrik Ultimate",
+        "Pike",
+        "Pike Ultimate"
+      ],
+      "years": [],
+      "variantId": "identified-platform",
+      "variantLabel": "Lyrik / Pike · Charger 2.1 RC2",
+      "confirmedVariantModelAliases": [],
+      "requiresVariantConfirmation": true,
+      "matchingMode": "platform_confirmation",
+      "guidePath": "suspension-guides/guides/rockshox-lyrik-pike-charger21-rc2/r1/guide.json",
+      "guideSha256": "03cd27da2ce5a81ab1458c2b88423e65e24131046eae841c1ae070fac8e0a07a",
+      "guideBytes": 3080
+    },
+    {
+      "guideId": "rockshox-lyrik-pike-charger21-rct3",
+      "revision": 1,
+      "partType": "fork",
+      "brandSlug": "rockshox",
+      "brandAliases": [
+        "RockShox",
+        "Rock Shox"
+      ],
+      "modelAliases": [
+        "Pike",
+        "Pike Ultimate"
+      ],
+      "years": [],
+      "variantId": "identified-platform",
+      "variantLabel": "Pike · Charger RCT3 · confirm 3-position lever",
+      "confirmedVariantModelAliases": [],
+      "requiresVariantConfirmation": true,
+      "matchingMode": "platform_confirmation",
+      "guidePath": "suspension-guides/guides/rockshox-lyrik-pike-charger21-rct3/r1/guide.json",
+      "guideSha256": "ca906935d99e29854b392a419c295713c8aa183b1cb8909b03a1c203433a9dd3",
+      "guideBytes": 2229
+    },
+    {
+      "guideId": "rockshox-charger3-rc2",
+      "revision": 1,
+      "partType": "fork",
+      "brandSlug": "rockshox",
+      "brandAliases": [
+        "RockShox",
+        "Rock Shox"
+      ],
+      "modelAliases": [
+        "ZEB",
+        "ZEB Ultimate",
+        "ZEB Select+",
+        "Lyrik",
+        "Lyrik Ultimate",
+        "Lyrik Select+",
+        "Pike",
+        "Pike Ultimate",
+        "Pike Select+"
+      ],
+      "years": [],
+      "variantId": "identified-platform",
+      "variantLabel": "Pike / Lyrik / ZEB · CHARGER 3 engraving",
+      "confirmedVariantModelAliases": [],
+      "requiresVariantConfirmation": true,
+      "matchingMode": "platform_confirmation",
+      "guidePath": "suspension-guides/guides/rockshox-charger3-rc2/r1/guide.json",
+      "guideSha256": "6685aca86052f368e0c7fa02ce29c4eeda68b12bad89483013b891aee5efe8bb",
+      "guideBytes": 3970
+    },
+    {
+      "guideId": "rockshox-charger31-rc2",
+      "revision": 1,
+      "partType": "fork",
+      "brandSlug": "rockshox",
+      "brandAliases": [
+        "RockShox",
+        "Rock Shox"
+      ],
+      "modelAliases": [
+        "ZEB",
+        "ZEB Ultimate",
+        "ZEB Select+",
+        "Lyrik",
+        "Lyrik Ultimate",
+        "Lyrik Select+",
+        "Pike",
+        "Pike Ultimate",
+        "Pike Select+"
+      ],
+      "years": [],
+      "variantId": "identified-platform",
+      "variantLabel": "Pike / Lyrik / ZEB · CHARGER 3.1 engraving",
+      "confirmedVariantModelAliases": [],
+      "requiresVariantConfirmation": true,
+      "matchingMode": "platform_confirmation",
+      "guidePath": "suspension-guides/guides/rockshox-charger31-rc2/r1/guide.json",
+      "guideSha256": "11fc38737f93486297a971e4a7144e4d769c98d91c76f35e609a0fb1b2eed66a",
+      "guideBytes": 3792
+    },
+    {
+      "guideId": "rockshox-super-deluxe-legacy-rct",
+      "revision": 1,
+      "partType": "shock",
+      "brandSlug": "rockshox",
+      "brandAliases": [
+        "RockShox",
+        "Rock Shox"
+      ],
+      "modelAliases": [
+        "Super Deluxe",
+        "Super Deluxe Ultimate"
+      ],
+      "years": [],
+      "variantId": "identified-platform",
+      "variantLabel": "Super Deluxe · Gen A/B RCT · separate LSC knob",
+      "confirmedVariantModelAliases": [],
+      "requiresVariantConfirmation": true,
+      "matchingMode": "platform_confirmation",
+      "guidePath": "suspension-guides/guides/rockshox-super-deluxe-legacy-rct/r1/guide.json",
+      "guideSha256": "5da4cf5837711398ebd6eedd0500dc715ae730c7f2f39aa3261a0ac39ad0df26",
+      "guideBytes": 1981
+    },
+    {
+      "guideId": "rockshox-super-deluxe-rc2t-c1-c2",
+      "revision": 1,
+      "partType": "shock",
+      "brandSlug": "rockshox",
+      "brandAliases": [
+        "RockShox",
+        "Rock Shox"
+      ],
+      "modelAliases": [
+        "Super Deluxe",
+        "Super Deluxe Ultimate"
+      ],
+      "years": [],
+      "variantId": "identified-platform",
+      "variantLabel": "Super Deluxe Air · Gen C RC2T",
+      "confirmedVariantModelAliases": [],
+      "requiresVariantConfirmation": true,
+      "matchingMode": "platform_confirmation",
+      "guidePath": "suspension-guides/guides/rockshox-super-deluxe-rc2t-c1-c2/r1/guide.json",
+      "guideSha256": "1e0222fcc524948c9e276c4273291a405897c596e0408fcd022f170278b1c68a",
+      "guideBytes": 4198
+    },
+    {
+      "guideId": "rockshox-super-deluxe-coil-rc2t-b1",
+      "revision": 1,
+      "partType": "shock",
+      "brandSlug": "rockshox",
+      "brandAliases": [
+        "RockShox",
+        "Rock Shox"
+      ],
+      "modelAliases": [
+        "Super Deluxe Coil",
+        "Super Deluxe Coil Ultimate"
+      ],
+      "years": [],
+      "variantId": "identified-platform",
+      "variantLabel": "Super Deluxe Coil · B1 · HSC",
+      "confirmedVariantModelAliases": [],
+      "requiresVariantConfirmation": true,
+      "matchingMode": "platform_confirmation",
+      "guidePath": "suspension-guides/guides/rockshox-super-deluxe-coil-rc2t-b1/r1/guide.json",
+      "guideSha256": "d11b583aaa5cb65d35a44271007a42192e05cf9b0ef6a60bf547b9e5a8332c91",
+      "guideBytes": 2098
+    },
+    {
+      "guideId": "rockshox-deluxe-ultimate-rct-c1-c2",
+      "revision": 1,
+      "partType": "shock",
+      "brandSlug": "rockshox",
+      "brandAliases": [
+        "RockShox",
+        "Rock Shox"
+      ],
+      "modelAliases": [
+        "Deluxe",
+        "Deluxe Ultimate"
+      ],
+      "years": [],
+      "variantId": "identified-platform",
+      "variantLabel": "Deluxe Ultimate · Gen C · RCT",
+      "confirmedVariantModelAliases": [],
+      "requiresVariantConfirmation": true,
+      "matchingMode": "platform_confirmation",
+      "guidePath": "suspension-guides/guides/rockshox-deluxe-ultimate-rct-c1-c2/r1/guide.json",
+      "guideSha256": "8fd233db03b18fab9a6cdae8106698e0b910b8178be46279967aa0b898829097",
+      "guideBytes": 3359
+    },
+    {
+      "guideId": "marzocchi-fork-z1-dj-grip",
+      "revision": 1,
+      "partType": "fork",
+      "brandSlug": "marzocchi",
+      "brandAliases": [
+        "Marzocchi"
+      ],
+      "modelAliases": [
+        "Bomber Z1"
+      ],
+      "years": [],
+      "variantId": "identified-platform",
+      "variantLabel": "Bomber Z1 · GRIP Sweep",
+      "confirmedVariantModelAliases": [],
+      "requiresVariantConfirmation": true,
+      "matchingMode": "platform_confirmation",
+      "guidePath": "suspension-guides/guides/marzocchi-fork-z1-dj-grip/r1/guide.json",
+      "guideSha256": "e73eab9e2d617485c32a7a468fc8d6d90f28f56a4973c019cf9e8e3432d1d3c0",
+      "guideBytes": 2730
+    },
+    {
+      "guideId": "marzocchi-fork-z2-rail1",
+      "revision": 1,
+      "partType": "fork",
+      "brandSlug": "marzocchi",
+      "brandAliases": [
+        "Marzocchi"
+      ],
+      "modelAliases": [
+        "Bomber Z2"
+      ],
+      "years": [],
+      "variantId": "identified-platform",
+      "variantLabel": "Bomber Z2 · RAIL 1.0 Sweep",
+      "confirmedVariantModelAliases": [],
+      "requiresVariantConfirmation": true,
+      "matchingMode": "platform_confirmation",
+      "guidePath": "suspension-guides/guides/marzocchi-fork-z2-rail1/r1/guide.json",
+      "guideSha256": "5469935b1caea49f14a66fe2a31bc977d0dc07c5ab4d21d20ebff88ade44a26c",
+      "guideBytes": 2924
+    },
+    {
+      "guideId": "marzocchi-shock-bomber-cr",
+      "revision": 1,
+      "partType": "shock",
+      "brandSlug": "marzocchi",
+      "brandAliases": [
+        "Marzocchi"
+      ],
+      "modelAliases": [
+        "Bomber CR"
+      ],
+      "years": [],
+      "variantId": "identified-platform",
+      "variantLabel": "Bomber CR",
+      "confirmedVariantModelAliases": [],
+      "requiresVariantConfirmation": true,
+      "matchingMode": "platform_confirmation",
+      "guidePath": "suspension-guides/guides/marzocchi-shock-bomber-cr/r1/guide.json",
+      "guideSha256": "954dc40ff8af80ddb53bc80f4c497d1dbfeba6b75cb82ec439df40d24e7c38c2",
+      "guideBytes": 2552
+    },
+    {
+      "guideId": "dvo-legacy-d1-controls-diamond",
+      "revision": 1,
+      "partType": "fork",
+      "brandSlug": "dvo",
+      "brandAliases": [
+        "DVO"
+      ],
+      "modelAliases": [
+        "Diamond",
+        "Diamond D1"
+      ],
+      "years": [],
+      "variantId": "identified-platform",
+      "variantLabel": "Diamond · legacy D1 · green LSC / black HSC",
+      "confirmedVariantModelAliases": [],
+      "requiresVariantConfirmation": true,
+      "matchingMode": "platform_confirmation",
+      "guidePath": "suspension-guides/guides/dvo-legacy-d1-controls-diamond/r1/guide.json",
+      "guideSha256": "49b7e826833dcd2d3ca43371d1ecae2b14bf312019676d3bbd215e113a0d0530",
+      "guideBytes": 3477
+    },
+    {
+      "guideId": "dvo-legacy-d1-controls-onyx",
+      "revision": 1,
+      "partType": "fork",
+      "brandSlug": "dvo",
+      "brandAliases": [
+        "DVO"
+      ],
+      "modelAliases": [
+        "Onyx",
+        "Onyx SC D1"
+      ],
+      "years": [],
+      "variantId": "identified-platform",
+      "variantLabel": "Onyx SC · legacy D1 · green LSC / black HSC",
+      "confirmedVariantModelAliases": [],
+      "requiresVariantConfirmation": true,
+      "matchingMode": "platform_confirmation",
+      "guidePath": "suspension-guides/guides/dvo-legacy-d1-controls-onyx/r1/guide.json",
+      "guideSha256": "fbc6a2e2ec5df3ee31ad7d785bc9b0cfcb9faa9c0787b9859bb906c33ee2ac7e",
+      "guideBytes": 2139
+    },
+    {
+      "guideId": "dvo-diamond36-d1-sl",
+      "revision": 1,
+      "partType": "fork",
+      "brandSlug": "dvo",
+      "brandAliases": [
+        "DVO"
+      ],
+      "modelAliases": [
+        "Diamond",
+        "Diamond D1",
+        "Diamond 36 D1",
+        "Diamond 36 D1 SL"
+      ],
+      "years": [],
+      "variantId": "identified-platform",
+      "variantLabel": "Diamond 36 · D1 / D1 SL",
+      "confirmedVariantModelAliases": [],
+      "requiresVariantConfirmation": true,
+      "matchingMode": "platform_confirmation",
+      "guidePath": "suspension-guides/guides/dvo-diamond36-d1-sl/r1/guide.json",
+      "guideSha256": "d79ad70dd1bc84dff9039a97fb5f4954e2ee4b9fe7ab3dae4b205b6d08426da6",
+      "guideBytes": 2947
+    },
+    {
+      "guideId": "dvo-onyx38-d1",
+      "revision": 1,
+      "partType": "fork",
+      "brandSlug": "dvo",
+      "brandAliases": [
+        "DVO"
+      ],
+      "modelAliases": [
+        "Onyx",
+        "Onyx 38 D1"
+      ],
+      "years": [],
+      "variantId": "identified-platform",
+      "variantLabel": "Onyx 38 · D1",
+      "confirmedVariantModelAliases": [],
+      "requiresVariantConfirmation": true,
+      "matchingMode": "platform_confirmation",
+      "guidePath": "suspension-guides/guides/dvo-onyx38-d1/r1/guide.json",
+      "guideSha256": "09bdd541725971a023a5952880a53344de3744cd83f348583e168bbfeca00b56",
+      "guideBytes": 2780
+    },
+    {
+      "guideId": "dvo-topaz-t3-legacy",
+      "revision": 1,
+      "partType": "shock",
+      "brandSlug": "dvo",
+      "brandAliases": [
+        "DVO"
+      ],
+      "modelAliases": [
+        "Topaz",
+        "Topaz T3"
+      ],
+      "years": [],
+      "variantId": "identified-platform",
+      "variantLabel": "Topaz · legacy green T3 lever",
+      "confirmedVariantModelAliases": [],
+      "requiresVariantConfirmation": true,
+      "matchingMode": "platform_confirmation",
+      "guidePath": "suspension-guides/guides/dvo-topaz-t3-legacy/r1/guide.json",
+      "guideSha256": "642deeaf56af15935928d19988e26e0f7a1fd5b80675d0ec7767337f10700518",
+      "guideBytes": 2375
+    },
+    {
+      "guideId": "dvo-topaz-pro-t3",
+      "revision": 1,
+      "partType": "shock",
+      "brandSlug": "dvo",
+      "brandAliases": [
+        "DVO"
+      ],
+      "modelAliases": [
+        "Topaz",
+        "Topaz Pro"
+      ],
+      "years": [],
+      "variantId": "identified-platform",
+      "variantLabel": "Topaz · Pro T3",
+      "confirmedVariantModelAliases": [],
+      "requiresVariantConfirmation": true,
+      "matchingMode": "platform_confirmation",
+      "guidePath": "suspension-guides/guides/dvo-topaz-pro-t3/r1/guide.json",
+      "guideSha256": "adcfe7d602f5781afdd28c6ff84aee72d53c9def3be20259bea762dac069bcd4",
+      "guideBytes": 2499
+    },
+    {
+      "guideId": "dvo-jade-x-pro-t3",
+      "revision": 1,
+      "partType": "shock",
+      "brandSlug": "dvo",
+      "brandAliases": [
+        "DVO"
+      ],
+      "modelAliases": [
+        "Jade X",
+        "Jade X Pro"
+      ],
+      "years": [],
+      "variantId": "identified-platform",
+      "variantLabel": "Jade X · Pro T3",
+      "confirmedVariantModelAliases": [],
+      "requiresVariantConfirmation": true,
+      "matchingMode": "platform_confirmation",
+      "guidePath": "suspension-guides/guides/dvo-jade-x-pro-t3/r1/guide.json",
+      "guideSha256": "64dabf84db8108cc7bdda84523223dfdce7995eec5fb1d5976086ed666168221",
+      "guideBytes": 2489
+    },
+    {
+      "guideId": "dvo-topaz-prime",
+      "revision": 1,
+      "partType": "shock",
+      "brandSlug": "dvo",
+      "brandAliases": [
+        "DVO"
+      ],
+      "modelAliases": [
+        "Topaz",
+        "Topaz Prime"
+      ],
+      "years": [],
+      "variantId": "identified-platform",
+      "variantLabel": "Topaz · Prime HSC/LSC",
+      "confirmedVariantModelAliases": [],
+      "requiresVariantConfirmation": true,
+      "matchingMode": "platform_confirmation",
+      "guidePath": "suspension-guides/guides/dvo-topaz-prime/r1/guide.json",
+      "guideSha256": "85089c26b4e2f41a465ce5ff553a7af157a2e6be84164c5742363fe6971c745d",
+      "guideBytes": 2763
+    },
+    {
+      "guideId": "dvo-jade-x-prime",
+      "revision": 1,
+      "partType": "shock",
+      "brandSlug": "dvo",
+      "brandAliases": [
+        "DVO"
+      ],
+      "modelAliases": [
+        "Jade X",
+        "Jade X Prime"
+      ],
+      "years": [],
+      "variantId": "identified-platform",
+      "variantLabel": "Jade X · Prime HSC/LSC",
+      "confirmedVariantModelAliases": [],
+      "requiresVariantConfirmation": true,
+      "matchingMode": "platform_confirmation",
+      "guidePath": "suspension-guides/guides/dvo-jade-x-prime/r1/guide.json",
+      "guideSha256": "feef9a11906229903bdbd75bb6c042a38a720f0bb89b38344ccdc4f45a0835a8",
+      "guideBytes": 2901
+    },
+    {
+      "guideId": "dvo-jade-x-legacy",
+      "revision": 1,
+      "partType": "shock",
+      "brandSlug": "dvo",
+      "brandAliases": [
+        "DVO"
+      ],
+      "modelAliases": [
+        "Jade X"
+      ],
+      "years": [],
+      "variantId": "identified-platform",
+      "variantLabel": "Jade X · legacy green T3",
+      "confirmedVariantModelAliases": [],
+      "requiresVariantConfirmation": true,
+      "matchingMode": "platform_confirmation",
+      "guidePath": "suspension-guides/guides/dvo-jade-x-legacy/r1/guide.json",
+      "guideSha256": "72f861a2f78912d9e35d40f53ea5977a5a399b3134f6b033eeb120331525a6a2",
+      "guideBytes": 2510
+    },
+    {
+      "guideId": "ohlins-rxf36-m2",
+      "revision": 1,
+      "partType": "fork",
+      "brandSlug": "ohlins",
+      "brandAliases": [
+        "Öhlins",
+        "Ohlins",
+        "öhlins"
+      ],
+      "modelAliases": [
+        "RXF36",
+        "RXF36 m.2"
+      ],
+      "years": [],
+      "variantId": "identified-platform",
+      "variantLabel": "RXF36 m.2 · TTX18",
+      "confirmedVariantModelAliases": [],
+      "requiresVariantConfirmation": true,
+      "matchingMode": "platform_confirmation",
+      "guidePath": "suspension-guides/guides/ohlins-rxf36-m2/r1/guide.json",
+      "guideSha256": "aee48df18dee7c31b95d5ca26435be45137f106efd0517d3bc19324da79a1ad7",
+      "guideBytes": 3541
+    },
+    {
+      "guideId": "ohlins-rxf38-m2",
+      "revision": 1,
+      "partType": "fork",
+      "brandSlug": "ohlins",
+      "brandAliases": [
+        "Öhlins",
+        "Ohlins",
+        "öhlins"
+      ],
+      "modelAliases": [
+        "RXF38",
+        "RXF38 m.2"
+      ],
+      "years": [],
+      "variantId": "identified-platform",
+      "variantLabel": "RXF38 m.2 · TTX18",
+      "confirmedVariantModelAliases": [],
+      "requiresVariantConfirmation": true,
+      "matchingMode": "platform_confirmation",
+      "guidePath": "suspension-guides/guides/ohlins-rxf38-m2/r1/guide.json",
+      "guideSha256": "6fcc3b0982794b5c9b081a84be2ff91bb6dc3c632305dc896e1a9282708771bc",
+      "guideBytes": 3331
+    },
+    {
+      "guideId": "ohlins-ttx22m2",
+      "revision": 1,
+      "partType": "shock",
+      "brandSlug": "ohlins",
+      "brandAliases": [
+        "Öhlins",
+        "Ohlins",
+        "öhlins"
+      ],
+      "modelAliases": [
+        "TTX22M",
+        "TTX22m.2"
+      ],
+      "years": [],
+      "variantId": "identified-platform",
+      "variantLabel": "TTX22m.2 · I / II / III lever",
+      "confirmedVariantModelAliases": [],
+      "requiresVariantConfirmation": true,
+      "matchingMode": "platform_confirmation",
+      "guidePath": "suspension-guides/guides/ohlins-ttx22m2/r1/guide.json",
+      "guideSha256": "aa0fea3b36b8f6ead0d092e13808f90c5531272e5af12b51062666a49252d0cd",
+      "guideBytes": 3101
+    },
+    {
+      "guideId": "ohlins-ttxair",
+      "revision": 1,
+      "partType": "shock",
+      "brandSlug": "ohlins",
+      "brandAliases": [
+        "Öhlins",
+        "Ohlins",
+        "öhlins"
+      ],
+      "modelAliases": [
+        "TTX2 Air",
+        "TTX2Air",
+        "TTX1Air"
+      ],
+      "years": [],
+      "variantId": "identified-platform",
+      "variantLabel": "TTX1/2 Air · original",
+      "confirmedVariantModelAliases": [],
+      "requiresVariantConfirmation": true,
+      "matchingMode": "platform_confirmation",
+      "guidePath": "suspension-guides/guides/ohlins-ttxair/r1/guide.json",
+      "guideSha256": "eac8d5e7f03b5ee48e830f1f53806f2d1c408d754a26d466940d81b5a7f2eb22",
+      "guideBytes": 3578
+    },
+    {
+      "guideId": "ohlins-ttxair-m2",
+      "revision": 1,
+      "partType": "shock",
+      "brandSlug": "ohlins",
+      "brandAliases": [
+        "Öhlins",
+        "Ohlins",
+        "öhlins"
+      ],
+      "modelAliases": [
+        "TTX2 Air",
+        "TTX2Air",
+        "TTX1Air",
+        "TTX2Air m.2",
+        "TTX1Air m.2"
+      ],
+      "years": [],
+      "variantId": "identified-platform",
+      "variantLabel": "TTX1/2 Air · m.2",
+      "confirmedVariantModelAliases": [],
+      "requiresVariantConfirmation": true,
+      "matchingMode": "platform_confirmation",
+      "guidePath": "suspension-guides/guides/ohlins-ttxair-m2/r1/guide.json",
+      "guideSha256": "0fffbb0f2c8c90f2169a101d4cff1ddb4a66237d897e709212655134a0e171e0",
+      "guideBytes": 3589
+    },
+    {
+      "guideId": "ext-arma-storia-v3-storia",
+      "revision": 1,
+      "partType": "shock",
+      "brandSlug": "ext",
+      "brandAliases": [
+        "EXT"
+      ],
+      "modelAliases": [
+        "Storia",
+        "Storia V3"
+      ],
+      "years": [],
+      "variantId": "identified-platform",
+      "variantLabel": "Storia V3",
+      "confirmedVariantModelAliases": [],
+      "requiresVariantConfirmation": true,
+      "matchingMode": "platform_confirmation",
+      "guidePath": "suspension-guides/guides/ext-arma-storia-v3-storia/r1/guide.json",
+      "guideSha256": "161e2be6a2b6e4155b72297d7a95f94abeafc3d0da8983cf9a9f4808aee01bbd",
+      "guideBytes": 4371
+    },
+    {
+      "guideId": "ext-arma-storia-v3-arma",
+      "revision": 1,
+      "partType": "shock",
+      "brandSlug": "ext",
+      "brandAliases": [
+        "EXT"
+      ],
+      "modelAliases": [
+        "Arma",
+        "Arma V3"
+      ],
+      "years": [],
+      "variantId": "identified-platform",
+      "variantLabel": "Arma V3",
+      "confirmedVariantModelAliases": [],
+      "requiresVariantConfirmation": true,
+      "matchingMode": "platform_confirmation",
+      "guidePath": "suspension-guides/guides/ext-arma-storia-v3-arma/r1/guide.json",
+      "guideSha256": "22b90631b8e4698f44f2f30815dfe3209e493a21ec38a7feffc24ae2062d7461",
+      "guideBytes": 4390
+    },
+    {
+      "guideId": "ext-arma-storia-v4-storia-v4",
+      "revision": 1,
+      "partType": "shock",
+      "brandSlug": "ext",
+      "brandAliases": [
+        "EXT"
+      ],
+      "modelAliases": [
+        "Storia V4"
+      ],
+      "years": [],
+      "variantId": "identified-platform",
+      "variantLabel": "Storia V4",
+      "confirmedVariantModelAliases": [],
+      "requiresVariantConfirmation": true,
+      "matchingMode": "platform_confirmation",
+      "guidePath": "suspension-guides/guides/ext-arma-storia-v4-storia-v4/r1/guide.json",
+      "guideSha256": "4674832e00459fa34d5fa49b915e7b74e8da425c2224367509e2dd0751cf7221",
+      "guideBytes": 5326
+    },
+    {
+      "guideId": "ext-arma-storia-v4-arma-v4",
+      "revision": 1,
+      "partType": "shock",
+      "brandSlug": "ext",
+      "brandAliases": [
+        "EXT"
+      ],
+      "modelAliases": [
+        "Arma V4"
+      ],
+      "years": [],
+      "variantId": "identified-platform",
+      "variantLabel": "Arma V4",
+      "confirmedVariantModelAliases": [],
+      "requiresVariantConfirmation": true,
+      "matchingMode": "platform_confirmation",
+      "guidePath": "suspension-guides/guides/ext-arma-storia-v4-arma-v4/r1/guide.json",
+      "guideSha256": "49f68b528bdabfc399ad0e217e56ae4e2ba27e475c999889cd303396e0c08ad8",
+      "guideBytes": 4373
+    },
+    {
+      "guideId": "ext-e-storia",
+      "revision": 1,
+      "partType": "shock",
+      "brandSlug": "ext",
+      "brandAliases": [
+        "EXT"
+      ],
+      "modelAliases": [
+        "E-Storia",
+        "E Storia",
+        "Estoria"
+      ],
+      "years": [],
+      "variantId": "identified-platform",
+      "variantLabel": "E-Storia",
+      "confirmedVariantModelAliases": [],
+      "requiresVariantConfirmation": true,
+      "matchingMode": "platform_confirmation",
+      "guidePath": "suspension-guides/guides/ext-e-storia/r1/guide.json",
+      "guideSha256": "e85da30e547fc35f9c9612a190e3bf5311bae242e3542cf50b90135bc16fdf58",
+      "guideBytes": 5317
+    },
+    {
+      "guideId": "ext-aria-v1",
+      "revision": 1,
+      "partType": "shock",
+      "brandSlug": "ext",
+      "brandAliases": [
+        "EXT"
+      ],
+      "modelAliases": [
+        "Aria",
+        "Aria V1"
+      ],
+      "years": [],
+      "variantId": "identified-platform",
+      "variantLabel": "Aria V1",
+      "confirmedVariantModelAliases": [],
+      "requiresVariantConfirmation": true,
+      "matchingMode": "platform_confirmation",
+      "guidePath": "suspension-guides/guides/ext-aria-v1/r1/guide.json",
+      "guideSha256": "e363c9567e9f7e329baf4603561ef385a5025c68dc1a2639c62418d32fee3eb3",
+      "guideBytes": 3396
+    },
+    {
+      "guideId": "ext-era-v2",
+      "revision": 1,
+      "partType": "fork",
+      "brandSlug": "ext",
+      "brandAliases": [
+        "EXT"
+      ],
+      "modelAliases": [
+        "Era",
+        "Era V2",
+        "Era V2.1",
+        "Era V2 LT"
+      ],
+      "years": [],
+      "variantId": "identified-platform",
+      "variantLabel": "Era V2 / V2.1 / V2 LT",
+      "confirmedVariantModelAliases": [],
+      "requiresVariantConfirmation": true,
+      "matchingMode": "platform_confirmation",
+      "guidePath": "suspension-guides/guides/ext-era-v2/r1/guide.json",
+      "guideSha256": "3d6aca083402793a6effdc95e6f630585a9f17aa18b6a81dcbc32687a83cfcc6",
+      "guideBytes": 3337
+    },
+    {
+      "guideId": "ext-vaia",
+      "revision": 1,
+      "partType": "fork",
+      "brandSlug": "ext",
+      "brandAliases": [
+        "EXT"
+      ],
+      "modelAliases": [
+        "Vaia"
+      ],
+      "years": [],
+      "variantId": "identified-platform",
+      "variantLabel": "Vaia",
+      "confirmedVariantModelAliases": [],
+      "requiresVariantConfirmation": true,
+      "matchingMode": "platform_confirmation",
+      "guidePath": "suspension-guides/guides/ext-vaia/r1/guide.json",
+      "guideSha256": "56138994cddd19e9807e040e722ed21ac7e7d4fc4a9a3390eb1410f7c19395fd",
+      "guideBytes": 3312
+    },
+    {
+      "guideId": "cane-creek-il-g1-air",
+      "revision": 1,
+      "partType": "shock",
+      "brandSlug": "cane-creek",
+      "brandAliases": [
+        "Cane Creek"
+      ],
+      "modelAliases": [
+        "DB Air IL"
+      ],
+      "years": [],
+      "variantId": "identified-platform",
+      "variantLabel": "DB Air IL · Gen 1",
+      "confirmedVariantModelAliases": [],
+      "requiresVariantConfirmation": true,
+      "matchingMode": "platform_confirmation",
+      "guidePath": "suspension-guides/guides/cane-creek-il-g1-air/r1/guide.json",
+      "guideSha256": "f323dd78060d9ede7233b41f868d3f7d479315c5207bfd1ee58f663d17d58aba",
+      "guideBytes": 3066
+    },
+    {
+      "guideId": "cane-creek-il-g1-coil",
+      "revision": 1,
+      "partType": "shock",
+      "brandSlug": "cane-creek",
+      "brandAliases": [
+        "Cane Creek"
+      ],
+      "modelAliases": [
+        "DB Coil IL"
+      ],
+      "years": [],
+      "variantId": "identified-platform",
+      "variantLabel": "DB Coil IL · Gen 1",
+      "confirmedVariantModelAliases": [],
+      "requiresVariantConfirmation": true,
+      "matchingMode": "platform_confirmation",
+      "guidePath": "suspension-guides/guides/cane-creek-il-g1-coil/r1/guide.json",
+      "guideSha256": "5395138d1e44723deab06a6ef9ce07ea470cb80fc3f39ecb35c9d14e19b7908b",
+      "guideBytes": 3068
+    },
+    {
+      "guideId": "cane-creek-il-g2-air",
+      "revision": 1,
+      "partType": "shock",
+      "brandSlug": "cane-creek",
+      "brandAliases": [
+        "Cane Creek"
+      ],
+      "modelAliases": [
+        "DB Air IL"
+      ],
+      "years": [],
+      "variantId": "identified-platform",
+      "variantLabel": "DB Air IL · Gen 2",
+      "confirmedVariantModelAliases": [],
+      "requiresVariantConfirmation": true,
+      "matchingMode": "platform_confirmation",
+      "guidePath": "suspension-guides/guides/cane-creek-il-g2-air/r1/guide.json",
+      "guideSha256": "419a48e54c446853827ad608dc1a41f084e5be12e92b3bfa7cdcfa89b6d63a9f",
+      "guideBytes": 3020
+    },
+    {
+      "guideId": "cane-creek-il-g2-coil",
+      "revision": 1,
+      "partType": "shock",
+      "brandSlug": "cane-creek",
+      "brandAliases": [
+        "Cane Creek"
+      ],
+      "modelAliases": [
+        "DB Coil IL"
+      ],
+      "years": [],
+      "variantId": "identified-platform",
+      "variantLabel": "DB Coil IL · Gen 2",
+      "confirmedVariantModelAliases": [],
+      "requiresVariantConfirmation": true,
+      "matchingMode": "platform_confirmation",
+      "guidePath": "suspension-guides/guides/cane-creek-il-g2-coil/r1/guide.json",
+      "guideSha256": "245d28bb2e26d96838e51697446dcbd6cba183f0084e625d617db6594aaa1f43",
+      "guideBytes": 3023
+    },
+    {
+      "guideId": "manitou-mattoc-service",
+      "revision": 1,
+      "partType": "fork",
+      "brandSlug": "manitou",
+      "brandAliases": [
+        "Manitou"
+      ],
+      "modelAliases": [
+        "Mattoc Pro"
+      ],
+      "years": [],
+      "variantId": "identified-platform",
+      "variantLabel": "Mattoc Pro · Gen 3 MC²",
+      "confirmedVariantModelAliases": [],
+      "requiresVariantConfirmation": true,
+      "matchingMode": "platform_confirmation",
+      "guidePath": "suspension-guides/guides/manitou-mattoc-service/r1/guide.json",
+      "guideSha256": "6fb6fdb7cb25a5687ccea3d24fffeb459d8a6db85083899086317b3aab274296",
+      "guideBytes": 3423
+    },
+    {
+      "guideId": "manitou-mezzer-gen2",
+      "revision": 1,
+      "partType": "fork",
+      "brandSlug": "manitou",
+      "brandAliases": [
+        "Manitou"
+      ],
+      "modelAliases": [
+        "Mezzer Pro",
+        "Mezzer LT Pro"
+      ],
+      "years": [],
+      "variantId": "identified-platform",
+      "variantLabel": "Mezzer Gen 2 · Pro / LT Pro · MC² Pro-X / TPC²",
+      "confirmedVariantModelAliases": [],
+      "requiresVariantConfirmation": true,
+      "matchingMode": "platform_confirmation",
+      "guidePath": "suspension-guides/guides/manitou-mezzer-gen2/r1/guide.json",
+      "guideSha256": "fe346afe5b47dd841377100f20fccdb9ad6d87ea968eba99ecf3a61409b57118",
+      "guideBytes": 3438
+    },
+    {
+      "guideId": "manitou-mara-inline-legacy-new",
+      "revision": 1,
+      "partType": "shock",
+      "brandSlug": "manitou",
+      "brandAliases": [
+        "Manitou"
+      ],
+      "modelAliases": [
+        "Mara"
+      ],
+      "years": [],
+      "variantId": "identified-platform",
+      "variantLabel": "Mara · original IPA Inline",
+      "confirmedVariantModelAliases": [],
+      "requiresVariantConfirmation": true,
+      "matchingMode": "platform_confirmation",
+      "guidePath": "suspension-guides/guides/manitou-mara-inline-legacy-new/r1/guide.json",
+      "guideSha256": "74dd4e744d99128a52842af114c9c5ee249bed9f3375d3849a09587fb6b0c11b",
+      "guideBytes": 1559
+    },
+    {
+      "guideId": "formula-selva-v",
+      "revision": 1,
+      "partType": "fork",
+      "brandSlug": "formula",
+      "brandAliases": [
+        "Formula"
+      ],
+      "modelAliases": [
+        "Selva V"
+      ],
+      "years": [],
+      "variantId": "identified-platform",
+      "variantLabel": "Selva V · rebound",
+      "confirmedVariantModelAliases": [],
+      "requiresVariantConfirmation": true,
+      "matchingMode": "platform_confirmation",
+      "guidePath": "suspension-guides/guides/formula-selva-v/r1/guide.json",
+      "guideSha256": "cb5f4c0c8b5fdb47194c6577a2aca8ceaf4b5872d35fcf0260aa59abdacd5500",
+      "guideBytes": 1529
+    },
+    {
+      "guideId": "formula-selva-c",
+      "revision": 1,
+      "partType": "fork",
+      "brandSlug": "formula",
+      "brandAliases": [
+        "Formula"
+      ],
+      "modelAliases": [
+        "Selva C"
+      ],
+      "years": [],
+      "variantId": "identified-platform",
+      "variantLabel": "Selva C · rebound",
+      "confirmedVariantModelAliases": [],
+      "requiresVariantConfirmation": true,
+      "matchingMode": "platform_confirmation",
+      "guidePath": "suspension-guides/guides/formula-selva-c/r1/guide.json",
+      "guideSha256": "f58c048b0b70b9fd28608e13bd3addff9f858f2d9b7764d6fde109078e7bd343",
+      "guideBytes": 1530
+    },
+    {
+      "guideId": "mrp-ribbon-coil-legacy",
+      "revision": 1,
+      "partType": "fork",
+      "brandSlug": "mrp",
+      "brandAliases": [
+        "MRP"
+      ],
+      "modelAliases": [
+        "Ribbon Coil"
+      ],
+      "years": [],
+      "variantId": "identified-platform",
+      "variantLabel": "Ribbon Coil · original EssenTTial damper",
+      "confirmedVariantModelAliases": [],
+      "requiresVariantConfirmation": true,
+      "matchingMode": "platform_confirmation",
+      "guidePath": "suspension-guides/guides/mrp-ribbon-coil-legacy/r1/guide.json",
+      "guideSha256": "e9a6d68fa02b0984c21dc1d8a629885d7d02174a777e6c65472d8a979f675cb5",
+      "guideBytes": 1595
+    },
+    {
+      "guideId": "x-fusion-trace36-hlr-new",
+      "revision": 1,
+      "partType": "fork",
+      "brandSlug": "x-fusion",
+      "brandAliases": [
+        "X-Fusion"
+      ],
+      "modelAliases": [
+        "Trace 36",
+        "Trace 36 HLR"
+      ],
+      "years": [],
+      "variantId": "identified-platform",
+      "variantLabel": "Trace 36 · Roughcut HLR",
+      "confirmedVariantModelAliases": [],
+      "requiresVariantConfirmation": true,
+      "matchingMode": "platform_confirmation",
+      "guidePath": "suspension-guides/guides/x-fusion-trace36-hlr-new/r1/guide.json",
+      "guideSha256": "a299c9ec0c04502ed7762feab3497afd113a69ac4e65cd0cfc0925a30f1686d5",
+      "guideBytes": 2812
+    },
+    {
+      "guideId": "manitou-mezzer-pro-service",
+      "revision": 1,
+      "partType": "fork",
+      "brandSlug": "manitou",
+      "brandAliases": [
+        "Manitou"
+      ],
+      "modelAliases": [
+        "Mezzer Pro"
+      ],
+      "years": [],
+      "variantId": "identified-platform",
+      "variantLabel": "Mezzer Pro · Gen 1 MC² / TPC",
+      "confirmedVariantModelAliases": [],
+      "requiresVariantConfirmation": true,
+      "matchingMode": "platform_confirmation",
+      "guidePath": "suspension-guides/guides/manitou-mezzer-pro-service/r1/guide.json",
+      "guideSha256": "e3c30c931a522912bd164647fa1630f857edcfa9df2314c0f0b51b03b8dc05a0",
+      "guideBytes": 3005
+    },
+    {
+      "guideId": "manitou-mara-pro",
+      "revision": 1,
+      "partType": "shock",
+      "brandSlug": "manitou",
+      "brandAliases": [
+        "Manitou"
+      ],
+      "modelAliases": [
+        "Mara Pro"
+      ],
+      "years": [],
+      "variantId": "identified-platform",
+      "variantLabel": "Mara Pro · Work / Party · black HSC / red LSC",
+      "confirmedVariantModelAliases": [],
+      "requiresVariantConfirmation": true,
+      "matchingMode": "platform_confirmation",
+      "guidePath": "suspension-guides/guides/manitou-mara-pro/r1/guide.json",
+      "guideSha256": "1309689bed55c0816e7d4a7b661fbcab8e6041a35f825a80fff3d2ec4c8d603a",
+      "guideBytes": 3498
+    },
+    {
+      "guideId": "push-elevensix-legacy-new",
+      "revision": 1,
+      "partType": "shock",
+      "brandSlug": "push-industries",
+      "brandAliases": [
+        "Push Industries",
+        "PUSH"
+      ],
+      "modelAliases": [
+        "ELEVENSIX",
+        "ElevenSix"
+      ],
+      "years": [],
+      "variantId": "identified-platform",
+      "variantLabel": "ELEVENSIX · legacy silver Valve 1 / black Valve 2",
+      "confirmedVariantModelAliases": [],
+      "requiresVariantConfirmation": true,
+      "matchingMode": "platform_confirmation",
+      "guidePath": "suspension-guides/guides/push-elevensix-legacy-new/r1/guide.json",
+      "guideSha256": "fa7b9cd336d58c34f8a1983a1113585428d7a142de5efb15f58bfd5651f38982",
+      "guideBytes": 4175
+    }
+  ]
+}

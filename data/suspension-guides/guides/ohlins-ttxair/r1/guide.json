@@ -1,0 +1,127 @@
+{
+  "schemaVersion": 2,
+  "guideId": "ohlins-ttxair",
+  "revision": 1,
+  "displayName": "Öhlins TTX1/2 Air · original",
+  "partType": "shock",
+  "years": [],
+  "variantId": "identified-platform",
+  "sources": [
+    {
+      "id": "source-1",
+      "title": "Öhlins · platform reference",
+      "url": "https://www.ohlins.com/storage/4BC0F75FF79856EEB0C9E4C7A0E70BD5C9A75BCD7DBF53BFCCCB0EDAECD7BF5D/8ee38da5ef254ca7bfcf6867eb4a9794/pdf/media/d0eec0c1257a4d299d95a5fd33a41b59/OM_TTX_Air_AM.pdf"
+    },
+    {
+      "id": "source-2",
+      "title": "Öhlins · platform reference",
+      "url": "https://www.ohlins.com/en-us/mountain-bike/rear-shocks/ttx2air-tm-185x55-am"
+    }
+  ],
+  "panels": [
+    {
+      "id": "compression",
+      "labelKey": "compression",
+      "photos": [
+        {
+          "id": "compression-1",
+          "image": {
+            "path": "compression-1.webp",
+            "width": 1024,
+            "height": 1024,
+            "bytes": 60452,
+            "sha256": "ef86d5fcc4fd7989f5a2b87c2c9890d8faa46e820f13d436e3fba4f8269cc4c6",
+            "sourceId": "source-2"
+          },
+          "viewpoint": "adjuster_face",
+          "controls": [
+            {
+              "id": "lsc",
+              "function": "LSC",
+              "position": "standalone",
+              "tool": {
+                "type": "hex",
+                "sizeMm": 3.0
+              },
+              "closeDirection": "clockwise",
+              "closeEffect": "more_compression_damping",
+              "anchor": {
+                "x": 0.40625,
+                "y": 0.546875
+              },
+              "labelOrder": 0
+            }
+          ],
+          "preconditions": []
+        },
+        {
+          "id": "compression-2",
+          "image": {
+            "path": "compression-2.webp",
+            "width": 1024,
+            "height": 1024,
+            "bytes": 86586,
+            "sha256": "42e4c39d0c5d88104a04b07ef35076c5abdf5d98dc1db889d8fc56a83e6b104b",
+            "sourceId": "source-2"
+          },
+          "viewpoint": "adjuster_face",
+          "controls": [
+            {
+              "id": "hsc",
+              "function": "HSC",
+              "position": "standalone",
+              "tool": {
+                "type": "hand"
+              },
+              "closeDirection": "positions_12p",
+              "closeEffect": "more_compression_damping",
+              "anchor": {
+                "x": 0.5,
+                "y": 0.603125
+              },
+              "labelOrder": 0
+            }
+          ],
+          "preconditions": []
+        }
+      ]
+    },
+    {
+      "id": "rebound",
+      "labelKey": "rebound",
+      "photos": [
+        {
+          "id": "rebound-3",
+          "image": {
+            "path": "rebound-3.webp",
+            "width": 1024,
+            "height": 1024,
+            "bytes": 66742,
+            "sha256": "efa676bbdb8ca860d6c1df347320b59274853fa783b7fc6d7be8d9c4f5c29f48",
+            "sourceId": "source-2"
+          },
+          "viewpoint": "adjuster_face",
+          "controls": [
+            {
+              "id": "rebound",
+              "function": "REBOUND",
+              "position": "standalone",
+              "tool": {
+                "type": "hex",
+                "sizeMm": 3.0
+              },
+              "closeDirection": "clockwise",
+              "closeEffect": "slower_rebound",
+              "anchor": {
+                "x": 0.48125,
+                "y": 0.4625
+              },
+              "labelOrder": 0
+            }
+          ],
+          "preconditions": []
+        }
+      ]
+    }
+  ]
+}

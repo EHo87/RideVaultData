@@ -1,0 +1,64 @@
+{
+  "schemaVersion": 2,
+  "guideId": "fox-shock-dpx2-comp-adj-2020-2021",
+  "revision": 1,
+  "displayName": "FOX DPX2 · Comp Adj dial (not 3-position hex version)",
+  "partType": "shock",
+  "years": [],
+  "variantId": "identified-platform",
+  "sources": [
+    {
+      "id": "source-1",
+      "title": "FOX · platform reference",
+      "url": "https://tech.ridefox.com/bike/owners-manuals/1079/shock--2021-float-dps-and-dpx2"
+    },
+    {
+      "id": "source-2",
+      "title": "FOX · platform reference",
+      "url": "https://tech.ridefox.com/bike/owners-manuals/1037/shock--2020-float-dps-and-dpx2"
+    },
+    {
+      "id": "source-3",
+      "title": "FOX · original image / manual",
+      "url": "https://tech.ridefox.com/img/help/page1037-XJYQ/inline/DPX2-comp-adj.jpg"
+    }
+  ],
+  "panels": [
+    {
+      "id": "compression",
+      "labelKey": "compression",
+      "photos": [
+        {
+          "id": "compression-1",
+          "image": {
+            "path": "compression-1.webp",
+            "width": 1024,
+            "height": 1024,
+            "bytes": 26342,
+            "sha256": "9329e161222efd71906880e2199861d95140da048f91cf3a007bcf113c924c2a",
+            "sourceId": "source-2"
+          },
+          "viewpoint": "adjuster_face",
+          "controls": [
+            {
+              "id": "compression",
+              "function": "COMPRESSION",
+              "position": "standalone",
+              "tool": {
+                "type": "hand"
+              },
+              "closeDirection": "clockwise",
+              "closeEffect": "more_compression_damping",
+              "anchor": {
+                "x": 0.500358,
+                "y": 0.42931
+              },
+              "labelOrder": 0
+            }
+          ],
+          "preconditions": []
+        }
+      ]
+    }
+  ]
+}

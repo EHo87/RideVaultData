@@ -1,0 +1,141 @@
+{
+  "schemaVersion": 2,
+  "guideId": "rockshox-super-deluxe-rc2t-c1-c2",
+  "revision": 1,
+  "displayName": "RockShox Super Deluxe Air · Gen C RC2T",
+  "partType": "shock",
+  "years": [],
+  "variantId": "identified-platform",
+  "sources": [
+    {
+      "id": "source-1",
+      "title": "RockShox · platform reference",
+      "url": "https://www.sram.com/globalassets/document-hierarchy/service-manuals/rockshox/rear-suspension/2023-super-deluxe-service-manual.pdf#page=14"
+    },
+    {
+      "id": "source-2",
+      "title": "RockShox · platform reference",
+      "url": "https://www.sram.com/globalassets/document-hierarchy/service-manuals/rockshox/rear-suspension/2023-super-deluxe-service-manual.pdf#page=9"
+    },
+    {
+      "id": "source-3",
+      "title": "RockShox · platform reference",
+      "url": "https://www.sram.com/globalassets/document-hierarchy/service-manuals/rockshox/rear-suspension/2023-super-deluxe-service-manual.pdf#page=37"
+    },
+    {
+      "id": "source-4",
+      "title": "RockShox · Super Deluxe Gen C RC2T · LSC 면",
+      "url": "https://docs.sram.com/en-US/publications/5ODr3E6BhL1uWDnWhq4ATB/UM%20-%20Suspension"
+    },
+    {
+      "id": "source-5",
+      "title": "RockShox · Super Deluxe C1 · HSC 방향",
+      "url": "https://www.sram.com/en/service/models/rs-sdlx-ult-c1"
+    }
+  ],
+  "panels": [
+    {
+      "id": "compression",
+      "labelKey": "compression",
+      "photos": [
+        {
+          "id": "compression-1",
+          "image": {
+            "path": "compression-1.webp",
+            "width": 1024,
+            "height": 1024,
+            "bytes": 43692,
+            "sha256": "d9a74020e9a35d5320f3d575b1b081e25f16dc74c2b97de217f38fd8d28f4819",
+            "sourceId": "source-4"
+          },
+          "viewpoint": "adjuster_face",
+          "controls": [
+            {
+              "id": "lsc",
+              "function": "LSC",
+              "position": "standalone",
+              "tool": {
+                "type": "hand"
+              },
+              "closeDirection": "clockwise",
+              "closeEffect": "more_compression_damping",
+              "anchor": {
+                "x": 0.613341,
+                "y": 0.410406
+              },
+              "labelOrder": 0
+            }
+          ],
+          "preconditions": []
+        },
+        {
+          "id": "compression-2",
+          "image": {
+            "path": "compression-2.webp",
+            "width": 1024,
+            "height": 1024,
+            "bytes": 27308,
+            "sha256": "a721683fe6ba22a9244a31db83f685ec37fba5a5de26cd4e824fd98653f1457e",
+            "sourceId": "source-5"
+          },
+          "viewpoint": "adjuster_face",
+          "controls": [
+            {
+              "id": "hsc",
+              "function": "HSC",
+              "position": "standalone",
+              "tool": {
+                "type": "hex",
+                "sizeMm": 3
+              },
+              "closeDirection": "clockwise",
+              "closeEffect": "more_compression_damping",
+              "anchor": {
+                "x": 0.54247,
+                "y": 0.437663
+              },
+              "labelOrder": 0
+            }
+          ],
+          "preconditions": []
+        }
+      ]
+    },
+    {
+      "id": "rebound",
+      "labelKey": "rebound",
+      "photos": [
+        {
+          "id": "rebound-3",
+          "image": {
+            "path": "rebound-3.webp",
+            "width": 1024,
+            "height": 1024,
+            "bytes": 26060,
+            "sha256": "edf6c688d8ebc9fcbdaf656e95d7fa299be2a862dbf8040a17ea471f2c48a43e",
+            "sourceId": "source-4"
+          },
+          "viewpoint": "adjuster_face",
+          "controls": [
+            {
+              "id": "rebound",
+              "function": "REBOUND",
+              "position": "standalone",
+              "tool": {
+                "type": "hand"
+              },
+              "closeDirection": "clockwise",
+              "closeEffect": "slower_rebound",
+              "anchor": {
+                "x": 0.488487,
+                "y": 0.451123
+              },
+              "labelOrder": 0
+            }
+          ],
+          "preconditions": []
+        }
+      ]
+    }
+  ]
+}

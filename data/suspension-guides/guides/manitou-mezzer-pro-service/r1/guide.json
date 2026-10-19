@@ -1,0 +1,110 @@
+{
+  "schemaVersion": 2,
+  "guideId": "manitou-mezzer-pro-service",
+  "revision": 1,
+  "displayName": "Manitou Mezzer Pro · Gen 1 MC² / TPC",
+  "partType": "fork",
+  "years": [],
+  "variantId": "identified-platform",
+  "sources": [
+    {
+      "id": "source-1",
+      "title": "Manitou · platform reference",
+      "url": "https://hayesbicycle.zendesk.com/hc/en-us/sections/360005598033-Fork-Service-Guides"
+    },
+    {
+      "id": "source-2",
+      "title": "Manitou · Mezzer Pro Gen 1 · HSC·LSC",
+      "url": "https://hayesbicycle.zendesk.com/hc/en-us/articles/41067566085911-Mezzer-Gen-1-Set-Up-Guide"
+    }
+  ],
+  "panels": [
+    {
+      "id": "compression",
+      "labelKey": "compression",
+      "photos": [
+        {
+          "id": "compression-1",
+          "image": {
+            "path": "compression-1.webp",
+            "width": 1024,
+            "height": 1024,
+            "bytes": 66874,
+            "sha256": "3c4ca6078826459e0d2d70077b3a178b059b5cc313cda3b1a77bc252a4e1cd27",
+            "sourceId": "source-2"
+          },
+          "viewpoint": "adjuster_face",
+          "controls": [
+            {
+              "id": "lsc",
+              "function": "LSC",
+              "position": "center",
+              "tool": {
+                "type": "hand"
+              },
+              "closeDirection": "clockwise",
+              "closeEffect": "more_compression_damping",
+              "anchor": {
+                "x": 0.6125,
+                "y": 0.565625
+              },
+              "labelOrder": 0
+            },
+            {
+              "id": "hsc",
+              "function": "HSC",
+              "position": "outer",
+              "tool": {
+                "type": "hand"
+              },
+              "closeDirection": "clockwise",
+              "closeEffect": "more_compression_damping",
+              "anchor": {
+                "x": 0.809375,
+                "y": 0.51875
+              },
+              "labelOrder": 1
+            }
+          ],
+          "preconditions": []
+        }
+      ]
+    },
+    {
+      "id": "rebound",
+      "labelKey": "rebound",
+      "photos": [
+        {
+          "id": "rebound-2",
+          "image": {
+            "path": "rebound-2.webp",
+            "width": 1024,
+            "height": 1024,
+            "bytes": 51594,
+            "sha256": "6ed16d556055fd27ddbdc93e4f9358beb0cb54e5a1113a34105d6abb0601dc50",
+            "sourceId": "source-2"
+          },
+          "viewpoint": "adjuster_face",
+          "controls": [
+            {
+              "id": "rebound",
+              "function": "REBOUND",
+              "position": "standalone",
+              "tool": {
+                "type": "hand"
+              },
+              "closeDirection": "clockwise",
+              "closeEffect": "slower_rebound",
+              "anchor": {
+                "x": 0.66875,
+                "y": 0.59375
+              },
+              "labelOrder": 0
+            }
+          ],
+          "preconditions": []
+        }
+      ]
+    }
+  ]
+}

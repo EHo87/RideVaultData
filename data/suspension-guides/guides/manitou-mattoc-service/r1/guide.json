@@ -1,0 +1,125 @@
+{
+  "schemaVersion": 2,
+  "guideId": "manitou-mattoc-service",
+  "revision": 1,
+  "displayName": "Manitou Mattoc Pro · Gen 3 MC²",
+  "partType": "fork",
+  "years": [],
+  "variantId": "identified-platform",
+  "sources": [
+    {
+      "id": "source-1",
+      "title": "Manitou · platform reference",
+      "url": "https://hayesbicycle.zendesk.com/hc/en-us/article_attachments/31079974068759"
+    },
+    {
+      "id": "source-2",
+      "title": "Manitou · Mattoc Pro Gen 3 · HSC 바깥 노브",
+      "url": "https://hayesbicycle.zendesk.com/hc/en-us/article_attachments/22154061214999"
+    }
+  ],
+  "panels": [
+    {
+      "id": "compression",
+      "labelKey": "compression",
+      "photos": [
+        {
+          "id": "compression-1",
+          "image": {
+            "path": "compression-1.webp",
+            "width": 1024,
+            "height": 1024,
+            "bytes": 34288,
+            "sha256": "1fa61279fb9355df748c31fdb9e38e5c99a6835202b4d53a6aeb6643c3ccbc3e",
+            "sourceId": "source-2"
+          },
+          "viewpoint": "adjuster_face",
+          "controls": [
+            {
+              "id": "hsc",
+              "function": "HSC",
+              "position": "outer",
+              "tool": {
+                "type": "hand"
+              },
+              "closeDirection": "clockwise",
+              "closeEffect": "more_compression_damping",
+              "anchor": {
+                "x": 0.70625,
+                "y": 0.546875
+              },
+              "labelOrder": 0
+            }
+          ],
+          "preconditions": []
+        },
+        {
+          "id": "compression-2",
+          "image": {
+            "path": "compression-2.webp",
+            "width": 1024,
+            "height": 1024,
+            "bytes": 49328,
+            "sha256": "356f892346aa2860e0772a8ba9deb4016e802c0d8ffb793a6f65282bfe009f2e",
+            "sourceId": "source-2"
+          },
+          "viewpoint": "adjuster_face",
+          "controls": [
+            {
+              "id": "lsc",
+              "function": "LSC",
+              "position": "center",
+              "tool": {
+                "type": "hand"
+              },
+              "closeDirection": "clockwise",
+              "closeEffect": "more_compression_damping",
+              "anchor": {
+                "x": 0.59375,
+                "y": 0.59375
+              },
+              "labelOrder": 0
+            }
+          ],
+          "preconditions": []
+        }
+      ]
+    },
+    {
+      "id": "rebound",
+      "labelKey": "rebound",
+      "photos": [
+        {
+          "id": "rebound-3",
+          "image": {
+            "path": "rebound-3.webp",
+            "width": 1024,
+            "height": 1024,
+            "bytes": 48434,
+            "sha256": "f180fee725d670f01c7c84ad2e52fbae1c4c2ca026218ae8a8d33ffebf14f0f8",
+            "sourceId": "source-2"
+          },
+          "viewpoint": "adjuster_face",
+          "controls": [
+            {
+              "id": "rebound",
+              "function": "REBOUND",
+              "position": "standalone",
+              "tool": {
+                "type": "hand"
+              },
+              "closeDirection": "clockwise",
+              "closeEffect": "slower_rebound",
+              "anchor": {
+                "x": 0.6875,
+                "y": 0.575
+              },
+              "labelOrder": 0
+            }
+          ],
+          "preconditions": []
+        }
+      ]
+    }
+  ]
+}

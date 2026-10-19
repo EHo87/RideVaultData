@@ -1,0 +1,108 @@
+{
+  "schemaVersion": 2,
+  "guideId": "cane-creek-il-g2-air",
+  "revision": 1,
+  "displayName": "Cane Creek DB Air IL · Gen 2",
+  "partType": "shock",
+  "years": [],
+  "variantId": "identified-platform",
+  "sources": [
+    {
+      "id": "source-1",
+      "title": "Cane Creek · platform reference",
+      "url": "https://www.canecreek.com/pages/shocks-product-support"
+    },
+    {
+      "id": "source-2",
+      "title": "Cane Creek · original image / manual",
+      "url": "https://cdn.shopify.com/s/files/1/0579/5987/4639/files/DB_IL_G2_Manual_2025_04_01.pdf?v=1745937267"
+    }
+  ],
+  "panels": [
+    {
+      "id": "compression_rebound",
+      "labelKey": "compression_rebound",
+      "photos": [
+        {
+          "id": "compression_rebound-1",
+          "image": {
+            "path": "compression_rebound-1.webp",
+            "width": 1024,
+            "height": 1024,
+            "bytes": 63356,
+            "sha256": "165acfb15bcc98bc89683a3a8f4f1196b00315cc24ce2c5ab44edbcfb8f66e74",
+            "sourceId": "source-1"
+          },
+          "viewpoint": "adjuster_face",
+          "controls": [
+            {
+              "id": "hsc",
+              "function": "HSC",
+              "position": "standalone",
+              "tool": {
+                "type": "hex",
+                "sizeMm": 3
+              },
+              "closeDirection": "clockwise",
+              "closeEffect": "more_compression_damping",
+              "anchor": {
+                "x": 0.370306,
+                "y": 0.63831
+              },
+              "labelOrder": 0
+            },
+            {
+              "id": "lsc",
+              "function": "LSC",
+              "position": "standalone",
+              "tool": {
+                "type": "hex",
+                "sizeMm": 3
+              },
+              "closeDirection": "clockwise",
+              "closeEffect": "more_compression_damping",
+              "anchor": {
+                "x": 0.131302,
+                "y": 0.439082
+              },
+              "labelOrder": 1
+            },
+            {
+              "id": "hsr",
+              "function": "HSR",
+              "position": "standalone",
+              "tool": {
+                "type": "hex",
+                "sizeMm": 3
+              },
+              "closeDirection": "clockwise",
+              "closeEffect": "slower_rebound",
+              "anchor": {
+                "x": 0.669061,
+                "y": 0.678156
+              },
+              "labelOrder": 2
+            },
+            {
+              "id": "lsr",
+              "function": "LSR",
+              "position": "standalone",
+              "tool": {
+                "type": "hex",
+                "sizeMm": 3
+              },
+              "closeDirection": "clockwise",
+              "closeEffect": "slower_rebound",
+              "anchor": {
+                "x": 0.688978,
+                "y": 0.518773
+              },
+              "labelOrder": 3
+            }
+          ],
+          "preconditions": []
+        }
+      ]
+    }
+  ]
+}

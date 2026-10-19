@@ -1,0 +1,99 @@
+{
+  "schemaVersion": 2,
+  "guideId": "rockshox-zeb-a1-charger21-rc2",
+  "revision": 1,
+  "displayName": "RockShox ZEB · Charger 2.1 RC2",
+  "partType": "fork",
+  "years": [],
+  "variantId": "identified-platform",
+  "sources": [
+    {
+      "id": "source-1",
+      "title": "RockShox · platform reference",
+      "url": "https://www.sram.com/globalassets/document-hierarchy/service-manuals/rockshox/front-suspension/2021-2022-zeb-service-manual.pdf#page=10"
+    },
+    {
+      "id": "source-2",
+      "title": "RockShox · platform reference",
+      "url": "https://www.sram.com/globalassets/document-hierarchy/service-manuals/rockshox/front-suspension/2021-2022-zeb-service-manual.pdf#page=46"
+    },
+    {
+      "id": "source-3",
+      "title": "RockShox · controls reference",
+      "url": "https://www.sram.com/globalassets/document-hierarchy/service-manuals/rockshox/front-suspension/2021-2022-zeb-service-manual.pdf#page=15"
+    },
+    {
+      "id": "source-4",
+      "title": "RockShox · Charger 2 / 2.1 RC2 · HSC 준정면",
+      "url": "https://docs.sram.com/en-US/publications/5ODr3E6BhL1uWDnWhq4ATB/UM%20-%20Suspension"
+    }
+  ],
+  "panels": [
+    {
+      "id": "compression",
+      "labelKey": "compression",
+      "photos": [
+        {
+          "id": "compression-1",
+          "image": {
+            "path": "compression-1.webp",
+            "width": 1024,
+            "height": 1024,
+            "bytes": 53526,
+            "sha256": "d1d934f9b5c4449bc3aa14a6f89fd1eb673b2d7554954f2412790f24ed94d806",
+            "sourceId": "source-4"
+          },
+          "viewpoint": "adjuster_face",
+          "controls": [
+            {
+              "id": "hsc",
+              "function": "HSC",
+              "position": "outer",
+              "tool": {
+                "type": "hand"
+              },
+              "closeDirection": "clockwise",
+              "closeEffect": "more_compression_damping",
+              "anchor": {
+                "x": 0.7625,
+                "y": 0.5375
+              },
+              "labelOrder": 0
+            }
+          ],
+          "preconditions": []
+        },
+        {
+          "id": "compression-2",
+          "image": {
+            "path": "compression-2.webp",
+            "width": 1024,
+            "height": 1024,
+            "bytes": 50600,
+            "sha256": "32dee053b0a28c80b53eefa835e6a14867cb0c2d1853fc8913e5fce31862e360",
+            "sourceId": "source-4"
+          },
+          "viewpoint": "adjuster_face",
+          "controls": [
+            {
+              "id": "lsc",
+              "function": "LSC",
+              "position": "center",
+              "tool": {
+                "type": "hand"
+              },
+              "closeDirection": "clockwise",
+              "closeEffect": "more_compression_damping",
+              "anchor": {
+                "x": 0.6125,
+                "y": 0.528125
+              },
+              "labelOrder": 0
+            }
+          ],
+          "preconditions": []
+        }
+      ]
+    }
+  ]
+}

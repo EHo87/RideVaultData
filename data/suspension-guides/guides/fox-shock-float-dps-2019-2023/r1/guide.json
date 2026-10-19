@@ -1,0 +1,120 @@
+{
+  "schemaVersion": 2,
+  "guideId": "fox-shock-float-dps-2019-2023",
+  "revision": 1,
+  "displayName": "FOX FLOAT DPS · 3-position / Open mode adjust",
+  "partType": "shock",
+  "years": [],
+  "variantId": "identified-platform",
+  "sources": [
+    {
+      "id": "source-1",
+      "title": "FOX · platform reference",
+      "url": "https://tech.ridefox.com/bike/owners-manuals/2833/shock--2023-float-dps-and-float-x"
+    },
+    {
+      "id": "source-2",
+      "title": "FOX · platform reference",
+      "url": "https://tech.ridefox.com/bike/owners-manuals/1147/shock--2022-float-dps-and-float-x"
+    },
+    {
+      "id": "source-3",
+      "title": "FOX · platform reference",
+      "url": "https://tech.ridefox.com/bike/owners-manuals/1079/shock--2021-float-dps-and-dpx2"
+    },
+    {
+      "id": "source-4",
+      "title": "FOX · platform reference",
+      "url": "https://tech.ridefox.com/bike/owners-manuals/1037/shock--2020-float-dps-and-dpx2"
+    },
+    {
+      "id": "source-5",
+      "title": "FOX · platform reference",
+      "url": "https://tech.ridefox.com/bike/owners-manuals/940/shock--2019-float-dps-and-dpx2"
+    },
+    {
+      "id": "source-6",
+      "title": "FOX · original image / manual",
+      "url": "https://tech.ridefox.com/img/help/page555-V15S/inline/DPS-open-mode-adj.jpg"
+    },
+    {
+      "id": "source-7",
+      "title": "FOX · original image / manual",
+      "url": "https://tech.ridefox.com/img/help/page555-V15S/inline/DPS-rebound-setup.jpg"
+    }
+  ],
+  "panels": [
+    {
+      "id": "compression",
+      "labelKey": "compression",
+      "photos": [
+        {
+          "id": "compression-1",
+          "image": {
+            "path": "compression-1.webp",
+            "width": 1024,
+            "height": 1024,
+            "bytes": 28044,
+            "sha256": "e9d184bf2c6dd17604e9598bca1a5719d7cbe1ca1f19d198027a21c684e27f8f",
+            "sourceId": "source-5"
+          },
+          "viewpoint": "adjuster_face",
+          "controls": [
+            {
+              "id": "open_mode",
+              "function": "OPEN_MODE",
+              "position": "standalone",
+              "tool": {
+                "type": "hand"
+              },
+              "closeDirection": "dps_lift_turn_press",
+              "closeEffect": "more_compression_damping",
+              "anchor": {
+                "x": 0.359375,
+                "y": 0.59375
+              },
+              "labelOrder": 0
+            }
+          ],
+          "preconditions": []
+        }
+      ]
+    },
+    {
+      "id": "rebound",
+      "labelKey": "rebound",
+      "photos": [
+        {
+          "id": "rebound-2",
+          "image": {
+            "path": "rebound-2.webp",
+            "width": 1024,
+            "height": 1024,
+            "bytes": 28130,
+            "sha256": "fcdf66b04e2af8d84d57b0b31a1ad26de7816879c4b4d23ae4a83904d8f64b8c",
+            "sourceId": "source-5"
+          },
+          "viewpoint": "adjuster_face",
+          "controls": [
+            {
+              "id": "rebound",
+              "function": "REBOUND",
+              "position": "standalone",
+              "tool": {
+                "type": "hand"
+              },
+              "closeDirection": "clockwise",
+              "closeEffect": "slower_rebound",
+              "anchor": {
+                "x": 0.44375,
+                "y": 0.378125
+              },
+              "labelOrder": 0
+            }
+          ],
+          "preconditions": []
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,90 @@
+{
+  "schemaVersion": 2,
+  "guideId": "dvo-topaz-t3-legacy",
+  "revision": 1,
+  "displayName": "DVO Topaz · legacy green T3 lever",
+  "partType": "shock",
+  "years": [],
+  "variantId": "identified-platform",
+  "sources": [
+    {
+      "id": "source-1",
+      "title": "DVO · platform reference",
+      "url": "https://tech.dvosuspension.com/wp-content/uploads/2016/12/topaz_manual_english.pdf"
+    }
+  ],
+  "panels": [
+    {
+      "id": "compression",
+      "labelKey": "compression",
+      "photos": [
+        {
+          "id": "compression-1",
+          "image": {
+            "path": "compression-1.webp",
+            "width": 1024,
+            "height": 1024,
+            "bytes": 51932,
+            "sha256": "dc771e73162941ae5b3a2a97eb351fcd32b9f7bd48cec2ab855418d1649f2cb3",
+            "sourceId": "source-1"
+          },
+          "viewpoint": "adjuster_face",
+          "controls": [
+            {
+              "id": "compression",
+              "function": "COMPRESSION",
+              "position": "standalone",
+              "tool": {
+                "type": "hand"
+              },
+              "closeDirection": "positions_123",
+              "closeEffect": "more_compression_damping",
+              "anchor": {
+                "x": 0.453125,
+                "y": 0.434375
+              },
+              "labelOrder": 0
+            }
+          ],
+          "preconditions": []
+        }
+      ]
+    },
+    {
+      "id": "rebound",
+      "labelKey": "rebound",
+      "photos": [
+        {
+          "id": "rebound-2",
+          "image": {
+            "path": "rebound-2.webp",
+            "width": 1024,
+            "height": 1024,
+            "bytes": 65840,
+            "sha256": "2ac538b016c02a88f887ee6ceea656570ada911215002bb9a7521e3361ae35ee",
+            "sourceId": "source-1"
+          },
+          "viewpoint": "adjuster_face",
+          "controls": [
+            {
+              "id": "rebound",
+              "function": "REBOUND",
+              "position": "standalone",
+              "tool": {
+                "type": "hand"
+              },
+              "closeDirection": "clockwise",
+              "closeEffect": "slower_rebound",
+              "anchor": {
+                "x": 0.5,
+                "y": 0.5
+              },
+              "labelOrder": 0
+            }
+          ],
+          "preconditions": []
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,79 @@
+{
+  "schemaVersion": 2,
+  "guideId": "dvo-legacy-d1-controls-onyx",
+  "revision": 1,
+  "displayName": "DVO Onyx SC · legacy D1 · green LSC / black HSC",
+  "partType": "fork",
+  "years": [],
+  "variantId": "identified-platform",
+  "sources": [
+    {
+      "id": "source-1",
+      "title": "DVO · platform reference",
+      "url": "https://tech.dvosuspension.com/setup/owners-manuals/"
+    },
+    {
+      "id": "source-2",
+      "title": "DVO · platform reference",
+      "url": "https://tech.dvosuspension.com/wp-content/uploads/2020/09/DVO-Set-Up-Guide-2020-v4.pdf"
+    },
+    {
+      "id": "source-3",
+      "title": "DVO · controls reference",
+      "url": "https://tech.dvosuspension.com/setup/diamond/"
+    }
+  ],
+  "panels": [
+    {
+      "id": "compression",
+      "labelKey": "compression",
+      "photos": [
+        {
+          "id": "compression-1",
+          "image": {
+            "path": "compression-1.webp",
+            "width": 1024,
+            "height": 1024,
+            "bytes": 56804,
+            "sha256": "1dc28c39f0918534d4f462033d5e524fc263601614c074dcba41f600b5bda640",
+            "sourceId": "source-1"
+          },
+          "viewpoint": "adjuster_face",
+          "controls": [
+            {
+              "id": "lsc",
+              "function": "LSC",
+              "position": "center",
+              "tool": {
+                "type": "hand"
+              },
+              "closeDirection": "clockwise",
+              "closeEffect": "more_compression_damping",
+              "anchor": {
+                "x": 0.584375,
+                "y": 0.5
+              },
+              "labelOrder": 0
+            },
+            {
+              "id": "hsc",
+              "function": "HSC",
+              "position": "outer",
+              "tool": {
+                "type": "hand"
+              },
+              "closeDirection": "clockwise",
+              "closeEffect": "more_compression_damping",
+              "anchor": {
+                "x": 0.828125,
+                "y": 0.5
+              },
+              "labelOrder": 1
+            }
+          ],
+          "preconditions": []
+        }
+      ]
+    }
+  ]
+}

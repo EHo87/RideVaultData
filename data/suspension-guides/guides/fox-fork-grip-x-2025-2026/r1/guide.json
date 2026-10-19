@@ -1,0 +1,99 @@
+{
+  "schemaVersion": 2,
+  "guideId": "fox-fork-grip-x-2025-2026",
+  "revision": 1,
+  "displayName": "FOX 36 / 38 · GRIP X",
+  "partType": "fork",
+  "years": [],
+  "variantId": "identified-platform",
+  "sources": [
+    {
+      "id": "source-1",
+      "title": "FOX · platform reference",
+      "url": "https://tech.ridefox.com/bike/owners-manuals/3089/fork--2026-36mm"
+    },
+    {
+      "id": "source-2",
+      "title": "FOX · platform reference",
+      "url": "https://tech.ridefox.com/bike/owners-manuals/3103/fork--2026-38mm"
+    },
+    {
+      "id": "source-3",
+      "title": "FOX · platform reference",
+      "url": "https://tech.ridefox.com/bike/owners-manuals/2979/fork--2025-36mm-or-38mm"
+    },
+    {
+      "id": "source-4",
+      "title": "FOX · original image / manual",
+      "url": "https://tech.ridefox.com/img/help/page2978-GPQ9/inline/2025-GRIP-X.jpg"
+    }
+  ],
+  "panels": [
+    {
+      "id": "compression",
+      "labelKey": "compression",
+      "photos": [
+        {
+          "id": "compression-1",
+          "image": {
+            "path": "compression-1.webp",
+            "width": 1024,
+            "height": 1024,
+            "bytes": 41978,
+            "sha256": "1edda54dfbe0637fcde97f8b4351c829c363e49afc1f9f52473e43bcc37c9843",
+            "sourceId": "source-3"
+          },
+          "viewpoint": "adjuster_face",
+          "controls": [
+            {
+              "id": "hsc",
+              "function": "HSC",
+              "position": "outer",
+              "tool": {
+                "type": "hand"
+              },
+              "closeDirection": "clockwise",
+              "closeEffect": "more_compression_damping",
+              "anchor": {
+                "x": 0.517374,
+                "y": 0.712141
+              },
+              "labelOrder": 0
+            }
+          ],
+          "preconditions": []
+        },
+        {
+          "id": "compression-2",
+          "image": {
+            "path": "compression-2.webp",
+            "width": 1024,
+            "height": 1024,
+            "bytes": 50528,
+            "sha256": "65d629ca1798da619e98df7f13478b867c0327252f6c7ff012d36f80307be58c",
+            "sourceId": "source-3"
+          },
+          "viewpoint": "adjuster_face",
+          "controls": [
+            {
+              "id": "lsc",
+              "function": "LSC",
+              "position": "center",
+              "tool": {
+                "type": "hand"
+              },
+              "closeDirection": "clockwise",
+              "closeEffect": "more_compression_damping",
+              "anchor": {
+                "x": 0.633865,
+                "y": 0.486368
+              },
+              "labelOrder": 0
+            }
+          ],
+          "preconditions": []
+        }
+      ]
+    }
+  ]
+}
