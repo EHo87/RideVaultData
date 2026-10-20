@@ -1,6 +1,6 @@
 {
-  "version": 2,
-  "lastUpdated": "2026-10-13",
+  "version": 3,
+  "lastUpdated": "2026-10-21",
   "note": "자동완성 전용 — Recommended Setup(fork_settings.json)과는 별개 소스. 압력차트/리바운드 기본값 없음. 리테일러 상품 목록/제조사 페이지 기준으로 폭넓게 수집한 브랜드+모델명 목록이며, 정밀도가 아니라 커버리지를 위한 파일이다.",
   "forks": [
     { "brand": "Öhlins", "model": "RXF36", "springType": "AIR", "travel": [140, 150, 160, 170] },
@@ -20,6 +20,7 @@
     { "brand": "X-Fusion", "model": "Trace 36", "springType": "AIR", "travel": [140, 150, 160, 170] },
     { "brand": "Formula", "model": "Selva V", "springType": "AIR", "travel": [160, 170, 180] },
     { "brand": "Formula", "model": "Selva C", "springType": "COIL", "travel": [] },
-    { "brand": "MRP", "model": "Ribbon Coil", "springType": "COIL", "travel": [] }
+    { "brand": "MRP", "model": "Ribbon Coil", "springType": "COIL", "travel": [] },
+    {"brand": "EXA Form", "model": "E36", "springType": "AIR", "travel": [150, 170]}
   ]
 }

@@ -1,6 +1,6 @@
 {
-  "version": 2,
-  "lastUpdated": "2026-10-13",
+  "version": 3,
+  "lastUpdated": "2026-10-21",
   "frameBrands": [
     {
       "name": "Santa Cruz",
@@ -389,6 +389,12 @@
       "name": "DT Swiss",
       "aliases": ["dtswiss"],
       "type": ["fork", "shock"]
+    },
+    {
+      "name": "EXA Form",
+      "slug": "exa-form",
+      "aliases": ["EXA", "ExaForm", "EXA-Form"],
+      "type": ["fork"]
     }
   ],
   "tireBrands": [
